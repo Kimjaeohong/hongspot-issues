@@ -1,0 +1,162 @@
+<!--
+  종목 이슈 표 붙여넣기 파서 — 수동 입력용 도구 (프로토타입)
+  ─────────────────────────────────────────────────────────
+  사용법:
+    1) 종목명 / 종목코드 입력
+    2) "일자 / 내용" 표를 통째로 붙여넣기 (한 줄이든 두 줄이든, 탭·공백 섞여도 OK)
+    3) [파싱하기] → 날짜(YYYY.MM.DD) 기준으로 자동 분리·정렬·중복제거
+    4) 오른쪽 JSON을 data/<코드>.json 으로 저장/커밋
+
+  파싱 원리: 텍스트 전체에서 날짜 패턴을 앵커로 잡아,
+  각 날짜 뒤~다음 날짜 앞까지를 한 이슈로 묶습니다.
+  ("일자", "내용" 같은 머리글은 날짜 앞이라 자동 무시)
+-->
+<div id="pp-root">
+  <div class="pp-fields">
+    <input id="pp-name" class="pp-inp" type="text" placeholder="종목명 (예: 일동제약)" autocomplete="off">
+    <input id="pp-code" class="pp-inp" type="text" placeholder="종목코드 (예: 249420)" autocomplete="off">
+    <button id="pp-run" class="pp-btn" type="button">파싱하기</button>
+  </div>
+  <div class="pp-grid">
+    <div class="pp-col">
+      <label class="pp-lab">원본 붙여넣기</label>
+      <textarea id="pp-src" class="pp-area" placeholder="2026.08.24    中 코로나19 재확산 우려 속 ... 급등&#10;2026.07.30    2분기 호실적에 상승&#10;..."></textarea>
+    </div>
+    <div class="pp-col">
+      <label class="pp-lab">결과 JSON <button id="pp-copy" class="pp-copy" type="button">복사</button></label>
+      <textarea id="pp-out" class="pp-area" readonly placeholder="파싱 결과가 여기 나옵니다."></textarea>
+    </div>
+  </div>
+  <div id="pp-stat" class="pp-stat"></div>
+  <div id="pp-prev" class="pp-prev"></div>
+</div>
+
+<style>
+  #pp-root{
+    --bg:#ffffff; --panel:#f6f7f9; --line:#e6e8ec; --line2:#d3d7dd;
+    --text:#1a1d21; --dim:#6b7280; --hover:#eef0f3;
+    --up:#d92d20; --down:#1d4ed8; --focus:#2563eb; --ok:#0f9d58;
+    --font:"Pretendard","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;
+    background:var(--bg); color:var(--text); font-family:var(--font);
+    max-width:900px; margin:0 auto; padding:20px; border:1px solid var(--line);
+    border-radius:10px; box-sizing:border-box;
+  }
+  #pp-root *{box-sizing:border-box;}
+  .pp-fields{display:flex; gap:10px; margin-bottom:14px; flex-wrap:wrap;}
+  .pp-inp{
+    padding:11px 14px; font-size:15px; font-family:var(--font); color:var(--text);
+    background:var(--panel); border:1px solid var(--line2); border-radius:8px; outline:none;
+  }
+  #pp-name{flex:2; min-width:160px;} #pp-code{flex:1; min-width:120px;}
+  .pp-inp:focus{border-color:var(--focus);}
+  .pp-btn{
+    padding:11px 22px; font-size:15px; font-weight:600; font-family:var(--font);
+    color:#fff; background:var(--focus); border:none; border-radius:8px; cursor:pointer;
+  }
+  .pp-btn:hover{filter:brightness(1.05);}
+  .pp-grid{display:grid; grid-template-columns:1fr 1fr; gap:14px;}
+  .pp-col{display:flex; flex-direction:column; min-width:0;}
+  .pp-lab{font-size:12px; color:var(--dim); margin-bottom:6px; display:flex; align-items:center; gap:8px;}
+  .pp-copy{
+    font-size:11px; color:var(--focus); background:none; border:1px solid var(--line2);
+    border-radius:5px; padding:1px 8px; cursor:pointer;
+  }
+  .pp-copy:hover{background:var(--hover);}
+  .pp-area{
+    width:100%; height:200px; padding:12px 14px; font-size:13px; line-height:1.5;
+    font-family:ui-monospace,"SF Mono",Menlo,monospace; color:var(--text);
+    background:var(--panel); border:1px solid var(--line2); border-radius:8px;
+    outline:none; resize:vertical;
+  }
+  .pp-area:focus{border-color:var(--focus);}
+  .pp-stat{margin-top:12px; font-size:13px; color:var(--dim); min-height:18px;}
+  .pp-stat b{color:var(--text);} .pp-stat .dup{color:var(--up);}
+  .pp-prev{margin-top:14px;}
+  .pp-head{
+    display:flex; align-items:baseline; gap:10px; padding-bottom:10px;
+    border-bottom:1px solid var(--line2); margin-bottom:2px;
+  }
+  .pp-head .nm{font-size:18px; font-weight:700;}
+  .pp-head .cd{color:var(--dim); font-size:13px; font-variant-numeric:tabular-nums;}
+  .pp-head .cnt{margin-left:auto; color:var(--dim); font-size:12px;}
+  .pp-row{display:grid; grid-template-columns:96px 1fr; gap:14px; padding:11px 4px; border-bottom:1px solid var(--line);}
+  .pp-row .date{color:var(--dim); font-size:13px; font-variant-numeric:tabular-nums;}
+  .pp-row .txt{font-size:14px; line-height:1.5;}
+  .pp-row .txt.up{color:var(--up);} .pp-row .txt.down{color:var(--down);}
+</style>
+
+<script>
+(function(){
+  const UP = /(급등|상승|강세|상한가|신고가|흑자|호조|호실적|기대감|부각|순항|입증|성공)/;
+  const DOWN = /(급락|하락|약세|하한가|불발|보류|취하|우려|실망|부진|적자|지연|감소)/;
+  function tone(t){ if(UP.test(t)) return "up"; if(DOWN.test(t)) return "down"; return ""; }
+
+  const $ = id => document.getElementById(id);
+
+  // 날짜 앵커 기반 파싱: YYYY.MM.DD 를 기준으로 이슈 단위를 나눔
+  function parse(raw){
+    const re = /(\d{4})\.(\d{1,2})\.(\d{1,2})/g;
+    const marks = [...raw.matchAll(re)];
+    const items = [];
+    for(let i=0;i<marks.length;i++){
+      const m = marks[i];
+      const y=m[1], mo=String(m[2]).padStart(2,"0"), d=String(m[3]).padStart(2,"0");
+      const date = `${y}.${mo}.${d}`;
+      const start = m.index + m[0].length;
+      const end = (i+1<marks.length) ? marks[i+1].index : raw.length;
+      let text = raw.slice(start, end).replace(/\s+/g," ").trim();
+      // 앞쪽 구분자(탭/하이픈/콜론) 정리
+      text = text.replace(/^[\t\-–—:·|]+\s*/,"").trim();
+      if(text) items.push({date, text, src:"manual"});
+    }
+    return items;
+  }
+
+  function dedupeSort(items){
+    const seen = new Set(); const out = [];
+    for(const it of items){
+      const key = it.date + "|" + it.text;
+      if(seen.has(key)) continue;
+      seen.add(key); out.push(it);
+    }
+    out.sort((a,b)=> a.date < b.date ? 1 : a.date > b.date ? -1 : 0); // 최신순
+    return out;
+  }
+
+  function run(){
+    const name = $("pp-name").value.trim();
+    const code = $("pp-code").value.trim();
+    const raw = $("pp-src").value;
+    const parsed = parse(raw);
+    const clean = dedupeSort(parsed);
+    const dup = parsed.length - clean.length;
+
+    const obj = { name: name || "(종목명 미입력)", issues: clean };
+    $("pp-out").value = JSON.stringify(obj, null, 2);
+
+    $("pp-stat").innerHTML = clean.length
+      ? `인식 <b>${parsed.length}</b>건 · 중복 제거 <span class="dup">${dup}</span>건 · 최종 <b>${clean.length}</b>건`
+      : `인식된 이슈가 없습니다. 날짜가 <b>YYYY.MM.DD</b> 형식인지 확인해 주세요.`;
+
+    // 미리보기
+    if(clean.length){
+      const rows = clean.map(it=>`
+        <div class="pp-row"><span class="date">${it.date}</span>
+        <span class="txt ${tone(it.text)}">${it.text}</span></div>`).join("");
+      $("pp-prev").innerHTML = `
+        <div class="pp-head">
+          <span class="nm">${name||"(종목명)"}</span>
+          <span class="cd">${code||"------"}</span>
+          <span class="cnt">이슈 ${clean.length}건</span>
+        </div>${rows}`;
+    } else { $("pp-prev").innerHTML=""; }
+  }
+
+  $("pp-run").addEventListener("click", run);
+  $("pp-copy").addEventListener("click", ()=>{
+    const t = $("pp-out"); if(!t.value) return;
+    t.select(); try{ document.execCommand("copy"); }catch(e){}
+    const btn=$("pp-copy"), o=btn.textContent; btn.textContent="복사됨"; setTimeout(()=>btn.textContent=o,1200);
+  });
+})();
+</script>
