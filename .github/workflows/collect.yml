@@ -36,6 +36,7 @@ jobs:
         env:
           NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
           NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python scripts/collect.py
 
       - name: 변경 시 커밋 & 푸시
@@ -43,8 +44,8 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          if [ -n "$(git status --porcelain data index.json)" ]; then
-            git add data index.json
+          if [ -n "$(git status --porcelain data index.json seen.json)" ]; then
+            git add data index.json seen.json
             git commit -m "auto: 특징주 이슈 수집 ($(date -u +%Y-%m-%dT%H:%MZ))"
             git push
             echo "pushed=true" >> "$GITHUB_OUTPUT"
