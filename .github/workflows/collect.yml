@@ -1,10 +1,10 @@
 name: 특징주 자동 수집
 
 on:
-  schedule:
-    # UTC 0~6시 = KST 9~15시 (장중), 평일, 20분 간격.
-    # GitHub cron은 정시 부하로 밀릴 수 있어 정확히 20분은 아님(대략).
-    - cron: "*/20 0-6 * * 1-5"
+  # schedule:
+  #   # UTC 0~6시 = KST 9~15시 (장중), 평일, 20분 간격.
+  #   # GitHub cron은 정시 부하로 밀릴 수 있어 정확히 20분은 아님(대략).
+  #   - cron: "*/20 0-6 * * 1-5"
   workflow_dispatch:      # 수동 실행 버튼
 
 permissions:
