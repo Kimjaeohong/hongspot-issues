@@ -1,0 +1,40 @@
+name: 전종목 변환표 갱신
+
+on:
+  schedule:
+    # UTC 23:00 = KST 08:00 (평일 장 시작 전). GitHub cron은 UTC 기준.
+    - cron: "0 23 * * 0-4"
+  workflow_dispatch:      # 수동 실행 버튼도 제공
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 레포 체크아웃
+        uses: actions/checkout@v4
+
+      - name: 파이썬 설정
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: pykrx 설치
+        run: pip install pykrx
+
+      - name: 변환표 생성
+        run: python scripts/build_tickers.py
+
+      - name: 변경 시 커밋
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          if [ -n "$(git status --porcelain tickers.json)" ]; then
+            git add tickers.json
+            git commit -m "Update tickers.json ($(date -u +%Y-%m-%d))"
+            git push
+          else
+            echo "변경 없음"
+          fi

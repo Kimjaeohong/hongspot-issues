@@ -1,1 +1,3 @@
 *.html
+changed_codes.txt
+__pycache__/

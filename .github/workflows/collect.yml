@@ -1,0 +1,69 @@
+name: 특징주 자동 수집
+
+on:
+  schedule:
+    # UTC 0~6시 = KST 9~15시 (장중), 평일, 20분 간격.
+    # GitHub cron은 정시 부하로 밀릴 수 있어 정확히 20분은 아님(대략).
+    - cron: "*/20 0-6 * * 1-5"
+  workflow_dispatch:      # 수동 실행 버튼
+
+permissions:
+  contents: write
+
+# 동시에 두 번 돌지 않도록 (겹치면 커밋 충돌)
+concurrency:
+  group: collect
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 레포 체크아웃
+        uses: actions/checkout@v4
+
+      - name: 파이썬 설정
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # collect.py 는 표준 라이브러리(urllib)만 사용 → 설치 불필요
+
+      - name: 최신 상태로 갱신
+        run: git pull --rebase --autostash || true
+
+      - name: 특징주 수집 실행
+        env:
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+        run: python scripts/collect.py
+
+      - name: 변경 시 커밋 & 푸시
+        id: commit
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          if [ -n "$(git status --porcelain data index.json)" ]; then
+            git add data index.json
+            git commit -m "auto: 특징주 이슈 수집 ($(date -u +%Y-%m-%dT%H:%MZ))"
+            git push
+            echo "pushed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "변경 없음"
+            echo "pushed=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: CDN 캐시 퍼지 (jsDelivr)
+        if: steps.commit.outputs.pushed == 'true'
+        run: |
+          REPO="${{ github.repository }}"   # 예: Kimjaeohong/hongspot-issues
+          # index.json 은 항상 퍼지
+          curl -sf "https://purge.jsdelivr.net/gh/${REPO}@main/index.json" > /dev/null || true
+          # 변경된 종목 data 파일 퍼지
+          if [ -f changed_codes.txt ]; then
+            while IFS= read -r code; do
+              [ -z "$code" ] && continue
+              curl -sf "https://purge.jsdelivr.net/gh/${REPO}@main/data/${code}.json" > /dev/null || true
+            done < changed_codes.txt
+          fi
+          echo "퍼지 완료"
