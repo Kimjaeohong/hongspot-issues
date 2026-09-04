@@ -153,20 +153,47 @@ def _sort(issues):
     issues.sort(key=lambda x: x["date"], reverse=True)
 
 
+def _absp(v):
+    return abs(v) if isinstance(v, (int, float)) else -1
+
 def merge_issue(code, name, date, text, pct):
+    """
+    하루·종목당 이슈 1개 원칙.
+    같은 (종목, 날짜)에 이미 auto 이슈가 있으면:
+      - 새 이슈의 |등락률|이 더 크면 교체, 아니면 무시
+      - 단 manual(수동 입력) 이슈는 절대 건드리지 않음
+    """
     obj = load_json(os.path.join(DATA_DIR, f"{code}.json"), None) or {"name": name, "issues": []}
     if not obj.get("name"):
         obj["name"] = name
-    key = f"{date}|{text}"
-    for it in obj["issues"]:
-        if f"{it['date']}|{it['text']}" == key:
-            if pct is not None and it.get("pct") is None:
-                it["pct"] = pct; _sort(obj["issues"]); save_data(code, obj); return True
-            return False
-    issue = {"date": date, "text": text, "src": "auto"}
+
+    # 같은 날 auto 이슈 탐색
+    same_day_auto_idx = None
+    for i, it in enumerate(obj["issues"]):
+        if it["date"] == date and it.get("src") == "auto":
+            same_day_auto_idx = i
+            break
+
+    new_issue = {"date": date, "text": text, "src": "auto"}
     if pct is not None:
-        issue["pct"] = pct
-    obj["issues"].append(issue)
+        new_issue["pct"] = pct
+
+    if same_day_auto_idx is not None:
+        cur = obj["issues"][same_day_auto_idx]
+        # 완전 동일하면 무시
+        if cur["text"] == text and cur.get("pct") == pct:
+            return False
+        # 새 것의 |등락률|이 더 크면 교체, 아니면 유지
+        if _absp(pct) > _absp(cur.get("pct")):
+            obj["issues"][same_day_auto_idx] = new_issue
+            _sort(obj["issues"]); save_data(code, obj); return True
+        return False
+
+    # 같은 날 auto 없음 → 추가 (단 manual과 완전 중복이면 skip)
+    for it in obj["issues"]:
+        if it["date"] == date and it["text"] == text:
+            return False
+    obj["issues"].append(new_issue)
     _sort(obj["issues"]); save_data(code, obj)
     return True
 
@@ -212,8 +239,13 @@ def main():
         reason = clean_reason(desc or title, stocks[0][1])
         if len(reason) < 6:            # 사유 부실하면 제목으로 대체 시도
             reason = clean_reason(title, stocks[0][1])
-        if len(reason) < 6:            # 그래도 부실하면 스킵(질 우선)
+        if len(reason) < 8:            # 너무 짧으면 스킵(질 우선)
             continue
+        # 쓰레기 사유 필터: 출처성 조각, 사유형 아닌 문장 제외
+        if re.search(r"(딜링룸|증권\s*리서치|편집자|무단\s*전재|저작권|기자\s*=|앵커)", reason):
+            continue
+        if not (UP_WORDS.search(reason) or DOWN_WORDS.search(reason) or "%" in (title+desc)):
+            continue  # 상승/하락 단서도 등락률도 없으면 특징주 사유로 부적합
 
         for code, name in stocks:
             if merge_issue(code, name, date, reason, pct):
