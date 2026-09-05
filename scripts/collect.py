@@ -215,6 +215,8 @@ def main():
             date = datetime.now().strftime("%Y.%m.%d")
 
         for s in stocks:
+            if not isinstance(s, dict):   # LLM이 문자열 등 예상외 형태로 준 경우 방어
+                continue
             name = str(s.get("name", "")).strip()
             reason = str(s.get("reason", "")).strip()
             pct = s.get("pct", None)
