@@ -21,8 +21,8 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: FinanceDataReader 설치
-        run: pip install finance-datareader
+      - name: 라이브러리 설치 (FDR + pykrx 폴백)
+        run: pip install finance-datareader pykrx
 
       - name: 변환표 생성
         run: python scripts/build_tickers.py
