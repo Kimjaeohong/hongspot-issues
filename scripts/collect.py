@@ -146,6 +146,10 @@ def merge_issue(code, name, date, text, pct):
     obj = load_json(os.path.join(DATA_DIR, f"{code}.json"), None) or {"name": name, "issues": []}
     if not obj.get("name"):
         obj["name"] = name
+    # 같은 날짜에 manual(수동 큐레이션)이 이미 있으면 auto 추가 안 함 (동일 이슈 중복 방지, 수동 우선)
+    for it in obj["issues"]:
+        if it["date"] == date and it.get("src") != "auto":
+            return False
     idx = None
     for i, it in enumerate(obj["issues"]):
         if it["date"] == date and it.get("src") == "auto":
