@@ -1,91 +1,119 @@
 #!/usr/bin/env python3
+"""Build the numeric stock-name/code map from FinanceDataReader's public cache.
+
+Try UTC today, then up to seven previous calendar days. Cache publication can
+lag KRX's latest-date endpoint; do not require KRX credentials to bridge that
+lag. Never replace the existing map with an empty, partial, or older snapshot.
 """
-전종목 이름→코드 변환표 생성 (KOSPI + KOSDAQ + KONEX)
-- 1차: FinanceDataReader (fdr.StockListing('KRX'))
-- 2차 폴백: pykrx (1차가 404 등으로 실패/빈 결과일 때 자동 전환)
-- 둘 다 실패할 때만 에러 종료
-- 결과: tickers.json  { updated, count, source, map: {종목명: 코드} }
-"""
+import csv
+import io
+import http.client
 import json
+import os
+from pathlib import Path
+import re
 import sys
-from datetime import datetime
+import tempfile
+from datetime import datetime, timedelta, timezone
+import urllib.error
+import urllib.request
+
+CACHE_BASE = ('https://raw.githubusercontent.com/FinanceData/'
+              'fdr_krx_data_cache/refs/heads/master/data/listing/krx')
+MAX_STALE_DAYS = 7
+MIN_COUNT = 2000
+MIN_RETAINED_FRACTION = 0.90
+MARKETS = {'STK', 'KSQ', 'KNX'}
+MAX_CACHE_BYTES = 5_000_000
 
 
-def build_via_fdr():
-    """FinanceDataReader로 {종목명: 코드} 생성. 실패 시 예외 전파."""
-    import FinanceDataReader as fdr
-    df = fdr.StockListing("KRX")   # 코스피+코스닥+코넥스 전종목
-    cols = {c.lower(): c for c in df.columns}
-    code_col = cols.get("code") or cols.get("symbol")
-    name_col = cols.get("name")
-    if not code_col or not name_col:
-        raise RuntimeError(f"코드/이름 컬럼을 찾지 못했습니다. 컬럼: {list(df.columns)}")
-    m = {}
-    for _, row in df.iterrows():
-        code = str(row[code_col]).strip().zfill(6)
-        name = str(row[name_col]).strip()
-        if not name or name == "nan" or not code.isdigit():
+def parse_snapshot(payload, previous_count):
+    """Fail closed on malformed/partial data; keep the existing numeric contract."""
+    rows = csv.DictReader(io.StringIO(payload.decode('utf-8-sig')))
+    if not {'Code', 'Name', 'MarketId'}.issubset(rows.fieldnames or []):
+        raise ValueError('Cache is missing Code, Name, or MarketId columns')
+    mapping, markets, codes = {}, set(), set()
+    for row in rows:
+        code = (row.get('Code') or '').strip()
+        name = (row.get('Name') or '').strip()
+        market = (row.get('MarketId') or '').strip()
+        if (not re.fullmatch(r'[0-9A-Z]{6}', code) or not name
+                or name.lower() == 'nan' or market not in MARKETS
+                or None in row or any(value is None for value in row.values())):
+            raise ValueError('Malformed cache row')
+        # Existing consumers use the numeric-only map. Extending support to
+        # alphanumeric KRX codes is a separate change, not part of this repair.
+        if not code.isdigit():
             continue
-        m[name] = code
-    return m
+        if name in mapping or code in codes:
+            raise ValueError('Duplicate stock name or code in cache')
+        mapping[name] = code
+        codes.add(code)
+        markets.add(market)
+    if markets != MARKETS:
+        raise ValueError('Cache does not cover KOSPI, KOSDAQ, and KONEX')
+    if len(mapping) < max(MIN_COUNT, previous_count * MIN_RETAINED_FRACTION):
+        raise ValueError(f'Cache is unexpectedly small: {len(mapping)} stocks')
+    return mapping
 
 
-def build_via_pykrx():
-    """pykrx로 {종목명: 코드} 생성 (폴백). 실패 시 예외 전파."""
-    from pykrx import stock
-    today = datetime.now().strftime("%Y%m%d")
-    m = {}
-    for market in ("KOSPI", "KOSDAQ", "KONEX"):
+def build(output_path='tickers.json', today=None):
+    output_path = Path(output_path)
+    today = today or datetime.now(timezone.utc).date()
+    previous = json.loads(output_path.read_text(encoding='utf-8')) if output_path.exists() else {}
+    previous_count = len(previous.get('map', {}))
+    previous_date = previous.get('source_date')
+    if previous_date:
+        # Validate metadata before using it as a no-regression boundary.
+        previous_date = datetime.strptime(previous_date, '%Y-%m-%d').date()
+
+    mapping = None
+    for stale_days in range(MAX_STALE_DAYS + 1):
+        source_date = today - timedelta(days=stale_days)
+        if previous_date and source_date < previous_date:
+            break
+        source_url = f'{CACHE_BASE}/{source_date.isoformat()}.csv'
         try:
-            tickers = stock.get_market_ticker_list(today, market=market)
-        except Exception:
-            # 장 시작 전/휴일이면 날짜 인자 없이 최근 영업일로 재시도
-            tickers = stock.get_market_ticker_list(market=market)
-        for code in tickers:
-            try:
-                name = stock.get_market_ticker_name(code)
-            except Exception:
-                continue
-            code = str(code).strip().zfill(6)
-            name = (name or "").strip()
-            if not name or not code.isdigit():
-                continue
-            m[name] = code
-    return m
-
-
-def build():
-    name_to_code, source = {}, None
-
-    # 1차: FinanceDataReader
-    try:
-        name_to_code = build_via_fdr()
-        source = "fdr"
-    except Exception as e:
-        print(f"[1차] FinanceDataReader 실패: {e}", file=sys.stderr)
-
-    # 2차: pykrx 폴백
-    if not name_to_code:
-        try:
-            name_to_code = build_via_pykrx()
-            source = "pykrx"
-        except Exception as e:
-            print(f"[2차] pykrx 폴백 실패: {e}", file=sys.stderr)
-
-    if not name_to_code:
-        print("두 소스(FDR·pykrx) 모두 실패. 종목을 가져오지 못했습니다.", file=sys.stderr)
-        sys.exit(1)
+            with urllib.request.urlopen(source_url, timeout=20) as response:
+                payload = response.read(MAX_CACHE_BYTES + 1)
+            if len(payload) > MAX_CACHE_BYTES:
+                raise ValueError('Cache exceeds size limit')
+            mapping = parse_snapshot(payload, previous_count)
+            break
+        except (urllib.error.URLError, http.client.HTTPException,
+                TimeoutError, OSError, ValueError, csv.Error) as error:
+            print(f'Cache {source_date} unavailable or invalid: {error}', file=sys.stderr)
+    if mapping is None:
+        print('No validated recent cache; existing tickers.json preserved.', file=sys.stderr)
+        raise SystemExit(1)
 
     out = {
-        "updated": datetime.now().isoformat(timespec="seconds"),
-        "count": len(name_to_code),
-        "source": source,
-        "map": name_to_code,
+        'updated': datetime.now(timezone.utc).isoformat(timespec='seconds'),
+        'source_date': source_date.isoformat(),
+        'stale_days': stale_days,
+        'source_url': source_url,
+        'count': len(mapping),
+        'source': 'fdr-cache',
+        'map': mapping,
     }
-    with open("tickers.json", "w", encoding="utf-8") as f:
-        json.dump(out, f, ensure_ascii=False, indent=2)
-    print(f"tickers.json 생성 완료: {len(name_to_code)}종목 (source={source})")
+    # Serialize fully and atomically replace only after validation succeeds.
+    temporary_path = None
+    try:
+        with tempfile.NamedTemporaryFile(mode='w', encoding='utf-8', dir=output_path.parent,
+                                         prefix='.tickers-', suffix='.tmp', delete=False) as handle:
+            temporary_path = Path(handle.name)
+            json.dump(out, handle, ensure_ascii=False, indent=2)
+            handle.write('\n')
+        os.replace(temporary_path, output_path)
+    finally:
+        if temporary_path and temporary_path.exists():
+            temporary_path.unlink()
+    if stale_days:
+        print(f'::warning::Using {source_date} cache ({stale_days} UTC calendar days old); '
+              'this is not a fresh-day snapshot.')
+    print(f'tickers.json: {len(mapping)} stocks; source_date={source_date}; '
+          f'stale_days={stale_days}; source=fdr-cache')
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     build()
