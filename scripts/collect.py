@@ -29,7 +29,7 @@ NAVER_ID = os.environ.get("NAVER_CLIENT_ID", "")
 NAVER_SECRET = os.environ.get("NAVER_CLIENT_SECRET", "")
 ANTHROPIC_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 
-MODEL = "claude-sonnet-5"
+MODEL = "claude-sonnet-5-5"
 QUERY = "특징주"
 DISPLAY = 100
 PAGES = 3
@@ -105,21 +105,29 @@ def llm_extract(title, desc):
     )
     user = f"제목: {title}\n요약: {desc}"
     payload = json.dumps({
-        "model": MODEL, "max_tokens": 400, "system": system,
+        # Sonnet 5.5는 thinking이 기본 켜짐 → 단순 추출이라 effort low로 비용·지연 최소화,
+        # thinking 토큰도 max_tokens에 포함되므로 JSON이 잘리지 않게 여유를 둠
+        "model": MODEL, "max_tokens": 1024, "system": system,
+        "output_config": {"effort": "low"},
+        "fallbacks": "default",  # 안전 분류기 거절 시 서버가 다른 모델로 자동 재시도
         "messages": [{"role": "user", "content": user}],
     }).encode("utf-8")
     req = urllib.request.Request("https://api.anthropic.com/v1/messages", data=payload)
     req.add_header("x-api-key", ANTHROPIC_KEY)
     req.add_header("anthropic-version", "2023-06-01")
+    req.add_header("anthropic-beta", "server-side-fallback-2026-07-01")
     req.add_header("content-type", "application/json")
     try:
-        with urllib.request.urlopen(req, timeout=30) as r:
+        with urllib.request.urlopen(req, timeout=60) as r:
             resp = json.loads(r.read().decode("utf-8"))
     except Exception as e:
         print(f"LLM 호출 실패: {e}", file=sys.stderr)
         return []
+    if resp.get("stop_reason") == "refusal":
+        return []
     try:
-        text = "".join(b.get("text", "") for b in resp.get("content", [])).strip().strip("`")
+        text = "".join(b.get("text", "") for b in resp.get("content", [])
+                       if b.get("type") == "text").strip().strip("`")
         text = re.sub(r"^json\s*", "", text)
         arr = json.loads(text)
         return arr if isinstance(arr, list) else []
@@ -209,14 +217,18 @@ def main():
             break
 
         seen[link] = datetime.now().isoformat(timespec="seconds")
-        stocks = llm_extract(title, desc)
-        llm_calls += 1
 
         pub = it.get("pubDate", "")
         try:
-            date = datetime.strptime(pub, "%a, %d %b %Y %H:%M:%S %z").strftime("%Y.%m.%d")
+            pub_dt = datetime.strptime(pub, "%a, %d %b %Y %H:%M:%S %z")
         except Exception:
-            date = datetime.now().strftime("%Y.%m.%d")
+            pub_dt = datetime.now()
+        if pub_dt.weekday() >= 5:   # 토·일 기사는 거래일이 아니라 날짜가 틀어짐 → LLM 호출 전에 스킵
+            continue
+        date = pub_dt.strftime("%Y.%m.%d")
+
+        stocks = llm_extract(title, desc)
+        llm_calls += 1
 
         for s in stocks:
             if not isinstance(s, dict):   # LLM이 문자열 등 예상외 형태로 준 경우 방어
