@@ -20,6 +20,7 @@ import sys
 import json
 import html
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 from datetime import datetime
@@ -89,8 +90,13 @@ def fetch_news():
     return items
 
 
+PROBLEMS_FILE = "llm_problems.txt"   # 실패·거절 기록 → 워크플로 마지막 단계가 보고 실패 알림
+problems = []
+
+
 def llm_extract(title, desc):
-    """기사에서 '이유 있는' 종목 이슈만 추출. 반환: [{name, reason, pct}]"""
+    """기사에서 '이유 있는' 종목 이슈만 추출.
+    반환: [{name, reason, pct}] / 거절이면 [] / API 오류면 None(다음 실행에서 재시도)"""
     system = (
         "너는 한국 증시 '특징주' 기사에서 핵심만 뽑는 추출기다. "
         "기사 제목과 요약을 보고, 이 기사가 다루는 '주인공 종목'만 골라라. "
@@ -109,21 +115,27 @@ def llm_extract(title, desc):
         # thinking 토큰도 max_tokens에 포함되므로 JSON이 잘리지 않게 여유를 둠
         "model": MODEL, "max_tokens": 1024, "system": system,
         "output_config": {"effort": "low"},
-        "fallbacks": "default",  # 안전 분류기 거절 시 서버가 다른 모델로 자동 재시도
         "messages": [{"role": "user", "content": user}],
     }).encode("utf-8")
     req = urllib.request.Request("https://api.anthropic.com/v1/messages", data=payload)
     req.add_header("x-api-key", ANTHROPIC_KEY)
     req.add_header("anthropic-version", "2023-06-01")
-    req.add_header("anthropic-beta", "server-side-fallback-2026-07-01")
     req.add_header("content-type", "application/json")
     try:
         with urllib.request.urlopen(req, timeout=60) as r:
             resp = json.loads(r.read().decode("utf-8"))
+    except urllib.error.HTTPError as e:
+        body = e.read().decode("utf-8", "replace")[:300]
+        print(f"LLM 호출 실패 HTTP {e.code}: {body}", file=sys.stderr)
+        problems.append(f"[API 오류 {e.code}] {title} | {body}")
+        return None
     except Exception as e:
         print(f"LLM 호출 실패: {e}", file=sys.stderr)
-        return []
+        problems.append(f"[API 오류] {title} | {e}")
+        return None
     if resp.get("stop_reason") == "refusal":
+        cat = (resp.get("stop_details") or {}).get("category")
+        problems.append(f"[거절 {cat}] {title}")
         return []
     try:
         text = "".join(b.get("text", "") for b in resp.get("content", [])
@@ -199,6 +211,7 @@ def main():
     changed = set()
     index_changed = False
     llm_calls = 0
+    api_fail_streak = 0
     hit_cap = False
 
     for it in items:
@@ -229,6 +242,14 @@ def main():
 
         stocks = llm_extract(title, desc)
         llm_calls += 1
+        if stocks is None:          # API 오류: 본 것으로 치지 않고 다음 실행에서 재시도
+            seen.pop(link, None)
+            api_fail_streak += 1
+            if api_fail_streak >= 5:  # 키 만료·크레딧 소진 등 → 계속 두드리지 말고 중단
+                problems.append("[중단] API 오류 5회 연속 — 키/크레딧/장애 확인 필요")
+                break
+            continue
+        api_fail_streak = 0
 
         for s in stocks:
             if not isinstance(s, dict):   # LLM이 문자열 등 예상외 형태로 준 경우 방어
@@ -258,6 +279,10 @@ def main():
         json.dump(seen, f, ensure_ascii=False, indent=2)
     with open("changed_codes.txt", "w", encoding="utf-8") as f:
         f.write("\n".join(sorted(changed)))
+    with open(PROBLEMS_FILE, "w", encoding="utf-8") as f:   # 비어 있으면 정상
+        f.write("\n".join(problems))
+    if problems:
+        print(f"⚠ LLM 실패·거절 {len(problems)}건 (워크플로 마지막 단계에서 실패 알림)")
 
     print(f"LLM 호출 {llm_calls}건" + (" (하루 상한 도달)" if hit_cap else ""))
     print(f"변경 종목 {len(changed)}개: {', '.join(sorted(changed)) or '(없음)'}")

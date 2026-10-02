@@ -62,3 +62,20 @@ jobs:
             done < changed_codes.txt
           fi
           echo "퍼지 완료"
+
+      # 데이터는 위에서 이미 커밋됨. LLM 실패·거절이 있었으면 여기서 실행을 '실패'로 끝내
+      # GitHub이 이메일·모바일 앱으로 알림을 보내게 한다.
+      - name: LLM 실패·거절 알림
+        if: always()
+        run: |
+          if [ -s llm_problems.txt ]; then
+            {
+              echo "## ⚠ LLM 실패·거절 $(wc -l < llm_problems.txt | tr -d ' ')건"
+              echo '```'
+              cat llm_problems.txt
+              echo '```'
+            } >> "$GITHUB_STEP_SUMMARY"
+            echo "::error::LLM 실패·거절 발생 — 실행 요약(Summary)에서 목록 확인"
+            exit 1
+          fi
+          echo "LLM 실패·거절 없음"
