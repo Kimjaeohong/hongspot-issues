@@ -2,8 +2,8 @@ name: 전종목 변환표 갱신
 
 on:
   schedule:
-    # UTC 23:00 = KST 08:00 (평일 장 시작 전). GitHub cron은 UTC 기준.
-    - cron: "0 23 * * 0-4"
+    # UTC 22:37 = KST 07:37 (평일 장 시작 전). GitHub cron은 UTC 기준, 정각 혼잡을 피함.
+    - cron: "37 22 * * 0-4"
   workflow_dispatch:      # 수동 실행 버튼도 제공
 
 permissions:
