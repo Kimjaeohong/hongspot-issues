@@ -1,7 +1,10 @@
 {
-  "updated": "2026-10-01T01:55:03",
+  "updated": "2026-10-05T01:14:33+00:00",
+  "source_date": "2026-10-05",
+  "stale_days": 0,
+  "source_url": "https://raw.githubusercontent.com/FinanceData/fdr_krx_data_cache/refs/heads/master/data/listing/krx/2026-10-05.csv",
   "count": 2785,
-  "source": "fdr",
+  "source": "fdr-cache",
   "map": {
     "3S": "060310",
     "AJ네트웍스": "095570",
