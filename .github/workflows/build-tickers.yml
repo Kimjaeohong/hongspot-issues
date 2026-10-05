@@ -27,14 +27,35 @@ jobs:
       - name: 변환표 생성
         run: python scripts/build_tickers.py
 
+      - name: 사명 변경 반영 (옛 사명 → aliases.json)
+        run: python scripts/update_aliases.py
+
       - name: 변경 시 커밋
+        id: commit
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          if [ -n "$(git status --porcelain tickers.json)" ]; then
-            git add tickers.json
-            git commit -m "Update tickers.json ($(date -u +%Y-%m-%d))"
+          if [ -n "$(git status --porcelain tickers.json aliases.json index.json data)" ]; then
+            git add tickers.json aliases.json index.json data
+            git commit -m "Update tickers.json / aliases.json ($(date -u +%Y-%m-%d))"
             git push
+            echo "pushed=true" >> "$GITHUB_OUTPUT"
           else
             echo "변경 없음"
+            echo "pushed=false" >> "$GITHUB_OUTPUT"
           fi
+
+      - name: CDN 캐시 퍼지 (jsDelivr)
+        if: steps.commit.outputs.pushed == 'true'
+        run: |
+          REPO="${{ github.repository }}"
+          for f in aliases.json index.json; do
+            curl -sf "https://purge.jsdelivr.net/gh/${REPO}@main/${f}" > /dev/null || true
+          done
+          if [ -f changed_codes.txt ]; then
+            while IFS= read -r code; do
+              [ -z "$code" ] && continue
+              curl -sf "https://purge.jsdelivr.net/gh/${REPO}@main/data/${code}.json" > /dev/null || true
+            done < changed_codes.txt
+          fi
+          echo "퍼지 완료"
