@@ -1,8 +1,8 @@
 {
-  "updated": "2026-10-05T01:14:33+00:00",
-  "source_date": "2026-10-05",
+  "updated": "2026-10-06T02:29:06+00:00",
+  "source_date": "2026-10-06",
   "stale_days": 0,
-  "source_url": "https://raw.githubusercontent.com/FinanceData/fdr_krx_data_cache/refs/heads/master/data/listing/krx/2026-10-05.csv",
+  "source_url": "https://raw.githubusercontent.com/FinanceData/fdr_krx_data_cache/refs/heads/master/data/listing/krx/2026-10-06.csv",
   "count": 2785,
   "source": "fdr-cache",
   "map": {
