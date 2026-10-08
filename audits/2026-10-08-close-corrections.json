@@ -1,0 +1,743 @@
+{
+  "schema": "hongspot-dated-price-correction-v1",
+  "date": "2026-10-08",
+  "baseline_commit": "c648a807fcf1ce48a4a2f835f27deeac590db362",
+  "session": "KRX regular session ending 15:30 Asia/Seoul",
+  "calculation": "100 * (regular_close / previous_regular_close - 1), Decimal ROUND_HALF_UP to 2 decimal places",
+  "verification": "Cross-checked dated secondary-provider close/prior history; direct official KRX export was not obtained. Article snapshots and conflicting session data were not used as daily returns.",
+  "giveback_rule": "Annotate only a verified positive same-session high whose unrounded return exceeds the unrounded closing return by at least 5 percentage points.",
+  "counts": {
+    "checked": 21,
+    "numeric_corrections": 12,
+    "missing_filled": 3,
+    "numeric_unchanged": 6,
+    "text_corrections": 8
+  },
+  "cautions": [
+    "The original collector did not persist article-to-row lineage. Article URLs corroborate the reason/observation; they are not claimed as recovered runtime model inputs.",
+    "The Hanmi article high565000 conflicts with post-close regular-session high526000 and is excluded from giveback wording.",
+    "Exact Hyundai Glovis high is unresolved across sources; no high percentage is asserted.",
+    "This fixed-date audit is not an automatic source feed or a claim that live collector price retrieval is operational."
+  ],
+  "rows": [
+    {
+      "code": "000270",
+      "name": "기아",
+      "date": "2026.10.08",
+      "previous_date": "2026-10-07",
+      "previous_close": 109600,
+      "close": 106800,
+      "before_pct": null,
+      "after_pct": -2.55,
+      "before_text": "3분기 실적이 시장 전망치를 밑돌 것이라는 우려에 약세",
+      "after_text": "3분기 실적이 시장 전망치를 밑돌 것이라는 우려에 약세",
+      "close_sources": [
+        {
+          "url": "https://stock.mk.co.kr/price/foreigner/KR7000270009",
+          "retrieved_on": "2026-10-08",
+          "basis": "10.08 15:33; dated 26.10.08 close106800 and 26.10.07 close109600; high108500"
+        },
+        {
+          "url": "https://markets.hankyung.com/stock/000270",
+          "retrieved_on": "2026-10-08",
+          "basis": "2026.10.08 장마감; close 106800, daily change -2.55%; corroborates dated prior-close history"
+        }
+      ],
+      "article_sources": [
+        {
+          "url": "https://pension.koreainvestment.com/main/research/research/Strategy.jsp?category1=05&category2=01&jkGubun=10",
+          "published_at": "2026-10-08"
+        },
+        {
+          "url": "https://www.fnnews.com/news/202610081555256544",
+          "published_at": "2026-10-08T15:55:00+09:00"
+        }
+      ]
+    },
+    {
+      "code": "000650",
+      "name": "천일고속",
+      "date": "2026.10.08",
+      "previous_date": "2026-10-07",
+      "previous_close": 180300,
+      "close": 221000,
+      "before_pct": 12,
+      "after_pct": 22.57,
+      "before_text": "서울고속버스터미널 재개발 기대감에 강세",
+      "after_text": "서울고속버스터미널 재개발 기대감에 강세, 장중 +29.78%까지 상승했으나 종가 +22.57%로 상승폭 반납",
+      "close_sources": [
+        {
+          "url": "https://stockanalysis.com/quote/krx/000650/history/",
+          "retrieved_on": "2026-10-08",
+          "basis": "Oct8 2026 15:30 KST; daily high234000, close221000; Oct7 close180300"
+        },
+        {
+          "url": "https://stock.mk.co.kr/price/home/KR7000650002",
+          "retrieved_on": "2026-10-08",
+          "basis": "10.08 15:33; close221000, previous180300, high234000"
+        }
+      ],
+      "article_sources": [
+        {
+          "url": "https://www.hankyung.com/article/2026100817911",
+          "published_at": "2026-10-08T17:34:00+09:00"
+        },
+        {
+          "url": "https://www.newsis.com/view/NISX20261008_0003818727",
+          "published_at": "2026-10-08T10:23:09+09:00"
+        }
+      ],
+      "regular_high": {
+        "date": "2026-10-08",
+        "price": 234000,
+        "return_pct": 29.78,
+        "giveback_percentage_points": 7.21,
+        "source_urls": [
+          "https://stockanalysis.com/quote/krx/000650/history/",
+          "https://stock.mk.co.kr/price/home/KR7000650002"
+        ]
+      }
+    },
+    {
+      "code": "000660",
+      "name": "SK하이닉스",
+      "date": "2026.10.08",
+      "previous_date": "2026-10-07",
+      "previous_close": 1723000,
+      "close": 1681000,
+      "before_pct": null,
+      "after_pct": -2.44,
+      "before_text": "삼성·SK그룹 S7 대부분 약세 속 홀로 상승세 유지",
+      "after_text": "장 초반 삼성·SK그룹 S7 중 홀로 상승했으나 종가 -2.44%로 하락 전환",
+      "close_sources": [
+        {
+          "url": "https://stock.mk.co.kr/price/foreigner/KR7000660001",
+          "retrieved_on": "2026-10-08",
+          "basis": "10.08 15:33; dated Oct8 close1681000 and Oct7 close1723000; high1759000"
+        },
+        {
+          "url": "https://markets.hankyung.com/stock/000660",
+          "retrieved_on": "2026-10-08",
+          "basis": "2026.10.08 장마감; close 1681000, daily change -2.44%; corroborates dated prior-close history"
+        }
+      ],
+      "article_sources": [
+        {
+          "url": "https://member.newspim.com/news/view/20261008000286",
+          "published_at": "2026-10-08T10:11:00+09:00"
+        },
+        {
+          "url": "https://biz.chosun.com/stock/stock_general/2026/10/08/YSQXS3MPXBBJ5ORF2LTE6AO5QE/",
+          "published_at": "2026-10-08T16:00:00+09:00"
+        }
+      ]
+    },
+    {
+      "code": "005360",
+      "name": "모나미",
+      "date": "2026.10.08",
+      "previous_date": "2026-10-07",
+      "previous_close": 1034,
+      "close": 1086,
+      "before_pct": 13.35,
+      "after_pct": 5.03,
+      "before_text": "상장폐지 절차 유예 결정에 주가 급등",
+      "after_text": "시총 미달 상장폐지 후속 절차 유예 소식에 상승, 장중 +22.15%까지 상승했으나 종가 +5.03%로 상승폭 반납",
+      "close_sources": [
+        {
+          "url": "https://stockanalysis.com/quote/krx/005360/history/",
+          "retrieved_on": "2026-10-08",
+          "basis": "Oct8 at close; daily high1263 close1086; Oct7 close1034; close equals adjusted close on both dates"
+        },
+        {
+          "url": "https://stock.mk.co.kr/price/foreigner/KR7005360003",
+          "retrieved_on": "2026-10-08",
+          "basis": "10.08 15:33 close1086 previous1034 high1263; history Oct7 close1034"
+        },
+        {
+          "url": "https://kr.investing.com/equities/monami-historical-data",
+          "retrieved_on": "2026-10-08",
+          "basis": "Oct8 close1086 / Oct7 close1034; 15:29:59 header range high1263, but daily table high1244 inconsistent"
+        }
+      ],
+      "article_sources": [
+        {
+          "url": "https://www4.ajunews.com/view/20261008110717163",
+          "published_at": "2026-10-08T11:22:00+09:00"
+        },
+        {
+          "url": "https://www.sisajournal.com/news/articleView.html?idxno=389612",
+          "published_at": "2026-10-08T17:01:00+09:00"
+        }
+      ],
+      "regular_high": {
+        "date": "2026-10-08",
+        "price": 1263,
+        "return_pct": 22.15,
+        "giveback_percentage_points": 17.12,
+        "source_urls": [
+          "https://stockanalysis.com/quote/krx/005360/history/",
+          "https://stock.mk.co.kr/price/foreigner/KR7005360003"
+        ]
+      }
+    },
+    {
+      "code": "005380",
+      "name": "현대차",
+      "date": "2026.10.08",
+      "previous_date": "2026-10-07",
+      "previous_close": 336000,
+      "close": 324500,
+      "before_pct": -3.42,
+      "after_pct": -3.42,
+      "before_text": "원화 강세에 따른 실적 우려로 연이틀 하락",
+      "after_text": "원화 강세에 따른 실적 우려로 연이틀 하락",
+      "close_sources": [
+        {
+          "url": "https://stock.mk.co.kr/price/foreigner/KR7005380001",
+          "retrieved_on": "2026-10-08",
+          "basis": "10.08 15:33; Oct8 close324500, Oct7 close336000, Oct6 close348000; high335500"
+        },
+        {
+          "url": "https://markets.hankyung.com/stock/005380",
+          "retrieved_on": "2026-10-08",
+          "basis": "2026.10.08 장마감; close 324500, daily change -3.42%; corroborates dated prior-close history"
+        }
+      ],
+      "article_sources": [
+        {
+          "url": "https://www.fnnews.com/news/202610081555256544",
+          "published_at": "2026-10-08T15:55:00+09:00"
+        }
+      ]
+    },
+    {
+      "code": "005930",
+      "name": "삼성전자",
+      "date": "2026.10.08",
+      "previous_date": "2026-10-07",
+      "previous_close": 268500,
+      "close": 262000,
+      "before_pct": -2.42,
+      "after_pct": -2.42,
+      "before_text": "반도체 ETF 편입 비중 조정·옵션 만기에 외국인·기관 매도로 하락",
+      "after_text": "반도체 ETF 편입 비중 조정·옵션 만기에 외국인·기관 매도로 하락",
+      "close_sources": [
+        {
+          "url": "https://kr.investing.com/equities/samsung-electronics-co-ltd-historical-data",
+          "retrieved_on": "2026-10-08",
+          "basis": "Oct8 close262000 high270000; Oct7 close268500; header closed15:29:59"
+        },
+        {
+          "url": "https://stock.mk.co.kr/price/foreigner/KR7005930003",
+          "retrieved_on": "2026-10-08",
+          "basis": "10.08 15:33; dated Oct8 close262000 / Oct7 close268500; high270000"
+        }
+      ],
+      "article_sources": [
+        {
+          "url": "https://www.financialpost.co.kr/news/articleView.html?idxno=279504",
+          "published_at": "2026-10-08T16:23:00+09:00"
+        }
+      ]
+    },
+    {
+      "code": "011080",
+      "name": "형지I&C",
+      "date": "2026.10.08",
+      "previous_date": "2026-10-07",
+      "previous_close": 430,
+      "close": 559,
+      "before_pct": 30,
+      "after_pct": 30,
+      "before_text": "시총 미달 상장폐지 절차 유예 소식에 상한가",
+      "after_text": "시총 미달 상장폐지 절차 유예 소식에 상한가",
+      "close_sources": [
+        {
+          "url": "https://stockanalysis.com/quote/kosdaq/011080/history/",
+          "retrieved_on": "2026-10-08",
+          "basis": "Oct8 at close; close/high559; Oct7 close430; close equals adjusted close on both dates"
+        },
+        {
+          "url": "https://stock.mk.co.kr/domestic/ranking/rise?status=rise&type=kosdaq",
+          "retrieved_on": "2026-10-08",
+          "basis": "10.08 15:33 ranked upper-limit close559 +30.00%"
+        }
+      ],
+      "article_sources": [
+        {
+          "url": "https://www.sisajournal.com/news/articleView.html?idxno=389612",
+          "published_at": "2026-10-08T17:01:00+09:00"
+        }
+      ]
+    },
+    {
+      "code": "0161M0",
+      "name": "네오사피엔스",
+      "date": "2026.10.08",
+      "previous_date": "2026-10-07",
+      "previous_close": 13210,
+      "close": 12000,
+      "before_pct": -66,
+      "after_pct": -9.16,
+      "before_text": "코스닥 상장 후 급락세 지속, 공모가 근접",
+      "after_text": "코스닥 상장 후 하락세 지속으로 공모가와 격차 축소, 장중 +1.44%까지 상승했으나 종가 -9.16%로 하락 전환",
+      "close_sources": [
+        {
+          "url": "https://www.kokstock.com/stock/item.asp?item_cd=0161M0",
+          "retrieved_on": "2026-10-08",
+          "basis": "10월08일 KRX 시세(장마감); close12000, reference13210, high13400; dated Oct7 history close13210"
+        },
+        {
+          "url": "https://markets.hankyung.com/stock/0161M0",
+          "retrieved_on": "2026-10-08",
+          "basis": "2026.10.08 장마감; close12000 change-1210 pct-9.16 high13400 low11920"
+        }
+      ],
+      "article_sources": [
+        {
+          "url": "https://www4.ajunews.com/view/20261008101803957",
+          "published_at": "2026-10-08T10:18:00+09:00"
+        }
+      ],
+      "regular_high": {
+        "date": "2026-10-08",
+        "price": 13400,
+        "return_pct": 1.44,
+        "giveback_percentage_points": 10.6,
+        "source_urls": [
+          "https://www.kokstock.com/stock/item.asp?item_cd=0161M0",
+          "https://markets.hankyung.com/stock/0161M0"
+        ]
+      }
+    },
+    {
+      "code": "033790",
+      "name": "피노",
+      "date": "2026.10.08",
+      "previous_date": "2026-10-07",
+      "previous_close": 9880,
+      "close": 11580,
+      "before_pct": 15.28,
+      "after_pct": 17.21,
+      "before_text": "LG엔솔 3분기 사상 최대 매출에 전구체 공급망 부각되며 급등",
+      "after_text": "LG엔솔 3분기 사상 최대 매출에 전구체 공급망 부각되며 급등",
+      "close_sources": [
+        {
+          "url": "https://kr.investing.com/equities/seohwa-inc-historical-data",
+          "retrieved_on": "2026-10-08",
+          "basis": "Dated Oct8 close11580 high11600; Oct7 close9880; header closed15:29:59"
+        },
+        {
+          "url": "https://stock.mk.co.kr/domestic/ranking/rise?status=rise&type=kosdaq",
+          "retrieved_on": "2026-10-08",
+          "basis": "10.08 15:33 close11580 change1700 +17.21%"
+        }
+      ],
+      "article_sources": [
+        {
+          "url": "https://www.widedaily.com/news/articleView.html?idxno=301837",
+          "published_at": "2026-10-08T17:50:00+09:00"
+        }
+      ]
+    },
+    {
+      "code": "036570",
+      "name": "NC",
+      "date": "2026.10.08",
+      "previous_date": "2026-10-07",
+      "previous_close": 237500,
+      "close": 222000,
+      "before_pct": -7,
+      "after_pct": -6.53,
+      "before_text": "아이온2 글로벌 초기 트래픽 기대 미달에 목표가 하향",
+      "after_text": "아이온2 글로벌 초기 트래픽 기대 미달에 목표가 하향",
+      "close_sources": [
+        {
+          "url": "https://kr.investing.com/equities/ncsoft-corp-historical-data",
+          "retrieved_on": "2026-10-08",
+          "basis": "Dated Oct8 close222000 high235500; Oct7 close237500; header closed15:29:59"
+        },
+        {
+          "url": "https://markets.hankyung.com/stock/036570",
+          "retrieved_on": "2026-10-08",
+          "basis": "2026.10.08 장마감 close222000 change-15500 -6.53% high235500"
+        }
+      ],
+      "article_sources": [
+        {
+          "url": "https://www.inews24.net/view/2013016",
+          "published_at": "2026-10-08T09:52:00+09:00"
+        }
+      ]
+    },
+    {
+      "code": "084670",
+      "name": "동양고속",
+      "date": "2026.10.08",
+      "previous_date": "2026-10-07",
+      "previous_close": 29250,
+      "close": 38000,
+      "before_pct": 29.91,
+      "after_pct": 29.91,
+      "before_text": "서울고속버스터미널 복합개발 기대감에 이틀째 급등",
+      "after_text": "서울고속버스터미널 복합개발 기대감에 이틀째 급등",
+      "close_sources": [
+        {
+          "url": "https://stockanalysis.com/quote/krx/084670/history/",
+          "retrieved_on": "2026-10-08",
+          "basis": "Oct8 2026 15:30 KST; close/high38000; Oct7 close29250 +30.00%; Oct6 close22500"
+        },
+        {
+          "url": "https://stock.mk.co.kr/domestic/ranking/rise?status=rise&type=kospi",
+          "retrieved_on": "2026-10-08",
+          "basis": "10.08 15:33 close38000 change8750 +29.91%"
+        }
+      ],
+      "article_sources": [
+        {
+          "url": "https://www.hankyung.com/article/2026100817911",
+          "published_at": "2026-10-08T17:34:00+09:00"
+        }
+      ]
+    },
+    {
+      "code": "086280",
+      "name": "현대글로비스",
+      "date": "2026.10.08",
+      "previous_date": "2026-10-07",
+      "previous_close": 188000,
+      "close": 182900,
+      "before_pct": null,
+      "after_pct": -2.71,
+      "before_text": "PCC 시황 호조에 따른 중장기 실적 기대, 목표가 32만5천원 유지",
+      "after_text": "PCC 시황 호조에 따른 중장기 실적 기대, 목표가 32만5천원 유지",
+      "close_sources": [
+        {
+          "url": "https://kr.investing.com/equities/hyundai-glovis-historical-data",
+          "retrieved_on": "2026-10-08",
+          "basis": "Dated Oct8 close182900; Oct7 close188000; history high187600 conflicts with header189000; both below material threshold"
+        },
+        {
+          "url": "https://markets.hankyung.com/stock/086280",
+          "retrieved_on": "2026-10-08",
+          "basis": "2026.10.08 장마감 close182900 change-5100 -2.71%; high189000"
+        }
+      ],
+      "article_sources": [
+        {
+          "url": "https://www.newspim.com/news/view/20261008000729",
+          "published_at": "2026-10-08T12:09:00+09:00"
+        }
+      ]
+    },
+    {
+      "code": "087010",
+      "name": "펩트론",
+      "date": "2026.10.08",
+      "previous_date": "2026-10-07",
+      "previous_close": 130600,
+      "close": 91500,
+      "before_pct": -29.94,
+      "after_pct": -29.94,
+      "before_text": "일라이릴리와 기술평가 절차 종료 소식에 급락",
+      "after_text": "일라이릴리와 기술평가 절차 종료 소식에 급락",
+      "close_sources": [
+        {
+          "url": "https://stock.mk.co.kr/price/foreigner/KR7087010005",
+          "retrieved_on": "2026-10-08",
+          "basis": "10.08 15:33; dated Oct8 close91500 / Oct7 close130600; high99100; lower-limit91500"
+        },
+        {
+          "url": "https://markets.hankyung.com/stock/087010",
+          "retrieved_on": "2026-10-08",
+          "basis": "2026.10.08 장마감; close 91500, daily change -29.94%; corroborates dated prior-close history"
+        }
+      ],
+      "article_sources": [
+        {
+          "url": "https://biz.chosun.com/stock/stock_general/2026/10/08/4MKVX23ZSBF3BFUFVW2EK3GXPY/?outputType=amp",
+          "published_at": "2026-10-08T09:31:00+09:00"
+        }
+      ]
+    },
+    {
+      "code": "126600",
+      "name": "BGF에코머티리얼즈",
+      "date": "2026.10.08",
+      "previous_date": "2026-10-07",
+      "previous_close": 3280,
+      "close": 3680,
+      "before_pct": 12.04,
+      "after_pct": 12.2,
+      "before_text": "대규모 자사주 공개매수 및 소각 소식에 급등",
+      "after_text": "대규모 자사주 공개매수 및 소각 소식에 급등",
+      "close_sources": [
+        {
+          "url": "https://markets.hankyung.com/stock/126600",
+          "retrieved_on": "2026-10-08",
+          "basis": "2026.10.08 장마감 close3680 change400 +12.20% high3755"
+        },
+        {
+          "url": "https://stockanalysis.com/quote/kosdaq/126600/history/",
+          "retrieved_on": "2026-10-08",
+          "basis": "Latest history still Oct7: close3280; it does not establish Oct8 close or high"
+        },
+        {
+          "url": "https://stock.mk.co.kr/price/home/KR7126600006",
+          "retrieved_on": "2026-10-08",
+          "basis": "10.08 15:33 close3680 previous3280 high3755"
+        }
+      ],
+      "article_sources": [
+        {
+          "url": "https://www.etoday.co.kr/news/view/2633775?trc=main_market_lnews",
+          "published_at": "2026-10-08T09:54:00+09:00"
+        }
+      ]
+    },
+    {
+      "code": "128940",
+      "name": "한미약품",
+      "date": "2026.10.08",
+      "previous_date": "2026-10-07",
+      "previous_close": 534000,
+      "close": 480500,
+      "before_pct": -9,
+      "after_pct": -10.02,
+      "before_text": "국산 첫 비만신약 허가에도 기대감 선반영돼 차익실현 매물 출회",
+      "after_text": "국산 첫 비만신약 허가에도 기대감 선반영돼 차익실현 매물 출회",
+      "close_sources": [
+        {
+          "url": "https://stock.mk.co.kr/price/foreigner/KR7128940004",
+          "retrieved_on": "2026-10-08",
+          "basis": "10.08 15:33; dated Oct8 close480500 / Oct7 close534000; high526000"
+        },
+        {
+          "url": "https://markets.hankyung.com/stock/128940",
+          "retrieved_on": "2026-10-08",
+          "basis": "2026.10.08 장마감 close480500 -10.02% high526000"
+        },
+        {
+          "url": "https://www.kokstock.com/stock/item.asp?item_cd=128940",
+          "retrieved_on": "2026-10-08",
+          "basis": "10월08일 KRX 시세(장마감); reference534000 close480500 high/open526000"
+        },
+        {
+          "url": "https://stockanalysis.com/quote/krx/128940/history/",
+          "retrieved_on": "2026-10-08",
+          "basis": "Oct8 2026 15:30 KST daily close480500 high526000; Oct7 close534000; volume differs from MK"
+        },
+        {
+          "url": "https://kr.investing.com/equities/hanmi-pharm-co-ltd-historical-data",
+          "retrieved_on": "2026-10-08",
+          "basis": "Dated close480500 / prior534000 match; Oct8 table high519000 below its own open526000 is invalid for exact high"
+        }
+      ],
+      "article_sources": [
+        {
+          "url": "https://www.ajunews.com/view/20261008125633355",
+          "published_at": "2026-10-08T13:01:00+09:00"
+        }
+      ]
+    },
+    {
+      "code": "196170",
+      "name": "알테오젠",
+      "date": "2026.10.08",
+      "previous_date": "2026-10-07",
+      "previous_close": 257000,
+      "close": 241000,
+      "before_pct": -6,
+      "after_pct": -6.23,
+      "before_text": "키트루다SC 특허 분쟁으로 유럽 8개국 판매 제동에 급락",
+      "after_text": "키트루다SC 특허 분쟁으로 유럽 8개국 판매 제동에 급락",
+      "close_sources": [
+        {
+          "url": "https://stock.mk.co.kr/price/foreigner/KR7196170005",
+          "retrieved_on": "2026-10-08",
+          "basis": "10.08 15:33; dated Oct8 close241000 / Oct7 close257000; high246000"
+        },
+        {
+          "url": "https://markets.hankyung.com/stock/196170",
+          "retrieved_on": "2026-10-08",
+          "basis": "2026.10.08 장마감; close 241000, daily change -6.23%; corroborates dated prior-close history"
+        }
+      ],
+      "article_sources": [
+        {
+          "url": "https://www.news1.kr/finance/general-stock/6314042",
+          "published_at": "2026-10-08T10:41:00+09:00"
+        }
+      ]
+    },
+    {
+      "code": "199730",
+      "name": "바이오인프라",
+      "date": "2026.10.08",
+      "previous_date": "2026-10-07",
+      "previous_close": 695,
+      "close": 903,
+      "before_pct": 30,
+      "after_pct": 29.93,
+      "before_text": "시총 미달 상장폐지 후속 절차 유예 소식에 상한가",
+      "after_text": "시총 미달 상장폐지 후속 절차 유예 소식에 상한가",
+      "close_sources": [
+        {
+          "url": "https://stockanalysis.com/quote/kosdaq/199730/history/",
+          "retrieved_on": "2026-10-08",
+          "basis": "Oct8 at close: close/high903; Oct7 close695; close equals adjusted close on both dates"
+        },
+        {
+          "url": "https://stock.mk.co.kr/price/home/KR7199730003",
+          "retrieved_on": "2026-10-08",
+          "basis": "10.08 15:33 close903 previous695 high903 upper-limit903"
+        }
+      ],
+      "article_sources": [
+        {
+          "url": "https://www.sisajournal.com/news/articleView.html?idxno=389612",
+          "published_at": "2026-10-08T17:01:00+09:00"
+        }
+      ]
+    },
+    {
+      "code": "308100",
+      "name": "형지글로벌",
+      "date": "2026.10.08",
+      "previous_date": "2026-10-07",
+      "previous_close": 251,
+      "close": 326,
+      "before_pct": 30,
+      "after_pct": 29.88,
+      "before_text": "시총 미달 상장폐지 절차 유예 기대에 상한가",
+      "after_text": "시총 미달 상장폐지 절차 유예 소식에 상한가",
+      "close_sources": [
+        {
+          "url": "https://kr.investing.com/equities/castelbajac-co-ltd-historical-data",
+          "retrieved_on": "2026-10-08",
+          "basis": "Dated Oct8 close/high326; Oct7 close251; header closed15:29:59; table low314 conflicts with open302"
+        },
+        {
+          "url": "https://stock.mk.co.kr/price/home/KR7308100007",
+          "retrieved_on": "2026-10-08",
+          "basis": "10.08 15:33 close326 previous251 high/upper-limit326"
+        }
+      ],
+      "article_sources": [
+        {
+          "url": "https://www.sisajournal.com/news/articleView.html?idxno=389612",
+          "published_at": "2026-10-08T17:01:00+09:00"
+        }
+      ]
+    },
+    {
+      "code": "323350",
+      "name": "다원넥스뷰",
+      "date": "2026.10.08",
+      "previous_date": "2026-10-07",
+      "previous_close": 9510,
+      "close": 11170,
+      "before_pct": 12.51,
+      "after_pct": 17.46,
+      "before_text": "AI 반도체 확대로 고사양 기판 수요 증가 기대에 강세",
+      "after_text": "AI 반도체 확대로 고사양 기판 수요 증가 기대에 강세, 장중 +22.50%까지 상승했으나 종가 +17.46%로 상승폭 반납",
+      "close_sources": [
+        {
+          "url": "https://stockanalysis.com/quote/kosdaq/323350/history/",
+          "retrieved_on": "2026-10-08",
+          "basis": "Oct8 at close: high11650 close11170; Oct7 close9510; close equals adjusted close on both dates"
+        },
+        {
+          "url": "https://stock.mk.co.kr/price/foreigner/KR7323350009",
+          "retrieved_on": "2026-10-08",
+          "basis": "10.08 15:33 high11650 close11170 previous9510; Oct7 history9510"
+        }
+      ],
+      "article_sources": [
+        {
+          "url": "https://www.newspim.com/news/view/20261008000263",
+          "published_at": "2026-10-08T10:09:00+09:00"
+        }
+      ],
+      "regular_high": {
+        "date": "2026-10-08",
+        "price": 11650,
+        "return_pct": 22.5,
+        "giveback_percentage_points": 5.05,
+        "source_urls": [
+          "https://stockanalysis.com/quote/kosdaq/323350/history/",
+          "https://stock.mk.co.kr/price/foreigner/KR7323350009"
+        ]
+      }
+    },
+    {
+      "code": "373220",
+      "name": "LG에너지솔루션",
+      "date": "2026.10.08",
+      "previous_date": "2026-10-07",
+      "previous_close": 391000,
+      "close": 401000,
+      "before_pct": 6,
+      "after_pct": 2.56,
+      "before_text": "3분기 사상 최대 분기 매출 기록에 ESS 수주 확대로 상승",
+      "after_text": "3분기 사상 최대 분기 매출과 북미 ESS 생산·출하 확대에 상승",
+      "close_sources": [
+        {
+          "url": "https://stock.mk.co.kr/price/foreigner/KR7373220003",
+          "retrieved_on": "2026-10-08",
+          "basis": "10.08 15:33; dated Oct8 close401000 / Oct7 close391000; high418000"
+        },
+        {
+          "url": "https://www.yna.co.kr/view/AKR20261008046251008",
+          "retrieved_on": "2026-10-08",
+          "basis": "Oct8 15:37 post-close article explicitly regular close401000 +2.56%, regular high418000 +6.91%"
+        }
+      ],
+      "article_sources": [
+        {
+          "url": "https://biz.chosun.com/stock/stock_general/2026/10/08/424KVU6SMVAA5NVFEUE5EVFC3A/?outputType=amp",
+          "published_at": "2026-10-08T09:51:00+09:00"
+        },
+        {
+          "url": "https://www.yna.co.kr/view/AKR20261008046251008",
+          "published_at": "2026-10-08T15:37:00+09:00"
+        }
+      ]
+    },
+    {
+      "code": "419050",
+      "name": "삼기에너지솔루션즈",
+      "date": "2026.10.08",
+      "previous_date": "2026-10-07",
+      "previous_close": 1774,
+      "close": 2305,
+      "before_pct": 29.93,
+      "after_pct": 29.93,
+      "before_text": "AI발 ESS 호황에 부품 매출 3배 증가 기대감에 상한가",
+      "after_text": "AI발 ESS 수요 확대와 상반기 FF-PCB 매출이 전년 연간의 3배를 넘긴 실적 부각에 상한가",
+      "close_sources": [
+        {
+          "url": "https://kr.investing.com/equities/samkee-ev-historical-data",
+          "retrieved_on": "2026-10-08",
+          "basis": "Dated Oct8 close/high2305; Oct7 close1774; header closed15:29:59"
+        },
+        {
+          "url": "https://stock.mk.co.kr/domestic/ranking/rise?status=rise&type=kosdaq",
+          "retrieved_on": "2026-10-08",
+          "basis": "10.08 15:33 close2305 change531 +29.93%"
+        }
+      ],
+      "article_sources": [
+        {
+          "url": "https://www.widedaily.com/news/articleView.html?idxno=301816",
+          "published_at": "2026-10-08T13:48:00+09:00"
+        },
+        {
+          "url": "https://www.mt.co.kr/index.php/stock/2026/10/08/2026100808442698787",
+          "published_at": "2026-10-08T08:53:00+09:00"
+        }
+      ]
+    }
+  ]
+}
