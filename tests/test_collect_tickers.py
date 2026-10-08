@@ -49,8 +49,13 @@ class CollectorTickerTests(unittest.TestCase):
                 with self.subTest(code=code):
                     result = json.loads(Path('data', f'{code}.json').read_text())
                     self.assertEqual(result['name'], name)
-                    self.assertEqual(result['issues'], [{'date': '2026.10.07',
-                        'text': '신규 공급계약 체결 소식에 상승', 'src': 'auto', 'pct': 5.0}])
+                    self.assertEqual(len(result['issues']), 1)
+                    issue = result['issues'][0]
+                    self.assertEqual(issue['date'], '2026.10.07')
+                    self.assertEqual(issue['text'], '신규 공급계약 체결 소식에 상승')
+                    self.assertEqual(issue['src'], 'auto')
+                    self.assertEqual(issue['close_status'], 'pending')
+                    self.assertNotIn('pct', issue)
             self.assertEqual(Path('changed_codes.txt').read_text().splitlines(), sorted(stocks.values()))
             self.assertIn(article['originallink'], json.loads(Path('seen.json').read_text()))
 

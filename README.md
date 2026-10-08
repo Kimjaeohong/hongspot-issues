@@ -36,3 +36,41 @@ code has actually been issued; listing membership comes from the upstream cache.
 Run all offline tests with `python -m unittest discover -v`. The refresh workflow
 runs these tests before fetching a live snapshot. No collector rerun or change
 to `seen.json` is needed for the tests.
+
+
+## Collector daily-return safety
+
+The collector extracts a reason only. It ignores every article/LLM percentage,
+including intraday, rounded, and cumulative numbers. The selected narrative
+retains a matching cumulative/intraday prefix; mixed narratives use `복합:`.
+Dates of earnings or contracts alone do not imply cumulative stock returns. Reasons are selected by the
+lowest `(KST publication timestamp, article URL, reason)` key, independently of
+price magnitude. Malformed publication dates are skipped; weekend articles are
+skipped; a holiday article is never silently moved to another trading day.
+
+**Automatic market-price completion is currently unavailable.** There is no
+accepted live price adapter. With the normal configuration, new issues contain
+`close_status: "pending"` and no `pct`. This is intentional, and reason collection
+still runs. `pending_closes.json` retries only explicitly queued rows created by
+this collector version, at most 100 code/date lookups per run. Failed attempts
+rotate behind deferred work in persisted queue order so later rows get a turn.
+Pending reasons distinguish unconfigured source, missing/invalid/conflicting
+evidence, source unavailability, and budget deferral. It does not scan
+or fill old blank percentages. Manual rows, pre-existing legacy auto rows, and
+already validated returns remain protected. Seen articles need no new LLM call
+for a pending close retry. The workflow tests before collecting and commits the
+pending queue with ordinary collector outputs.
+
+When independently reviewed regular-session evidence becomes available, set
+`KRX_TRUSTED_CLOSE_FILE` to a local JSON file described in
+[the trusted evidence contract](docs/regular-close-evidence.md). This is an
+opt-in operator-trusted intake, **not** a source-verification or scraping API.
+The producer must verify the original source and actual previous trading date.
+The validator cannot prove those external facts from a label or a hash alone.
+
+After validation, `pct` is calculated with Decimal and rounded to two decimal
+places (half up) from the current regular close and verified previous regular
+reference. The article URL/time/scope and source evidence are retained as
+additional fields; existing `date`, `text`, `src`, and numeric `pct` fields remain
+compatible with clients. A missing, wrong-date, wrong-symbol, unknown-session,
+nonfinite, or inconsistent value stays pending. No article fallback is used.
