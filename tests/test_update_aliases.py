@@ -1,7 +1,9 @@
 from datetime import date, timedelta
 import importlib.util
+import io
 from pathlib import Path
 import unittest
+from unittest.mock import patch
 
 SPEC = importlib.util.spec_from_file_location('update_aliases', Path(__file__).parents[1] / 'scripts/update_aliases.py')
 ua = importlib.util.module_from_spec(SPEC)
@@ -18,6 +20,37 @@ def snaps(*names_by_day, code='242040'):
             snap[code] = name
         out.append((start + timedelta(days=i), snap))
     return out
+
+
+class FetchSnapshotTests(unittest.TestCase):
+    def test_numeric_and_alphanumeric_codes_survive_snapshot_fetch(self):
+        raw = ('Code,Name,MarketId\n005930,삼성전자,STK\n'
+               '0015G0,그린광학,KSQ\n00680K,미래에셋증권2우B,STK\n').encode('utf-8-sig')
+        with patch('urllib.request.urlopen', return_value=io.BytesIO(raw)):
+            result = ua.fetch_snapshot(date(2026, 10, 7))
+        self.assertEqual(result, {'005930': '삼성전자', '0015G0': '그린광학',
+                                  '00680K': '미래에셋증권2우B'})
+
+    def test_malformed_codes_are_not_used_for_aliases(self):
+        invalid = ('12345', '1234567', '0015g0', '0015-G', '../abc',
+                   '００１５Ｇ０', '١٢٣٤٥٦')
+        raw = ('Code,Name,MarketId\n005930,삼성전자,STK\n' +
+               ''.join(f'{code},Invalid {i},STK\n' for i, code in enumerate(invalid)))
+        with patch('urllib.request.urlopen', return_value=io.BytesIO(raw.encode('utf-8-sig'))):
+            self.assertEqual(ua.fetch_snapshot(date(2026, 10, 7)), {'005930': '삼성전자'})
+
+    def test_alphanumeric_rename_survives_fetch_detect_merge_and_index_update(self):
+        snapshots = []
+        for day, name in ((6, '옛이름'), (7, '새이름')):
+            raw = f'Code,Name,MarketId\n0015G0,{name},KSQ\n'.encode('utf-8-sig')
+            with patch('urllib.request.urlopen', return_value=io.BytesIO(raw)):
+                snapshots.append((date(2026, 10, day), ua.fetch_snapshot(date(2026, 10, day))))
+        aliases = {}
+        ua.merge_aliases(aliases, ua.detect_renames(snapshots), snapshots[-1][1])
+        index = {'옛이름': '0015G0'}
+        self.assertEqual(ua.apply_to_index(index, aliases), ['0015G0'])
+        self.assertEqual(index, {'새이름': '0015G0'})
+        self.assertEqual(aliases, {'0015G0': {'name': '새이름', 'former': ['옛이름']}})
 
 
 class DetectRenamesTests(unittest.TestCase):

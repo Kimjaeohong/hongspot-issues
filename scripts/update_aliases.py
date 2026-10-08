@@ -17,6 +17,7 @@ import csv
 import io
 import json
 import os
+import re
 import sys
 import urllib.error
 import urllib.request
@@ -41,7 +42,8 @@ def fetch_snapshot(day):
         raise
     rows = csv.DictReader(io.StringIO(raw))
     return {row['Code'].strip(): row['Name'].strip() for row in rows
-            if (row.get('Code') or '').strip().isdigit() and (row.get('Name') or '').strip()}
+            if re.fullmatch(r'[0-9A-Z]{6}', (row.get('Code') or '').strip())
+            and (row.get('Name') or '').strip()}
 
 
 def detect_renames(snapshots):

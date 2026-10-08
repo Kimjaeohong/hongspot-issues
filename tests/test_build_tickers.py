@@ -136,10 +136,32 @@ class CacheBuildTests(unittest.TestCase):
             self.run_build({'2026-09-24.csv': fixture_csv()})
         self.assertEqual(self.output.read_bytes(), self.before)
 
-    def test_existing_numeric_only_contract_is_preserved(self):
-        result, _ = self.run_build({'2026-10-02.csv': fixture_csv() + b'00680K,Preferred share,STK\n'})
-        self.assertNotIn('Preferred share', result['map'])
-        self.assertEqual(result['count'], 2400)
+    def test_numeric_and_alphanumeric_codes_are_preserved_as_strings(self):
+        stocks = {'그린광학': '0015G0', '에스엔시스': '0008Z0',
+                  '에임드바이오': '0009K0', '삼성에피스홀딩스': '0126Z0',
+                  '미래에셋증권2우B': '00680K'}
+        extra = ''.join(f'{code},{name},STK\n' for name, code in stocks.items())
+        result, _ = self.run_build({'2026-10-02.csv': fixture_csv() + extra.encode('utf-8')})
+        self.assertEqual(result['map']['Stock 1'], '000001')
+        self.assertEqual({name: result['map'].get(name) for name in stocks}, stocks)
+        self.assertEqual(result['count'], 2405)
+
+    def test_malformed_codes_preserve_existing_snapshot(self):
+        for code in ('0015g0', '0015G', 'A0015G0', '0015-G', '001 G0',
+                     '../abc', '００１５Ｇ０', '١٢٣٤٥٦'):
+            with self.subTest(code=code):
+                payload = fixture_csv() + f'{code},Invalid stock,STK\n'.encode('utf-8')
+                with self.assertRaises(SystemExit):
+                    self.run_build({'2026-10-02.csv': payload})
+                self.assertEqual(self.output.read_bytes(), self.before)
+
+    def test_duplicate_alphanumeric_code_or_name_preserves_existing_snapshot(self):
+        for extra in ('0015G0,Another name,KSQ\n', '0008Z0,그린광학,KSQ\n'):
+            with self.subTest(extra=extra):
+                payload = fixture_csv() + ('0015G0,그린광학,KSQ\n' + extra).encode('utf-8')
+                with self.assertRaises(SystemExit):
+                    self.run_build({'2026-10-02.csv': payload})
+                self.assertEqual(self.output.read_bytes(), self.before)
 
 
 if __name__ == '__main__':

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the numeric stock-name/code map from FinanceDataReader's public cache.
+"""Build the stock-name/code map from FinanceDataReader's public KRX cache.
 
 Try UTC today, then up to seven previous calendar days. Cache publication can
 lag KRX's latest-date endpoint; do not require KRX credentials to bridge that
@@ -28,7 +28,7 @@ MAX_CACHE_BYTES = 5_000_000
 
 
 def parse_snapshot(payload, previous_count):
-    """Fail closed on malformed/partial data; keep the existing numeric contract."""
+    """Fail closed on malformed/partial data; preserve six-character KRX codes."""
     rows = csv.DictReader(io.StringIO(payload.decode('utf-8-sig')))
     if not {'Code', 'Name', 'MarketId'}.issubset(rows.fieldnames or []):
         raise ValueError('Cache is missing Code, Name, or MarketId columns')
@@ -41,10 +41,6 @@ def parse_snapshot(payload, previous_count):
                 or name.lower() == 'nan' or market not in MARKETS
                 or None in row or any(value is None for value in row.values())):
             raise ValueError('Malformed cache row')
-        # Existing consumers use the numeric-only map. Extending support to
-        # alphanumeric KRX codes is a separate change, not part of this repair.
-        if not code.isdigit():
-            continue
         if name in mapping or code in codes:
             raise ValueError('Duplicate stock name or code in cache')
         mapping[name] = code
