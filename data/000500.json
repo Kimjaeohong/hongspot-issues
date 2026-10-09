@@ -2,6 +2,20 @@
   "name": "가온전선",
   "issues": [
     {
+      "date": "2026.10.07",
+      "text": "장중: 전력 인프라 투자 기대감이 이어지며 강세",
+      "src": "auto",
+      "collector_version": "regular-close-v1",
+      "article": {
+        "url": "https://www.namdonews.com/news/articleView.html?idxno=925441",
+        "published_at": "2026-10-07T09:20:00+09:00",
+        "title": "[특징주]가온전선, 전력 인프라 기대감에 9.48% 상승…거래대금 89억 원",
+        "time_scope": "intraday"
+      },
+      "close_status": "pending",
+      "close_pending_reason": "no_configured_source"
+    },
+    {
       "date": "2026.09.18",
       "text": "아마존 대규모 전력장비 계약 소식에 급등",
       "src": "auto",

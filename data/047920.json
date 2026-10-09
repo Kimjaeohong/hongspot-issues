@@ -2,6 +2,20 @@
   "name": "HLB제약",
   "issues": [
     {
+      "date": "2026.10.07",
+      "text": "장중: 유상증자 신주 1076만주 상장에 따른 물량 부담으로 프리마켓 약세",
+      "src": "auto",
+      "collector_version": "regular-close-v1",
+      "article": {
+        "url": "https://www.newsway.co.kr/news/view?ud=2026100708271265047",
+        "published_at": "2026-10-07T08:32:00+09:00",
+        "title": "HLB제약, 유증 신주 1076만주 상장에 프리마켓 약세[특징주]",
+        "time_scope": "intraday"
+      },
+      "close_status": "pending",
+      "close_pending_reason": "no_configured_source"
+    },
+    {
       "date": "2026.10.06",
       "text": "리보세라닙 제조시설 FDA 실사 VAI 마무리 소식에 상한가",
       "src": "auto",

@@ -2,6 +2,20 @@
   "name": "콜마바이오텍",
   "issues": [
     {
+      "date": "2026.10.07",
+      "text": "장중: 러시아 페스트 연구소 병원체 유출 의심에 멸균·감염관리 사업 부각",
+      "src": "auto",
+      "collector_version": "regular-close-v1",
+      "article": {
+        "url": "https://www.etoday.co.kr/news/view/2633175",
+        "published_at": "2026-10-07T09:16:00+09:00",
+        "title": "[특징주] 콜마바이오텍, 러 흑사병 공포 확산…전염병 멸균사업 부각에...",
+        "time_scope": "intraday"
+      },
+      "close_status": "pending",
+      "close_pending_reason": "no_configured_source"
+    },
+    {
       "date": "2026.08.14",
       "text": "2026년 상반기 연결 영업이익4.1억원·순이익31.6억원, 파생상품 평가이익45.9억원 반영",
       "src": "manual",
