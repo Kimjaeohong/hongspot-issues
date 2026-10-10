@@ -1,0 +1,40 @@
+{
+  "name": "세코닉스",
+  "issues": [
+    {
+      "date": "2026.06.16",
+      "text": "임시주총에서 제갈창성 사내이사 선임과 친환경·에너지·소프트웨어 등 신규 사업목적 추가를 승인",
+      "src": "manual",
+      "pct": -2.27,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260616000358"
+    },
+    {
+      "date": "2026.03.31",
+      "text": "정기주총에서 신규 사업목적 추가와 전환사채 발행한도 증액 안건이 정족수 부족으로 미결",
+      "src": "manual",
+      "pct": -2.54,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260331000935"
+    },
+    {
+      "date": "2026.03.03",
+      "text": "2025년 연결 잠정 매출 434,831,435,449원, 영업이익 2,998,411,356원을 공시",
+      "src": "manual",
+      "pct": -5.63,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260227001404"
+    },
+    {
+      "date": "2025.12.29",
+      "text": "폴란드 계열사의 수출입은행 차입에 대한 560만유로 채무보증을 2026년 12월까지 연장 결정",
+      "src": "manual",
+      "pct": -1.84,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251229000273"
+    },
+    {
+      "date": "2025.02.28",
+      "text": "2024년 말 기준 보통주 1주당 50원, 총 731,414,850원의 결산 현금배당을 결정",
+      "src": "manual",
+      "pct": -2.53,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250228000725"
+    }
+  ]
+}

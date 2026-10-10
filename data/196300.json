@@ -1,0 +1,40 @@
+{
+  "name": "HLB펩",
+  "issues": [
+    {
+      "date": "2026.03.11",
+      "text": "2025년 개별 잠정 매출 4,961,730,622원, 영업손실 7,320,194,555원을 공시",
+      "src": "manual",
+      "pct": 1.31,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260310001672"
+    },
+    {
+      "date": "2026.02.13",
+      "text": "본사 이전과 생산시설 확장을 위해 35억원 규모의 건축·부대공사 투자를 결정",
+      "src": "manual",
+      "pct": 3.49,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260213000680"
+    },
+    {
+      "date": "2026.01.05",
+      "text": "김재일 대표이사의 사임으로 심경재 단독대표 체제로 변경",
+      "src": "manual",
+      "pct": 13.86,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260102000710"
+    },
+    {
+      "date": "2026.01.02",
+      "text": "진큐어와 7억6500만원 규모의 임상용 원료의약품 위탁개발생산 계약을 체결",
+      "src": "manual",
+      "pct": 8.8,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260102000303"
+    },
+    {
+      "date": "2025.11.10",
+      "text": "생산 역량 확보를 위해 와이엠씨코리아에서 연속정제 액체크로마토그래피 등 기계장치를 41억5000만원에 취득 결정",
+      "src": "manual",
+      "pct": 3.52,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251107000688"
+    }
+  ]
+}

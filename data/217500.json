@@ -1,0 +1,40 @@
+{
+  "name": "러셀",
+  "issues": [
+    {
+      "date": "2026.04.01",
+      "text": "정기주총에서 주당 30원 현금배당과 서순교 사내이사 신규 선임을 승인",
+      "src": "manual",
+      "pct": 7.54,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260331003445"
+    },
+    {
+      "date": "2026.03.06",
+      "text": "자기주식 1,400,000주를 예정금액 3,885,000,000원에 처분하기로 결정",
+      "src": "manual",
+      "pct": -2.05,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260305001433"
+    },
+    {
+      "date": "2026.02.25",
+      "text": "2025년 연결 잠정 매출 27,069,629,521원, 영업손실 5,172,521,330원을 공시",
+      "src": "manual",
+      "pct": -5.51,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260224000843"
+    },
+    {
+      "date": "2025.04.14",
+      "text": "조기상환청구에 따라 제2회 전환사채 잔액 15억원 전액을 만기 전에 취득",
+      "src": "manual",
+      "pct": 3.07,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250414000270"
+    },
+    {
+      "date": "2025.02.25",
+      "text": "연간 연결 잠정 매출 37,480,561,135원, 영업이익 2,044,102,591원을 공시",
+      "src": "manual",
+      "pct": -0.17,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250224000593"
+    }
+  ]
+}

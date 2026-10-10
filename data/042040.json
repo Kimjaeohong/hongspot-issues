@@ -1,0 +1,40 @@
+{
+  "name": "케이피엠테크",
+  "issues": [
+    {
+      "date": "2026.07.20",
+      "text": "제13회 전환사채 전환가액을 22,500원에서 15,750원으로 내려 전환가능 주식수를 761,904주로 조정",
+      "src": "manual",
+      "pct": -6.46,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260716000830"
+    },
+    {
+      "date": "2026.07.07",
+      "text": "뉴온 유상증자에 참여해 9,187,620주를 18,999,998,160원에 취득하고 지분율을 85.26%로 높이기로 결정",
+      "src": "manual",
+      "pct": 29.87,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260706000791"
+    },
+    {
+      "date": "2026.04.08",
+      "text": "결손금 보전을 위해 보통주 10주를 1주로 합치는 90% 무상감자를 결정",
+      "src": "manual",
+      "pct": -11.84,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260407001124"
+    },
+    {
+      "date": "2026.03.10",
+      "text": "적정 유통주식수 유지를 위해 액면가 100원 주식 10주를 1,000원 주식 1주로 병합하기로 결정",
+      "src": "manual",
+      "pct": 3.75,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260309001427"
+    },
+    {
+      "date": "2025.12.23",
+      "text": "뉴온 유상증자에 120억원을 출자해 1,200만주를 취득하고 지분율을 64%로 높이기로 결정",
+      "src": "manual",
+      "pct": 0.0,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251222000473"
+    }
+  ]
+}

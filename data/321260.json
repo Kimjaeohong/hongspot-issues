@@ -1,0 +1,40 @@
+{
+  "name": "프로이천",
+  "issues": [
+    {
+      "date": "2026.07.15",
+      "text": "자기주식 29,473주를 예정금액 96,533,333원에 처분하기로 결정",
+      "src": "manual",
+      "pct": 6.71,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260714000499"
+    },
+    {
+      "date": "2026.07.14",
+      "text": "김영선 단독대표에서 김영선·임이빈 각자대표 체제로 변경",
+      "src": "manual",
+      "pct": -0.6,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260714000363"
+    },
+    {
+      "date": "2026.03.31",
+      "text": "매출 20% 증대 목표와 애플 직접 협력 제품개발, 공급망 현지화 계획을 제시",
+      "src": "manual",
+      "pct": 29.73,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260330001111"
+    },
+    {
+      "date": "2026.03.10",
+      "text": "임이빈 대표의 사임에 따라 김영선을 대표이사로 선임",
+      "src": "manual",
+      "pct": 3.6,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260310000886"
+    },
+    {
+      "date": "2026.02.25",
+      "text": "2025년 말 기준 보통주 1주당 60원, 총 1,635,364,860원의 결산 현금배당을 결정",
+      "src": "manual",
+      "pct": 2.24,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260225000549"
+    }
+  ]
+}

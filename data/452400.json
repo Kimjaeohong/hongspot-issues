@@ -1,0 +1,40 @@
+{
+  "name": "이닉스",
+  "issues": [
+    {
+      "date": "2026.03.27",
+      "text": "정기주총에서 강동호 사내이사 재선임은 승인됐지만 해당 이사 보수한도 안건은 정족수 부족으로 미결",
+      "src": "manual",
+      "pct": -0.46,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260326002070"
+    },
+    {
+      "date": "2026.03.18",
+      "text": "연간 연결 감사의견 적정과 감사 후 순이익 232,103,908원을 공시",
+      "src": "manual",
+      "pct": 0.99,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260317000753"
+    },
+    {
+      "date": "2026.02.10",
+      "text": "2025년 연결 잠정 매출 122,587,961,259원, 영업손실 882,731,222원을 공시",
+      "src": "manual",
+      "pct": -0.18,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260209001671"
+    },
+    {
+      "date": "2025.03.28",
+      "text": "정기주총에서 신상철 상근감사 신규 선임과 김동윤 사외이사 재선임을 승인",
+      "src": "manual",
+      "pct": -2.82,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250328001802"
+    },
+    {
+      "date": "2025.02.13",
+      "text": "2024년 말 기준 보통주 1주당 200원, 총 1,779,418,000원의 결산 현금배당을 결정",
+      "src": "manual",
+      "pct": -1.37,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250213000646"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "파수AI",
+  "issues": [
+    {
+      "date": "2026.07.31",
+      "text": "2026년 2분기 연결 잠정 매출 131억2800만원, 영업이익 10억600만원을 발표",
+      "src": "manual",
+      "pct": 7.05,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260731000212"
+    },
+    {
+      "date": "2026.06.29",
+      "text": "주주가치 제고와 종업원 복리 증진을 위해 대신증권과 10억원 자기주식 취득 신탁계약 체결을 결정",
+      "src": "manual",
+      "pct": 12.59,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260626000623"
+    },
+    {
+      "date": "2026.02.13",
+      "text": "2025년 연결 잠정 매출 46,730,052,578원, 영업이익 2,589,768,015원을 공시",
+      "src": "manual",
+      "pct": 1.16,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260212000960"
+    },
+    {
+      "date": "2026.02.12",
+      "text": "2025년 말 기준 보통주 1주당 100원, 총 1,132,266,100원의 결산 현금배당을 결정",
+      "src": "manual",
+      "pct": 0.78,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260212000636"
+    },
+    {
+      "date": "2025.08.01",
+      "text": "2025년 2분기 연결 잠정 매출 106억9900만원, 영업손실 9억3900만원을 발표",
+      "src": "manual",
+      "pct": -6.15,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250731000712"
+    }
+  ]
+}

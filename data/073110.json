@@ -1,0 +1,40 @@
+{
+  "name": "엘엠에스",
+  "issues": [
+    {
+      "date": "2026.03.27",
+      "text": "제품 포트폴리오 최적화와 양산 투자, 주주친화 배당정책을 담은 기업가치 제고계획을 발표",
+      "src": "manual",
+      "pct": -0.76,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260327001230"
+    },
+    {
+      "date": "2026.02.09",
+      "text": "2025년 말 기준 보통주 1주당 220원, 총 1,600,418,160원의 결산 현금배당을 결정",
+      "src": "manual",
+      "pct": 1.19,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260206001987"
+    },
+    {
+      "date": "2025.11.18",
+      "text": "물품대금 소송에서 항소와 추가 반소가 기각돼 지연손해금 포함 9,667,497,713원의 판결금액을 공시",
+      "src": "manual",
+      "pct": -1.6,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251117000367"
+    },
+    {
+      "date": "2025.10.16",
+      "text": "자기주식 1,490,000주를 예정금액 8,925,100,000원에 처분하기로 결정",
+      "src": "manual",
+      "pct": -1.63,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251015000338"
+    },
+    {
+      "date": "2025.02.10",
+      "text": "2024년 말 기준 보통주 1주당 200원, 총 1,156,925,600원의 결산 현금배당을 결정",
+      "src": "manual",
+      "pct": -1.03,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250207001105"
+    }
+  ]
+}

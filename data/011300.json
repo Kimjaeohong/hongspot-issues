@@ -1,0 +1,40 @@
+{
+  "name": "우성머티리얼스",
+  "issues": [
+    {
+      "date": "2026.09.11",
+      "text": "운영자금 1,999,997,860원 조달을 위해 보통주 921,658주의 제3자배정 유상증자를 결정",
+      "src": "manual",
+      "pct": -0.4,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260910000711"
+    },
+    {
+      "date": "2026.08.05",
+      "text": "유상증자를 반영해 제8회 전환사채 전환가액을 2,856원에서 2,850원으로 조정",
+      "src": "manual",
+      "pct": -1.84,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260805000414"
+    },
+    {
+      "date": "2026.07.20",
+      "text": "운영자금 999,997,680원 조달을 위해 보통주 422,832주의 제3자배정 유상증자를 결정",
+      "src": "manual",
+      "pct": -0.36,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260716000950"
+    },
+    {
+      "date": "2026.06.02",
+      "text": "제8회 전환사채 전환가액을 4,080원에서 2,856원으로 내려 전환가능 주식수를 875,350주로 조정",
+      "src": "manual",
+      "pct": -2.38,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260601001795"
+    },
+    {
+      "date": "2026.04.01",
+      "text": "자회사 성안당진머티리얼스가 유동성 확보와 대여금 상환을 위해 당진 토지·건물을 95억4700만원에 처분",
+      "src": "manual",
+      "pct": -0.94,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260331003385"
+    }
+  ]
+}

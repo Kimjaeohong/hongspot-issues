@@ -1,0 +1,40 @@
+{
+  "name": "이브이첨단소재",
+  "issues": [
+    {
+      "date": "2026.08.19",
+      "text": "조기상환청구에 따라 제8회 전환사채 원금 20억원을 이자 포함 2,076,594,000원에 취득",
+      "src": "manual",
+      "pct": -8.7,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260818000443"
+    },
+    {
+      "date": "2026.07.13",
+      "text": "결손금 보전을 위해 보통주 10주를 1주로 합치는 90% 무상감자를 결정",
+      "src": "manual",
+      "pct": -29.95,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260713000230"
+    },
+    {
+      "date": "2026.03.24",
+      "text": "연간 연결 감사의견 적정과 감사 후 순손실 21,574,684,330원을 공시",
+      "src": "manual",
+      "pct": 1.47,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260323002563"
+    },
+    {
+      "date": "2026.02.27",
+      "text": "2025년 연결 잠정 매출 58,957,039,857원, 영업손실 3,087,402,151원을 공시",
+      "src": "manual",
+      "pct": -1.7,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260226001210"
+    },
+    {
+      "date": "2026.01.19",
+      "text": "재무구조 개선을 위해 에쓰씨엔지니어링 보유주식 4,140,224주 전량을 반도홀딩스에 240억원에 양도 결정",
+      "src": "manual",
+      "pct": 9.01,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260119000550"
+    }
+  ]
+}

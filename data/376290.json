@@ -1,0 +1,40 @@
+{
+  "name": "씨유테크",
+  "issues": [
+    {
+      "date": "2026.09.07",
+      "text": "자기주식 352,400주 취득 완료에 따라 10억원 신탁계약의 중도해지를 결정하고 취득주식의 향후 전량 소각 계획을 공시",
+      "src": "manual",
+      "pct": -3.6,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260907000166"
+    },
+    {
+      "date": "2026.06.30",
+      "text": "주가안정과 주주가치 제고를 위해 대신증권과 10억원 자기주식 취득 신탁계약 체결을 결정",
+      "src": "manual",
+      "pct": 8.63,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260630000276"
+    },
+    {
+      "date": "2026.03.31",
+      "text": "정기주총에서 주당 24원 결산배당과 부동산 임대업 사업목적 추가를 승인",
+      "src": "manual",
+      "pct": -0.18,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260331001665"
+    },
+    {
+      "date": "2026.02.06",
+      "text": "2025년 연결 잠정 매출 216,513,076,154원, 영업이익 5,419,934,689원을 공시",
+      "src": "manual",
+      "pct": -0.52,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260206001238"
+    },
+    {
+      "date": "2025.02.10",
+      "text": "2024년 말 기준 보통주 1주당 234원, 총 4,131,855,000원의 결산 현금배당을 결정",
+      "src": "manual",
+      "pct": 3.33,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250207001234"
+    }
+  ]
+}

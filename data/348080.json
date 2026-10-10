@@ -1,0 +1,40 @@
+{
+  "name": "큐라티스",
+  "issues": [
+    {
+      "date": "2026.04.24",
+      "text": "인벤티지랩과 2027년 4월까지의 조건부 임상 의약품 제조 위수탁 계약을 체결하고 계약금액은 비공개 처리",
+      "src": "manual",
+      "pct": -3.1,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260423000634"
+    },
+    {
+      "date": "2026.04.09",
+      "text": "인벤티지랩과 2029년 4월까지의 조건부 의약품 위탁개발·생산계약을 체결하고 계약금액은 비공개 처리",
+      "src": "manual",
+      "pct": 0.87,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260408001360"
+    },
+    {
+      "date": "2026.03.09",
+      "text": "시설·운영자금 조달을 위해 인벤티지랩에 보통주 9,891,197주를 주당 1,011원에 배정하는 유상증자를 결정",
+      "src": "manual",
+      "pct": -4.74,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260306001493"
+    },
+    {
+      "date": "2026.02.13",
+      "text": "2025년 개별 잠정 매출 2,456,943,982원, 영업손실 10,334,975,249원을 공시",
+      "src": "manual",
+      "pct": -6.08,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260212001034"
+    },
+    {
+      "date": "2025.12.24",
+      "text": "미국 AAHI와 70만달러 규모의 의약품 위탁개발·생산계약을 체결",
+      "src": "manual",
+      "pct": 0.0,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251224000220"
+    }
+  ]
+}

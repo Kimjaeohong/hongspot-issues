@@ -1,0 +1,40 @@
+{
+  "name": "제노레이",
+  "issues": [
+    {
+      "date": "2026.07.01",
+      "text": "2026년 6월 30일 기준 보통주 1주당 50원, 총 636,588,900원의 분기 현금배당을 결정",
+      "src": "manual",
+      "pct": 1.03,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260701000246"
+    },
+    {
+      "date": "2026.04.22",
+      "text": "해외 거래선 다변화와 신규시장 진출, 원가구조 개선을 추진하는 기업가치 제고계획을 발표",
+      "src": "manual",
+      "pct": -0.32,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260421000439"
+    },
+    {
+      "date": "2026.04.01",
+      "text": "2026년 3월 31일 기준 보통주 1주당 50원, 총 636,588,900원의 분기 현금배당을 결정",
+      "src": "manual",
+      "pct": 2.67,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260401000403"
+    },
+    {
+      "date": "2026.02.12",
+      "text": "2025년 4분기 연결 잠정 매출 340억4800만원, 영업이익 15억1600만원을 발표",
+      "src": "manual",
+      "pct": 6.46,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260212000259"
+    },
+    {
+      "date": "2026.01.23",
+      "text": "교환사채 발행을 위해 자기주식 1,000,000주를 교환대상으로 정하고 처분예정금액 4,941,000,000원을 공시",
+      "src": "manual",
+      "pct": 3.06,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260122000383"
+    }
+  ]
+}

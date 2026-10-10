@@ -1,0 +1,40 @@
+{
+  "name": "오리엔트바이오",
+  "issues": [
+    {
+      "date": "2026.06.29",
+      "text": "정기주총에서 권명상 사외이사를 신규 선임하고 제69기 재무제표를 승인",
+      "src": "manual",
+      "pct": 4.2,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260629000501"
+    },
+    {
+      "date": "2026.06.22",
+      "text": "연간 개별 감사의견 적정과 감사 후 순손실 4,566,923,030원을 공시",
+      "src": "manual",
+      "pct": 1.97,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260619000686"
+    },
+    {
+      "date": "2026.05.15",
+      "text": "2026년 3월 결산 개별 잠정 매출 29,754,399,000원, 영업손실 4,131,994,000원을 공시",
+      "src": "manual",
+      "pct": -3.04,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260515001062"
+    },
+    {
+      "date": "2025.12.03",
+      "text": "자기주식 14,879주를 예정금액 9,373,770원에 처분하기로 결정",
+      "src": "manual",
+      "pct": -0.79,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251202000390"
+    },
+    {
+      "date": "2025.05.13",
+      "text": "2025년 3월 결산 개별 잠정 매출 29,397,883,000원, 영업손실 3,063,233,000원을 공시",
+      "src": "manual",
+      "pct": -6.18,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250513000412"
+    }
+  ]
+}

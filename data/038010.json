@@ -1,0 +1,40 @@
+{
+  "name": "제일테크노스",
+  "issues": [
+    {
+      "date": "2026.04.02",
+      "text": "나주영의 보통주 185만주 증여로 최대주주가 나채민으로 변경되고 특수관계인 포함 지분율 44.92%를 공시",
+      "src": "manual",
+      "pct": -0.81,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260401001251"
+    },
+    {
+      "date": "2026.02.24",
+      "text": "2025년 말 기준 보통주 1주당 120원, 총 997,920,000원의 결산 현금배당을 결정",
+      "src": "manual",
+      "pct": -0.47,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260224000509"
+    },
+    {
+      "date": "2026.02.23",
+      "text": "2025년 연결 잠정 매출 133,579,370,211원, 영업이익 7,220,421,457원을 공시",
+      "src": "manual",
+      "pct": 0.79,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260223000393"
+    },
+    {
+      "date": "2025.09.12",
+      "text": "사모 교환사채 발행을 위해 자기주식 352,567주를 교환대상으로 정하고 처분예정금액 3,000,000,000원을 공시",
+      "src": "manual",
+      "pct": -6.28,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250911000344"
+    },
+    {
+      "date": "2025.02.18",
+      "text": "2024년 말 기준 보통주 1주당 120원, 총 997,920,000원의 결산 현금배당을 결정",
+      "src": "manual",
+      "pct": 1.36,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250218000188"
+    }
+  ]
+}
