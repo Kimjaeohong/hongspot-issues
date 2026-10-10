@@ -1,0 +1,40 @@
+{
+  "name": "쏘닉스",
+  "issues": [
+    {
+      "date": "2026.04.14",
+      "text": "거래소가 4월 14일 투자주의 지정과 투자경고종목 지정 가능성을 예고",
+      "src": "manual",
+      "pct": 3.17,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260413000859"
+    },
+    {
+      "date": "2026.03.31",
+      "text": "제26기 정기주총 결과 개별 매출 182억600만원과 영업손실 66억6100만원 등을 보고",
+      "src": "manual",
+      "pct": -12.95,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260330001104"
+    },
+    {
+      "date": "2026.03.26",
+      "text": "거래소가 3월 26일 투자주의 지정과 투자경고종목 지정 가능성을 예고",
+      "src": "manual",
+      "pct": -9.37,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260325001266"
+    },
+    {
+      "date": "2026.02.13",
+      "text": "2025년 개별 매출 182억598만원, 영업손실 66억6937만원의 감사 전 실적 공시",
+      "src": "manual",
+      "pct": -7.55,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260212001333"
+    },
+    {
+      "date": "2025.02.13",
+      "text": "개별 매출 169억7834만원, 영업손실 45억3945만원의 감사 전 연간 실적 공시",
+      "src": "manual",
+      "pct": -4.13,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250213000521"
+    }
+  ]
+}

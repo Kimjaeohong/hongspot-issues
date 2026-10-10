@@ -1,0 +1,40 @@
+{
+  "name": "태경케미컬",
+  "issues": [
+    {
+      "date": "2026.03.26",
+      "text": "정기주총 결과 주당 180원 배당 보고와 상근이사·사외이사·상근감사 각 1명 선임을 공시",
+      "src": "manual",
+      "pct": 3.83,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260325000913"
+    },
+    {
+      "date": "2026.01.28",
+      "text": "보통주 1주당 180원의 결산 현금배당 결정",
+      "src": "manual",
+      "pct": -1.83,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260127000668"
+    },
+    {
+      "date": "2025.12.02",
+      "text": "운영자금 조달과 재무건전성 제고를 위해 자기주식 26만6101주 처분 결정",
+      "src": "manual",
+      "pct": -0.98,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251201000617"
+    },
+    {
+      "date": "2025.10.20",
+      "text": "계열사 태경에스비씨의 차입금에 대한 108억원 규모 채무보증 연장 결정",
+      "src": "manual",
+      "pct": -0.11,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251017000437"
+    },
+    {
+      "date": "2025.01.21",
+      "text": "보통주 1주당 180원의 결산 현금배당 결정",
+      "src": "manual",
+      "pct": 1.46,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250120000777"
+    }
+  ]
+}

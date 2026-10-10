@@ -1,0 +1,40 @@
+{
+  "name": "진양제약",
+  "issues": [
+    {
+      "date": "2026.02.23",
+      "text": "주당 150원 배당의 지급 예정일을 2026년 4월 17일로 확정해 정정공시",
+      "src": "manual",
+      "pct": 0.0,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260223000281"
+    },
+    {
+      "date": "2026.02.05",
+      "text": "2025년 개별 영업이익 25억9864만원으로 전년 대비 77.81% 감소한 감사 전 실적 공시",
+      "src": "manual",
+      "pct": -0.59,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260204001101"
+    },
+    {
+      "date": "2025.12.26",
+      "text": "보통주 1주당 150원의 결산 현금배당 결정",
+      "src": "manual",
+      "pct": 0.78,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251224000607"
+    },
+    {
+      "date": "2025.12.12",
+      "text": "연구개발 협업 등 전략적 제휴와 자산관리 개발을 위해 자기주식 90만4391주 처분 결정",
+      "src": "manual",
+      "pct": -0.19,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251211000706"
+    },
+    {
+      "date": "2025.07.08",
+      "text": "자기주식 취득 완료에 따라 약 9억5772만원 규모 신탁계약 중도 해지 결정",
+      "src": "manual",
+      "pct": -0.61,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250708000135"
+    }
+  ]
+}

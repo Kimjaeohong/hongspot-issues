@@ -1,0 +1,40 @@
+{
+  "name": "팬스타엔터프라이즈",
+  "issues": [
+    {
+      "date": "2026.03.12",
+      "text": "감사과정 변동을 반영해 2025년 개별 영업손실을 27억9235만원으로 정정",
+      "src": "manual",
+      "pct": -4.2,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260311001639"
+    },
+    {
+      "date": "2026.02.05",
+      "text": "2025년 개별 영업손실 15억3600만원으로 적자 전환한 감사 전 실적 공시",
+      "src": "manual",
+      "pct": -2.37,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260204001163"
+    },
+    {
+      "date": "2025.12.29",
+      "text": "용선 계약을 2026년 12월 말까지 연장하고 계약금액을 약 94억6897만원으로 정정",
+      "src": "manual",
+      "pct": 1.87,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251226000891"
+    },
+    {
+      "date": "2025.10.29",
+      "text": "계열사 팬스타라인닷컴의 운영자금 차입에 대해 96억원 채무보증 결정",
+      "src": "manual",
+      "pct": -16.09,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251028000599"
+    },
+    {
+      "date": "2025.05.26",
+      "text": "운영자금 조달을 위한 80억원 규모 제24회 사모 전환사채 발행 결정",
+      "src": "manual",
+      "pct": -4.18,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250523000473"
+    }
+  ]
+}

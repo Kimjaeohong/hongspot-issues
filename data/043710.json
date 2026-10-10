@@ -1,0 +1,40 @@
+{
+  "name": "코스리거글로벌",
+  "issues": [
+    {
+      "date": "2026.08.03",
+      "text": "액면병합을 반영해 제4회 전환사채 전환가액을 913원에서 4565원으로 조정하는 정정공시 제출",
+      "src": "manual",
+      "pct": 2.12,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260731000914"
+    },
+    {
+      "date": "2026.03.10",
+      "text": "2025년 연결 매출 356억6811만원, 영업손실 83억3164만원의 감사 전 실적 공시",
+      "src": "manual",
+      "pct": -5.99,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260310000836"
+    },
+    {
+      "date": "2025.12.19",
+      "text": "종속회사 모먼츠지주가 모먼츠컴퍼니 지분 85.94%를 약 812억4372만원에 취득 결정",
+      "src": "manual",
+      "pct": -1.8,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251218000467"
+    },
+    {
+      "date": "2025.12.09",
+      "text": "모먼츠컴퍼니 인수의 양수인을 서울리거 또는 그 100% 자회사로 변경하는 MOU 정정공시 제출",
+      "src": "manual",
+      "pct": -1.17,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251208000625"
+    },
+    {
+      "date": "2025.11.20",
+      "text": "타법인 증권 취득자금 조달을 위한 500억원 규모 제4회 사모 전환사채 발행 결정",
+      "src": "manual",
+      "pct": 5.8,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251119000290"
+    }
+  ]
+}

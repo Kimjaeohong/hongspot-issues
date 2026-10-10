@@ -1,0 +1,40 @@
+{
+  "name": "엠투엔",
+  "issues": [
+    {
+      "date": "2026.04.17",
+      "text": "상환청구에 따라 잔여 상환전환우선주 185만1891주를 취득해 소각하기로 결정",
+      "src": "manual",
+      "pct": 5.17,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260417000398"
+    },
+    {
+      "date": "2026.03.27",
+      "text": "정기주총 결과 사내이사 2명과 사외이사 1명 선임 및 재무제표 내역을 공시",
+      "src": "manual",
+      "pct": -0.21,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260327001078"
+    },
+    {
+      "date": "2026.03.20",
+      "text": "2025년 적정 감사의견과 연결 영업이익 27억6834만원을 담은 감사보고서 제출",
+      "src": "manual",
+      "pct": 0.27,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260319001287"
+    },
+    {
+      "date": "2026.03.13",
+      "text": "2025년 연결 영업이익 27억6834만원, 순손실 5억9649만원의 감사 전 실적 공시",
+      "src": "manual",
+      "pct": 1.01,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260312002234"
+    },
+    {
+      "date": "2026.02.13",
+      "text": "주주가치 제고를 위해 보유 보통주 자기주식 36만9775주 소각 결정",
+      "src": "manual",
+      "pct": -1.69,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260212001577"
+    }
+  ]
+}

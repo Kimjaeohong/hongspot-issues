@@ -1,0 +1,40 @@
+{
+  "name": "참좋은여행",
+  "issues": [
+    {
+      "date": "2026.03.23",
+      "text": "정기주총 결과 주당 150원 배당과 사내·사외이사 및 감사 각 1명 선임 내역을 공시",
+      "src": "manual",
+      "pct": -5.52,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260320002063"
+    },
+    {
+      "date": "2026.03.13",
+      "text": "2025년 개별재무제표 적정 감사의견과 영업이익 97억8234만원을 공시",
+      "src": "manual",
+      "pct": -0.95,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260312001028"
+    },
+    {
+      "date": "2026.02.09",
+      "text": "보통주 1주당 150원의 결산 현금배당 결정",
+      "src": "manual",
+      "pct": -0.82,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260206001468"
+    },
+    {
+      "date": "2025.03.24",
+      "text": "조현문의 대표이사 임기 만료에 따라 이종혁 단독대표 체제로 변경",
+      "src": "manual",
+      "pct": 1.59,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250321001454"
+    },
+    {
+      "date": "2025.02.07",
+      "text": "개별 영업이익 21억4205만원으로 비교 재무제표 대비 66.6% 감소한 감사 전 연간 실적 공시",
+      "src": "manual",
+      "pct": -2.21,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250206000958"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "엔시스",
+  "issues": [
+    {
+      "date": "2026.08.25",
+      "text": "인도향 이차전지 화성공정 설비 계약 종료일을 고객사 일정 변경으로 2027년 2월 28일까지 연장",
+      "src": "manual",
+      "pct": 1.7,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260824000605"
+    },
+    {
+      "date": "2026.07.01",
+      "text": "계약상대방 기업회생에 따른 계약 종료로 화성공정 설비 계약금액을 약 23억9846만원으로 정정",
+      "src": "manual",
+      "pct": 7.54,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260630001052"
+    },
+    {
+      "date": "2026.06.30",
+      "text": "계약상대방 기업회생으로 45억2000만원 규모 이차전지 화성공정 설비 계약 해지 공시",
+      "src": "manual",
+      "pct": -0.2,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260630000660"
+    },
+    {
+      "date": "2026.04.27",
+      "text": "아바코와의 검사기 계약 설명에서 북미 ESS용 표기를 삭제하는 정정공시 제출",
+      "src": "manual",
+      "pct": 10.04,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260427000551"
+    },
+    {
+      "date": "2026.04.24",
+      "text": "아바코와 48억7000만원 규모 이차전지 비전 검사기 장비 공급계약 체결",
+      "src": "manual",
+      "pct": 2.62,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260424000149"
+    }
+  ]
+}

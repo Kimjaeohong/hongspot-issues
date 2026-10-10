@@ -1,0 +1,40 @@
+{
+  "name": "토탈소프트",
+  "issues": [
+    {
+      "date": "2026.08.10",
+      "text": "주가 안정과 주주가치 제고를 위해 대신증권과 20억원 자사주 취득 신탁계약 체결 결정",
+      "src": "manual",
+      "pct": 4.25,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260807000744"
+    },
+    {
+      "date": "2026.08.04",
+      "text": "자기주식 29만3200주 취득 완료에 따라 20억원 규모 신탁계약 해지 결정",
+      "src": "manual",
+      "pct": 0.62,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260803000908"
+    },
+    {
+      "date": "2026.04.15",
+      "text": "아부다비항만 터미널 운영시스템 계약금액을 50억8275만원으로 늘리고 계약기간을 정정",
+      "src": "manual",
+      "pct": 4.32,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260414000643"
+    },
+    {
+      "date": "2026.03.13",
+      "text": "스페인 터미널 운영시스템 공급계약 종료일을 2027년 2월 20일로 정정",
+      "src": "manual",
+      "pct": -0.29,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260312002155"
+    },
+    {
+      "date": "2026.03.06",
+      "text": "보통주 1주당 100원의 결산 현금배당 결정",
+      "src": "manual",
+      "pct": 0.0,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260305001458"
+    }
+  ]
+}

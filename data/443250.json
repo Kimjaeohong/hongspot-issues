@@ -1,0 +1,40 @@
+{
+  "name": "레뷰코퍼레이션",
+  "issues": [
+    {
+      "date": "2026.07.03",
+      "text": "보통주 1주당 261원의 중간 현금배당 결정",
+      "src": "manual",
+      "pct": 4.1,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260702000608"
+    },
+    {
+      "date": "2026.06.05",
+      "text": "주주환원 정책의 일환으로 보유 보통주 자기주식 32만7943주 소각 결정",
+      "src": "manual",
+      "pct": 1.16,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260605000464"
+    },
+    {
+      "date": "2026.04.29",
+      "text": "송인상 대표이사 사임에 따라 김주오를 신임 대표이사로 선임",
+      "src": "manual",
+      "pct": -7.38,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260428000686"
+    },
+    {
+      "date": "2025.12.26",
+      "text": "최대주주 지분 매각 관련 MOU의 주식양수도 대금을 약 980억898만원으로 확정해 정정공시",
+      "src": "manual",
+      "pct": -4.49,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251224000921"
+    },
+    {
+      "date": "2025.12.01",
+      "text": "주가 안정과 주주가치 제고를 위해 키움증권과 30억원 자사주 취득 신탁계약 체결 결정",
+      "src": "manual",
+      "pct": 1.37,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251128000928"
+    }
+  ]
+}

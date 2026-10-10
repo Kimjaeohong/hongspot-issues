@@ -1,0 +1,40 @@
+{
+  "name": "인디에프",
+  "issues": [
+    {
+      "date": "2026.09.09",
+      "text": "거래소가 9월 9일 투자경고 해제와 당일 투자주의 지정, 재지정 가능성을 안내",
+      "src": "manual",
+      "pct": -3.02,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260908000443"
+    },
+    {
+      "date": "2026.08.24",
+      "text": "거래소가 주가 급등을 사유로 2026년 8월 24일부터 투자경고종목 지정 공고",
+      "src": "manual",
+      "pct": 2.14,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260821000639"
+    },
+    {
+      "date": "2026.07.24",
+      "text": "2026년 2분기 연결 잠정 영업이익 22억8300만원으로 전년 동기 대비 26.90% 증가 발표",
+      "src": "manual",
+      "pct": 1.11,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260724000161"
+    },
+    {
+      "date": "2026.02.09",
+      "text": "2025년 연결 영업이익 11억9146만원으로 흑자 전환한 감사 전 실적 공시",
+      "src": "manual",
+      "pct": -1.56,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260206002398"
+    },
+    {
+      "date": "2025.02.10",
+      "text": "2024년 연결 영업손실 8억2718만원으로 전년보다 손실이 줄어든 감사 전 실적 공시",
+      "src": "manual",
+      "pct": -0.99,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250207001018"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "지에스이",
+  "issues": [
+    {
+      "date": "2026.08.18",
+      "text": "보통주 1주당 20원의 분기 현금배당 결정",
+      "src": "manual",
+      "pct": 1.19,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260814002375"
+    },
+    {
+      "date": "2026.03.30",
+      "text": "정기주총 결과 주당 기말배당 20원과 분기배당 포함 연간 총 40원의 배당 내역 공시",
+      "src": "manual",
+      "pct": 0.72,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260330000853"
+    },
+    {
+      "date": "2026.02.13",
+      "text": "2025년 개별 영업이익 73억4340만원으로 전년 대비 49.6% 증가한 감사 전 실적 공시",
+      "src": "manual",
+      "pct": -1.48,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260212000782"
+    },
+    {
+      "date": "2025.08.18",
+      "text": "보통주 1주당 20원의 분기 현금배당 결정",
+      "src": "manual",
+      "pct": -0.72,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250814001762"
+    },
+    {
+      "date": "2025.02.17",
+      "text": "개별 영업이익 49억776만원, 순이익 35억6321만원의 감사 전 연간 실적 공시",
+      "src": "manual",
+      "pct": 0.33,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250214000890"
+    }
+  ]
+}

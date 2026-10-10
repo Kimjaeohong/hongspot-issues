@@ -1,0 +1,40 @@
+{
+  "name": "에피소드컴퍼니",
+  "issues": [
+    {
+      "date": "2026.07.24",
+      "text": "기업가치 제고 계획을 2026년 3분기 안에 이사회 결의를 거쳐 공시하겠다고 예고",
+      "src": "manual",
+      "pct": -3.13,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260723000893"
+    },
+    {
+      "date": "2026.04.01",
+      "text": "박창신의 대표이사 임기 만료에 따라 김동하를 신임 대표이사로 선임",
+      "src": "manual",
+      "pct": 3.49,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260331003003"
+    },
+    {
+      "date": "2026.01.09",
+      "text": "제3자배정 증자 신주의 보호예수 기간을 15개월에서 1년으로 정정",
+      "src": "manual",
+      "pct": -1.36,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260108000695"
+    },
+    {
+      "date": "2026.01.02",
+      "text": "제3자배정 유상증자 납입일을 2026년 3월 20일에서 1월 7일로 앞당겨 정정",
+      "src": "manual",
+      "pct": 1.51,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251230001129"
+    },
+    {
+      "date": "2025.12.23",
+      "text": "일반공모 유상증자 신주 발행가액을 3750원에서 3915원으로 정정",
+      "src": "manual",
+      "pct": 1.76,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251222000780"
+    }
+  ]
+}

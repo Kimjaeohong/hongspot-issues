@@ -1,0 +1,40 @@
+{
+  "name": "테고사이언스",
+  "issues": [
+    {
+      "date": "2026.05.19",
+      "text": "영업력 강화와 사업 확대를 위해 피앤피팜 지분 95.77%를 37억3500만원에 취득 결정",
+      "src": "manual",
+      "pct": 2.78,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260519000228"
+    },
+    {
+      "date": "2026.01.28",
+      "text": "2025년 연결 영업손실 44억2445만원, 순손실 69억920만원의 감사 전 실적 공시",
+      "src": "manual",
+      "pct": 0.27,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260128000283"
+    },
+    {
+      "date": "2025.05.26",
+      "text": "270억원 규모 제4회 전환사채의 자금 사용 세부목적을 연구개발·국내외 임상으로 정정",
+      "src": "manual",
+      "pct": 4.2,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250523000697"
+    },
+    {
+      "date": "2025.02.17",
+      "text": "회전근개 부분층 파열 치료 후보 TPX-115의 미국 2상 임상시험계획을 FDA가 승인했다고 발표",
+      "src": "manual",
+      "pct": 2.63,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250214000773"
+    },
+    {
+      "date": "2025.02.03",
+      "text": "연결 순이익 38억3498만원으로 흑자 전환한 감사 전 연간 실적 공시",
+      "src": "manual",
+      "pct": -5.26,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250131000453"
+    }
+  ]
+}

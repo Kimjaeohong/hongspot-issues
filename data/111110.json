@@ -1,0 +1,40 @@
+{
+  "name": "호전실업",
+  "issues": [
+    {
+      "date": "2026.06.15",
+      "text": "인도네시아 의류생산 자회사 지분 취득 예정일을 2026년 12월 22일로 연기하는 정정공시 제출",
+      "src": "manual",
+      "pct": 1.36,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260615000435"
+    },
+    {
+      "date": "2026.05.19",
+      "text": "자회사 대용무역의 기존 차입 만기 연장에 대해 약 272억7780만원 채무보증 결정",
+      "src": "manual",
+      "pct": -1.63,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260518000571"
+    },
+    {
+      "date": "2026.04.24",
+      "text": "주가 안정과 주주가치 제고를 위해 보유 보통주 자기주식 31만주 소각 결정",
+      "src": "manual",
+      "pct": 3.88,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260423000718"
+    },
+    {
+      "date": "2026.03.31",
+      "text": "자회사 대용무역의 120억원 채무보증 기간을 재설정하는 보증 결정 공시",
+      "src": "manual",
+      "pct": -0.96,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260330001452"
+    },
+    {
+      "date": "2026.03.25",
+      "text": "인도네시아 의류생산 자회사 차입에 대한 120억7680만원 채무보증의 기간 재설정 공시",
+      "src": "manual",
+      "pct": -0.13,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260324000940"
+    }
+  ]
+}

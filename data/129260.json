@@ -1,0 +1,40 @@
+{
+  "name": "인터지스",
+  "issues": [
+    {
+      "date": "2026.03.25",
+      "text": "정기주총에서 주당 100원 배당을 결의하고 감사위원인 사외이사 3명 선임 내역을 공시",
+      "src": "manual",
+      "pct": 1.22,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260324000971"
+    },
+    {
+      "date": "2026.02.20",
+      "text": "하역사업장의 AI 안전관리 등 신기술 투자재원 마련을 위해 자기주식 38만주 처분 결정",
+      "src": "manual",
+      "pct": 0.78,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260219000888"
+    },
+    {
+      "date": "2026.02.09",
+      "text": "보통주 1주당 100원의 결산 현금배당 결정",
+      "src": "manual",
+      "pct": -0.2,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260209000950"
+    },
+    {
+      "date": "2025.08.14",
+      "text": "중부권 컨테이너 복합물류 거점 조성을 위한 301억원 시설투자 결정",
+      "src": "manual",
+      "pct": 0.69,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250813000944"
+    },
+    {
+      "date": "2025.02.07",
+      "text": "보통주 1주당 100원의 결산 현금배당 결정",
+      "src": "manual",
+      "pct": -3.13,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250207000330"
+    }
+  ]
+}

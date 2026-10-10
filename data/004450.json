@@ -1,0 +1,40 @@
+{
+  "name": "삼화왕관",
+  "issues": [
+    {
+      "date": "2026.08.03",
+      "text": "보통주 1주당 500원의 중간 현금배당 결정",
+      "src": "manual",
+      "pct": 0.61,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260803000368"
+    },
+    {
+      "date": "2026.04.28",
+      "text": "수익성 개선과 재무건전성 유지, 원가절감 등을 담은 기업가치 제고 계획 발표",
+      "src": "manual",
+      "pct": 2.27,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260428000230"
+    },
+    {
+      "date": "2026.03.04",
+      "text": "보통주 1주당 700원의 결산 현금배당 결정",
+      "src": "manual",
+      "pct": -5.12,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260303000624"
+    },
+    {
+      "date": "2026.02.09",
+      "text": "2025년 연결 영업이익 66억6350만원으로 전년 대비 37.30% 감소한 감사 전 실적 공시",
+      "src": "manual",
+      "pct": -0.18,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260206002308"
+    },
+    {
+      "date": "2025.09.30",
+      "text": "광동제약과의 사업 협력을 위해 자기주식 11만8000주를 상호교환 방식으로 처분 결정",
+      "src": "manual",
+      "pct": -0.56,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250929000558"
+    }
+  ]
+}
