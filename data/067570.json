@@ -1,0 +1,40 @@
+{
+  "name": "엔브이에이치코리아",
+  "issues": [
+    {
+      "date": "2026.07.24",
+      "text": "러시아 종속회사 차입금 연장에 대한 1300만달러 채무보증 결정, 원화 환산 191.83억원",
+      "src": "manual",
+      "pct": -0.57,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260723000857"
+    },
+    {
+      "date": "2026.03.17",
+      "text": "2025년 연결 잠정 영업손실 218.70억원으로 적자전환, 공사손실·대손상각비·러시아법인 손상 등 반영",
+      "src": "manual",
+      "pct": -2.84,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260316002799"
+    },
+    {
+      "date": "2026.01.23",
+      "text": "자산유동화제십일차 유한회사의 차입에 312억원 연대보증 결정, 자기자본 대비 7.90%",
+      "src": "manual",
+      "pct": -1.23,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260122000723"
+    },
+    {
+      "date": "2025.04.30",
+      "text": "자산유동화제구차 유한회사의 차입에 546억원 연대보증 결정, 자기자본 대비 13.93%",
+      "src": "manual",
+      "pct": 0.23,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250429000932"
+    },
+    {
+      "date": "2025.03.12",
+      "text": "2024년 연결 잠정 영업이익 675.83억원으로 7.4% 증가, 국내외 종속회사 물량 확대",
+      "src": "manual",
+      "pct": -0.23,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250311001960"
+    }
+  ]
+}

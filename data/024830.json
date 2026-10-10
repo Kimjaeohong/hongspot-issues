@@ -1,0 +1,40 @@
+{
+  "name": "세원물산",
+  "issues": [
+    {
+      "date": "2026.03.17",
+      "text": "2025년 결산배당으로 보통주 1주당 200원 현금배당 결정, 총액 16.70억원",
+      "src": "manual",
+      "pct": -2.17,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260316002323"
+    },
+    {
+      "date": "2026.02.11",
+      "text": "2025년 개별 잠정 영업이익 34.07억원으로 153.90% 증가, 매출은 2116.16억원으로 8.35% 감소",
+      "src": "manual",
+      "pct": -2.38,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260210001382"
+    },
+    {
+      "date": "2025.03.14",
+      "text": "2024년 결산배당으로 보통주 1주당 150원 현금배당 결정, 총액 12.53억원",
+      "src": "manual",
+      "pct": 2.45,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250314000597"
+    },
+    {
+      "date": "2025.02.12",
+      "text": "2024년 개별 잠정 영업이익 13.42억원으로 77.29% 감소, 투자비 회수로 영업외이익 증가",
+      "src": "manual",
+      "pct": -2.51,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250211000810"
+    },
+    {
+      "date": "2024.03.14",
+      "text": "2023년 결산배당으로 보통주 1주당 100원 현금배당 결정, 총액 8.35억원",
+      "src": "manual",
+      "pct": 0.14,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20240314000926"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "HC홈센타",
+  "issues": [
+    {
+      "date": "2026.03.16",
+      "text": "보통주 1주당 10원 결산 현금배당 결정 공시",
+      "src": "manual",
+      "pct": 0.0,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260316000555"
+    },
+    {
+      "date": "2026.02.24",
+      "text": "2025년 연결 영업손실 185.1억원, 대구·경북 주택건설 침체로 적자전환 잠정 공시",
+      "src": "manual",
+      "pct": -1.68,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260223000689"
+    },
+    {
+      "date": "2025.03.11",
+      "text": "보통주 1주당 30원 결산 현금배당 결정 공시",
+      "src": "manual",
+      "pct": -0.87,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250311000801"
+    },
+    {
+      "date": "2025.02.25",
+      "text": "2024년 연결 영업이익 123.1억원, 지역 건설경기 침체로 69% 감소 잠정 공시",
+      "src": "manual",
+      "pct": -0.71,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250224000700"
+    },
+    {
+      "date": "2024.09.12",
+      "text": "동화주택 지분 90%를 예상 466.5억원에 양수 결정 공시",
+      "src": "manual",
+      "pct": 1.82,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20240911000522"
+    }
+  ]
+}

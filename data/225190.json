@@ -1,0 +1,40 @@
+{
+  "name": "LK삼양",
+  "issues": [
+    {
+      "date": "2026.02.05",
+      "text": "2025년 연결 매출 214.1억원·영업손실 168.5억원, 교환렌즈 시장 회복 지연 잠정 공시",
+      "src": "manual",
+      "pct": -10.34,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260204001251"
+    },
+    {
+      "date": "2025.08.25",
+      "text": "운영자금·채무상환 목적 약 240억원 주주배정 유상증자 계획 공시",
+      "src": "manual",
+      "pct": -13.27,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250822000442"
+    },
+    {
+      "date": "2025.02.11",
+      "text": "2024년 연결 매출 320.2억원·영업손실 32.3억원, 유통재고·유럽 거래처 파산 영향 잠정 공시",
+      "src": "manual",
+      "pct": -2.19,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250210001314"
+    },
+    {
+      "date": "2024.11.11",
+      "text": "최대주주 제외 일반주주에게 보통주 1주당 10원 분기배당 결정 공시",
+      "src": "manual",
+      "pct": 29.83,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20241111000154"
+    },
+    {
+      "date": "2024.08.14",
+      "text": "최대주주 제외 일반주주에게 보통주 1주당 10원 분기배당 결정 공시",
+      "src": "manual",
+      "pct": 0.32,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20240813000630"
+    }
+  ]
+}

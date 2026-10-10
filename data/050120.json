@@ -1,0 +1,40 @@
+{
+  "name": "ES큐브",
+  "issues": [
+    {
+      "date": "2026.03.17",
+      "text": "2025년 연결 매출 139.3억원·영업손실 128.3억원, 업황 침체로 매출 감소 잠정 공시",
+      "src": "manual",
+      "pct": 1.53,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260316001360"
+    },
+    {
+      "date": "2025.08.19",
+      "text": "우인선 대표에서 안경환 대표이사로 변경 공시",
+      "src": "manual",
+      "pct": -4.11,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250818000497"
+    },
+    {
+      "date": "2025.03.17",
+      "text": "2024년 연결 순이익 9.1억원, 관계회사 개선에 따른 지분법이익으로 흑자전환 잠정 공시",
+      "src": "manual",
+      "pct": 1.34,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250314001220"
+    },
+    {
+      "date": "2024.08.12",
+      "text": "안경환 대표 사임에 따라 우인선 대표이사 선임 공시",
+      "src": "manual",
+      "pct": 1.44,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20240809000686"
+    },
+    {
+      "date": "2024.03.14",
+      "text": "2023년 연결 순손실 279.4억원, 관계회사 실적 악화에 따른 지분법손실 잠정 공시",
+      "src": "manual",
+      "pct": -2.43,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20240313002626"
+    }
+  ]
+}

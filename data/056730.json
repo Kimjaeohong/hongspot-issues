@@ -1,0 +1,40 @@
+{
+  "name": "CNT85",
+  "issues": [
+    {
+      "date": "2026.02.05",
+      "text": "2025년 개별 매출 454.2억원·영업손실 94.8억원, 수주 감소와 대손충당금 증가 잠정 공시",
+      "src": "manual",
+      "pct": -0.91,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260204901297"
+    },
+    {
+      "date": "2025.05.27",
+      "text": "한국항공우주산업과 209.8억원 규모 KAI 도장동 신축 건설공사 계약 공시",
+      "src": "manual",
+      "pct": 6.84,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250526900800"
+    },
+    {
+      "date": "2025.05.13",
+      "text": "안양개발과 99.3억원 규모 안양동 공동주택 신축공사 계약 공시",
+      "src": "manual",
+      "pct": 5.87,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250512900751"
+    },
+    {
+      "date": "2025.02.12",
+      "text": "2024년 개별 매출 670.6억원·영업손실 14.5억원, 원가 상승에 따른 적자전환 잠정 공시",
+      "src": "manual",
+      "pct": 0.0,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250211901506"
+    },
+    {
+      "date": "2024.08.26",
+      "text": "GS건설과 74.5억원 규모 울산성암소각장 1·2호기 연소가스처리설비 계약 공시",
+      "src": "manual",
+      "pct": 0.13,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240826900184"
+    }
+  ]
+}

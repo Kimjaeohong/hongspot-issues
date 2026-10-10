@@ -1,0 +1,40 @@
+{
+  "name": "HLB제넥스",
+  "issues": [
+    {
+      "date": "2025.12.03",
+      "text": "에이치밸류에셋 유상증자에 40억원 참여, 신주 80만주 취득 결정 공시",
+      "src": "manual",
+      "pct": -1.54,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251202000404"
+    },
+    {
+      "date": "2025.08.21",
+      "text": "최대주주 HLB의 제40회 전환사채 70억원 취득 결정 공시",
+      "src": "manual",
+      "pct": -0.78,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250820000372"
+    },
+    {
+      "date": "2025.05.22",
+      "text": "지에프퍼멘텍 주식 81.7억원 추가취득, 취득 후 지분 57.83% 계획 공시",
+      "src": "manual",
+      "pct": 3.6,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250521000524"
+    },
+    {
+      "date": "2025.03.14",
+      "text": "2024년 연결 매출 354.3억원·순손실 179.3억원, 전환사채 파생상품 손실 반영 잠정 공시",
+      "src": "manual",
+      "pct": 2.26,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250313002453"
+    },
+    {
+      "date": "2025.03.11",
+      "text": "애니젠 제3자배정 유상증자에 약 80억원 참여, 지분 14.16% 취득 결정 공시",
+      "src": "manual",
+      "pct": -0.25,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250310001299"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "CJ 바이오사이언스",
+  "issues": [
+    {
+      "date": "2026.05.13",
+      "text": "CJRB-101 임상 1상 이후 2상을 진행하지 않고 미국·한국 임상 조기종료 결정 공시",
+      "src": "manual",
+      "pct": -5.06,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260512000865"
+    },
+    {
+      "date": "2025.08.18",
+      "text": "천종식 대표 사임에 따라 윤상배 대표이사 신규 선임 공시",
+      "src": "manual",
+      "pct": -0.5,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250814002226"
+    },
+    {
+      "date": "2025.01.16",
+      "text": "2024년 연결 매출 34.7억원·영업손실 356.4억원, 분석매출 감소 잠정 공시",
+      "src": "manual",
+      "pct": 1.67,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250115000414"
+    },
+    {
+      "date": "2024.12.10",
+      "text": "CJ제일제당 대상 400억원 규모 제3자배정 유상증자 결정 공시",
+      "src": "manual",
+      "pct": 11.15,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20241209000591"
+    },
+    {
+      "date": "2024.02.01",
+      "text": "2023년 연결 매출 55.8억원·영업손실 320.6억원, 분석매출 증가 잠정 공시",
+      "src": "manual",
+      "pct": 0.62,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20240131000601"
+    }
+  ]
+}

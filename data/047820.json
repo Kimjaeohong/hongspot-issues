@@ -1,0 +1,40 @@
+{
+  "name": "초록뱀미디어",
+  "issues": [
+    {
+      "date": "2026.05.18",
+      "text": "2026년 1분기보고서에서 연결 매출 246.07억원·영업손실 7.97억원 공시",
+      "src": "manual",
+      "pct": 6.67,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260515002337"
+    },
+    {
+      "date": "2026.02.26",
+      "text": "2025년 연결 잠정 영업이익 29.12억원으로 흑자전환, 전년 드라마 손상차손 기저효과·수익성 개선",
+      "src": "manual",
+      "pct": 3.01,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260225001208"
+    },
+    {
+      "date": "2025.11.17",
+      "text": "2025년 3분기보고서에서 누적 연결 매출 1371.67억원·영업이익 13.34억원 공시",
+      "src": "manual",
+      "pct": 0.91,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251114002161"
+    },
+    {
+      "date": "2025.08.18",
+      "text": "2025년 반기보고서에서 상반기 누적 연결 매출 882.36억원·영업이익 12.77억원 공시",
+      "src": "manual",
+      "pct": -1.53,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250814003596"
+    },
+    {
+      "date": "2025.05.16",
+      "text": "2025년 1분기보고서에서 연결 영업이익 23.84억원 공시, 전년 동기 영업손실에서 흑자전환",
+      "src": "manual",
+      "pct": -3.55,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250515001775"
+    }
+  ]
+}

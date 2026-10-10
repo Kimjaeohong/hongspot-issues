@@ -1,0 +1,40 @@
+{
+  "name": "KB오토시스",
+  "issues": [
+    {
+      "date": "2026.09.02",
+      "text": "김신완 단독대표에서 김신완·김신욱 각자대표 체제로 전환 공시",
+      "src": "manual",
+      "pct": -0.65,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260901000655"
+    },
+    {
+      "date": "2026.03.31",
+      "text": "안정적 배당정책·수익성 개선·성장투자를 담은 기업가치 제고 계획 공시",
+      "src": "manual",
+      "pct": -0.66,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260330001194"
+    },
+    {
+      "date": "2026.03.12",
+      "text": "2025년 연결 영업이익 85.3억원, 수출 환율환경·해외법인 수익 개선 잠정 공시",
+      "src": "manual",
+      "pct": 0.28,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260311002493"
+    },
+    {
+      "date": "2025.03.11",
+      "text": "2024년 연결 순이익 29.4억원, 매출 성장·환율 상승으로 이익 증가 잠정 공시",
+      "src": "manual",
+      "pct": 0.64,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250310001329"
+    },
+    {
+      "date": "2024.03.13",
+      "text": "2023년 연결 영업이익 40.4억원, 해외 OEM 수출·해외법인 수익 개선 잠정 공시",
+      "src": "manual",
+      "pct": 2.34,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20240312001269"
+    }
+  ]
+}

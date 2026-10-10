@@ -1,0 +1,40 @@
+{
+  "name": "특수건설",
+  "issues": [
+    {
+      "date": "2026.08.21",
+      "text": "만기 전 취득한 제5회 전환사채 36억원 전액 소각 결정, 당시 소각 예정일 8월 31일",
+      "src": "manual",
+      "pct": -2.73,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260821000316"
+    },
+    {
+      "date": "2026.06.26",
+      "text": "익산지방국토관리청과 무주 설천~무풍 도로시설개량공사 계약 체결, 당사 공급가액 384.31억원",
+      "src": "manual",
+      "pct": -4.21,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260626000581"
+    },
+    {
+      "date": "2026.03.03",
+      "text": "2025년 연결 잠정 영업손실 316.45억원으로 적자전환, 감가상각비 증가·공사물량 감소 등 반영",
+      "src": "manual",
+      "pct": -2.17,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260227002069"
+    },
+    {
+      "date": "2025.06.04",
+      "text": "태영건설과 옥정~포천 광역철도 터널공사 1공구 424.88억원 계약 체결",
+      "src": "manual",
+      "pct": 3.96,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250604000078"
+    },
+    {
+      "date": "2025.04.16",
+      "text": "에이치엘디앤아이한라와 신가평~동서울 2차 전력구 TBM공사 1162.05억원 계약 체결",
+      "src": "manual",
+      "pct": -0.79,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250416000233"
+    }
+  ]
+}

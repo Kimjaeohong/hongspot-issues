@@ -1,0 +1,40 @@
+{
+  "name": "GH신소재",
+  "issues": [
+    {
+      "date": "2026.08.20",
+      "text": "GH America 유상증자에 85.7억원 참여, 현지 공장 시설·운영자금 조달 공시",
+      "src": "manual",
+      "pct": -1.0,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260820000161"
+    },
+    {
+      "date": "2026.03.30",
+      "text": "우희구 대표 사임에 따라 유영진 대표이사 신규 선임 공시",
+      "src": "manual",
+      "pct": 0.2,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260330000607"
+    },
+    {
+      "date": "2026.03.16",
+      "text": "2025년 연결 순손실 39.8억원, 관계기업 지분법손실로 적자전환 잠정 공시",
+      "src": "manual",
+      "pct": 0.4,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260313001141"
+    },
+    {
+      "date": "2025.02.25",
+      "text": "2024년 연결 영업이익 76.7억원, 자동차·비자동차 부문 수익성 개선 잠정 공시",
+      "src": "manual",
+      "pct": 1.28,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250224001114"
+    },
+    {
+      "date": "2024.10.29",
+      "text": "미국 손자회사 3E Tech에 운영자금·차입금 상환 목적 207.7억원 대여 결정 공시",
+      "src": "manual",
+      "pct": 1.65,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20241028000391"
+    }
+  ]
+}

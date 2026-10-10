@@ -1,0 +1,40 @@
+{
+  "name": "HLB파나진",
+  "issues": [
+    {
+      "date": "2026.03.06",
+      "text": "사채권자 협의에 따라 제6회 전환사채 58.5억원 만기 전 취득 공시",
+      "src": "manual",
+      "pct": 5.47,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260305001537"
+    },
+    {
+      "date": "2026.02.13",
+      "text": "2025년 연결 매출 150.5억원·영업손실 34.1억원, 투자·연구개발비 증가 잠정 공시",
+      "src": "manual",
+      "pct": 1.7,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260212001239"
+    },
+    {
+      "date": "2025.11.17",
+      "text": "캑터스웨스트뷰 사모투자합자회사에 85억원 출자 결정 공시",
+      "src": "manual",
+      "pct": -1.29,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251114001793"
+    },
+    {
+      "date": "2025.08.21",
+      "text": "최대주주 HLB의 제40회 전환사채 100억원 취득 결정 공시",
+      "src": "manual",
+      "pct": 0.5,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250820000318"
+    },
+    {
+      "date": "2025.02.14",
+      "text": "2024년 연결 매출 132.0억원·영업손실 13.6억원, 제품매출 증가·비용절감 잠정 공시",
+      "src": "manual",
+      "pct": 2.73,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250213000963"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "제일연마",
+  "issues": [
+    {
+      "date": "2026.03.03",
+      "text": "기취득 자기주식 220만주 소각 결정, 장부가액 155.36억원·기존 2026~2027년 소각계획 대체",
+      "src": "manual",
+      "pct": 5.51,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260303000284"
+    },
+    {
+      "date": "2026.02.13",
+      "text": "2025년 연결 잠정 영업이익 42.42억원으로 26.3% 감소, 순이익은 136.41억원으로 127.1% 증가",
+      "src": "manual",
+      "pct": 0.1,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260213000277"
+    },
+    {
+      "date": "2025.05.21",
+      "text": "기공시한 주주가치 제고 정책에 따른 자기주식 10만주 소각 실행 결정, 장부가액 7.02억원",
+      "src": "manual",
+      "pct": 3.69,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250521000060"
+    },
+    {
+      "date": "2025.03.11",
+      "text": "2024년 결산배당으로 보통주 1주당 320원 현금배당 결정, 총액 21.47억원",
+      "src": "manual",
+      "pct": -3.0,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250310000661"
+    },
+    {
+      "date": "2025.02.14",
+      "text": "2024년 연결 잠정 영업이익 57.54억원으로 27.1% 감소, 순이익은 60.18억원으로 44.9% 감소",
+      "src": "manual",
+      "pct": 3.65,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250214000370"
+    }
+  ]
+}

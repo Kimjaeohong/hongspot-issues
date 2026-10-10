@@ -1,0 +1,40 @@
+{
+  "name": "CSA 코스믹",
+  "issues": [
+    {
+      "date": "2026.09.10",
+      "text": "피엘오조합에 41억원 추가출자 결정 공시",
+      "src": "manual",
+      "pct": -3.01,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260909000655"
+    },
+    {
+      "date": "2026.04.22",
+      "text": "자회사 젠트로그룹 대여금 24.75억원 출자전환 결정 공시",
+      "src": "manual",
+      "pct": -1.53,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260421000633"
+    },
+    {
+      "date": "2026.03.12",
+      "text": "블루원 대여금 22억원 출자전환, 지분 64% 확보 공시",
+      "src": "manual",
+      "pct": 4.95,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260311001924"
+    },
+    {
+      "date": "2026.03.05",
+      "text": "신규사업·투자수익 목적 블루원 전환사채 13억원 취득 결정 공시",
+      "src": "manual",
+      "pct": 3.85,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260304001399"
+    },
+    {
+      "date": "2026.02.10",
+      "text": "2025년 연결 매출 279.5억원·영업손실 56.0억원, 매출구조 개편·비용 증가 잠정 공시",
+      "src": "manual",
+      "pct": -5.25,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260209001419"
+    }
+  ]
+}

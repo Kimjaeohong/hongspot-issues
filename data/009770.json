@@ -1,0 +1,40 @@
+{
+  "name": "삼정펄프",
+  "issues": [
+    {
+      "date": "2026.03.13",
+      "text": "2025년 결산배당으로 보통주 1주당 1000원 현금배당 결정, 총액 약 25억원",
+      "src": "manual",
+      "pct": 1.07,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260313000340"
+    },
+    {
+      "date": "2026.02.02",
+      "text": "2025년 개별 잠정 영업손실 12.17억원으로 적자전환, 가격경쟁력 악화·평택 생산라인 가동중단 영향",
+      "src": "manual",
+      "pct": 0.62,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260202000299"
+    },
+    {
+      "date": "2025.02.28",
+      "text": "2024년 결산배당으로 보통주 1주당 1000원 현금배당 결정, 총액 약 25억원",
+      "src": "manual",
+      "pct": -1.35,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250228000272"
+    },
+    {
+      "date": "2025.02.05",
+      "text": "2024년 개별 잠정 영업이익 49.89억원·순이익 404.79억원, 공시상 전년 대비 각각 23.0% 감소·209.0% 증가",
+      "src": "manual",
+      "pct": -0.2,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250205000109"
+    },
+    {
+      "date": "2024.02.28",
+      "text": "2023년 결산배당으로 보통주 1주당 1000원 현금배당 결정, 총액 약 25억원",
+      "src": "manual",
+      "pct": 1.19,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20240228000361"
+    }
+  ]
+}

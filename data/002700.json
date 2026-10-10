@@ -1,0 +1,40 @@
+{
+  "name": "신일전자",
+  "issues": [
+    {
+      "date": "2026.09.29",
+      "text": "주가안정·주주가치 제고를 위해 자기주식 213만9037주, 약 20억원 장내 취득 결정",
+      "src": "manual",
+      "pct": 4.81,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260929000294"
+    },
+    {
+      "date": "2026.06.17",
+      "text": "주가안정·주주가치 제고를 위해 자기주식 165만1000주, 약 19.99억원 장내 취득 결정",
+      "src": "manual",
+      "pct": 4.87,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260617000241"
+    },
+    {
+      "date": "2026.02.09",
+      "text": "2025년 개별 잠정 영업이익 52.37억원으로 29.9% 증가, 계절가전 매출 확대 등 반영",
+      "src": "manual",
+      "pct": 0.58,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260209000556"
+    },
+    {
+      "date": "2026.01.26",
+      "text": "기취득 자기주식 100만주 소각 결정, 장부가액 약 14.13억원·자본금 감소 없음",
+      "src": "manual",
+      "pct": 1.76,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260126000317"
+    },
+    {
+      "date": "2025.11.28",
+      "text": "자기주식 111만5200주 장내 취득 결정, 예정금액 약 15억원·취득기간 3개월",
+      "src": "manual",
+      "pct": 1.71,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251128000523"
+    }
+  ]
+}
