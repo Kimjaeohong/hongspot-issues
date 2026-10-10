@@ -1,0 +1,40 @@
+{
+  "name": "한국전자인증",
+  "issues": [
+    {
+      "date": "2026.06.12",
+      "text": "주가 안정과 주주가치 제고 등을 위해 한국투자증권과 35억원 규모 자사주 취득 신탁계약 체결 결정",
+      "src": "manual",
+      "pct": 8.14,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260611000873"
+    },
+    {
+      "date": "2026.04.20",
+      "text": "배당성향 25% 이상 유지와 원가구조 개선 등을 담은 기업가치 제고 계획 발표",
+      "src": "manual",
+      "pct": 3.58,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260420000363"
+    },
+    {
+      "date": "2026.04.01",
+      "text": "안군식을 추가 선임해 신홍식·안군식 각자대표 체제로 전환",
+      "src": "manual",
+      "pct": 3.51,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260331003142"
+    },
+    {
+      "date": "2026.03.06",
+      "text": "보통주 1주당 96원의 결산 현금배당 결정",
+      "src": "manual",
+      "pct": 0.51,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260305001833"
+    },
+    {
+      "date": "2026.02.24",
+      "text": "2025년 연결 영업이익 69억4936만원으로 전년 대비 47.08% 증가한 감사 전 실적 공시",
+      "src": "manual",
+      "pct": -1.29,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260223001195"
+    }
+  ]
+}

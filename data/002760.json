@@ -1,0 +1,40 @@
+{
+  "name": "보락",
+  "issues": [
+    {
+      "date": "2026.07.29",
+      "text": "2026년 2분기 개별 잠정 영업이익 6억8300만원으로 전년 동기 대비 23.34% 감소 발표",
+      "src": "manual",
+      "pct": -4.06,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260729000269"
+    },
+    {
+      "date": "2026.07.06",
+      "text": "향후 소각할 자사주 취득을 위해 삼성증권과 15억원 규모 신탁계약 체결 결정",
+      "src": "manual",
+      "pct": 2.7,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260706000427"
+    },
+    {
+      "date": "2026.04.29",
+      "text": "2026년 1분기 개별 잠정 영업이익 5억5700만원으로 전년 동기 대비 82.62% 증가 발표",
+      "src": "manual",
+      "pct": 3.05,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260429000361"
+    },
+    {
+      "date": "2026.02.23",
+      "text": "보통주 1주당 7원의 결산 현금배당 결정",
+      "src": "manual",
+      "pct": 2.14,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260223000253"
+    },
+    {
+      "date": "2026.02.09",
+      "text": "2025년 개별 영업이익 22억6936만원으로 흑자 전환한 감사 전 실적 공시",
+      "src": "manual",
+      "pct": 0.46,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260209000791"
+    }
+  ]
+}

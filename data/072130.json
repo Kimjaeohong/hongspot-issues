@@ -1,0 +1,40 @@
+{
+  "name": "유엔젤",
+  "issues": [
+    {
+      "date": "2026.06.09",
+      "text": "저니롱산업개발이 제기한 주주총회 소집허가 신청이 법원에서 기각됐다고 공시",
+      "src": "manual",
+      "pct": 4.82,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260609000471"
+    },
+    {
+      "date": "2026.04.01",
+      "text": "기취득 보통주 자기주식 20만주 소각 결정",
+      "src": "manual",
+      "pct": 6.53,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260401000624"
+    },
+    {
+      "date": "2026.03.30",
+      "text": "eSIM 로밍 사업 확대와 배당성향 25% 이상, 자사주 20만주 소각 등을 담은 계획 발표",
+      "src": "manual",
+      "pct": -1.89,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260330000219"
+    },
+    {
+      "date": "2026.03.27",
+      "text": "SK텔레콤과 약 15억9701만원 규모 지능망 장비 기술지원 용역 계약 체결",
+      "src": "manual",
+      "pct": -2.21,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260326001757"
+    },
+    {
+      "date": "2026.02.13",
+      "text": "보통주 1주당 100원의 결산 현금배당 결정",
+      "src": "manual",
+      "pct": -2.06,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260213000526"
+    }
+  ]
+}

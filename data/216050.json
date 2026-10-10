@@ -1,0 +1,40 @@
+{
+  "name": "인크로스",
+  "issues": [
+    {
+      "date": "2026.08.07",
+      "text": "2026년 2분기 연결 잠정 매출 117억1200만원, 영업이익 28억2500만원을 공시",
+      "src": "manual",
+      "pct": 5.14,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260807000113"
+    },
+    {
+      "date": "2026.05.12",
+      "text": "2026년 1분기 연결 잠정 영업이익 15억3800만원으로 전년 동기 대비 23.4% 감소했다고 발표",
+      "src": "manual",
+      "pct": -2.56,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260512000181"
+    },
+    {
+      "date": "2026.03.27",
+      "text": "보유 자기주식 중 보통주 64만4600주를 소각하기로 결정",
+      "src": "manual",
+      "pct": 0.71,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260326002773"
+    },
+    {
+      "date": "2026.02.10",
+      "text": "2025년 연결 잠정 영업이익 115억1200만원으로 전년 대비 14.8% 증가했다고 발표",
+      "src": "manual",
+      "pct": 4.35,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260209001011"
+    },
+    {
+      "date": "2026.01.05",
+      "text": "주식양수도 이행으로 최대주주가 SK스퀘어에서 SK네트웍스로 변경됐다고 공시",
+      "src": "manual",
+      "pct": -0.59,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260102000528"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "아고스",
+  "issues": [
+    {
+      "date": "2026.09.01",
+      "text": "김종수 대표이사 사임에 따라 정철곤을 신임 대표이사로 선임",
+      "src": "manual",
+      "pct": -1.86,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260831000638"
+    },
+    {
+      "date": "2026.03.16",
+      "text": "2025년 연결 매출 554억9102만원, 영업손실 116억2888만원의 감사 전 실적 공시",
+      "src": "manual",
+      "pct": 1.43,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260316000300"
+    },
+    {
+      "date": "2025.07.01",
+      "text": "유럽 웨어러블 공급계약을 실제 매출 약 11억2442만원으로 감액 정정하고 종료 공시",
+      "src": "manual",
+      "pct": 0.62,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250630000625"
+    },
+    {
+      "date": "2025.06.17",
+      "text": "관계사 마크티와 150억원 규모 AI 스피커 공급계약 체결",
+      "src": "manual",
+      "pct": -2.5,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250616000400"
+    },
+    {
+      "date": "2025.02.25",
+      "text": "제3자배정 증자 조달자금 중 20억원을 채무상환에 배정하고 납입일을 3월 4일로 정정",
+      "src": "manual",
+      "pct": 0.69,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250224000767"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "흥국",
+  "issues": [
+    {
+      "date": "2026.04.23",
+      "text": "인도 자회사 채무보증의 종료일을 2026년 5월 4일로 고치는 정정공시 제출",
+      "src": "manual",
+      "pct": -0.87,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260423000498"
+    },
+    {
+      "date": "2026.03.27",
+      "text": "향후 3년 평균 배당성향 20~30% 유지와 해외매출 확대 등을 목표로 제시",
+      "src": "manual",
+      "pct": 0.0,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260326001591"
+    },
+    {
+      "date": "2026.02.27",
+      "text": "2025년 연결 영업이익 148억9768만원으로 전년 대비 69.53% 증가한 감사 전 실적 공시",
+      "src": "manual",
+      "pct": 2.09,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260226001106"
+    },
+    {
+      "date": "2026.01.09",
+      "text": "임직원 성과급과 경영재원 확보를 위해 자기주식 38만2513주 처분 결정",
+      "src": "manual",
+      "pct": 1.22,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260108000472"
+    },
+    {
+      "date": "2025.12.09",
+      "text": "기취득 보통주 자기주식 61만6696주 소각 결정",
+      "src": "manual",
+      "pct": 0.39,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251209000153"
+    }
+  ]
+}

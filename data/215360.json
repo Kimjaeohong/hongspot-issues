@@ -1,0 +1,40 @@
+{
+  "name": "우리산업",
+  "issues": [
+    {
+      "date": "2026.06.01",
+      "text": "멕시코 계열회사 차입금에 대해 약 153억5916만원의 채무보증 결정",
+      "src": "manual",
+      "pct": -6.4,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260529001811"
+    },
+    {
+      "date": "2026.03.30",
+      "text": "정기주총에서 재무제표 승인과 김정우 사내이사·김경남 사외이사 재선임 안건 가결",
+      "src": "manual",
+      "pct": -1.4,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260327002451"
+    },
+    {
+      "date": "2026.03.19",
+      "text": "2025년 적정 감사의견과 연결 영업이익 186억7381만원을 담은 감사보고서 제출",
+      "src": "manual",
+      "pct": -1.75,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260319000596"
+    },
+    {
+      "date": "2026.03.12",
+      "text": "보통주 1주당 200원의 결산 현금배당 결정",
+      "src": "manual",
+      "pct": 1.03,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260312000428"
+    },
+    {
+      "date": "2025.03.14",
+      "text": "보통주 1주당 180원의 결산 현금배당 결정",
+      "src": "manual",
+      "pct": 0.1,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250314000197"
+    }
+  ]
+}

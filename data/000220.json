@@ -1,0 +1,40 @@
+{
+  "name": "유유제약",
+  "issues": [
+    {
+      "date": "2026.06.08",
+      "text": "기취득 자기주식 중 보통주 128만4889주와 종류주 2600주 소각 결정",
+      "src": "manual",
+      "pct": -4.71,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260608000505"
+    },
+    {
+      "date": "2026.03.25",
+      "text": "상반기 자사주 소각과 배당 확대 노력 등을 담은 기업가치 제고 계획 발표",
+      "src": "manual",
+      "pct": 4.24,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260324001107"
+    },
+    {
+      "date": "2026.02.27",
+      "text": "보통주 1주당 115원의 결산 현금배당 결정",
+      "src": "manual",
+      "pct": 0.22,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260226001280"
+    },
+    {
+      "date": "2026.01.23",
+      "text": "제31회 전환사채 전환가액을 시가 하락에 따라 4545원에서 4470원으로 조정",
+      "src": "manual",
+      "pct": 0.68,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260122000369"
+    },
+    {
+      "date": "2025.11.19",
+      "text": "종속회사 유유헬스케어가 횡성공장 증축과 생산설비 증설에 175억원 투자하기로 결정",
+      "src": "manual",
+      "pct": -0.36,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251118000272"
+    }
+  ]
+}

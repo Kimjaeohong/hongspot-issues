@@ -1,0 +1,40 @@
+{
+  "name": "한컴라이프케어",
+  "issues": [
+    {
+      "date": "2026.07.30",
+      "text": "2026년 2분기 연결 잠정 영업이익 76억900만원으로 전년 동기 대비 167.7% 증가 발표",
+      "src": "manual",
+      "pct": -0.62,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260730000076"
+    },
+    {
+      "date": "2026.03.10",
+      "text": "외부감사 중 변동사항을 반영해 2025년 연결 순손실을 76억6565만원으로 정정",
+      "src": "manual",
+      "pct": 0.78,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260310000868"
+    },
+    {
+      "date": "2026.02.02",
+      "text": "2025년 연결 영업손실 7억2729만원으로 적자 전환한 감사 전 실적 공시",
+      "src": "manual",
+      "pct": -4.49,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260130001033"
+    },
+    {
+      "date": "2026.01.16",
+      "text": "파트너원 밸류업 1호의 회계장부 열람·등사 가처분 신청이 기각됐다고 공시",
+      "src": "manual",
+      "pct": -1.74,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260116000484"
+    },
+    {
+      "date": "2025.12.17",
+      "text": "방위사업청과 약 109억9374만원 규모 도시지역 교전훈련장비 공급계약 체결",
+      "src": "manual",
+      "pct": -3.17,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251217000112"
+    }
+  ]
+}

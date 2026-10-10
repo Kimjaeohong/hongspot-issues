@@ -1,0 +1,40 @@
+{
+  "name": "SGC E&C",
+  "issues": [
+    {
+      "date": "2026.08.31",
+      "text": "청라플러스 관련 채무보증금액을 638억4000만원에서 600억원으로 정정",
+      "src": "manual",
+      "pct": 0.0,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260828000644"
+    },
+    {
+      "date": "2026.08.21",
+      "text": "청라플러스의 일부 차입 리파이낸싱과 관련해 757억8900만원 채무보증 결정",
+      "src": "manual",
+      "pct": -4.5,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260820000665"
+    },
+    {
+      "date": "2026.08.14",
+      "text": "AL-WAHA의 프로필렌·폴리프로필렌 생산설비 공사 종료일을 2026년 11월 30일로 정정",
+      "src": "manual",
+      "pct": -0.57,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260814001329"
+    },
+    {
+      "date": "2026.07.23",
+      "text": "2026년 2분기 연결 잠정 영업이익 142억9300만원으로 전년 동기 대비 4.36% 감소 발표",
+      "src": "manual",
+      "pct": 10.92,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260723000281"
+    },
+    {
+      "date": "2026.06.22",
+      "text": "마석우리 지역주택조합 신축공사 계약 종료일을 2030년 7월 18일로 정정",
+      "src": "manual",
+      "pct": 0.0,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260619000790"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "대주산업",
+  "issues": [
+    {
+      "date": "2026.03.18",
+      "text": "2025년 적정 감사의견과 연결 영업이익 106억3543만원을 담은 감사보고서 제출",
+      "src": "manual",
+      "pct": 1.92,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260318000763"
+    },
+    {
+      "date": "2026.02.26",
+      "text": "보통주 1주당 37원의 결산 현금배당 결정",
+      "src": "manual",
+      "pct": -1.62,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260225000940"
+    },
+    {
+      "date": "2026.01.16",
+      "text": "거래소가 1월 16일 투자경고 해제와 당일 투자주의 지정, 재지정 가능성을 안내",
+      "src": "manual",
+      "pct": 17.55,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260115000393"
+    },
+    {
+      "date": "2026.01.02",
+      "text": "거래소가 주가 급등을 사유로 2026년 1월 2일부터 투자경고종목 지정 공고",
+      "src": "manual",
+      "pct": -1.03,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251230000821"
+    },
+    {
+      "date": "2025.02.26",
+      "text": "연결 영업이익 100억2510만원으로 전년 대비 30.5% 증가한 감사 전 연간 실적 공시",
+      "src": "manual",
+      "pct": -1.26,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250225001289"
+    }
+  ]
+}

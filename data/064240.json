@@ -1,0 +1,40 @@
+{
+  "name": "홈캐스트",
+  "issues": [
+    {
+      "date": "2026.02.25",
+      "text": "2025년 연결 영업손실 28억7570만원, 순손실 21억7036만원의 감사 전 실적 공시",
+      "src": "manual",
+      "pct": -10.31,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260224000796"
+    },
+    {
+      "date": "2025.12.29",
+      "text": "주주가치 제고를 위해 보유 보통주 자기주식 34만3761주 소각 결정",
+      "src": "manual",
+      "pct": 19.18,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251229000382"
+    },
+    {
+      "date": "2025.09.26",
+      "text": "종속회사 씨에스에이코스믹 증자 대상자를 브이핑크홀딩스로 바꾸고 조달액을 약 80억원으로 정정",
+      "src": "manual",
+      "pct": -2.62,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250925000670"
+    },
+    {
+      "date": "2025.07.29",
+      "text": "종속회사 씨에스에이코스믹이 운영자금 약 100억원의 제3자배정 유상증자를 결정했다고 공시",
+      "src": "manual",
+      "pct": 3.98,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250728000354"
+    },
+    {
+      "date": "2025.02.25",
+      "text": "연결 매출 978억7008만원과 영업손실 24억3757만원의 감사 전 연간 실적 공시",
+      "src": "manual",
+      "pct": 6.12,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250224000691"
+    }
+  ]
+}

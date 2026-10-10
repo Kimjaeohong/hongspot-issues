@@ -1,0 +1,40 @@
+{
+  "name": "지구홀딩스",
+  "issues": [
+    {
+      "date": "2026.08.28",
+      "text": "박상욱 대표이사 사임에 따라 이재웅을 신임 대표이사로 선임",
+      "src": "manual",
+      "pct": 29.77,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260827000499"
+    },
+    {
+      "date": "2026.08.20",
+      "text": "2026년 2분기 연결 잠정 매출 120억1500만원, 영업손실 5억4900만원 발표",
+      "src": "manual",
+      "pct": 0.86,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260819000331"
+    },
+    {
+      "date": "2026.05.26",
+      "text": "제3자배정 유상증자 신주 상장 예정일을 2026년 5월 28일로 정정",
+      "src": "manual",
+      "pct": -7.03,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260522000698"
+    },
+    {
+      "date": "2026.05.22",
+      "text": "전략적 제휴와 신규사업 진출을 위해 탠덤스튜디오 지분 4.98%를 약 16억1533만원에 취득 결정",
+      "src": "manual",
+      "pct": 0.99,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260522000491"
+    },
+    {
+      "date": "2026.05.13",
+      "text": "2026년 1분기 연결 잠정 매출 69억7900만원, 영업손실 16억800만원 발표",
+      "src": "manual",
+      "pct": -3.94,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260513000367"
+    }
+  ]
+}

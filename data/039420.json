@@ -1,0 +1,40 @@
+{
+  "name": "케이엘넷",
+  "issues": [
+    {
+      "date": "2026.04.10",
+      "text": "주가 안정과 주주가치 제고를 위해 KB증권과 20억원 자사주 취득 신탁계약 체결 결정",
+      "src": "manual",
+      "pct": 6.01,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260410000382"
+    },
+    {
+      "date": "2026.04.09",
+      "text": "자사주 취득 완료에 따라 30억원 규모 KB증권 신탁계약 중도 해지 결정",
+      "src": "manual",
+      "pct": 0.18,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260408001036"
+    },
+    {
+      "date": "2026.03.30",
+      "text": "창립기념일 임직원 포상용 자기주식 9800주 처분 결정",
+      "src": "manual",
+      "pct": -1.72,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260327002877"
+    },
+    {
+      "date": "2026.02.26",
+      "text": "발행주식의 5%에 해당하는 보통주 자기주식 120만7736주 소각 결정",
+      "src": "manual",
+      "pct": 0.0,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260225001037"
+    },
+    {
+      "date": "2025.10.17",
+      "text": "자사주 취득 신탁계약 만기를 2026년 10월 17일까지 연장하는 정정공시 제출",
+      "src": "manual",
+      "pct": -2.78,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251017000236"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "제이씨현시스템",
+  "issues": [
+    {
+      "date": "2026.03.26",
+      "text": "정기주총 결과 주당 50원 현금배당과 사외이사 1명 선임 내역을 공시",
+      "src": "manual",
+      "pct": -4.08,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260326000791"
+    },
+    {
+      "date": "2026.03.11",
+      "text": "보통주 1주당 50원의 결산 현금배당 결정",
+      "src": "manual",
+      "pct": 2.61,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260310001436"
+    },
+    {
+      "date": "2026.03.10",
+      "text": "2025년 연결 영업이익 77억34만원으로 전년 대비 111.4% 증가한 감사 전 실적 공시",
+      "src": "manual",
+      "pct": 4.38,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260310000673"
+    },
+    {
+      "date": "2025.03.20",
+      "text": "차중석의 대표이사 사임으로 차정헌 단독대표 체제로 전환",
+      "src": "manual",
+      "pct": -2.8,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250320000655"
+    },
+    {
+      "date": "2025.03.05",
+      "text": "연결 영업이익 36억4282만원으로 흑자 전환한 감사 전 연간 실적 공시",
+      "src": "manual",
+      "pct": 2.46,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250304000969"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "오비고",
+  "issues": [
+    {
+      "date": "2026.04.06",
+      "text": "제2회 전환사채 청약·납입일을 2026년 4월 14일로 변경하는 정정공시 제출",
+      "src": "manual",
+      "pct": 1.57,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260406000409"
+    },
+    {
+      "date": "2026.03.26",
+      "text": "타법인 증권 취득자금 조달을 위한 150억원 규모 사모 전환사채 발행 결정",
+      "src": "manual",
+      "pct": 4.13,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260325000813"
+    },
+    {
+      "date": "2026.02.13",
+      "text": "2025년 연결 매출 335억5645만원, 영업손실 38억3734만원의 감사 전 실적 공시",
+      "src": "manual",
+      "pct": -6.59,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260213000545"
+    },
+    {
+      "date": "2026.02.09",
+      "text": "모트렉스와 15억원 규모 픽나우 서비스 글로벌 공급계약 체결",
+      "src": "manual",
+      "pct": 2.51,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260209000934"
+    },
+    {
+      "date": "2025.09.08",
+      "text": "LG유플러스 커넥티드카 서비스 개발계약 잔금 수령을 완료하고 수령일을 9월 5일로 정정",
+      "src": "manual",
+      "pct": -0.48,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250905000564"
+    }
+  ]
+}
