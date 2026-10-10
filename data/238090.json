@@ -1,0 +1,40 @@
+{
+  "name": "앤디포스",
+  "issues": [
+    {
+      "date": "2026.06.18",
+      "text": "타법인 증권 취득자금 조달을 위해 제6회 사모 전환사채 200억원 발행 결정. 최초 전환가액 2,633원",
+      "src": "manual",
+      "pct": 0.0,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260617000450"
+    },
+    {
+      "date": "2026.03.17",
+      "text": "타법인 증권 취득자금 조달을 위해 제5회 사모 전환사채 150억원 발행 결정. 최초 전환가액 2,871원",
+      "src": "manual",
+      "pct": -0.96,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260316002532"
+    },
+    {
+      "date": "2026.02.25",
+      "text": "2025년 연결 잠정 매출 504.14억원, 영업이익 48.14억원 공시. 원가·판매관리비 절감으로 영업이익 전년 대비 146.8% 증가",
+      "src": "manual",
+      "pct": 3.54,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260224000611"
+    },
+    {
+      "date": "2026.02.19",
+      "text": "채무상환을 위해 보통주 66만6,666주 제3자배정 소액공모 유상증자 결정. 예정 발행가 1,500원, 조달액 약 10억원",
+      "src": "manual",
+      "pct": -0.84,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260213002031"
+    },
+    {
+      "date": "2026.01.22",
+      "text": "김성진 대표이사 사임으로 권오빈 단독대표 체제로 변경 공시",
+      "src": "manual",
+      "pct": -1.14,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260121000417"
+    }
+  ]
+}

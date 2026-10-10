@@ -1,0 +1,40 @@
+{
+  "name": "옵티시스",
+  "issues": [
+    {
+      "date": "2026.08.13",
+      "text": "2026년 2분기 개별 잠정 매출 65.79억원, 영업이익 12.59억원 공시. 전년 동기 대비 각각 12.8%, 23.4% 감소",
+      "src": "manual",
+      "pct": -1.62,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260813000338"
+    },
+    {
+      "date": "2026.05.14",
+      "text": "2026년 1분기 개별 잠정 매출 66.22억원, 영업이익 12.53억원 공시. 영업이익은 전년 동기 대비 20.8% 감소",
+      "src": "manual",
+      "pct": -2.69,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260514000551"
+    },
+    {
+      "date": "2026.03.20",
+      "text": "2026년 기업가치 제고 계획 공시. 고해상도 영상·고속 USB 겸용 광링크 출시와 연구개발 투자 및 주주환원 추진",
+      "src": "manual",
+      "pct": 5.15,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260320000652"
+    },
+    {
+      "date": "2026.02.03",
+      "text": "2025년 개별 잠정 매출 257.27억원, 영업이익 44.79억원 공시. 영업이익은 전년 대비 65.6% 증가",
+      "src": "manual",
+      "pct": -0.11,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260202002141"
+    },
+    {
+      "date": "2025.11.13",
+      "text": "2025년 3분기 개별 잠정 매출 51.30억원, 영업이익 7.45억원 공시. 영업이익은 전년 동기 대비 25.3% 감소",
+      "src": "manual",
+      "pct": -1.11,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251113000664"
+    }
+  ]
+}

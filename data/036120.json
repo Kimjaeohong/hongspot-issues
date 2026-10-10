@@ -1,0 +1,40 @@
+{
+  "name": "서울평가정보",
+  "issues": [
+    {
+      "date": "2026.09.04",
+      "text": "고인묵 대표이사 사임에 따라 김중근 신임 대표이사 선임 공시",
+      "src": "manual",
+      "pct": 0.3,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260904000237"
+    },
+    {
+      "date": "2026.08.07",
+      "text": "금융이익 확보를 위해 사당2동 지역주택조합 추진위원회에 70억원 대여 결정. 이율 연 6.5%, 만기 2027년 8월 6일",
+      "src": "manual",
+      "pct": 0.83,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260806000583"
+    },
+    {
+      "date": "2026.07.08",
+      "text": "기업가치 제고 계획 공시. 2026~2028년 영업이익 100억원 이상, 영업이익률·ROE 20% 이상 및 현금배당성향 30% 이상 목표 제시",
+      "src": "manual",
+      "pct": -0.26,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260708000181"
+    },
+    {
+      "date": "2026.06.10",
+      "text": "주가안정 및 주주가치 제고를 위해 신한투자증권과 12억원 자기주식취득 신탁계약 체결 결정",
+      "src": "manual",
+      "pct": 7.26,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260610000190"
+    },
+    {
+      "date": "2026.02.24",
+      "text": "2025년 결산배당으로 보통주 1주당 80원의 현금배당 결정. 배당총액 약 26.99억원",
+      "src": "manual",
+      "pct": 1.18,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260224000168"
+    }
+  ]
+}

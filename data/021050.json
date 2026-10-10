@@ -1,0 +1,40 @@
+{
+  "name": "서원",
+  "issues": [
+    {
+      "date": "2026.08.14",
+      "text": "2026년 반기보고서 제출. 상반기 연결 매출 1조898.08억원, 영업이익 550.02억원 공시",
+      "src": "manual",
+      "pct": 5.32,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260814000892"
+    },
+    {
+      "date": "2026.03.31",
+      "text": "조시영 대표이사 사임에 따라 조경호·박주황 대표이사 체제로 변경 공시",
+      "src": "manual",
+      "pct": -0.59,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260331000639"
+    },
+    {
+      "date": "2026.02.27",
+      "text": "2025년 연결 잠정 매출 1조7,136.11억원, 영업이익 533.23억원 공시. 영업이익은 전년 대비 92.87% 증가",
+      "src": "manual",
+      "pct": 5.5,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260226001204"
+    },
+    {
+      "date": "2025.03.31",
+      "text": "박주황 신임 대표이사 선임으로 조시영·조경호·박주황 대표이사 체제로 변경 공시",
+      "src": "manual",
+      "pct": -3.65,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250328002085"
+    },
+    {
+      "date": "2025.02.17",
+      "text": "2024년 연결 잠정 매출 1조2,339억원, 영업이익 276.03억원 공시. 종속회사 연결 편입 효과 설명",
+      "src": "manual",
+      "pct": 5.23,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250214001380"
+    }
+  ]
+}

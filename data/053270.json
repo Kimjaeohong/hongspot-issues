@@ -1,0 +1,40 @@
+{
+  "name": "구영테크",
+  "issues": [
+    {
+      "date": "2026.04.14",
+      "text": "미국 종속회사 CAR TECH의 재무구조 개선·시설투자를 위해 2천만달러 출자 결정. 공시 환산액 295.96억원",
+      "src": "manual",
+      "pct": -0.42,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260413000715"
+    },
+    {
+      "date": "2026.03.10",
+      "text": "2025년 결산배당으로 보통주 1주당 70원의 현금배당 결정. 배당총액 약 19.19억원",
+      "src": "manual",
+      "pct": 3.02,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260309001206"
+    },
+    {
+      "date": "2026.01.06",
+      "text": "미국 CAR TECH의 한국수출입은행 신규차입에 3천만달러 연대보증 결정. 기존 1천만달러 차입 상환 후 신규대출 건",
+      "src": "manual",
+      "pct": -1.68,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260105000694"
+    },
+    {
+      "date": "2025.12.12",
+      "text": "미국 CAR TECH 인수에 따른 기존 차입 보증인 변경 공시. 한국수출입은행 1천만달러 차입에 연대보증 결정",
+      "src": "manual",
+      "pct": 1.17,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251211000470"
+    },
+    {
+      "date": "2025.11.19",
+      "text": "전동화 부품 등 전략적 협업을 위해 자기주식 132만6,789주 장외처분 결정. 예정금액 약 27.57억원",
+      "src": "manual",
+      "pct": 1.5,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251119000195"
+    }
+  ]
+}

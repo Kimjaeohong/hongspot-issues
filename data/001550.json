@@ -1,0 +1,40 @@
+{
+  "name": "조비",
+  "issues": [
+    {
+      "date": "2026.08.14",
+      "text": "2026년 반기보고서 제출. 상반기 매출 900.03억원, 영업이익 85.72억원 공시",
+      "src": "manual",
+      "pct": 1.22,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260814000635"
+    },
+    {
+      "date": "2026.02.09",
+      "text": "농협경제지주와 2026년 무기질비료 구매납품계약 체결 공시. 계약금액 약 1,222.09억원",
+      "src": "manual",
+      "pct": 9.77,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260209000235"
+    },
+    {
+      "date": "2026.01.22",
+      "text": "2025년 개별 잠정 매출 997.37억원, 영업이익 38.20억원 공시. 영업이익은 전년 대비 20.86% 감소",
+      "src": "manual",
+      "pct": -0.72,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260122000078"
+    },
+    {
+      "date": "2025.02.11",
+      "text": "농협경제지주와 2025년 무기질비료 구매납품계약 체결 공시. 계약금액 약 1,009.59억원",
+      "src": "manual",
+      "pct": -3.87,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250211000111"
+    },
+    {
+      "date": "2025.01.21",
+      "text": "2024년 개별 잠정 매출 1,024.48억원, 영업이익 48.62억원 공시. 전년 영업적자에서 흑자 전환",
+      "src": "manual",
+      "pct": 4.41,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250121000108"
+    }
+  ]
+}

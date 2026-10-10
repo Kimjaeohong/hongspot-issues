@@ -1,0 +1,40 @@
+{
+  "name": "화승알앤에이",
+  "issues": [
+    {
+      "date": "2026.04.15",
+      "text": "최대주주 화승코퍼레이션의 우리은행 대출에 대한 121.2억원 채무보증을 2027년 4월 30일까지 연장 결정",
+      "src": "manual",
+      "pct": -0.44,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260414000586"
+    },
+    {
+      "date": "2026.03.17",
+      "text": "2025년 결산배당으로 보통주 1주당 75원의 현금배당 결정. 배당총액 약 14.24억원",
+      "src": "manual",
+      "pct": 0.85,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260316001736"
+    },
+    {
+      "date": "2026.02.27",
+      "text": "2025년 연결 잠정 매출 7,145.60억원, 영업이익 270.82억원 공시. 비용 상승으로 영업이익 전년 대비 13.6% 감소",
+      "src": "manual",
+      "pct": -2.17,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260226000918"
+    },
+    {
+      "date": "2026.02.24",
+      "text": "최대주주 화승코퍼레이션의 산업은행 대출에 대한 152.01억원 채무보증을 2027년 2월 27일까지 연장 결정",
+      "src": "manual",
+      "pct": 0.95,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260224000580"
+    },
+    {
+      "date": "2025.03.14",
+      "text": "2024년 결산배당으로 보통주 1주당 75원의 현금배당 결정. 배당총액 약 14.24억원",
+      "src": "manual",
+      "pct": 0.32,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250314000982"
+    }
+  ]
+}

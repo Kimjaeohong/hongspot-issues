@@ -1,0 +1,40 @@
+{
+  "name": "다이나믹솔루션",
+  "issues": [
+    {
+      "date": "2026.05.14",
+      "text": "시설자금 조달을 위해 제10회 사모 전환사채 50억원 발행 결정. 표면이자율 2%, 만기이자율 4%",
+      "src": "manual",
+      "pct": -4.38,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260513001202"
+    },
+    {
+      "date": "2026.03.25",
+      "text": "당시 상호 네오펙트로 제9회 사모 전환사채 200억원 발행 결정 공시. 운영자금 목적, 최초 전환가액 1,347원",
+      "src": "manual",
+      "pct": -13.5,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260325000006"
+    },
+    {
+      "date": "2026.02.23",
+      "text": "2025년 연결 잠정 매출 160.31억원, 영업손실 35.34억원 공시. 종속기업 처분에 따른 중단영업 재분류 설명",
+      "src": "manual",
+      "pct": 12.11,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260220001104"
+    },
+    {
+      "date": "2025.11.14",
+      "text": "투자수익 확보를 위해 빌리 신기술조합 제67호에 50억원 출자 결정. 취득 후 출자지분 99.98%",
+      "src": "manual",
+      "pct": -2.39,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251113000906"
+    },
+    {
+      "date": "2025.10.16",
+      "text": "당시 네오펙트가 완전자회사 웨버인스트루먼트를 흡수합병하기로 결정. 합병비율 1대0의 무증자 소규모합병",
+      "src": "manual",
+      "pct": 0.33,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251015000580"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "퓨런티어",
+  "issues": [
+    {
+      "date": "2026.08.14",
+      "text": "2026년 반기보고서 제출. 상반기 매출 120.10억원, 영업손실 19.29억원 공시",
+      "src": "manual",
+      "pct": -0.29,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260813000792"
+    },
+    {
+      "date": "2026.05.14",
+      "text": "2026년 1분기 보고서 제출. 매출 33.81억원, 영업손실 14.35억원 공시",
+      "src": "manual",
+      "pct": -7.92,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260513000689"
+    },
+    {
+      "date": "2026.03.23",
+      "text": "정기주주총회에서 정관 변경과 장승수 사외이사 신규 선임 등 안건 승인",
+      "src": "manual",
+      "pct": -5.89,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260320001043"
+    },
+    {
+      "date": "2026.01.28",
+      "text": "2025년 개별 잠정 매출 121.44억원, 영업손실 71.63억원 공시. 전방시장 투자 축소로 매출 감소 설명",
+      "src": "manual",
+      "pct": -2.85,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260127000452"
+    },
+    {
+      "date": "2025.02.05",
+      "text": "2024년 개별 잠정 매출 253.41억원, 영업손실 37.51억원 공시. 전년 영업흑자에서 적자 전환",
+      "src": "manual",
+      "pct": 2.6,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250204000818"
+    }
+  ]
+}

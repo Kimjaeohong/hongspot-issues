@@ -1,0 +1,40 @@
+{
+  "name": "에스피시스템스",
+  "issues": [
+    {
+      "date": "2026.08.18",
+      "text": "2026년 반기보고서 제출. 상반기 연결 매출 226.85억원, 영업손실 17.69억원 공시",
+      "src": "manual",
+      "pct": -4.26,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260814002905"
+    },
+    {
+      "date": "2026.02.10",
+      "text": "2025년 연결 잠정 매출 616.13억원, 영업손실 7.64억원 공시. 손익구조 개선으로 전년보다 영업손실 축소",
+      "src": "manual",
+      "pct": -0.16,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260209001719"
+    },
+    {
+      "date": "2025.11.03",
+      "text": "자기주식 60만3,100주를 교환대상으로 하는 사모 교환사채 발행을 위해 약 69.03억원 규모 자사주 처분 결정",
+      "src": "manual",
+      "pct": 4.83,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251031000865"
+    },
+    {
+      "date": "2025.10.01",
+      "text": "삼기와 89억원 자동차용 밸브바디 가공자동화 로봇시스템 공급계약 체결 공시. 계약 종료 예정일 2026년 7월 31일",
+      "src": "manual",
+      "pct": -0.44,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251001000396"
+    },
+    {
+      "date": "2025.02.11",
+      "text": "2024년 연결 잠정 매출 707.30억원, 영업손실 28.18억원 공시. 신규사업 연구개발비 및 충당부채 증가 설명",
+      "src": "manual",
+      "pct": -4.35,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250210001421"
+    }
+  ]
+}

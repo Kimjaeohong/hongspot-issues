@@ -1,0 +1,40 @@
+{
+  "name": "평화홀딩스",
+  "issues": [
+    {
+      "date": "2026.07.31",
+      "text": "자회사 평화산업의 하나은행 대출 한도 연장을 위해 120억원 채무보증 결정. 보증 종료일 2027년 8월 8일",
+      "src": "manual",
+      "pct": 2.79,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260731000621"
+    },
+    {
+      "date": "2026.05.04",
+      "text": "자회사 평화산업이 평화이엔지의 기업은행 대출에 대해 48억원 보증 연장을 결정했다고 공시",
+      "src": "manual",
+      "pct": -1.69,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260430001089"
+    },
+    {
+      "date": "2026.04.13",
+      "text": "자회사 평화산업이 평화씨엠비의 기업은행 대출에 대해 41.28억원 보증 연장을 결정했다고 공시",
+      "src": "manual",
+      "pct": 1.45,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260410000754"
+    },
+    {
+      "date": "2026.02.25",
+      "text": "자회사 평화오일씰공업의 2025년 개별 잠정 매출 3,194.16억원, 영업이익 125.83억원 공시",
+      "src": "manual",
+      "pct": 3.5,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260224000842"
+    },
+    {
+      "date": "2026.02.24",
+      "text": "2025년 연결 잠정 매출 8,836.96억원, 영업이익 351.30억원 공시. 영업이익은 전년 대비 21.9% 증가",
+      "src": "manual",
+      "pct": 1.52,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260223001030"
+    }
+  ]
+}

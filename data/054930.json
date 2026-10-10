@@ -1,0 +1,40 @@
+{
+  "name": "유신",
+  "issues": [
+    {
+      "date": "2026.03.12",
+      "text": "2025년 결산배당으로 보통주 1주당 900원의 현금배당 결정. 배당총액 27억원",
+      "src": "manual",
+      "pct": 1.35,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260312000340"
+    },
+    {
+      "date": "2026.02.19",
+      "text": "필리핀 공공사업도로부와 바탄-카비테 연결교량 감리 컨설팅 계약 체결 공시. 회사 지분 반영 계약금액 약 911.41억원",
+      "src": "manual",
+      "pct": 1.6,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260213002036"
+    },
+    {
+      "date": "2026.02.04",
+      "text": "2025년 개별 잠정 매출 3,855.02억원, 영업이익 92.44억원 공시. EPC 매출 및 임대수익 증가 설명",
+      "src": "manual",
+      "pct": -3.83,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260204000591"
+    },
+    {
+      "date": "2025.04.23",
+      "text": "청경에너지와 폐기물 종합처리시설 건설공사 계약 체결. 계약금액 395억원",
+      "src": "manual",
+      "pct": 1.31,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250422000515"
+    },
+    {
+      "date": "2025.03.13",
+      "text": "2024년 결산배당으로 보통주 1주당 900원의 현금배당 결정. 배당총액 27억원",
+      "src": "manual",
+      "pct": -0.9,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250313000438"
+    }
+  ]
+}
