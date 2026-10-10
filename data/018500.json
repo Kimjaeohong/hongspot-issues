@@ -1,0 +1,40 @@
+{
+  "name": "동원모빌리티",
+  "issues": [
+    {
+      "date": "2026.09.10",
+      "text": "미국 계열회사 신공장 관련 차입금에 3600만달러(482.80억원) 채무보증 결정 공시",
+      "src": "manual",
+      "pct": -0.77,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260910800205"
+    },
+    {
+      "date": "2026.08.12",
+      "text": "3월 결산법인 제42기 1분기인 2026년 4~6월 연결 잠정 매출 943.11억원·영업이익 139.11억원 공시",
+      "src": "manual",
+      "pct": 2.85,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811800964"
+    },
+    {
+      "date": "2025.07.24",
+      "text": "멕시코 계열회사 차입 만기에 맞춰 600만달러(83.47억원) 지급보증 연장, 차입내역 정정 공시",
+      "src": "manual",
+      "pct": -3.02,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250723800564"
+    },
+    {
+      "date": "2024.08.29",
+      "text": "멕시코 계열회사의 현지은행 차입에 600만달러(79.43억원) 채무보증 결정 공시",
+      "src": "manual",
+      "pct": -0.07,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240828800405"
+    },
+    {
+      "date": "2024.06.12",
+      "text": "2024년 3월 말 기준 보통주 1주당 50원, 총 약 23.37억원 결산 현금배당 결정 공시",
+      "src": "manual",
+      "pct": 0.1,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240612800189"
+    }
+  ]
+}

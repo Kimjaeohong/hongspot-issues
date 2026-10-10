@@ -1,0 +1,40 @@
+{
+  "name": "무림페이퍼",
+  "issues": [
+    {
+      "date": "2026.03.24",
+      "text": "정기주총에서 2025년 재무제표와 주당 125원 결산배당 승인, 감사 인원 착오 정정 공시",
+      "src": "manual",
+      "pct": 1.49,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260324800307"
+    },
+    {
+      "date": "2026.02.23",
+      "text": "보통주 1주당 125원 결산 현금배당 결정, 배당금 총액 52.01억원 공시",
+      "src": "manual",
+      "pct": 5.38,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260220801221"
+    },
+    {
+      "date": "2025.03.25",
+      "text": "정기주총에서 연결 영업이익 893.94억원을 포함한 2024년 재무제표 승인 공시",
+      "src": "manual",
+      "pct": -0.24,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250325800224"
+    },
+    {
+      "date": "2025.02.24",
+      "text": "보통주 1주당 100원 결산 현금배당 결정, 배당금 총액 41.61억원 공시",
+      "src": "manual",
+      "pct": 2.13,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250221800700"
+    },
+    {
+      "date": "2024.02.26",
+      "text": "2023년 연결 잠정 영업이익 677.84억원·당기순이익 15.11억원, 순이익 95.7% 감소 공시",
+      "src": "manual",
+      "pct": -1.1,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240223800873"
+    }
+  ]
+}

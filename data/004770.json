@@ -1,0 +1,40 @@
+{
+  "name": "써니전자",
+  "issues": [
+    {
+      "date": "2026.04.23",
+      "text": "신규 사업 발굴·품질 경쟁력 강화·적정 배당 유지를 담은 기업가치 제고 계획 공시",
+      "src": "manual",
+      "pct": 0.4,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260422800457"
+    },
+    {
+      "date": "2025.08.22",
+      "text": "기취득 자기주식 119만5446주 소각 결정, 장부가액 약 20억원 공시",
+      "src": "manual",
+      "pct": 0.06,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250821800353"
+    },
+    {
+      "date": "2025.03.27",
+      "text": "정기주총에서 2024년 별도 영업이익 25.76억원과 주당 30원 결산배당 보고",
+      "src": "manual",
+      "pct": -0.68,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250326801441"
+    },
+    {
+      "date": "2024.12.16",
+      "text": "현저한 시황변동 조회공시에 열거한 공시사항 외 진행·확정된 중요 공시대상이 없다고 답변",
+      "src": "manual",
+      "pct": -6.67,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241213801202"
+    },
+    {
+      "date": "2024.02.06",
+      "text": "2023년 연결 잠정 매출 127.60억원·영업이익 9.02억원, 재무현황 금액 오류 정정 공시",
+      "src": "manual",
+      "pct": -1.09,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240205801123"
+    }
+  ]
+}

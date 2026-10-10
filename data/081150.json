@@ -1,0 +1,40 @@
+{
+  "name": "티플랙스",
+  "issues": [
+    {
+      "date": "2026.08.31",
+      "text": "우리사주조합 무상출연을 위해 자기주식 23만1656주 처분 결정, 전일 종가 평가액 약 6.41억원 공시",
+      "src": "manual",
+      "pct": -1.97,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260828001884"
+    },
+    {
+      "date": "2026.05.28",
+      "text": "임직원 성과보상용 우리사주조합 무상출연을 위해 자기주식 13만8990주 처분 결정 공시",
+      "src": "manual",
+      "pct": -5.05,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260527000383"
+    },
+    {
+      "date": "2025.03.11",
+      "text": "2024년 결산배당으로 보통주 1주당 25원, 총 약 6.06억원 현금배당 결정 공시",
+      "src": "manual",
+      "pct": 0.78,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250310901337"
+    },
+    {
+      "date": "2025.02.13",
+      "text": "2024년 개별 잠정 매출 2074.98억원·영업이익 45.36억원, 영업손익 흑자전환 공시",
+      "src": "manual",
+      "pct": 1.15,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250213900609"
+    },
+    {
+      "date": "2024.12.20",
+      "text": "신한투자증권과 주주가치 제고 목적의 20억원 규모 자기주식 취득 신탁계약 체결 결정 공시",
+      "src": "manual",
+      "pct": -2.75,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241220000173"
+    }
+  ]
+}

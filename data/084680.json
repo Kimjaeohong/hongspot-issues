@@ -1,0 +1,40 @@
+{
+  "name": "이월드",
+  "issues": [
+    {
+      "date": "2026.07.16",
+      "text": "주당 액면가 1000원에서 5000원으로 변경하는 5대1 주식병합 결정 공시, 주총 승인 전 계획",
+      "src": "manual",
+      "pct": -1.5,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260716800476"
+    },
+    {
+      "date": "2026.03.20",
+      "text": "정기주총에서 2025년 별도 매출 887.27억원·영업손실 31.77억원을 포함한 재무제표 승인 공시",
+      "src": "manual",
+      "pct": 1.8,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320800403"
+    },
+    {
+      "date": "2025.06.30",
+      "text": "계열사 이랜드월드와 운영자금용 320억원 신규 차입약정 체결, 연이율 6.3% 공시",
+      "src": "manual",
+      "pct": 1.48,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250630000402"
+    },
+    {
+      "date": "2024.06.20",
+      "text": "계열사 간 주식매매로 최대주주가 이랜드파크에서 이랜드월드로 변경됐다고 공시",
+      "src": "manual",
+      "pct": -0.86,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240619800833"
+    },
+    {
+      "date": "2024.02.08",
+      "text": "2023년 개별 잠정 매출 1152.76억원·영업이익 79.23억원, 영업이익 45.8% 감소 공시",
+      "src": "manual",
+      "pct": 0.45,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240207801425"
+    }
+  ]
+}

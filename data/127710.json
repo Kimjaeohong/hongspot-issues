@@ -1,0 +1,40 @@
+{
+  "name": "아시아경제",
+  "issues": [
+    {
+      "date": "2026.04.01",
+      "text": "정기주총에서 연결 영업이익 54.79억원을 포함한 2025년 재무제표 승인 공시",
+      "src": "manual",
+      "pct": 2.67,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260331902818"
+    },
+    {
+      "date": "2026.03.17",
+      "text": "자기주식 매입·소각과 RSU 보상, 투자자 소통 강화를 담은 기업가치 제고 계획 공시",
+      "src": "manual",
+      "pct": 3.82,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260316901253"
+    },
+    {
+      "date": "2026.03.04",
+      "text": "제5회 전환사채 10억원 전환청구에 따른 보통주 99만4035주 발행 공시",
+      "src": "manual",
+      "pct": -4.7,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260303900826"
+    },
+    {
+      "date": "2026.03.03",
+      "text": "2025년 연결 잠정 매출 731.45억원·영업이익 55.47억원으로 흑자전환 공시",
+      "src": "manual",
+      "pct": 3.83,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260227901429"
+    },
+    {
+      "date": "2026.01.23",
+      "text": "영구전환사채 82억원 전환청구에 따른 보통주 815만1093주 발행 공시",
+      "src": "manual",
+      "pct": -0.65,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260122900532"
+    }
+  ]
+}

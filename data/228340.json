@@ -1,0 +1,40 @@
+{
+  "name": "동양파일",
+  "issues": [
+    {
+      "date": "2026.08.14",
+      "text": "반기보고서에서 2026년 상반기 매출 363.98억원·영업이익 33.52억원 공시",
+      "src": "manual",
+      "pct": -2.52,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814001472"
+    },
+    {
+      "date": "2026.05.15",
+      "text": "분기보고서에서 2026년 1분기 매출 157.22억원·영업이익 10.08억원 공시",
+      "src": "manual",
+      "pct": 1.78,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260515000907"
+    },
+    {
+      "date": "2025.11.17",
+      "text": "분기보고서에서 2025년 1~3분기 누적 매출 407.31억원·영업손실 52.11억원 공시",
+      "src": "manual",
+      "pct": -1.33,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251114002476"
+    },
+    {
+      "date": "2025.08.14",
+      "text": "반기보고서에서 2025년 상반기 매출 284.83억원·영업손실 43.02억원 공시",
+      "src": "manual",
+      "pct": -0.05,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250814002080"
+    },
+    {
+      "date": "2025.05.15",
+      "text": "분기보고서에서 2025년 1분기 매출 119.41억원·영업손실 26.32억원 공시",
+      "src": "manual",
+      "pct": 0.11,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250515001115"
+    }
+  ]
+}

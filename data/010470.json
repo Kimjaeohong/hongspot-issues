@@ -1,0 +1,40 @@
+{
+  "name": "오리콤",
+  "issues": [
+    {
+      "date": "2026.03.04",
+      "text": "임원 RSU 보상용 자기주식 9만5660주 지급 완료 보고, 지급일 종가 평가액 약 5.78억원",
+      "src": "manual",
+      "pct": -6.34,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260303002504"
+    },
+    {
+      "date": "2026.02.11",
+      "text": "RSU 가득조건을 충족한 전·현직 임원 7명에게 자기주식 9만5660주 지급 결정 공시",
+      "src": "manual",
+      "pct": 1.54,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260210000797"
+    },
+    {
+      "date": "2025.03.27",
+      "text": "정기주총에서 연결 영업이익 120억원을 포함한 재무제표와 보통주 주당 270원 배당 승인 공시",
+      "src": "manual",
+      "pct": 0.57,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250326901685"
+    },
+    {
+      "date": "2025.02.12",
+      "text": "RSU 가득조건을 충족한 전·현직 임원 5명에게 자기주식 4만6614주 지급 결정 공시",
+      "src": "manual",
+      "pct": 2.34,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250211000573"
+    },
+    {
+      "date": "2024.03.29",
+      "text": "정기주총에서 연결 영업이익 121.70억원을 포함한 재무제표와 보통주 주당 270원 배당 승인 공시",
+      "src": "manual",
+      "pct": 0.26,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240328902934"
+    }
+  ]
+}

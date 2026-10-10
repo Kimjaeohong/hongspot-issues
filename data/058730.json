@@ -1,0 +1,40 @@
+{
+  "name": "다스코",
+  "issues": [
+    {
+      "date": "2026.09.08",
+      "text": "제6회 신주인수권부사채 행사가액을 3465원에서 3502원으로 상향 조정 공시",
+      "src": "manual",
+      "pct": -4.75,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260907800477"
+    },
+    {
+      "date": "2026.08.31",
+      "text": "165.48억원 규모 파나마 메트로 3호선 역사 공사 계약의 종료일 연장 협의 중이라고 정정 공시",
+      "src": "manual",
+      "pct": 2.34,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260828800550"
+    },
+    {
+      "date": "2026.08.26",
+      "text": "신안 미트라1·2호·호루스 35MW 태양광 EPC·운영관리 우선협상대상자 선정 공시",
+      "src": "manual",
+      "pct": 8.78,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260826800089"
+    },
+    {
+      "date": "2026.08.18",
+      "text": "반기보고서에서 2026년 상반기 연결 매출 1399.02억원·영업손실 97.65억원 공시",
+      "src": "manual",
+      "pct": -3.27,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260814002160"
+    },
+    {
+      "date": "2026.08.07",
+      "text": "400MW 장흥 태양광 사업 SPC의 다스코 최종 지분 15%가 단계적으로 적용될 예정이라고 정정 공시",
+      "src": "manual",
+      "pct": 1.23,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260806800498"
+    }
+  ]
+}

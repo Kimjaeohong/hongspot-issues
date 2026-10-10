@@ -1,0 +1,40 @@
+{
+  "name": "케이사인",
+  "issues": [
+    {
+      "date": "2026.07.28",
+      "text": "30억원 규모 자기주식 취득 신탁계약 해지 결과 공시",
+      "src": "manual",
+      "pct": 2.39,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260727000330"
+    },
+    {
+      "date": "2026.06.02",
+      "text": "임시주총에서 정관 일부 변경과 이사보수 규정 제정 안건 가결 공시",
+      "src": "manual",
+      "pct": -4.49,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260602900201"
+    },
+    {
+      "date": "2026.04.22",
+      "text": "정보보안·인증 본업 경쟁력과 수익성 중심 경영을 담은 기업가치 제고 계획 공시",
+      "src": "manual",
+      "pct": 0.0,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260422900161"
+    },
+    {
+      "date": "2024.08.01",
+      "text": "주당 액면가 100원에서 1000원으로 변경하는 10대1 주식병합 결정 공시",
+      "src": "manual",
+      "pct": 3.35,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240801900271"
+    },
+    {
+      "date": "2024.02.02",
+      "text": "2023년 연결 잠정 매출 470.47억원·영업이익 43.19억원, 영업이익 52.87% 감소 공시",
+      "src": "manual",
+      "pct": 0.08,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240201900538"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "에이텀",
+  "issues": [
+    {
+      "date": "2026.05.18",
+      "text": "분기보고서에서 2026년 1~3월 연결 매출 261.15억원·영업손실 13.88억원 공시",
+      "src": "manual",
+      "pct": 0.36,
+      "source_url": "https://kind.krx.co.kr/external/2026/05/15/002397/20260515005396/11013.htm"
+    },
+    {
+      "date": "2026.04.30",
+      "text": "주주배정 후 실권주 일반공모 유상증자 400만주 발행·139.6억원 납입 완료 공시",
+      "src": "manual",
+      "pct": -1.13,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260430000479"
+    },
+    {
+      "date": "2026.04.20",
+      "text": "정정 투자설명서에서 유상증자 400만주 발행가 3490원·모집총액 139.6억원 확정, 납입은 4월 30일 예정",
+      "src": "manual",
+      "pct": 0.52,
+      "source_url": "https://kind.krx.co.kr/external/2026/04/20/000351/20260420001045/10601.htm"
+    },
+    {
+      "date": "2026.03.19",
+      "text": "사업보고서에서 2025년 1~12월 연결 매출 704.26억원·영업손실 65.41억원 공시",
+      "src": "manual",
+      "pct": -5.65,
+      "source_url": "https://kind.krx.co.kr/external/2026/03/18/001985/20260318009148/11011.htm"
+    },
+    {
+      "date": "2025.11.17",
+      "text": "분기보고서에서 2025년 1~9월 누적 연결 매출 427.49억원·영업손실 55.81억원 공시",
+      "src": "manual",
+      "pct": -7.04,
+      "source_url": "https://kind.krx.co.kr/external/2025/11/14/002525/20251114005770/11013.htm"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "유니테크노",
+  "issues": [
+    {
+      "date": "2026.07.27",
+      "text": "2026년 연결 매출 1342억원·영업이익 81억원 전망 공시, 실제 실적과 달라질 수 있는 예측치",
+      "src": "manual",
+      "pct": 2.24,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260727900238"
+    },
+    {
+      "date": "2026.04.01",
+      "text": "정기주총에서 최대주주·특수관계인을 제외한 주주 대상 주당 17원 차등배당 승인 공시",
+      "src": "manual",
+      "pct": 5.02,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260331902920"
+    },
+    {
+      "date": "2026.02.05",
+      "text": "조기상환 청구에 따라 제2회 전환사채 권면 20억원을 21.82억원에 만기 전 취득·소각 공시",
+      "src": "manual",
+      "pct": -4.38,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260204900902"
+    },
+    {
+      "date": "2025.09.30",
+      "text": "2030년 매출 2000억원 목표와 2026년 반기배당 도입을 담은 기업가치 제고 계획 공시",
+      "src": "manual",
+      "pct": -0.32,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250930900104"
+    },
+    {
+      "date": "2024.01.16",
+      "text": "기취득 자기주식 54만859주 소각 결정, 장부가액 약 47.48억원 공시",
+      "src": "manual",
+      "pct": 4.38,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240116900167"
+    }
+  ]
+}

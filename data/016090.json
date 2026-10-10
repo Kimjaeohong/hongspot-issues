@@ -1,0 +1,40 @@
+{
+  "name": "대현",
+  "issues": [
+    {
+      "date": "2026.03.27",
+      "text": "정기주총에서 2025년 재무제표와 보통주 1주당 80원 결산배당 승인 공시",
+      "src": "manual",
+      "pct": -0.42,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260327800457"
+    },
+    {
+      "date": "2026.02.09",
+      "text": "2025년 개별 잠정 매출 2405.44억원·영업이익 70.78억원, 영업이익 50.8% 감소 공시",
+      "src": "manual",
+      "pct": 2.26,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260206802492"
+    },
+    {
+      "date": "2025.03.31",
+      "text": "정기주총에서 2024년 재무제표 승인과 김상표 사내이사 신규 선임 공시",
+      "src": "manual",
+      "pct": -1.04,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250331800445"
+    },
+    {
+      "date": "2025.02.10",
+      "text": "2024년 결산 현금배당으로 보통주 1주당 90원, 총 39.85억원 배당 결정 공시",
+      "src": "manual",
+      "pct": -4.7,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250207800903"
+    },
+    {
+      "date": "2024.02.13",
+      "text": "2023년 결산 현금배당으로 보통주 1주당 100원, 총 44.28억원 배당 결정 공시",
+      "src": "manual",
+      "pct": 0.5,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240208801127"
+    }
+  ]
+}

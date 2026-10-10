@@ -1,0 +1,40 @@
+{
+  "name": "딥노이드",
+  "issues": [
+    {
+      "date": "2026.06.05",
+      "text": "임시주총에서 최우식·김태규 사내이사에 대한 보수한도 승인안 2건 가결 공시",
+      "src": "manual",
+      "pct": -1.03,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260605900441"
+    },
+    {
+      "date": "2026.04.01",
+      "text": "정기주총에서 재무제표·이사 선임안 승인, 정관 변경·사내이사 2명 보수한도안은 정족수 미달로 부결",
+      "src": "manual",
+      "pct": 5.45,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260331902413"
+    },
+    {
+      "date": "2025.12.15",
+      "text": "유상증자 실권주 72만7428주 일반공모에 약 300.22대1 청약 경쟁률 기록 공시",
+      "src": "manual",
+      "pct": -0.12,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251215900772"
+    },
+    {
+      "date": "2025.12.10",
+      "text": "주주배정 유상증자 구주주 청약률 89.36%, 실권주 72만7428주 일반공모 예정 공시",
+      "src": "manual",
+      "pct": 1.09,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251210900211"
+    },
+    {
+      "date": "2025.09.09",
+      "text": "시설·운영자금 약 270억원 조달 목적의 주주배정 유상증자 결정, 당시 예정 발행가 3950원 공시",
+      "src": "manual",
+      "pct": -14.4,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250908000201"
+    }
+  ]
+}

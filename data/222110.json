@@ -1,0 +1,40 @@
+{
+  "name": "팬젠",
+  "issues": [
+    {
+      "date": "2026.05.27",
+      "text": "국립보건연구원 SFTS 치료용 항체 비임상 시료 생산·평가 과제 협상대상자 선정 공시",
+      "src": "manual",
+      "pct": 1.16,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260527900329"
+    },
+    {
+      "date": "2026.04.21",
+      "text": "조기상환 청구에 따라 제3회 전환사채 권면 10억원을 10.62억원에 만기 전 취득 공시",
+      "src": "manual",
+      "pct": -7.37,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260420900706"
+    },
+    {
+      "date": "2025.05.02",
+      "text": "휴온스 대상 29.67억원 규모 제3자배정 유상증자 결정, 운영자금 조달 목적 공시",
+      "src": "manual",
+      "pct": -1.72,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250502000250"
+    },
+    {
+      "date": "2024.12.16",
+      "text": "정인철 공동대표 사임으로 윤재승 단독 대표이사 체제로 변경 공시",
+      "src": "manual",
+      "pct": 7.39,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241213901445"
+    },
+    {
+      "date": "2024.09.30",
+      "text": "빈혈치료제 팬포틴 2000IU·4000IU의 태국 식약청 품목허가 획득 공시",
+      "src": "manual",
+      "pct": 0.12,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240927900535"
+    }
+  ]
+}
