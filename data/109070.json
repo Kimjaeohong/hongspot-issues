@@ -1,0 +1,40 @@
+{
+  "name": "주성코퍼레이션",
+  "issues": [
+    {
+      "date": "2026.05.15",
+      "text": "2026년 1분기 연결 영업손실 2.65억원으로 적자전환 (장중 +1.04%까지 상승 후 상승폭 반납·종가 -8.19%)",
+      "src": "manual",
+      "pct": -8.19,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260514001111"
+    },
+    {
+      "date": "2026.02.04",
+      "text": "2025년 연결 잠정 영업이익 32.11억원·매출 855.77억원 공시",
+      "src": "manual",
+      "pct": 2.89,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260203000644"
+    },
+    {
+      "date": "2025.11.14",
+      "text": "2025년 3분기 누적 연결 영업이익 18.78억원, 전년 동기 대비 40.0% 감소",
+      "src": "manual",
+      "pct": -2.12,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251114000990"
+    },
+    {
+      "date": "2025.08.14",
+      "text": "2025년 상반기 연결 영업이익 17.48억원, 전년 동기 대비 2.8% 증가",
+      "src": "manual",
+      "pct": 3.38,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250814000248"
+    },
+    {
+      "date": "2025.05.15",
+      "text": "2025년 1분기 연결 영업이익 9.78억원, 전년 동기 대비 76.5% 증가",
+      "src": "manual",
+      "pct": -1.53,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250515000088"
+    }
+  ]
+}

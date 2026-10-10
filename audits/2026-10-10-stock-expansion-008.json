@@ -1,0 +1,3001 @@
+{
+  "schema": "hongspot-historical-stock-expansion-v1",
+  "baseline_commit": "7c685495765cd7db7d45d9b7b266abce2147ce74",
+  "integration_base_commit": "7c685495765cd7db7d45d9b7b266abce2147ce74",
+  "prepared_at_utc": "2026-10-10T13:56:44.924034+00:00",
+  "scope": "Previously uncovered or underfilled ordinary listed stocks; five newly verified historical events per stock. Existing legacy events are preserved and are not counted as newly verified.",
+  "completed_stocks": 9,
+  "new_stock_files": 9,
+  "new_verified_issues": 45,
+  "preserved_legacy_issues": 0,
+  "codes": [
+    "012790",
+    "052220",
+    "089790",
+    "092040",
+    "109070",
+    "110790",
+    "208370",
+    "337930",
+    "371950"
+  ],
+  "session": "KRX regular session; unadjusted close compared with the actual previous completed regular-session close",
+  "calculation": "100 * (regular_close / previous_regular_close - 1), Decimal ROUND_HALF_UP to two decimals",
+  "limitations": [
+    "No direct official KRX historical price export; dated provider closes independently corroborated",
+    "Contemporaneous provisional financial figures may differ from later restatements",
+    "An event and daily return do not establish full-day price causation",
+    "This audit is not an automatic price adapter"
+  ],
+  "current_eligibility": [
+    {
+      "code": "012790",
+      "name": "신일제약",
+      "market": "KOSDAQ",
+      "existing_count": 0,
+      "existing_numeric_count": 0,
+      "new_issues_target": 5,
+      "priority_market_cap_krw": 78151425800,
+      "observed_trading_value_krw": 121000000,
+      "observed_trading_volume": 18632,
+      "classification": "operating_company_representative_equity",
+      "classification_basis": "Exact current KIND corporation representative code matched to official ST (주권) listed issue and same-name Naver stock; no code-suffix test used",
+      "kind_company": {
+        "name": "신일제약",
+        "code": "012790",
+        "market": "코스닥",
+        "industry": "의약품 제조업",
+        "products": "디펜플라스타, 맥스케어, 트레스, 리피칸",
+        "listing_date": "1999-08-13"
+      },
+      "kind_issue": {
+        "classification": "주권",
+        "name": "신일제약",
+        "isin": "KR7012790002",
+        "listing_date": "1999-08-13",
+        "listed_shares_thousands": 11986,
+        "source_id": "kind-ST-KSQ-20261008.html",
+        "group": "ST"
+      },
+      "kind_halt_listed": false,
+      "trade_status": {
+        "stockType": "domestic",
+        "stockEndType": "stock",
+        "tradeStopType": {
+          "code": "1",
+          "text": "운영.Trading",
+          "name": "TRADING"
+        },
+        "tradableStatus": "tradable",
+        "tradableStatusCode": "ok",
+        "tradableStatusUpdatedAt": "2026-10-08T08:01:55.959+09:00",
+        "localTradedAt": "2026-10-08T20:34:41+09:00",
+        "marketStatus": "CLOSE"
+      },
+      "source_ids": [
+        "kind-corp.xls",
+        "kind-ST-KSQ-20261008.html",
+        "kind-halt-current.html",
+        "naver-KOSDAQ-9.json"
+      ],
+      "portal_page_url": "https://m.stock.naver.com/domestic/stock/012790",
+      "security_type_scope_note": "Representative corporate share identity, with ST issue category; excludes nonrepresentative preferred classes and official fund/REIT classes. This is eligibility evidence, not historical event-price validation.",
+      "priority_rank": 26
+    },
+    {
+      "code": "052220",
+      "name": "iMBC",
+      "market": "KOSDAQ",
+      "existing_count": 0,
+      "existing_numeric_count": 0,
+      "new_issues_target": 5,
+      "priority_market_cap_krw": 37145000000,
+      "observed_trading_value_krw": 34000000,
+      "observed_trading_volume": 20981,
+      "classification": "operating_company_representative_equity",
+      "classification_basis": "Exact current KIND corporation representative code matched to official ST (주권) listed issue and same-name Naver stock; no code-suffix test used",
+      "kind_company": {
+        "name": "iMBC",
+        "code": "052220",
+        "market": "코스닥",
+        "industry": "영상·오디오물 제공 서비스업",
+        "products": "디지털콘텐츠,웹에이젼시",
+        "listing_date": "2005-01-21"
+      },
+      "kind_issue": {
+        "classification": "주권",
+        "name": "iMBC",
+        "isin": "KR7052220001",
+        "listing_date": "2005-01-21",
+        "listed_shares_thousands": 23000,
+        "source_id": "kind-ST-KSQ-20261008.html",
+        "group": "ST"
+      },
+      "kind_halt_listed": false,
+      "trade_status": {
+        "stockType": "domestic",
+        "stockEndType": "stock",
+        "tradeStopType": {
+          "code": "1",
+          "text": "운영.Trading",
+          "name": "TRADING"
+        },
+        "tradableStatus": "tradable",
+        "tradableStatusCode": "ok",
+        "tradableStatusUpdatedAt": "2026-10-08T08:02:12.34+09:00",
+        "localTradedAt": "2026-10-08T20:34:33+09:00",
+        "marketStatus": "CLOSE"
+      },
+      "source_ids": [
+        "kind-corp.xls",
+        "kind-ST-KSQ-20261008.html",
+        "kind-halt-current.html",
+        "naver-KOSDAQ-13.json"
+      ],
+      "portal_page_url": "https://m.stock.naver.com/domestic/stock/052220",
+      "security_type_scope_note": "Representative corporate share identity, with ST issue category; excludes nonrepresentative preferred classes and official fund/REIT classes. This is eligibility evidence, not historical event-price validation.",
+      "priority_rank": 365
+    },
+    {
+      "code": "089790",
+      "name": "제이티",
+      "market": "KOSDAQ",
+      "existing_count": 0,
+      "existing_numeric_count": 0,
+      "new_issues_target": 5,
+      "priority_market_cap_krw": 74581158990,
+      "observed_trading_value_krw": 2815000000,
+      "observed_trading_volume": 388338,
+      "classification": "operating_company_representative_equity",
+      "classification_basis": "Exact current KIND corporation representative code matched to official ST (주권) listed issue and same-name Naver stock; no code-suffix test used",
+      "kind_company": {
+        "name": "제이티",
+        "code": "089790",
+        "market": "코스닥",
+        "industry": "특수 목적용 기계 제조업",
+        "products": "반도체장비(Burn-in Sorter 등)",
+        "listing_date": "2006-10-27"
+      },
+      "kind_issue": {
+        "classification": "주권",
+        "name": "제이티",
+        "isin": "KR7089790000",
+        "listing_date": "2006-10-27",
+        "listed_shares_thousands": 10316,
+        "source_id": "kind-ST-KSQ-20261008.html",
+        "group": "ST"
+      },
+      "kind_halt_listed": false,
+      "trade_status": {
+        "stockType": "domestic",
+        "stockEndType": "stock",
+        "tradeStopType": {
+          "code": "1",
+          "text": "운영.Trading",
+          "name": "TRADING"
+        },
+        "tradableStatus": "tradable",
+        "tradableStatusCode": "ok",
+        "tradableStatusUpdatedAt": "2026-10-08T08:02:21.092+09:00",
+        "localTradedAt": "2026-10-08T20:34:39+09:00",
+        "marketStatus": "CLOSE"
+      },
+      "source_ids": [
+        "kind-corp.xls",
+        "kind-ST-KSQ-20261008.html",
+        "kind-halt-current.html",
+        "naver-KOSDAQ-10.json"
+      ],
+      "portal_page_url": "https://m.stock.naver.com/domestic/stock/089790",
+      "security_type_scope_note": "Representative corporate share identity, with ST issue category; excludes nonrepresentative preferred classes and official fund/REIT classes. This is eligibility evidence, not historical event-price validation.",
+      "priority_rank": 30
+    },
+    {
+      "code": "092040",
+      "name": "아미코젠",
+      "market": "KOSDAQ",
+      "existing_count": 0,
+      "existing_numeric_count": 0,
+      "new_issues_target": 5,
+      "priority_market_cap_krw": 69948833130,
+      "observed_trading_value_krw": 134000000,
+      "observed_trading_volume": 136360,
+      "classification": "operating_company_representative_equity",
+      "classification_basis": "Exact current KIND corporation representative code matched to official ST (주권) listed issue and same-name Naver stock; no code-suffix test used",
+      "kind_company": {
+        "name": "아미코젠",
+        "code": "092040",
+        "market": "코스닥",
+        "industry": "기타 식품 제조업",
+        "products": "제약용 특수효소 및 효소기반 바이오신소재",
+        "listing_date": "2013-09-12"
+      },
+      "kind_issue": {
+        "classification": "주권",
+        "name": "아미코젠",
+        "isin": "KR7092040005",
+        "listing_date": "2013-09-12",
+        "listed_shares_thousands": 70655,
+        "source_id": "kind-ST-KSQ-20261008.html",
+        "group": "ST"
+      },
+      "kind_halt_listed": false,
+      "trade_status": {
+        "stockType": "domestic",
+        "stockEndType": "stock",
+        "tradeStopType": {
+          "code": "1",
+          "text": "운영.Trading",
+          "name": "TRADING"
+        },
+        "tradableStatus": "tradable",
+        "tradableStatusCode": "ok",
+        "tradableStatusUpdatedAt": "2026-10-08T08:02:21.885+09:00",
+        "localTradedAt": "2026-10-08T20:34:37+09:00",
+        "marketStatus": "CLOSE"
+      },
+      "source_ids": [
+        "kind-corp.xls",
+        "kind-ST-KSQ-20261008.html",
+        "kind-halt-current.html",
+        "naver-KOSDAQ-10.json"
+      ],
+      "portal_page_url": "https://m.stock.naver.com/domestic/stock/092040",
+      "security_type_scope_note": "Representative corporate share identity, with ST issue category; excludes nonrepresentative preferred classes and official fund/REIT classes. This is eligibility evidence, not historical event-price validation.",
+      "priority_rank": 48
+    },
+    {
+      "code": "109070",
+      "name": "주성코퍼레이션",
+      "market": "KOSPI",
+      "existing_count": 0,
+      "existing_numeric_count": 0,
+      "new_issues_target": 5,
+      "priority_market_cap_krw": 72666876480,
+      "observed_trading_value_krw": 87000000,
+      "observed_trading_volume": 12549,
+      "classification": "operating_company_representative_equity",
+      "classification_basis": "Exact current KIND corporation representative code matched to official ST (주권) listed issue and same-name Naver stock; no code-suffix test used",
+      "kind_company": {
+        "name": "주성코퍼레이션",
+        "code": "109070",
+        "market": "유가",
+        "industry": "통신 및 방송 장비 제조업",
+        "products": "ICS중계기, 블랙박스",
+        "listing_date": "2009-03-17"
+      },
+      "kind_issue": {
+        "classification": "주권",
+        "name": "주성코퍼레이션",
+        "isin": "KR7109070003",
+        "listing_date": "2009-03-17",
+        "listed_shares_thousands": 10562,
+        "source_id": "kind-ST-STK-20261008.html",
+        "group": "ST"
+      },
+      "kind_halt_listed": false,
+      "trade_status": {
+        "stockType": "domestic",
+        "stockEndType": "stock",
+        "tradeStopType": {
+          "code": "1",
+          "text": "운영.Trading",
+          "name": "TRADING"
+        },
+        "tradableStatus": "tradable",
+        "tradableStatusCode": "ok",
+        "tradableStatusUpdatedAt": "2026-10-08T08:02:25.615+09:00",
+        "localTradedAt": "2026-10-08T20:34:37+09:00",
+        "marketStatus": "CLOSE"
+      },
+      "source_ids": [
+        "kind-corp.xls",
+        "kind-ST-STK-20261008.html",
+        "kind-halt-current.html",
+        "naver-KOSPI-13.json"
+      ],
+      "portal_page_url": "https://m.stock.naver.com/domestic/stock/109070",
+      "security_type_scope_note": "Representative corporate share identity, with ST issue category; excludes nonrepresentative preferred classes and official fund/REIT classes. This is eligibility evidence, not historical event-price validation.",
+      "priority_rank": 35
+    },
+    {
+      "code": "110790",
+      "name": "크리스에프앤씨",
+      "market": "KOSDAQ",
+      "existing_count": 0,
+      "existing_numeric_count": 0,
+      "new_issues_target": 5,
+      "priority_market_cap_krw": 70292880000,
+      "observed_trading_value_krw": 9000000,
+      "observed_trading_volume": 3030,
+      "classification": "operating_company_representative_equity",
+      "classification_basis": "Exact current KIND corporation representative code matched to official ST (주권) listed issue and same-name Naver stock; no code-suffix test used",
+      "kind_company": {
+        "name": "크리스에프앤씨",
+        "code": "110790",
+        "market": "코스닥",
+        "industry": "봉제의복 제조업",
+        "products": "골프웨어",
+        "listing_date": "2018-10-01"
+      },
+      "kind_issue": {
+        "classification": "주권",
+        "name": "크리스에프앤씨",
+        "isin": "KR7110790003",
+        "listing_date": "2018-10-01",
+        "listed_shares_thousands": 23431,
+        "source_id": "kind-ST-KSQ-20261008.html",
+        "group": "ST"
+      },
+      "kind_halt_listed": false,
+      "trade_status": {
+        "stockType": "domestic",
+        "stockEndType": "stock",
+        "tradeStopType": {
+          "code": "1",
+          "text": "운영.Trading",
+          "name": "TRADING"
+        },
+        "tradableStatus": "tradable",
+        "tradableStatusCode": "ok",
+        "tradableStatusUpdatedAt": "2026-10-08T08:02:25.812+09:00",
+        "localTradedAt": "2026-10-08T20:34:40+09:00",
+        "marketStatus": "CLOSE"
+      },
+      "source_ids": [
+        "kind-corp.xls",
+        "kind-ST-KSQ-20261008.html",
+        "kind-halt-current.html",
+        "naver-KOSDAQ-10.json"
+      ],
+      "portal_page_url": "https://m.stock.naver.com/domestic/stock/110790",
+      "security_type_scope_note": "Representative corporate share identity, with ST issue category; excludes nonrepresentative preferred classes and official fund/REIT classes. This is eligibility evidence, not historical event-price validation.",
+      "priority_rank": 45
+    },
+    {
+      "code": "208370",
+      "name": "셀바스헬스케어",
+      "market": "KOSDAQ",
+      "existing_count": 0,
+      "existing_numeric_count": 0,
+      "new_issues_target": 5,
+      "priority_market_cap_krw": 67955088960,
+      "observed_trading_value_krw": 370000000,
+      "observed_trading_volume": 140931,
+      "classification": "operating_company_representative_equity",
+      "classification_basis": "Exact current KIND corporation representative code matched to official ST (주권) listed issue and same-name Naver stock; no code-suffix test used",
+      "kind_company": {
+        "name": "셀바스헬스케어",
+        "code": "208370",
+        "market": "코스닥",
+        "industry": "의료용 기기 제조업",
+        "products": "체성분측정기, 혈압계, 점자정보단말기",
+        "listing_date": "2014-12-17"
+      },
+      "kind_issue": {
+        "classification": "주권",
+        "name": "셀바스헬스케어",
+        "isin": "KR7208370007",
+        "listing_date": "2014-12-17",
+        "listed_shares_thousands": 25741,
+        "source_id": "kind-ST-KSQ-20261008.html",
+        "group": "ST"
+      },
+      "kind_halt_listed": false,
+      "trade_status": {
+        "stockType": "domestic",
+        "stockEndType": "stock",
+        "tradeStopType": {
+          "code": "1",
+          "text": "운영.Trading",
+          "name": "TRADING"
+        },
+        "tradableStatus": "tradable",
+        "tradableStatusCode": "ok",
+        "tradableStatusUpdatedAt": "2026-10-08T08:02:36.045+09:00",
+        "localTradedAt": "2026-10-08T20:34:39+09:00",
+        "marketStatus": "CLOSE"
+      },
+      "source_ids": [
+        "kind-corp.xls",
+        "kind-ST-KSQ-20261008.html",
+        "kind-halt-current.html",
+        "naver-KOSDAQ-10.json"
+      ],
+      "portal_page_url": "https://m.stock.naver.com/domestic/stock/208370",
+      "security_type_scope_note": "Representative corporate share identity, with ST issue category; excludes nonrepresentative preferred classes and official fund/REIT classes. This is eligibility evidence, not historical event-price validation.",
+      "priority_rank": 59
+    },
+    {
+      "code": "337930",
+      "name": "젝시믹스",
+      "market": "KOSDAQ",
+      "existing_count": 0,
+      "existing_numeric_count": 0,
+      "new_issues_target": 5,
+      "priority_market_cap_krw": 67684004570,
+      "observed_trading_value_krw": 106000000,
+      "observed_trading_volume": 45666,
+      "classification": "operating_company_representative_equity",
+      "classification_basis": "Exact current KIND corporation representative code matched to official ST (주권) listed issue and same-name Naver stock; no code-suffix test used",
+      "kind_company": {
+        "name": "젝시믹스",
+        "code": "337930",
+        "market": "코스닥",
+        "industry": "기타 정보 서비스업",
+        "products": "애슬레저의류, 생활/청결 용품",
+        "listing_date": "2020-08-13"
+      },
+      "kind_issue": {
+        "classification": "주권",
+        "name": "젝시믹스",
+        "isin": "KR7337930002",
+        "listing_date": "2020-08-13",
+        "listed_shares_thousands": 29049,
+        "source_id": "kind-ST-KSQ-20261008.html",
+        "group": "ST"
+      },
+      "kind_halt_listed": false,
+      "trade_status": {
+        "stockType": "domestic",
+        "stockEndType": "stock",
+        "tradeStopType": {
+          "code": "1",
+          "text": "운영.Trading",
+          "name": "TRADING"
+        },
+        "tradableStatus": "tradable",
+        "tradableStatusCode": "ok",
+        "tradableStatusUpdatedAt": "2026-10-08T08:02:52.725+09:00",
+        "localTradedAt": "2026-10-08T20:34:34+09:00",
+        "marketStatus": "CLOSE"
+      },
+      "source_ids": [
+        "kind-corp.xls",
+        "kind-ST-KSQ-20261008.html",
+        "kind-halt-current.html",
+        "naver-KOSDAQ-10.json"
+      ],
+      "portal_page_url": "https://m.stock.naver.com/domestic/stock/337930",
+      "security_type_scope_note": "Representative corporate share identity, with ST issue category; excludes nonrepresentative preferred classes and official fund/REIT classes. This is eligibility evidence, not historical event-price validation.",
+      "priority_rank": 62
+    },
+    {
+      "code": "371950",
+      "name": "풍원정밀",
+      "market": "KOSDAQ",
+      "existing_count": 0,
+      "existing_numeric_count": 0,
+      "new_issues_target": 5,
+      "priority_market_cap_krw": 72698055850,
+      "observed_trading_value_krw": 1645000000,
+      "observed_trading_volume": 518011,
+      "classification": "operating_company_representative_equity",
+      "classification_basis": "Exact current KIND corporation representative code matched to official ST (주권) listed issue and same-name Naver stock; no code-suffix test used",
+      "kind_company": {
+        "name": "풍원정밀",
+        "code": "371950",
+        "market": "코스닥",
+        "industry": "전자부품 제조업",
+        "products": "OLED 증착용 Metal Mask",
+        "listing_date": "2022-02-28"
+      },
+      "kind_issue": {
+        "classification": "주권",
+        "name": "풍원정밀",
+        "isin": "KR7371950007",
+        "listing_date": "2022-02-28",
+        "listed_shares_thousands": 23565,
+        "source_id": "kind-ST-KSQ-20261008.html",
+        "group": "ST"
+      },
+      "kind_halt_listed": false,
+      "trade_status": {
+        "stockType": "domestic",
+        "stockEndType": "stock",
+        "tradeStopType": {
+          "code": "1",
+          "text": "운영.Trading",
+          "name": "TRADING"
+        },
+        "tradableStatus": "tradable",
+        "tradableStatusCode": "ok",
+        "tradableStatusUpdatedAt": "2026-10-08T08:02:55.885+09:00",
+        "localTradedAt": "2026-10-08T20:34:35+09:00",
+        "marketStatus": "CLOSE"
+      },
+      "source_ids": [
+        "kind-corp.xls",
+        "kind-ST-KSQ-20261008.html",
+        "kind-halt-current.html",
+        "naver-KOSDAQ-10.json"
+      ],
+      "portal_page_url": "https://m.stock.naver.com/domestic/stock/371950",
+      "security_type_scope_note": "Representative corporate share identity, with ST issue category; excludes nonrepresentative preferred classes and official fund/REIT classes. This is eligibility evidence, not historical event-price validation.",
+      "priority_rank": 34
+    }
+  ],
+  "eligibility_sources": {
+    "kind-corp.xls": {
+      "url": "https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13",
+      "retrieved_at_utc": "2026-10-10T12:55:57.358375+00:00",
+      "bytes": 1263408,
+      "sha256": "001266c7cca30da32c8f8cce9a91f36a6c5d1a35dd83ab4b6ed8c3fb5ad9de58"
+    },
+    "kind-ST-STK-20261008.html": {
+      "url": "https://kind.krx.co.kr/corpgeneral/listedissuestatusdetail.do?method=searchListedIssueStatDetailSub&forward=listedissuestatdetail_down&currentPageSize=3000&pageIndex=1&selDate=20261008&mktId=STK&secugrpId=ST&detailType=2",
+      "retrieved_at_utc": "2026-10-10T12:57:43.585509+00:00",
+      "bytes": 382696,
+      "sha256": "59705e576b4cceb9ad75088c3863adce38889d755f00386d745357cf64e79950"
+    },
+    "naver-KOSDAQ-13.json": {
+      "url": "https://m.stock.naver.com/api/stocks/marketValue/KOSDAQ?page=13&pageSize=100",
+      "retrieved_at_utc": "2026-10-10T12:57:36.662076+00:00",
+      "bytes": 158976,
+      "sha256": "fd15eb52ea195793b12afe3cf5d77f07f33e7acef8f7f32ff7a589d030d37b06"
+    },
+    "naver-KOSPI-13.json": {
+      "url": "https://m.stock.naver.com/api/stocks/marketValue/KOSPI?page=13&pageSize=100",
+      "retrieved_at_utc": "2026-10-10T12:56:46.077513+00:00",
+      "bytes": 160098,
+      "sha256": "ebb6fa4a4ee520c3cd96016a69ef8022871eea01d59101fb919a66afe3c793b6"
+    },
+    "naver-KOSDAQ-10.json": {
+      "url": "https://m.stock.naver.com/api/stocks/marketValue/KOSDAQ?page=10&pageSize=100",
+      "retrieved_at_utc": "2026-10-10T12:57:27.324146+00:00",
+      "bytes": 159079,
+      "sha256": "76ef019a121d020067c93772cc72674810cb2d34be1b3f5126470a0263a333ee"
+    },
+    "kind-ST-KSQ-20261008.html": {
+      "url": "https://kind.krx.co.kr/corpgeneral/listedissuestatusdetail.do?method=searchListedIssueStatDetailSub&forward=listedissuestatdetail_down&currentPageSize=3000&pageIndex=1&selDate=20261008&mktId=KSQ&secugrpId=ST&detailType=2",
+      "retrieved_at_utc": "2026-10-10T12:57:50.501109+00:00",
+      "bytes": 755647,
+      "sha256": "6c0d8d1289070af803b6b31d6fdbcef69050fd6694743551c3d409ec80001345"
+    },
+    "kind-halt-current.html": {
+      "url": "https://kind.krx.co.kr/investwarn/tradinghaltissue.do?method=searchTradingHaltIssueSub&forward=tradinghaltissue_down&currentPageSize=3000&pageIndex=1&marketType=0",
+      "retrieved_at_utc": "2026-10-10T12:58:03.308390+00:00",
+      "sha256": "ef012feb740846251cad68bdc4cce9931b271d0890d14ab7d27bf119ec4193f2",
+      "bytes": 28376
+    },
+    "naver-KOSDAQ-9.json": {
+      "url": "https://m.stock.naver.com/api/stocks/marketValue/KOSDAQ?page=9&pageSize=100",
+      "retrieved_at_utc": "2026-10-10T12:57:26.732481+00:00",
+      "bytes": 159320,
+      "sha256": "876bb59a5fdbb02810546d4a4b1fa6f5a94b32f23510ff673137c6f6200d015c"
+    }
+  },
+  "rows": [
+    {
+      "code": "089790",
+      "name": "제이티",
+      "issue": {
+        "date": "2026.07.02",
+        "text": "삼성전자와 핸들러 장비 165.20억원 공급계약 공시, 최근 매출액의 43.04%",
+        "src": "manual",
+        "pct": -9.44
+      },
+      "source_urls": [
+        "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260702000130",
+        "https://kind.krx.co.kr/external/2026/07/02/000130/20260701001805/70370.htm"
+      ],
+      "source_sha256": "b75dc26ef2518d09e3118c892b33c3fa0cf5e48beb96dbf04bd11e19a6e43561",
+      "source_retrieved_at_utc": "2026-10-10T13:04:14.869942+00:00",
+      "publication_time_kst": "2026-07-02T09:28:00+09:00",
+      "publication_precision": "minute; zero seconds are formatting only",
+      "publication_clock_source_url": "https://kind.krx.co.kr/disclosure/details.do",
+      "publication_clock_method": "POST",
+      "publication_clock_request": "method=searchDetailsSub&forward=details_sub&currentPageSize=300&pageIndex=1&fromDate=2025-01-01&toDate=2026-10-10&searchCodeType=number&repIsuSrtCd=A089790&searchCorpName=089790&orderMode=0&orderStat=D&lastReport=",
+      "date_basis": {
+        "policy": "Before15:30KST on a trading day: same regular session; at/after15:30 or non-trading date: next actual traded regular session. Exceptional sessions require separate review.",
+        "after_standard_regular_close": false,
+        "assigned_regular_session_date": "2026-07-02"
+      },
+      "regular_close_krw": "4315.0",
+      "previous_trading_date": "2026-07-01",
+      "previous_regular_close_krw": "4765.0",
+      "regular_session_volume": 358531,
+      "calculated_pct": -9.44,
+      "price_urls": [
+        "https://finance.daum.net/api/quote/A089790/days?symbolCode=A089790&pagination=true&page=1&perPage=2500&adjusted=false",
+        "https://query1.finance.yahoo.com/v8/finance/chart/089790.KQ?period1=1672531200&period2=1791676800&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+      ],
+      "price_source_sha256": [
+        "7827e6d5c5f9aa6c3360a20bb1a26042bcad7f7c1c14e0aaaeb5813ac8875231",
+        "dbdd69d68e908093bad374768193a02578872d5e1d242055bcb8969be5fceccc"
+      ],
+      "regular_session_reference_evidence": {
+        "next_session_date": "2026-07-03",
+        "next_close": "4510.0",
+        "reference_mode": "explicit_next_prevClosingPrice",
+        "next_reference_price": "4315.0",
+        "next_signed_change": "195.0",
+        "next_change_direction": "RISE",
+        "next_change_rate": "0.0451911935",
+        "independent_price_provider": "Yahoo raw quote OHLC (not adjclose)",
+        "independent_matching_dates": [
+          "2026-07-02",
+          "2026-07-01",
+          "2026-07-03"
+        ]
+      }
+    },
+    {
+      "code": "089790",
+      "name": "제이티",
+      "issue": {
+        "date": "2026.05.20",
+        "text": "삼성전자와 핸들러 장비 78.38억원 공급계약 공시, 최근 매출액의 20.42%",
+        "src": "manual",
+        "pct": 1.75
+      },
+      "source_urls": [
+        "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260519000588",
+        "https://kind.krx.co.kr/external/2026/05/19/000588/20260519000713/70370.htm"
+      ],
+      "source_sha256": "ba484c35ec2ebe1ecc49b4ca5ad16798f39c10a0c9406c1c18eb9e8784d68cfd",
+      "source_retrieved_at_utc": "2026-10-10T13:04:14.951539+00:00",
+      "publication_time_kst": "2026-05-19T17:04:00+09:00",
+      "publication_precision": "minute; zero seconds are formatting only",
+      "publication_clock_source_url": "https://kind.krx.co.kr/disclosure/details.do",
+      "publication_clock_method": "POST",
+      "publication_clock_request": "method=searchDetailsSub&forward=details_sub&currentPageSize=300&pageIndex=1&fromDate=2025-01-01&toDate=2026-10-10&searchCodeType=number&repIsuSrtCd=A089790&searchCorpName=089790&orderMode=0&orderStat=D&lastReport=",
+      "date_basis": {
+        "policy": "Before15:30KST on a trading day: same regular session; at/after15:30 or non-trading date: next actual traded regular session. Exceptional sessions require separate review.",
+        "after_standard_regular_close": true,
+        "assigned_regular_session_date": "2026-05-20"
+      },
+      "regular_close_krw": "5830.0",
+      "previous_trading_date": "2026-05-19",
+      "previous_regular_close_krw": "5730.0",
+      "regular_session_volume": 252951,
+      "calculated_pct": 1.75,
+      "price_urls": [
+        "https://finance.daum.net/api/quote/A089790/days?symbolCode=A089790&pagination=true&page=1&perPage=2500&adjusted=false",
+        "https://query1.finance.yahoo.com/v8/finance/chart/089790.KQ?period1=1672531200&period2=1791676800&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+      ],
+      "price_source_sha256": [
+        "7827e6d5c5f9aa6c3360a20bb1a26042bcad7f7c1c14e0aaaeb5813ac8875231",
+        "dbdd69d68e908093bad374768193a02578872d5e1d242055bcb8969be5fceccc"
+      ],
+      "regular_session_reference_evidence": {
+        "next_session_date": "2026-05-21",
+        "next_close": "6450.0",
+        "reference_mode": "explicit_next_prevClosingPrice",
+        "next_reference_price": "5830.0",
+        "next_signed_change": "620.0",
+        "next_change_direction": "RISE",
+        "next_change_rate": "0.1063464837",
+        "independent_price_provider": "Yahoo raw quote OHLC (not adjclose)",
+        "independent_matching_dates": [
+          "2026-05-20",
+          "2026-05-19",
+          "2026-05-21"
+        ]
+      }
+    },
+    {
+      "code": "089790",
+      "name": "제이티",
+      "issue": {
+        "date": "2026.02.13",
+        "text": "2025년 연결 잠정 영업손실 19.02억원으로 적자전환, 핸들러 장비 매출 감소",
+        "src": "manual",
+        "pct": -7.05
+      },
+      "source_urls": [
+        "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260212001572",
+        "https://kind.krx.co.kr/external/2026/02/12/001572/20260212003627/70443.htm"
+      ],
+      "source_sha256": "3d828d77ee0bcd161da2765ac0ac301d5f69094a73df9ac4eef20a20325c6291",
+      "source_retrieved_at_utc": "2026-10-10T13:04:14.873584+00:00",
+      "publication_time_kst": "2026-02-12T18:21:00+09:00",
+      "publication_precision": "minute; zero seconds are formatting only",
+      "publication_clock_source_url": "https://kind.krx.co.kr/disclosure/details.do",
+      "publication_clock_method": "POST",
+      "publication_clock_request": "method=searchDetailsSub&forward=details_sub&currentPageSize=300&pageIndex=1&fromDate=2025-01-01&toDate=2026-10-10&searchCodeType=number&repIsuSrtCd=A089790&searchCorpName=089790&orderMode=0&orderStat=D&lastReport=",
+      "date_basis": {
+        "policy": "Before15:30KST on a trading day: same regular session; at/after15:30 or non-trading date: next actual traded regular session. Exceptional sessions require separate review.",
+        "after_standard_regular_close": true,
+        "assigned_regular_session_date": "2026-02-13"
+      },
+      "regular_close_krw": "7250.0",
+      "previous_trading_date": "2026-02-12",
+      "previous_regular_close_krw": "7800.0",
+      "regular_session_volume": 776731,
+      "calculated_pct": -7.05,
+      "price_urls": [
+        "https://finance.daum.net/api/quote/A089790/days?symbolCode=A089790&pagination=true&page=1&perPage=2500&adjusted=false",
+        "https://query1.finance.yahoo.com/v8/finance/chart/089790.KQ?period1=1672531200&period2=1791676800&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+      ],
+      "price_source_sha256": [
+        "7827e6d5c5f9aa6c3360a20bb1a26042bcad7f7c1c14e0aaaeb5813ac8875231",
+        "dbdd69d68e908093bad374768193a02578872d5e1d242055bcb8969be5fceccc"
+      ],
+      "regular_session_reference_evidence": {
+        "next_session_date": "2026-02-19",
+        "next_close": "7210.0",
+        "reference_mode": "explicit_next_prevClosingPrice",
+        "next_reference_price": "7250.0",
+        "next_signed_change": "-40.0",
+        "next_change_direction": "FALL",
+        "next_change_rate": "-0.0055172414",
+        "independent_price_provider": "Yahoo raw quote OHLC (not adjclose)",
+        "independent_matching_dates": [
+          "2026-02-13",
+          "2026-02-12",
+          "2026-02-19"
+        ]
+      }
+    },
+    {
+      "code": "089790",
+      "name": "제이티",
+      "issue": {
+        "date": "2025.12.01",
+        "text": "삼성전자와 핸들러 장비 179.88억원 공급계약 공시, 최근 매출액의 36.33%",
+        "src": "manual",
+        "pct": -2.57
+      },
+      "source_urls": [
+        "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251201000557",
+        "https://kind.krx.co.kr/external/2025/12/01/000557/20251128002692/70370.htm"
+      ],
+      "source_sha256": "7766e6eaebae9e3c9c45b196aed7c2f238dc25229cdda0751748f439ecd8a4e0",
+      "source_retrieved_at_utc": "2026-10-10T13:04:48.644785+00:00",
+      "publication_time_kst": "2025-12-01T15:16:00+09:00",
+      "publication_precision": "minute; zero seconds are formatting only",
+      "publication_clock_source_url": "https://kind.krx.co.kr/disclosure/details.do",
+      "publication_clock_method": "POST",
+      "publication_clock_request": "method=searchDetailsSub&forward=details_sub&currentPageSize=300&pageIndex=1&fromDate=2025-01-01&toDate=2026-10-10&searchCodeType=number&repIsuSrtCd=A089790&searchCorpName=089790&orderMode=0&orderStat=D&lastReport=",
+      "date_basis": {
+        "policy": "Before15:30KST on a trading day: same regular session; at/after15:30 or non-trading date: next actual traded regular session. Exceptional sessions require separate review.",
+        "after_standard_regular_close": false,
+        "assigned_regular_session_date": "2025-12-01"
+      },
+      "regular_close_krw": "4730.0",
+      "previous_trading_date": "2025-11-28",
+      "previous_regular_close_krw": "4855.0",
+      "regular_session_volume": 434083,
+      "calculated_pct": -2.57,
+      "price_urls": [
+        "https://finance.daum.net/api/quote/A089790/days?symbolCode=A089790&pagination=true&page=1&perPage=2500&adjusted=false",
+        "https://query1.finance.yahoo.com/v8/finance/chart/089790.KQ?period1=1672531200&period2=1791676800&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+      ],
+      "price_source_sha256": [
+        "7827e6d5c5f9aa6c3360a20bb1a26042bcad7f7c1c14e0aaaeb5813ac8875231",
+        "dbdd69d68e908093bad374768193a02578872d5e1d242055bcb8969be5fceccc"
+      ],
+      "regular_session_reference_evidence": {
+        "next_session_date": "2025-12-02",
+        "next_close": "4620.0",
+        "reference_mode": "explicit_next_prevClosingPrice",
+        "next_reference_price": "4730.0",
+        "next_signed_change": "-110.0",
+        "next_change_direction": "FALL",
+        "next_change_rate": "-0.023255814",
+        "independent_price_provider": "Yahoo raw quote OHLC (not adjclose)",
+        "independent_matching_dates": [
+          "2025-12-01",
+          "2025-11-28",
+          "2025-12-02"
+        ]
+      }
+    },
+    {
+      "code": "089790",
+      "name": "제이티",
+      "issue": {
+        "date": "2025.05.19",
+        "text": "삼성전자와 핸들러 장비 71.15억원 공급계약 공시, 최근 매출액의 14.37%",
+        "src": "manual",
+        "pct": 1.05
+      },
+      "source_urls": [
+        "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250519000135",
+        "https://kind.krx.co.kr/external/2025/05/19/000135/20250516001010/70370.htm"
+      ],
+      "source_sha256": "d9f5ebb8c8a4e4485e26cfee81d76684251374d17578c765a39e157b8dcc8f49",
+      "source_retrieved_at_utc": "2026-10-10T13:04:48.541089+00:00",
+      "publication_time_kst": "2025-05-19T14:12:00+09:00",
+      "publication_precision": "minute; zero seconds are formatting only",
+      "publication_clock_source_url": "https://kind.krx.co.kr/disclosure/details.do",
+      "publication_clock_method": "POST",
+      "publication_clock_request": "method=searchDetailsSub&forward=details_sub&currentPageSize=300&pageIndex=1&fromDate=2025-01-01&toDate=2026-10-10&searchCodeType=number&repIsuSrtCd=A089790&searchCorpName=089790&orderMode=0&orderStat=D&lastReport=",
+      "date_basis": {
+        "policy": "Before15:30KST on a trading day: same regular session; at/after15:30 or non-trading date: next actual traded regular session. Exceptional sessions require separate review.",
+        "after_standard_regular_close": false,
+        "assigned_regular_session_date": "2025-05-19"
+      },
+      "regular_close_krw": "4345.0",
+      "previous_trading_date": "2025-05-16",
+      "previous_regular_close_krw": "4300.0",
+      "regular_session_volume": 790512,
+      "calculated_pct": 1.05,
+      "price_urls": [
+        "https://finance.daum.net/api/quote/A089790/days?symbolCode=A089790&pagination=true&page=1&perPage=2500&adjusted=false",
+        "https://query1.finance.yahoo.com/v8/finance/chart/089790.KQ?period1=1672531200&period2=1791676800&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+      ],
+      "price_source_sha256": [
+        "7827e6d5c5f9aa6c3360a20bb1a26042bcad7f7c1c14e0aaaeb5813ac8875231",
+        "dbdd69d68e908093bad374768193a02578872d5e1d242055bcb8969be5fceccc"
+      ],
+      "regular_session_reference_evidence": {
+        "next_session_date": "2025-05-20",
+        "next_close": "4380.0",
+        "reference_mode": "explicit_next_prevClosingPrice",
+        "next_reference_price": "4345.0",
+        "next_signed_change": "35.0",
+        "next_change_direction": "RISE",
+        "next_change_rate": "0.0080552359",
+        "independent_price_provider": "Yahoo raw quote OHLC (not adjclose)",
+        "independent_matching_dates": [
+          "2025-05-19",
+          "2025-05-16",
+          "2025-05-20"
+        ]
+      }
+    },
+    {
+      "code": "092040",
+      "name": "아미코젠",
+      "issue": {
+        "date": "2026.08.05",
+        "text": "배정 대상자의 주금 미납으로 6월 결정한 제3자배정 유상증자 철회 공시",
+        "src": "manual",
+        "pct": -9.11
+      },
+      "source_urls": [
+        "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260804000938",
+        "https://kind.krx.co.kr/external/2026/08/04/000938/20260804001894/11306.htm"
+      ],
+      "source_sha256": "887d73eabf530ef81931ce103dfddd23adc56d70787397068b3ee375c7362360",
+      "source_retrieved_at_utc": "2026-10-10T13:08:25.364408+00:00",
+      "publication_time_kst": "2026-08-04T18:01:00+09:00",
+      "publication_precision": "minute; zero seconds are formatting only",
+      "publication_clock_source_url": "https://kind.krx.co.kr/disclosure/details.do",
+      "publication_clock_method": "POST",
+      "publication_clock_request": "method=searchDetailsSub&forward=details_sub&currentPageSize=300&pageIndex=1&fromDate=2025-01-01&toDate=2026-10-10&searchCodeType=number&repIsuSrtCd=A092040&searchCorpName=092040&orderMode=0&orderStat=D&lastReport=",
+      "date_basis": {
+        "policy": "Before15:30KST on a trading day: same regular session; at/after15:30 or non-trading date: next actual traded regular session. Exceptional sessions require separate review.",
+        "after_standard_regular_close": true,
+        "assigned_regular_session_date": "2026-08-05"
+      },
+      "regular_close_krw": "1118.0",
+      "previous_trading_date": "2026-08-04",
+      "previous_regular_close_krw": "1230.0",
+      "regular_session_volume": 2156599,
+      "calculated_pct": -9.11,
+      "price_urls": [
+        "https://finance.daum.net/api/quote/A092040/days?symbolCode=A092040&pagination=true&page=1&perPage=2500&adjusted=false",
+        "https://query1.finance.yahoo.com/v8/finance/chart/092040.KQ?period1=1672531200&period2=1791676800&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+      ],
+      "price_source_sha256": [
+        "04af06cd298ffd0ffb47ed24d3eccde1433f4795e961250a24565d31977b886a",
+        "fe52bcf5b5171f01fa7f480e7bff442567c100e9dad030b24db4fd4b41352f97"
+      ],
+      "regular_session_reference_evidence": {
+        "next_session_date": "2026-08-06",
+        "next_close": "1043.0",
+        "reference_mode": "explicit_next_prevClosingPrice",
+        "next_reference_price": "1118.0",
+        "next_signed_change": "-75.0",
+        "next_change_direction": "FALL",
+        "next_change_rate": "-0.0670840787",
+        "independent_price_provider": "Yahoo raw quote OHLC (not adjclose)",
+        "independent_matching_dates": [
+          "2026-08-05",
+          "2026-08-04",
+          "2026-08-06"
+        ]
+      }
+    },
+    {
+      "code": "092040",
+      "name": "아미코젠",
+      "issue": {
+        "date": "2026.06.23",
+        "text": "운영자금 약 100억원을 위한 제3자배정 유상증자 결정, 납입 시 최대주주 변경 예정이라고 공시",
+        "src": "manual",
+        "pct": 17.37
+      },
+      "source_urls": [
+        "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260622000814",
+        "https://kind.krx.co.kr/external/2026/06/22/000814/20260622001801/11306.htm"
+      ],
+      "source_sha256": "de8988a8334ef1851e3ebf9c59debcc6a46d40f1cb1e18ff947c82700678c5b4",
+      "source_retrieved_at_utc": "2026-10-10T13:08:25.460404+00:00",
+      "publication_time_kst": "2026-06-22T17:37:00+09:00",
+      "publication_precision": "minute; zero seconds are formatting only",
+      "publication_clock_source_url": "https://kind.krx.co.kr/disclosure/details.do",
+      "publication_clock_method": "POST",
+      "publication_clock_request": "method=searchDetailsSub&forward=details_sub&currentPageSize=300&pageIndex=1&fromDate=2025-01-01&toDate=2026-10-10&searchCodeType=number&repIsuSrtCd=A092040&searchCorpName=092040&orderMode=0&orderStat=D&lastReport=",
+      "date_basis": {
+        "policy": "Before15:30KST on a trading day: same regular session; at/after15:30 or non-trading date: next actual traded regular session. Exceptional sessions require separate review.",
+        "after_standard_regular_close": true,
+        "assigned_regular_session_date": "2026-06-23"
+      },
+      "regular_close_krw": "1730.0",
+      "previous_trading_date": "2026-06-22",
+      "previous_regular_close_krw": "1474.0",
+      "regular_session_volume": 6468958,
+      "calculated_pct": 17.37,
+      "price_urls": [
+        "https://finance.daum.net/api/quote/A092040/days?symbolCode=A092040&pagination=true&page=1&perPage=2500&adjusted=false",
+        "https://query1.finance.yahoo.com/v8/finance/chart/092040.KQ?period1=1672531200&period2=1791676800&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+      ],
+      "price_source_sha256": [
+        "04af06cd298ffd0ffb47ed24d3eccde1433f4795e961250a24565d31977b886a",
+        "fe52bcf5b5171f01fa7f480e7bff442567c100e9dad030b24db4fd4b41352f97"
+      ],
+      "regular_session_reference_evidence": {
+        "next_session_date": "2026-06-24",
+        "next_close": "1694.0",
+        "reference_mode": "explicit_next_prevClosingPrice",
+        "next_reference_price": "1730.0",
+        "next_signed_change": "-36.0",
+        "next_change_direction": "FALL",
+        "next_change_rate": "-0.0208092486",
+        "independent_price_provider": "Yahoo raw quote OHLC (not adjclose)",
+        "independent_matching_dates": [
+          "2026-06-23",
+          "2026-06-22",
+          "2026-06-24"
+        ]
+      }
+    },
+    {
+      "code": "092040",
+      "name": "아미코젠",
+      "issue": {
+        "date": "2026.03.03",
+        "text": "2025년 연결 잠정 매출 419.68억원·영업손실 169.13억원 공시, 중국법인 연결 제외 영향",
+        "src": "manual",
+        "pct": -5.79
+      },
+      "source_urls": [
+        "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260227002137",
+        "https://kind.krx.co.kr/external/2026/02/27/002137/20260227004216/70443.htm"
+      ],
+      "source_sha256": "b08b5585e4507c798c1e1b0c9c6a70e09f7d26e3d164d2bc751e481ee5c48e51",
+      "source_retrieved_at_utc": "2026-10-10T13:08:25.340297+00:00",
+      "publication_time_kst": "2026-02-27T18:10:00+09:00",
+      "publication_precision": "minute; zero seconds are formatting only",
+      "publication_clock_source_url": "https://kind.krx.co.kr/disclosure/details.do",
+      "publication_clock_method": "POST",
+      "publication_clock_request": "method=searchDetailsSub&forward=details_sub&currentPageSize=300&pageIndex=1&fromDate=2025-01-01&toDate=2026-10-10&searchCodeType=number&repIsuSrtCd=A092040&searchCorpName=092040&orderMode=0&orderStat=D&lastReport=",
+      "date_basis": {
+        "policy": "Before15:30KST on a trading day: same regular session; at/after15:30 or non-trading date: next actual traded regular session. Exceptional sessions require separate review.",
+        "after_standard_regular_close": true,
+        "assigned_regular_session_date": "2026-03-03"
+      },
+      "regular_close_krw": "1270.0",
+      "previous_trading_date": "2026-02-27",
+      "previous_regular_close_krw": "1348.0",
+      "regular_session_volume": 1843259,
+      "calculated_pct": -5.79,
+      "price_urls": [
+        "https://finance.daum.net/api/quote/A092040/days?symbolCode=A092040&pagination=true&page=1&perPage=2500&adjusted=false",
+        "https://query1.finance.yahoo.com/v8/finance/chart/092040.KQ?period1=1672531200&period2=1791676800&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+      ],
+      "price_source_sha256": [
+        "04af06cd298ffd0ffb47ed24d3eccde1433f4795e961250a24565d31977b886a",
+        "fe52bcf5b5171f01fa7f480e7bff442567c100e9dad030b24db4fd4b41352f97"
+      ],
+      "regular_session_reference_evidence": {
+        "next_session_date": "2026-03-04",
+        "next_close": "1175.0",
+        "reference_mode": "explicit_next_prevClosingPrice",
+        "next_reference_price": "1270.0",
+        "next_signed_change": "-95.0",
+        "next_change_direction": "FALL",
+        "next_change_rate": "-0.0748031496",
+        "independent_price_provider": "Yahoo raw quote OHLC (not adjclose)",
+        "independent_matching_dates": [
+          "2026-03-03",
+          "2026-02-27",
+          "2026-03-04"
+        ]
+      }
+    },
+    {
+      "code": "092040",
+      "name": "아미코젠",
+      "issue": {
+        "date": "2026.02.25",
+        "text": "사채권자와 협의해 제5회 전환사채 10.50억원을 보유자금으로 만기 전 취득했다고 공시",
+        "src": "manual",
+        "pct": -0.64
+      },
+      "source_urls": [
+        "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260224001396",
+        "https://kind.krx.co.kr/external/2026/02/24/001396/20260224001620/70135.htm"
+      ],
+      "source_sha256": "1dccd4d8c4be17d549a6b357be451312942939dbd2f6e9270273e39c6e8bae72",
+      "source_retrieved_at_utc": "2026-10-10T13:10:36.254705+00:00",
+      "publication_time_kst": "2026-02-24T18:56:00+09:00",
+      "publication_precision": "minute; zero seconds are formatting only",
+      "publication_clock_source_url": "https://kind.krx.co.kr/disclosure/details.do",
+      "publication_clock_method": "POST",
+      "publication_clock_request": "method=searchDetailsSub&forward=details_sub&currentPageSize=300&pageIndex=1&fromDate=2025-01-01&toDate=2026-10-10&searchCodeType=number&repIsuSrtCd=A092040&searchCorpName=092040&orderMode=0&orderStat=D&lastReport=",
+      "date_basis": {
+        "policy": "Before15:30KST on a trading day: same regular session; at/after15:30 or non-trading date: next actual traded regular session. Exceptional sessions require separate review.",
+        "after_standard_regular_close": true,
+        "assigned_regular_session_date": "2026-02-25"
+      },
+      "regular_close_krw": "1245.0",
+      "previous_trading_date": "2026-02-24",
+      "previous_regular_close_krw": "1253.0",
+      "regular_session_volume": 5052761,
+      "calculated_pct": -0.64,
+      "price_urls": [
+        "https://finance.daum.net/api/quote/A092040/days?symbolCode=A092040&pagination=true&page=1&perPage=2500&adjusted=false",
+        "https://query1.finance.yahoo.com/v8/finance/chart/092040.KQ?period1=1672531200&period2=1791676800&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+      ],
+      "price_source_sha256": [
+        "04af06cd298ffd0ffb47ed24d3eccde1433f4795e961250a24565d31977b886a",
+        "fe52bcf5b5171f01fa7f480e7bff442567c100e9dad030b24db4fd4b41352f97"
+      ],
+      "regular_session_reference_evidence": {
+        "next_session_date": "2026-02-26",
+        "next_close": "1392.0",
+        "reference_mode": "explicit_next_prevClosingPrice",
+        "next_reference_price": "1245.0",
+        "next_signed_change": "147.0",
+        "next_change_direction": "RISE",
+        "next_change_rate": "0.1180722892",
+        "independent_price_provider": "Yahoo raw quote OHLC (not adjclose)",
+        "independent_matching_dates": [
+          "2026-02-25",
+          "2026-02-24",
+          "2026-02-26"
+        ]
+      }
+    },
+    {
+      "code": "092040",
+      "name": "아미코젠",
+      "issue": {
+        "date": "2026.02.04",
+        "text": "일반공모 유상증자 보통주 1492만5374주의 최종 발행가액을 주당 1164원으로 확정 공시",
+        "src": "manual",
+        "pct": -9.84
+      },
+      "source_urls": [
+        "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260204000366",
+        "https://kind.krx.co.kr/external/2026/02/04/000366/20260204000315/70652.htm"
+      ],
+      "source_sha256": "38587de530316d37549312d0a47f9830d9d1eeaf0a14aa839ea4602509c059c0",
+      "source_retrieved_at_utc": "2026-10-10T13:08:25.299492+00:00",
+      "publication_time_kst": "2026-02-04T14:10:00+09:00",
+      "publication_precision": "minute; zero seconds are formatting only",
+      "publication_clock_source_url": "https://kind.krx.co.kr/disclosure/details.do",
+      "publication_clock_method": "POST",
+      "publication_clock_request": "method=searchDetailsSub&forward=details_sub&currentPageSize=300&pageIndex=1&fromDate=2025-01-01&toDate=2026-10-10&searchCodeType=number&repIsuSrtCd=A092040&searchCorpName=092040&orderMode=0&orderStat=D&lastReport=",
+      "date_basis": {
+        "policy": "Before15:30KST on a trading day: same regular session; at/after15:30 or non-trading date: next actual traded regular session. Exceptional sessions require separate review.",
+        "after_standard_regular_close": false,
+        "assigned_regular_session_date": "2026-02-04"
+      },
+      "regular_close_krw": "1503.0",
+      "previous_trading_date": "2026-02-03",
+      "previous_regular_close_krw": "1667.0",
+      "regular_session_volume": 3253207,
+      "calculated_pct": -9.84,
+      "price_urls": [
+        "https://finance.daum.net/api/quote/A092040/days?symbolCode=A092040&pagination=true&page=1&perPage=2500&adjusted=false",
+        "https://query1.finance.yahoo.com/v8/finance/chart/092040.KQ?period1=1672531200&period2=1791676800&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+      ],
+      "price_source_sha256": [
+        "04af06cd298ffd0ffb47ed24d3eccde1433f4795e961250a24565d31977b886a",
+        "fe52bcf5b5171f01fa7f480e7bff442567c100e9dad030b24db4fd4b41352f97"
+      ],
+      "regular_session_reference_evidence": {
+        "next_session_date": "2026-02-05",
+        "next_close": "1490.0",
+        "reference_mode": "explicit_next_prevClosingPrice",
+        "next_reference_price": "1503.0",
+        "next_signed_change": "-13.0",
+        "next_change_direction": "FALL",
+        "next_change_rate": "-0.0086493679",
+        "independent_price_provider": "Yahoo raw quote OHLC (not adjclose)",
+        "independent_matching_dates": [
+          "2026-02-04",
+          "2026-02-03",
+          "2026-02-05"
+        ]
+      }
+    },
+    {
+      "code": "110790",
+      "name": "크리스에프앤씨",
+      "issue": {
+        "date": "2026.08.13",
+        "text": "종속회사 크리스밸리 대여금 총액을 1100억원에서 677억원으로 줄이고 만기를 2029년 8월로 연장 결정",
+        "src": "manual",
+        "pct": 0.17
+      },
+      "source_urls": [
+        "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260812000557",
+        "https://kind.krx.co.kr/external/2026/08/12/000557/20260812001409/70296.htm"
+      ],
+      "source_sha256": "2a5060a4bfbe1295316f17fad894754d18bf0329db2598c80af6ebe50f2af93e",
+      "source_retrieved_at_utc": "2026-10-10T13:07:01.536796+00:00",
+      "publication_time_kst": "2026-08-12T15:46:00+09:00",
+      "publication_precision": "minute; zero seconds are formatting only",
+      "publication_clock_source_url": "https://kind.krx.co.kr/disclosure/details.do",
+      "publication_clock_method": "POST",
+      "publication_clock_request": "method=searchDetailsSub&forward=details_sub&currentPageSize=300&pageIndex=1&fromDate=2025-01-01&toDate=2026-10-10&searchCodeType=number&repIsuSrtCd=A110790&searchCorpName=110790&orderMode=0&orderStat=D&lastReport=",
+      "date_basis": {
+        "policy": "Before15:30KST on a trading day: same regular session; at/after15:30 or non-trading date: next actual traded regular session. Exceptional sessions require separate review.",
+        "after_standard_regular_close": true,
+        "assigned_regular_session_date": "2026-08-13"
+      },
+      "regular_close_krw": "2975.0",
+      "previous_trading_date": "2026-08-12",
+      "previous_regular_close_krw": "2970.0",
+      "regular_session_volume": 2556,
+      "calculated_pct": 0.17,
+      "price_urls": [
+        "https://finance.daum.net/api/quote/A110790/days?symbolCode=A110790&pagination=true&page=1&perPage=2500&adjusted=false",
+        "https://fchart.stock.naver.com/sise.nhn?symbol=110790&timeframe=day&count=1000&requestType=0"
+      ],
+      "price_source_sha256": [
+        "ba5d9255c4ce6761f2771e8daccf7748d4b65b36c2ddfd4daf84035a2ba43373",
+        "9382d991f742cf93ac0e2e880a96f5310c69753538b120bc3885ce1097138078"
+      ],
+      "regular_session_reference_evidence": {
+        "next_session_date": "2026-08-14",
+        "next_close": "2900.0",
+        "reference_mode": "explicit_next_prevClosingPrice",
+        "next_reference_price": "2975.0",
+        "next_signed_change": "-75.0",
+        "next_change_direction": "FALL",
+        "next_change_rate": "-0.025210084",
+        "independent_price_provider": "Naver historical daily",
+        "independent_matching_dates": [
+          "2026-08-13",
+          "2026-08-12",
+          "2026-08-14"
+        ]
+      }
+    },
+    {
+      "code": "110790",
+      "name": "크리스에프앤씨",
+      "issue": {
+        "date": "2026.05.07",
+        "text": "종속회사 크리스밸리 재무구조 개선을 위해 대여금 300억원 출자전환 결정",
+        "src": "manual",
+        "pct": 0.13
+      },
+      "source_urls": [
+        "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260506000563",
+        "https://kind.krx.co.kr/external/2026/05/06/000563/20260504000457/71381.htm"
+      ],
+      "source_sha256": "712439f397c643c4b3e004c96672a1cae4f9d79ce2753164e4af3e5f66a3758b",
+      "source_retrieved_at_utc": "2026-10-10T13:07:01.527397+00:00",
+      "publication_time_kst": "2026-05-06T15:36:00+09:00",
+      "publication_precision": "minute; zero seconds are formatting only",
+      "publication_clock_source_url": "https://kind.krx.co.kr/disclosure/details.do",
+      "publication_clock_method": "POST",
+      "publication_clock_request": "method=searchDetailsSub&forward=details_sub&currentPageSize=300&pageIndex=1&fromDate=2025-01-01&toDate=2026-10-10&searchCodeType=number&repIsuSrtCd=A110790&searchCorpName=110790&orderMode=0&orderStat=D&lastReport=",
+      "date_basis": {
+        "policy": "Before15:30KST on a trading day: same regular session; at/after15:30 or non-trading date: next actual traded regular session. Exceptional sessions require separate review.",
+        "after_standard_regular_close": true,
+        "assigned_regular_session_date": "2026-05-07"
+      },
+      "regular_close_krw": "3905.0",
+      "previous_trading_date": "2026-05-06",
+      "previous_regular_close_krw": "3900.0",
+      "regular_session_volume": 11727,
+      "calculated_pct": 0.13,
+      "price_urls": [
+        "https://finance.daum.net/api/quote/A110790/days?symbolCode=A110790&pagination=true&page=1&perPage=2500&adjusted=false",
+        "https://fchart.stock.naver.com/sise.nhn?symbol=110790&timeframe=day&count=1000&requestType=0"
+      ],
+      "price_source_sha256": [
+        "ba5d9255c4ce6761f2771e8daccf7748d4b65b36c2ddfd4daf84035a2ba43373",
+        "9382d991f742cf93ac0e2e880a96f5310c69753538b120bc3885ce1097138078"
+      ],
+      "regular_session_reference_evidence": {
+        "next_session_date": "2026-05-08",
+        "next_close": "3900.0",
+        "reference_mode": "explicit_next_prevClosingPrice",
+        "next_reference_price": "3905.0",
+        "next_signed_change": "-5.0",
+        "next_change_direction": "FALL",
+        "next_change_rate": "-0.0012804097",
+        "independent_price_provider": "Naver historical daily",
+        "independent_matching_dates": [
+          "2026-05-07",
+          "2026-05-06",
+          "2026-05-08"
+        ]
+      }
+    },
+    {
+      "code": "110790",
+      "name": "크리스에프앤씨",
+      "issue": {
+        "date": "2026.03.05",
+        "text": "핵심사업 집중을 위해 온타이드 보통주·상환전환우선주 전량 386.51억원 처분 결정",
+        "src": "manual",
+        "pct": 4.25
+      },
+      "source_urls": [
+        "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260304001545",
+        "https://kind.krx.co.kr/external/2026/03/04/001545/20260303001934/71382.htm"
+      ],
+      "source_sha256": "f08be0a07ff1dacdb832f5fcb78e74752525efec9dfc71325deee780e05bdd26",
+      "source_retrieved_at_utc": "2026-10-10T13:07:23.161953+00:00",
+      "publication_time_kst": "2026-03-04T17:26:00+09:00",
+      "publication_precision": "minute; zero seconds are formatting only",
+      "publication_clock_source_url": "https://kind.krx.co.kr/disclosure/details.do",
+      "publication_clock_method": "POST",
+      "publication_clock_request": "method=searchDetailsSub&forward=details_sub&currentPageSize=300&pageIndex=1&fromDate=2025-01-01&toDate=2026-10-10&searchCodeType=number&repIsuSrtCd=A110790&searchCorpName=110790&orderMode=0&orderStat=D&lastReport=",
+      "date_basis": {
+        "policy": "Before15:30KST on a trading day: same regular session; at/after15:30 or non-trading date: next actual traded regular session. Exceptional sessions require separate review.",
+        "after_standard_regular_close": true,
+        "assigned_regular_session_date": "2026-03-05"
+      },
+      "regular_close_krw": "4045.0",
+      "previous_trading_date": "2026-03-04",
+      "previous_regular_close_krw": "3880.0",
+      "regular_session_volume": 23405,
+      "calculated_pct": 4.25,
+      "price_urls": [
+        "https://finance.daum.net/api/quote/A110790/days?symbolCode=A110790&pagination=true&page=1&perPage=2500&adjusted=false",
+        "https://fchart.stock.naver.com/sise.nhn?symbol=110790&timeframe=day&count=1000&requestType=0"
+      ],
+      "price_source_sha256": [
+        "ba5d9255c4ce6761f2771e8daccf7748d4b65b36c2ddfd4daf84035a2ba43373",
+        "9382d991f742cf93ac0e2e880a96f5310c69753538b120bc3885ce1097138078"
+      ],
+      "regular_session_reference_evidence": {
+        "next_session_date": "2026-03-06",
+        "next_close": "3970.0",
+        "reference_mode": "explicit_next_prevClosingPrice",
+        "next_reference_price": "4045.0",
+        "next_signed_change": "-75.0",
+        "next_change_direction": "FALL",
+        "next_change_rate": "-0.0185414091",
+        "independent_price_provider": "Naver historical daily",
+        "independent_matching_dates": [
+          "2026-03-05",
+          "2026-03-04",
+          "2026-03-06"
+        ]
+      }
+    },
+    {
+      "code": "110790",
+      "name": "크리스에프앤씨",
+      "issue": {
+        "date": "2026.02.27",
+        "text": "2025년 연결 잠정 영업손실 66.11억원으로 적자전환, 원가율 상승·종속기업 영업이익 감소 반영",
+        "src": "manual",
+        "pct": 1.08
+      },
+      "source_urls": [
+        "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260226000615",
+        "https://kind.krx.co.kr/external/2026/02/26/000615/20260225001733/70443.htm"
+      ],
+      "source_sha256": "985b0fe4293c947b35be417654cb4cd575a8bd78ab413ad6adca566366aef0f2",
+      "source_retrieved_at_utc": "2026-10-10T13:07:23.219718+00:00",
+      "publication_time_kst": "2026-02-26T16:21:00+09:00",
+      "publication_precision": "minute; zero seconds are formatting only",
+      "publication_clock_source_url": "https://kind.krx.co.kr/disclosure/details.do",
+      "publication_clock_method": "POST",
+      "publication_clock_request": "method=searchDetailsSub&forward=details_sub&currentPageSize=300&pageIndex=1&fromDate=2025-01-01&toDate=2026-10-10&searchCodeType=number&repIsuSrtCd=A110790&searchCorpName=110790&orderMode=0&orderStat=D&lastReport=",
+      "date_basis": {
+        "policy": "Before15:30KST on a trading day: same regular session; at/after15:30 or non-trading date: next actual traded regular session. Exceptional sessions require separate review.",
+        "after_standard_regular_close": true,
+        "assigned_regular_session_date": "2026-02-27"
+      },
+      "regular_close_krw": "4195.0",
+      "previous_trading_date": "2026-02-26",
+      "previous_regular_close_krw": "4150.0",
+      "regular_session_volume": 41236,
+      "calculated_pct": 1.08,
+      "price_urls": [
+        "https://finance.daum.net/api/quote/A110790/days?symbolCode=A110790&pagination=true&page=1&perPage=2500&adjusted=false",
+        "https://fchart.stock.naver.com/sise.nhn?symbol=110790&timeframe=day&count=1000&requestType=0"
+      ],
+      "price_source_sha256": [
+        "ba5d9255c4ce6761f2771e8daccf7748d4b65b36c2ddfd4daf84035a2ba43373",
+        "9382d991f742cf93ac0e2e880a96f5310c69753538b120bc3885ce1097138078"
+      ],
+      "regular_session_reference_evidence": {
+        "next_session_date": "2026-03-03",
+        "next_close": "4215.0",
+        "reference_mode": "explicit_next_prevClosingPrice",
+        "next_reference_price": "4195.0",
+        "next_signed_change": "20.0",
+        "next_change_direction": "RISE",
+        "next_change_rate": "0.0047675805",
+        "independent_price_provider": "Naver historical daily",
+        "independent_matching_dates": [
+          "2026-02-27",
+          "2026-02-26",
+          "2026-03-03"
+        ]
+      }
+    },
+    {
+      "code": "110790",
+      "name": "크리스에프앤씨",
+      "issue": {
+        "date": "2025.07.02",
+        "text": "브랜드사업 강화·글로벌시장 확대를 위한 지배구조 개편으로 온타이드 1688만555주를 300억원에 처분 결정",
+        "src": "manual",
+        "pct": -1.17
+      },
+      "source_urls": [
+        "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250701000645",
+        "https://kind.krx.co.kr/external/2025/07/01/000645/20250609000093/71382.htm"
+      ],
+      "source_sha256": "3dcee46c2682e897aed27760769101f8422d711afe95ee8fe2dc1fb57cf40e68",
+      "source_retrieved_at_utc": "2026-10-10T13:07:23.556416+00:00",
+      "publication_time_kst": "2025-07-01T16:54:00+09:00",
+      "publication_precision": "minute; zero seconds are formatting only",
+      "publication_clock_source_url": "https://kind.krx.co.kr/disclosure/details.do",
+      "publication_clock_method": "POST",
+      "publication_clock_request": "method=searchDetailsSub&forward=details_sub&currentPageSize=300&pageIndex=1&fromDate=2025-01-01&toDate=2026-10-10&searchCodeType=number&repIsuSrtCd=A110790&searchCorpName=110790&orderMode=0&orderStat=D&lastReport=",
+      "date_basis": {
+        "policy": "Before15:30KST on a trading day: same regular session; at/after15:30 or non-trading date: next actual traded regular session. Exceptional sessions require separate review.",
+        "after_standard_regular_close": true,
+        "assigned_regular_session_date": "2025-07-02"
+      },
+      "regular_close_krw": "5090.0",
+      "previous_trading_date": "2025-07-01",
+      "previous_regular_close_krw": "5150.0",
+      "regular_session_volume": 130186,
+      "calculated_pct": -1.17,
+      "price_urls": [
+        "https://finance.daum.net/api/quote/A110790/days?symbolCode=A110790&pagination=true&page=1&perPage=2500&adjusted=false",
+        "https://fchart.stock.naver.com/sise.nhn?symbol=110790&timeframe=day&count=1000&requestType=0"
+      ],
+      "price_source_sha256": [
+        "ba5d9255c4ce6761f2771e8daccf7748d4b65b36c2ddfd4daf84035a2ba43373",
+        "9382d991f742cf93ac0e2e880a96f5310c69753538b120bc3885ce1097138078"
+      ],
+      "regular_session_reference_evidence": {
+        "next_session_date": "2025-07-03",
+        "next_close": "5030.0",
+        "reference_mode": "explicit_next_prevClosingPrice",
+        "next_reference_price": "5090.0",
+        "next_signed_change": "-60.0",
+        "next_change_direction": "FALL",
+        "next_change_rate": "-0.0117878193",
+        "independent_price_provider": "Naver historical daily",
+        "independent_matching_dates": [
+          "2025-07-02",
+          "2025-07-01",
+          "2025-07-03"
+        ]
+      }
+    },
+    {
+      "code": "337930",
+      "name": "젝시믹스",
+      "issue": {
+        "date": "2026.08.27",
+        "text": "기취득 자기주식 62만7546주 소각 결정, 장부가액 약 20억원·자본금 감소 없음",
+        "src": "manual",
+        "pct": -0.35
+      },
+      "source_urls": [
+        "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260827000102",
+        "https://kind.krx.co.kr/external/2026/08/27/000102/20260819000493/71131.htm"
+      ],
+      "source_sha256": "b687b921223e7085eb7afa2075a90a55a5584c839e9128b82ade350a2d3ddc1a",
+      "source_retrieved_at_utc": "2026-10-10T13:05:09.034510+00:00",
+      "publication_time_kst": "2026-08-27T10:39:00+09:00",
+      "publication_precision": "minute; zero seconds are formatting only",
+      "publication_clock_source_url": "https://kind.krx.co.kr/disclosure/details.do",
+      "publication_clock_method": "POST",
+      "publication_clock_request": "method=searchDetailsSub&forward=details_sub&currentPageSize=300&pageIndex=1&fromDate=2025-01-01&toDate=2026-10-10&searchCodeType=number&repIsuSrtCd=A337930&searchCorpName=337930&orderMode=0&orderStat=D&lastReport=",
+      "date_basis": {
+        "policy": "Before15:30KST on a trading day: same regular session; at/after15:30 or non-trading date: next actual traded regular session. Exceptional sessions require separate review.",
+        "after_standard_regular_close": false,
+        "assigned_regular_session_date": "2026-08-27"
+      },
+      "regular_close_krw": "2860.0",
+      "previous_trading_date": "2026-08-26",
+      "previous_regular_close_krw": "2870.0",
+      "regular_session_volume": 118386,
+      "calculated_pct": -0.35,
+      "price_urls": [
+        "https://finance.daum.net/api/quote/A337930/days?symbolCode=A337930&pagination=true&page=1&perPage=2500&adjusted=false",
+        "https://query1.finance.yahoo.com/v8/finance/chart/337930.KQ?period1=1672531200&period2=1791676800&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+      ],
+      "price_source_sha256": [
+        "cec965f1ab0377fb6d892cef0674ce9a6b16a672fb7beded6ee5dc7e36927748",
+        "b755fd1a6f349ded41277c710ea62e38c117e99b64bcfba5605ed4ed20a01c53"
+      ],
+      "regular_session_reference_evidence": {
+        "next_session_date": "2026-08-28",
+        "next_close": "2895.0",
+        "reference_mode": "explicit_next_prevClosingPrice",
+        "next_reference_price": "2860.0",
+        "next_signed_change": "35.0",
+        "next_change_direction": "RISE",
+        "next_change_rate": "0.0122377622",
+        "independent_price_provider": "Yahoo raw quote OHLC (not adjclose)",
+        "independent_matching_dates": [
+          "2026-08-27",
+          "2026-08-26",
+          "2026-08-28"
+        ]
+      }
+    },
+    {
+      "code": "337930",
+      "name": "젝시믹스",
+      "issue": {
+        "date": "2026.07.15",
+        "text": "보통주 1주당 80원 분기 현금배당 결정, 총액 23.33억원·배당기준일 8월 20일",
+        "src": "manual",
+        "pct": 3.21
+      },
+      "source_urls": [
+        "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260715000220",
+        "https://kind.krx.co.kr/external/2026/07/15/000220/20260713000828/71500.htm"
+      ],
+      "source_sha256": "096d201ba0715e3476e5d72e7bef3f75f0265e10ad28a17b08dfbf7006ec8bb0",
+      "source_retrieved_at_utc": "2026-10-10T13:05:09.627708+00:00",
+      "publication_time_kst": "2026-07-15T11:35:00+09:00",
+      "publication_precision": "minute; zero seconds are formatting only",
+      "publication_clock_source_url": "https://kind.krx.co.kr/disclosure/details.do",
+      "publication_clock_method": "POST",
+      "publication_clock_request": "method=searchDetailsSub&forward=details_sub&currentPageSize=300&pageIndex=1&fromDate=2025-01-01&toDate=2026-10-10&searchCodeType=number&repIsuSrtCd=A337930&searchCorpName=337930&orderMode=0&orderStat=D&lastReport=",
+      "date_basis": {
+        "policy": "Before15:30KST on a trading day: same regular session; at/after15:30 or non-trading date: next actual traded regular session. Exceptional sessions require separate review.",
+        "after_standard_regular_close": false,
+        "assigned_regular_session_date": "2026-07-15"
+      },
+      "regular_close_krw": "3050.0",
+      "previous_trading_date": "2026-07-14",
+      "previous_regular_close_krw": "2955.0",
+      "regular_session_volume": 67969,
+      "calculated_pct": 3.21,
+      "price_urls": [
+        "https://finance.daum.net/api/quote/A337930/days?symbolCode=A337930&pagination=true&page=1&perPage=2500&adjusted=false",
+        "https://query1.finance.yahoo.com/v8/finance/chart/337930.KQ?period1=1672531200&period2=1791676800&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+      ],
+      "price_source_sha256": [
+        "cec965f1ab0377fb6d892cef0674ce9a6b16a672fb7beded6ee5dc7e36927748",
+        "b755fd1a6f349ded41277c710ea62e38c117e99b64bcfba5605ed4ed20a01c53"
+      ],
+      "regular_session_reference_evidence": {
+        "next_session_date": "2026-07-16",
+        "next_close": "3010.0",
+        "reference_mode": "explicit_next_prevClosingPrice",
+        "next_reference_price": "3050.0",
+        "next_signed_change": "-40.0",
+        "next_change_direction": "FALL",
+        "next_change_rate": "-0.0131147541",
+        "independent_price_provider": "Yahoo raw quote OHLC (not adjclose)",
+        "independent_matching_dates": [
+          "2026-07-15",
+          "2026-07-14",
+          "2026-07-16"
+        ]
+      }
+    },
+    {
+      "code": "337930",
+      "name": "젝시믹스",
+      "issue": {
+        "date": "2026.03.04",
+        "text": "2025년 연결 잠정 영업이익 173.49억원으로 30.3% 감소, 사업확장·마케팅에 따른 판관비 증가",
+        "src": "manual",
+        "pct": -12.35
+      },
+      "source_urls": [
+        "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260303001228",
+        "https://kind.krx.co.kr/external/2026/03/03/001228/20260209000549/70443.htm"
+      ],
+      "source_sha256": "f00ff12a9451725545c543946dfa84e39f4f660c896be11221e6f23f43f2c63d",
+      "source_retrieved_at_utc": "2026-10-10T13:05:09.150144+00:00",
+      "publication_time_kst": "2026-03-03T17:35:00+09:00",
+      "publication_precision": "minute; zero seconds are formatting only",
+      "publication_clock_source_url": "https://kind.krx.co.kr/disclosure/details.do",
+      "publication_clock_method": "POST",
+      "publication_clock_request": "method=searchDetailsSub&forward=details_sub&currentPageSize=300&pageIndex=1&fromDate=2025-01-01&toDate=2026-10-10&searchCodeType=number&repIsuSrtCd=A337930&searchCorpName=337930&orderMode=0&orderStat=D&lastReport=",
+      "date_basis": {
+        "policy": "Before15:30KST on a trading day: same regular session; at/after15:30 or non-trading date: next actual traded regular session. Exceptional sessions require separate review.",
+        "after_standard_regular_close": true,
+        "assigned_regular_session_date": "2026-03-04"
+      },
+      "regular_close_krw": "4400.0",
+      "previous_trading_date": "2026-03-03",
+      "previous_regular_close_krw": "5020.0",
+      "regular_session_volume": 718596,
+      "calculated_pct": -12.35,
+      "price_urls": [
+        "https://finance.daum.net/api/quote/A337930/days?symbolCode=A337930&pagination=true&page=1&perPage=2500&adjusted=false",
+        "https://query1.finance.yahoo.com/v8/finance/chart/337930.KQ?period1=1672531200&period2=1791676800&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+      ],
+      "price_source_sha256": [
+        "cec965f1ab0377fb6d892cef0674ce9a6b16a672fb7beded6ee5dc7e36927748",
+        "b755fd1a6f349ded41277c710ea62e38c117e99b64bcfba5605ed4ed20a01c53"
+      ],
+      "regular_session_reference_evidence": {
+        "next_session_date": "2026-03-05",
+        "next_close": "4810.0",
+        "reference_mode": "explicit_next_prevClosingPrice",
+        "next_reference_price": "4400.0",
+        "next_signed_change": "410.0",
+        "next_change_direction": "RISE",
+        "next_change_rate": "0.0931818182",
+        "independent_price_provider": "Yahoo raw quote OHLC (not adjclose)",
+        "independent_matching_dates": [
+          "2026-03-04",
+          "2026-03-03",
+          "2026-03-05"
+        ]
+      }
+    },
+    {
+      "code": "337930",
+      "name": "젝시믹스",
+      "issue": {
+        "date": "2026.02.20",
+        "text": "2025년 결산배당으로 보통주 1주당 50원 현금배당 결정, 총액 14.84억원",
+        "src": "manual",
+        "pct": -1.77
+      },
+      "source_urls": [
+        "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260219000854",
+        "https://kind.krx.co.kr/external/2026/02/19/000854/20260219002352/71500.htm"
+      ],
+      "source_sha256": "634dd23355f63f2ac20f78ce3a4eae593716f1cd779562ef676024900650e332",
+      "source_retrieved_at_utc": "2026-10-10T13:05:09.082470+00:00",
+      "publication_time_kst": "2026-02-19T17:25:00+09:00",
+      "publication_precision": "minute; zero seconds are formatting only",
+      "publication_clock_source_url": "https://kind.krx.co.kr/disclosure/details.do",
+      "publication_clock_method": "POST",
+      "publication_clock_request": "method=searchDetailsSub&forward=details_sub&currentPageSize=300&pageIndex=1&fromDate=2025-01-01&toDate=2026-10-10&searchCodeType=number&repIsuSrtCd=A337930&searchCorpName=337930&orderMode=0&orderStat=D&lastReport=",
+      "date_basis": {
+        "policy": "Before15:30KST on a trading day: same regular session; at/after15:30 or non-trading date: next actual traded regular session. Exceptional sessions require separate review.",
+        "after_standard_regular_close": true,
+        "assigned_regular_session_date": "2026-02-20"
+      },
+      "regular_close_krw": "5550.0",
+      "previous_trading_date": "2026-02-19",
+      "previous_regular_close_krw": "5650.0",
+      "regular_session_volume": 392501,
+      "calculated_pct": -1.77,
+      "price_urls": [
+        "https://finance.daum.net/api/quote/A337930/days?symbolCode=A337930&pagination=true&page=1&perPage=2500&adjusted=false",
+        "https://query1.finance.yahoo.com/v8/finance/chart/337930.KQ?period1=1672531200&period2=1791676800&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+      ],
+      "price_source_sha256": [
+        "cec965f1ab0377fb6d892cef0674ce9a6b16a672fb7beded6ee5dc7e36927748",
+        "b755fd1a6f349ded41277c710ea62e38c117e99b64bcfba5605ed4ed20a01c53"
+      ],
+      "regular_session_reference_evidence": {
+        "next_session_date": "2026-02-23",
+        "next_close": "5670.0",
+        "reference_mode": "explicit_next_prevClosingPrice",
+        "next_reference_price": "5550.0",
+        "next_signed_change": "120.0",
+        "next_change_direction": "RISE",
+        "next_change_rate": "0.0216216216",
+        "independent_price_provider": "Yahoo raw quote OHLC (not adjclose)",
+        "independent_matching_dates": [
+          "2026-02-20",
+          "2026-02-19",
+          "2026-02-23"
+        ]
+      }
+    },
+    {
+      "code": "337930",
+      "name": "젝시믹스",
+      "issue": {
+        "date": "2025.08.11",
+        "text": "2025년 2분기 연결 잠정 영업이익 75.52억원으로 전년 동기 대비 39.0% 감소",
+        "src": "manual",
+        "pct": -7.65
+      },
+      "source_urls": [
+        "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250808000546",
+        "https://kind.krx.co.kr/external/2025/08/08/000546/20250805000667/70956.htm"
+      ],
+      "source_sha256": "7be19708585c429424bd9a7e7878506c0c1ddefdec467b383329b707d257824c",
+      "source_retrieved_at_utc": "2026-10-10T13:05:09.136922+00:00",
+      "publication_time_kst": "2025-08-08T17:02:00+09:00",
+      "publication_precision": "minute; zero seconds are formatting only",
+      "publication_clock_source_url": "https://kind.krx.co.kr/disclosure/details.do",
+      "publication_clock_method": "POST",
+      "publication_clock_request": "method=searchDetailsSub&forward=details_sub&currentPageSize=300&pageIndex=1&fromDate=2025-01-01&toDate=2026-10-10&searchCodeType=number&repIsuSrtCd=A337930&searchCorpName=337930&orderMode=0&orderStat=D&lastReport=",
+      "date_basis": {
+        "policy": "Before15:30KST on a trading day: same regular session; at/after15:30 or non-trading date: next actual traded regular session. Exceptional sessions require separate review.",
+        "after_standard_regular_close": true,
+        "assigned_regular_session_date": "2025-08-11"
+      },
+      "regular_close_krw": "5550.0",
+      "previous_trading_date": "2025-08-08",
+      "previous_regular_close_krw": "6010.0",
+      "regular_session_volume": 328671,
+      "calculated_pct": -7.65,
+      "price_urls": [
+        "https://finance.daum.net/api/quote/A337930/days?symbolCode=A337930&pagination=true&page=1&perPage=2500&adjusted=false",
+        "https://query1.finance.yahoo.com/v8/finance/chart/337930.KQ?period1=1672531200&period2=1791676800&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+      ],
+      "price_source_sha256": [
+        "cec965f1ab0377fb6d892cef0674ce9a6b16a672fb7beded6ee5dc7e36927748",
+        "b755fd1a6f349ded41277c710ea62e38c117e99b64bcfba5605ed4ed20a01c53"
+      ],
+      "regular_session_reference_evidence": {
+        "next_session_date": "2025-08-12",
+        "next_close": "5410.0",
+        "reference_mode": "explicit_next_prevClosingPrice",
+        "next_reference_price": "5550.0",
+        "next_signed_change": "-140.0",
+        "next_change_direction": "FALL",
+        "next_change_rate": "-0.0252252252",
+        "independent_price_provider": "Yahoo raw quote OHLC (not adjclose)",
+        "independent_matching_dates": [
+          "2025-08-11",
+          "2025-08-08",
+          "2025-08-12"
+        ]
+      }
+    },
+    {
+      "code": "371950",
+      "name": "풍원정밀",
+      "issue": {
+        "date": "2026.08.18",
+        "text": "운영자금·채무상환을 위해 보통주 78만5340주 일반공모 유상증자 결정, 약 30억원 조달 예정",
+        "src": "manual",
+        "pct": -29.93
+      },
+      "source_urls": [
+        "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260814003624",
+        "https://kind.krx.co.kr/external/2026/08/14/003624/20260814012755/11306.htm"
+      ],
+      "source_sha256": "508c0b5ddaad839ee6f405b20ad89cf5bbb1313f6c42a00cd8ac36e61d150eb3",
+      "source_retrieved_at_utc": "2026-10-10T13:07:23.197854+00:00",
+      "publication_time_kst": "2026-08-14T17:46:00+09:00",
+      "publication_precision": "minute; zero seconds are formatting only",
+      "publication_clock_source_url": "https://kind.krx.co.kr/disclosure/details.do",
+      "publication_clock_method": "POST",
+      "publication_clock_request": "method=searchDetailsSub&forward=details_sub&currentPageSize=300&pageIndex=1&fromDate=2025-01-01&toDate=2026-10-10&searchCodeType=number&repIsuSrtCd=A371950&searchCorpName=371950&orderMode=0&orderStat=D&lastReport=",
+      "date_basis": {
+        "policy": "Before15:30KST on a trading day: same regular session; at/after15:30 or non-trading date: next actual traded regular session. Exceptional sessions require separate review.",
+        "after_standard_regular_close": true,
+        "assigned_regular_session_date": "2026-08-18"
+      },
+      "regular_close_krw": "4120.0",
+      "previous_trading_date": "2026-08-14",
+      "previous_regular_close_krw": "5880.0",
+      "regular_session_volume": 617098,
+      "calculated_pct": -29.93,
+      "price_urls": [
+        "https://finance.daum.net/api/quote/A371950/days?symbolCode=A371950&pagination=true&page=1&perPage=2500&adjusted=false",
+        "https://query1.finance.yahoo.com/v8/finance/chart/371950.KQ?period1=1672531200&period2=1791676800&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+      ],
+      "price_source_sha256": [
+        "3e985a2f8b22b2bc666369c82b0b9917098f80760499940a78897356473b1913",
+        "0c5f7970bef4fbd0f3ac212c70aff99626a10d3c4cffc67eb3f564d26904095d"
+      ],
+      "regular_session_reference_evidence": {
+        "next_session_date": "2026-08-19",
+        "next_close": "3900.0",
+        "reference_mode": "explicit_next_prevClosingPrice",
+        "next_reference_price": "4120.0",
+        "next_signed_change": "-220.0",
+        "next_change_direction": "FALL",
+        "next_change_rate": "-0.0533980583",
+        "independent_price_provider": "Yahoo raw quote OHLC (not adjclose)",
+        "independent_matching_dates": [
+          "2026-08-18",
+          "2026-08-14",
+          "2026-08-19"
+        ]
+      }
+    },
+    {
+      "code": "371950",
+      "name": "풍원정밀",
+      "issue": {
+        "date": "2026.07.31",
+        "text": "운영자금 목적의 사모사채 발행으로 단기차입금 20억원 증가 결정",
+        "src": "manual",
+        "pct": 18.1
+      },
+      "source_urls": [
+        "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260730000645",
+        "https://kind.krx.co.kr/external/2026/07/30/000645/20260708000405/71152.htm"
+      ],
+      "source_sha256": "ecdb481308c855cd83090ca25db5e2d338d5b6e00a18103df17e9736be4341ce",
+      "source_retrieved_at_utc": "2026-10-10T13:07:23.304255+00:00",
+      "publication_time_kst": "2026-07-30T16:02:00+09:00",
+      "publication_precision": "minute; zero seconds are formatting only",
+      "publication_clock_source_url": "https://kind.krx.co.kr/disclosure/details.do",
+      "publication_clock_method": "POST",
+      "publication_clock_request": "method=searchDetailsSub&forward=details_sub&currentPageSize=300&pageIndex=1&fromDate=2025-01-01&toDate=2026-10-10&searchCodeType=number&repIsuSrtCd=A371950&searchCorpName=371950&orderMode=0&orderStat=D&lastReport=",
+      "date_basis": {
+        "policy": "Before15:30KST on a trading day: same regular session; at/after15:30 or non-trading date: next actual traded regular session. Exceptional sessions require separate review.",
+        "after_standard_regular_close": true,
+        "assigned_regular_session_date": "2026-07-31"
+      },
+      "regular_close_krw": "4730.0",
+      "previous_trading_date": "2026-07-30",
+      "previous_regular_close_krw": "4005.0",
+      "regular_session_volume": 27814,
+      "calculated_pct": 18.1,
+      "price_urls": [
+        "https://finance.daum.net/api/quote/A371950/days?symbolCode=A371950&pagination=true&page=1&perPage=2500&adjusted=false",
+        "https://query1.finance.yahoo.com/v8/finance/chart/371950.KQ?period1=1672531200&period2=1791676800&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+      ],
+      "price_source_sha256": [
+        "3e985a2f8b22b2bc666369c82b0b9917098f80760499940a78897356473b1913",
+        "0c5f7970bef4fbd0f3ac212c70aff99626a10d3c4cffc67eb3f564d26904095d"
+      ],
+      "regular_session_reference_evidence": {
+        "next_session_date": "2026-08-03",
+        "next_close": "4730.0",
+        "reference_mode": "explicit_next_prevClosingPrice",
+        "next_reference_price": "4730.0",
+        "next_signed_change": "0.0",
+        "next_change_direction": "EVEN",
+        "next_change_rate": "0.0",
+        "independent_price_provider": "Yahoo raw quote OHLC (not adjclose)",
+        "independent_matching_dates": [
+          "2026-07-31",
+          "2026-07-30",
+          "2026-08-03"
+        ]
+      }
+    },
+    {
+      "code": "371950",
+      "name": "풍원정밀",
+      "issue": {
+        "date": "2026.06.10",
+        "text": "토지 자산재평가 결과 55.13억원 차액 발생 공시, 자산총액 대비 6.9%",
+        "src": "manual",
+        "pct": 0.58
+      },
+      "source_urls": [
+        "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260610000195",
+        "https://kind.krx.co.kr/external/2026/06/10/000195/20260609001577/71612.htm"
+      ],
+      "source_sha256": "f805df5d00836112d829d16f7d4e047de857c0d5857b46ddf5f393f70b6f47de",
+      "source_retrieved_at_utc": "2026-10-10T13:07:23.159849+00:00",
+      "publication_time_kst": "2026-06-10T10:40:00+09:00",
+      "publication_precision": "minute; zero seconds are formatting only",
+      "publication_clock_source_url": "https://kind.krx.co.kr/disclosure/details.do",
+      "publication_clock_method": "POST",
+      "publication_clock_request": "method=searchDetailsSub&forward=details_sub&currentPageSize=300&pageIndex=1&fromDate=2025-01-01&toDate=2026-10-10&searchCodeType=number&repIsuSrtCd=A371950&searchCorpName=371950&orderMode=0&orderStat=D&lastReport=",
+      "date_basis": {
+        "policy": "Before15:30KST on a trading day: same regular session; at/after15:30 or non-trading date: next actual traded regular session. Exceptional sessions require separate review.",
+        "after_standard_regular_close": false,
+        "assigned_regular_session_date": "2026-06-10"
+      },
+      "regular_close_krw": "6940.0",
+      "previous_trading_date": "2026-06-09",
+      "previous_regular_close_krw": "6900.0",
+      "regular_session_volume": 37886,
+      "calculated_pct": 0.58,
+      "price_urls": [
+        "https://finance.daum.net/api/quote/A371950/days?symbolCode=A371950&pagination=true&page=1&perPage=2500&adjusted=false",
+        "https://query1.finance.yahoo.com/v8/finance/chart/371950.KQ?period1=1672531200&period2=1791676800&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+      ],
+      "price_source_sha256": [
+        "3e985a2f8b22b2bc666369c82b0b9917098f80760499940a78897356473b1913",
+        "0c5f7970bef4fbd0f3ac212c70aff99626a10d3c4cffc67eb3f564d26904095d"
+      ],
+      "regular_session_reference_evidence": {
+        "next_session_date": "2026-06-11",
+        "next_close": "7350.0",
+        "reference_mode": "explicit_next_prevClosingPrice",
+        "next_reference_price": "6940.0",
+        "next_signed_change": "410.0",
+        "next_change_direction": "RISE",
+        "next_change_rate": "0.0590778098",
+        "independent_price_provider": "Yahoo raw quote OHLC (not adjclose)",
+        "independent_matching_dates": [
+          "2026-06-10",
+          "2026-06-09",
+          "2026-06-11"
+        ]
+      }
+    },
+    {
+      "code": "371950",
+      "name": "풍원정밀",
+      "issue": {
+        "date": "2026.02.19",
+        "text": "2025년 연결 잠정 매출 330.65억원으로 32.9% 감소, 영업손실 193.35억원 지속",
+        "src": "manual",
+        "pct": -0.43
+      },
+      "source_urls": [
+        "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260213002015",
+        "https://kind.krx.co.kr/external/2026/02/13/002015/20260213004215/70443.htm"
+      ],
+      "source_sha256": "3c82518e078b4cdd395b03449f09995b06cabc796642b3f8a20f52a967dbb6f5",
+      "source_retrieved_at_utc": "2026-10-10T13:07:44.079286+00:00",
+      "publication_time_kst": "2026-02-13T17:43:00+09:00",
+      "publication_precision": "minute; zero seconds are formatting only",
+      "publication_clock_source_url": "https://kind.krx.co.kr/disclosure/details.do",
+      "publication_clock_method": "POST",
+      "publication_clock_request": "method=searchDetailsSub&forward=details_sub&currentPageSize=300&pageIndex=1&fromDate=2025-01-01&toDate=2026-10-10&searchCodeType=number&repIsuSrtCd=A371950&searchCorpName=371950&orderMode=0&orderStat=D&lastReport=",
+      "date_basis": {
+        "policy": "Before15:30KST on a trading day: same regular session; at/after15:30 or non-trading date: next actual traded regular session. Exceptional sessions require separate review.",
+        "after_standard_regular_close": true,
+        "assigned_regular_session_date": "2026-02-19"
+      },
+      "regular_close_krw": "13990.0",
+      "previous_trading_date": "2026-02-13",
+      "previous_regular_close_krw": "14050.0",
+      "regular_session_volume": 200741,
+      "calculated_pct": -0.43,
+      "price_urls": [
+        "https://finance.daum.net/api/quote/A371950/days?symbolCode=A371950&pagination=true&page=1&perPage=2500&adjusted=false",
+        "https://query1.finance.yahoo.com/v8/finance/chart/371950.KQ?period1=1672531200&period2=1791676800&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+      ],
+      "price_source_sha256": [
+        "3e985a2f8b22b2bc666369c82b0b9917098f80760499940a78897356473b1913",
+        "0c5f7970bef4fbd0f3ac212c70aff99626a10d3c4cffc67eb3f564d26904095d"
+      ],
+      "regular_session_reference_evidence": {
+        "next_session_date": "2026-02-20",
+        "next_close": "16880.0",
+        "reference_mode": "explicit_next_prevClosingPrice",
+        "next_reference_price": "13990.0",
+        "next_signed_change": "2890.0",
+        "next_change_direction": "RISE",
+        "next_change_rate": "0.2065761258",
+        "independent_price_provider": "Yahoo raw quote OHLC (not adjclose)",
+        "independent_matching_dates": [
+          "2026-02-19",
+          "2026-02-13",
+          "2026-02-20"
+        ]
+      }
+    },
+    {
+      "code": "371950",
+      "name": "풍원정밀",
+      "issue": {
+        "date": "2025.05.08",
+        "text": "시설자금 30억원·운영자금 10억원을 위한 제3회 사모 전환사채 40억원 발행 결정",
+        "src": "manual",
+        "pct": 9.93
+      },
+      "source_urls": [
+        "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250507000765",
+        "https://kind.krx.co.kr/external/2025/05/07/000765/20250507001737/11324.htm"
+      ],
+      "source_sha256": "3c6cdd8f2ba1d629ae061f3b4b6c646900166411abab5e4a5ff57f836eced296",
+      "source_retrieved_at_utc": "2026-10-10T13:07:44.228258+00:00",
+      "publication_time_kst": "2025-05-07T17:58:00+09:00",
+      "publication_precision": "minute; zero seconds are formatting only",
+      "publication_clock_source_url": "https://kind.krx.co.kr/disclosure/details.do",
+      "publication_clock_method": "POST",
+      "publication_clock_request": "method=searchDetailsSub&forward=details_sub&currentPageSize=300&pageIndex=1&fromDate=2025-01-01&toDate=2026-10-10&searchCodeType=number&repIsuSrtCd=A371950&searchCorpName=371950&orderMode=0&orderStat=D&lastReport=",
+      "date_basis": {
+        "policy": "Before15:30KST on a trading day: same regular session; at/after15:30 or non-trading date: next actual traded regular session. Exceptional sessions require separate review.",
+        "after_standard_regular_close": true,
+        "assigned_regular_session_date": "2025-05-08"
+      },
+      "regular_close_krw": "13170.0",
+      "previous_trading_date": "2025-05-07",
+      "previous_regular_close_krw": "11980.0",
+      "regular_session_volume": 111802,
+      "calculated_pct": 9.93,
+      "price_urls": [
+        "https://finance.daum.net/api/quote/A371950/days?symbolCode=A371950&pagination=true&page=1&perPage=2500&adjusted=false",
+        "https://query1.finance.yahoo.com/v8/finance/chart/371950.KQ?period1=1672531200&period2=1791676800&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+      ],
+      "price_source_sha256": [
+        "3e985a2f8b22b2bc666369c82b0b9917098f80760499940a78897356473b1913",
+        "0c5f7970bef4fbd0f3ac212c70aff99626a10d3c4cffc67eb3f564d26904095d"
+      ],
+      "regular_session_reference_evidence": {
+        "next_session_date": "2025-05-09",
+        "next_close": "13370.0",
+        "reference_mode": "explicit_next_prevClosingPrice",
+        "next_reference_price": "13170.0",
+        "next_signed_change": "200.0",
+        "next_change_direction": "RISE",
+        "next_change_rate": "0.0151860289",
+        "independent_price_provider": "Yahoo raw quote OHLC (not adjclose)",
+        "independent_matching_dates": [
+          "2025-05-08",
+          "2025-05-07",
+          "2025-05-09"
+        ]
+      }
+    },
+    {
+      "code": "012790",
+      "name": "신일제약",
+      "issue": {
+        "date": "2026.03.05",
+        "text": "2025년 개별 잠정 영업이익 73.86억원으로 51.4% 감소, 매출 감소 영향",
+        "src": "manual",
+        "pct": 5.91
+      },
+      "source_urls": [
+        "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260304001645",
+        "https://kind.krx.co.kr/external/2026/03/04/001645/20260304003713/70443.htm"
+      ],
+      "source_sha256": "4f4ab7082ad3b6b69b0cc8463e85fae78ea57eb3425ca8e6fe3b75265d8b76ad",
+      "source_retrieved_at_utc": "2026-10-10T13:02:03.866256+00:00",
+      "publication_time_kst": "2026-03-04T18:02:00+09:00",
+      "publication_precision": "minute; zero seconds are formatting only",
+      "publication_clock_source_url": "https://kind.krx.co.kr/disclosure/details.do",
+      "publication_clock_method": "POST",
+      "publication_clock_request": "method=searchDetailsSub&forward=details_sub&currentPageSize=300&pageIndex=1&fromDate=2025-01-01&toDate=2026-10-10&searchCodeType=number&repIsuSrtCd=A012790&searchCorpName=012790&orderMode=0&orderStat=D&lastReport=",
+      "date_basis": {
+        "policy": "Before15:30KST on a trading day: same regular session; at/after15:30 or non-trading date: next actual traded regular session. Exceptional sessions require separate review.",
+        "after_standard_regular_close": true,
+        "assigned_regular_session_date": "2026-03-05"
+      },
+      "regular_close_krw": "6090.0",
+      "previous_trading_date": "2026-03-04",
+      "previous_regular_close_krw": "5750.0",
+      "regular_session_volume": 85833,
+      "calculated_pct": 5.91,
+      "price_urls": [
+        "https://finance.daum.net/api/quote/A012790/days?symbolCode=A012790&pagination=true&page=1&perPage=2500&adjusted=false",
+        "https://query1.finance.yahoo.com/v8/finance/chart/012790.KQ?period1=1672531200&period2=1791676800&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+      ],
+      "price_source_sha256": [
+        "21a47f3c415067cbf3f7a4efb5f3bf88e3abc057943ede02f4551d765dc96f31",
+        "2e28b605e315309646ae60746ff28aa3882ce7eb4cd3f143752c63fd5592d9b2"
+      ],
+      "regular_session_reference_evidence": {
+        "next_session_date": "2026-03-06",
+        "next_close": "6090.0",
+        "reference_mode": "explicit_next_prevClosingPrice",
+        "next_reference_price": "6090.0",
+        "next_signed_change": "0.0",
+        "next_change_direction": "EVEN",
+        "next_change_rate": "0.0",
+        "independent_price_provider": "Yahoo raw quote OHLC (not adjclose)",
+        "independent_matching_dates": [
+          "2026-03-05",
+          "2026-03-04",
+          "2026-03-06"
+        ]
+      }
+    },
+    {
+      "code": "012790",
+      "name": "신일제약",
+      "issue": {
+        "date": "2025.11.14",
+        "text": "2025년 3분기보고서에서 누적 개별 매출 594.28억원·영업이익 78.10억원 공시",
+        "src": "manual",
+        "pct": -0.17
+      },
+      "source_urls": [
+        "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251113001121",
+        "https://kind.krx.co.kr/external/2025/11/13/001121/20251113002540/11013.htm"
+      ],
+      "source_sha256": "f511306eb37891d4c6e7f026c52f0f74ff016ab5b169ce2257caa9f38ecb6353",
+      "source_retrieved_at_utc": "2026-10-10T13:15:07.253897+00:00",
+      "publication_time_kst": "2025-11-13T17:18:00+09:00",
+      "publication_precision": "minute; zero seconds are formatting only",
+      "publication_clock_source_url": "https://kind.krx.co.kr/disclosure/details.do",
+      "publication_clock_method": "POST",
+      "publication_clock_request": "method=searchDetailsSub&forward=details_sub&currentPageSize=300&pageIndex=1&fromDate=2025-01-01&toDate=2026-10-10&searchCodeType=number&repIsuSrtCd=A012790&searchCorpName=012790&orderMode=0&orderStat=D&lastReport=",
+      "date_basis": {
+        "policy": "Before15:30KST on a trading day: same regular session; at/after15:30 or non-trading date: next actual traded regular session. Exceptional sessions require separate review.",
+        "after_standard_regular_close": true,
+        "assigned_regular_session_date": "2025-11-14"
+      },
+      "regular_close_krw": "6020.0",
+      "previous_trading_date": "2025-11-13",
+      "previous_regular_close_krw": "6030.0",
+      "regular_session_volume": 27833,
+      "calculated_pct": -0.17,
+      "price_urls": [
+        "https://finance.daum.net/api/quote/A012790/days?symbolCode=A012790&pagination=true&page=1&perPage=2500&adjusted=false",
+        "https://query1.finance.yahoo.com/v8/finance/chart/012790.KQ?period1=1672531200&period2=1791676800&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+      ],
+      "price_source_sha256": [
+        "21a47f3c415067cbf3f7a4efb5f3bf88e3abc057943ede02f4551d765dc96f31",
+        "2e28b605e315309646ae60746ff28aa3882ce7eb4cd3f143752c63fd5592d9b2"
+      ],
+      "regular_session_reference_evidence": {
+        "next_session_date": "2025-11-17",
+        "next_close": "5960.0",
+        "reference_mode": "explicit_next_prevClosingPrice",
+        "next_reference_price": "6020.0",
+        "next_signed_change": "-60.0",
+        "next_change_direction": "FALL",
+        "next_change_rate": "-0.0099667774",
+        "independent_price_provider": "Yahoo raw quote OHLC (not adjclose)",
+        "independent_matching_dates": [
+          "2025-11-14",
+          "2025-11-13",
+          "2025-11-17"
+        ]
+      }
+    },
+    {
+      "code": "012790",
+      "name": "신일제약",
+      "issue": {
+        "date": "2025.03.05",
+        "text": "2024년 결산배당으로 보통주 1주당 190원 현금배당 결정, 총액 21.96억원",
+        "src": "manual",
+        "pct": 2.04
+      },
+      "source_urls": [
+        "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250304000590",
+        "https://kind.krx.co.kr/external/2025/03/04/000590/20250304000696/71500.htm"
+      ],
+      "source_sha256": "51312f62109885e3e6c71942ce9bc835368c07b3c04ba44d8bd26411b715fd8c",
+      "source_retrieved_at_utc": "2026-10-10T13:02:19.818899+00:00",
+      "publication_time_kst": "2025-03-04T15:53:00+09:00",
+      "publication_precision": "minute; zero seconds are formatting only",
+      "publication_clock_source_url": "https://kind.krx.co.kr/disclosure/details.do",
+      "publication_clock_method": "POST",
+      "publication_clock_request": "method=searchDetailsSub&forward=details_sub&currentPageSize=300&pageIndex=1&fromDate=2025-01-01&toDate=2026-10-10&searchCodeType=number&repIsuSrtCd=A012790&searchCorpName=012790&orderMode=0&orderStat=D&lastReport=",
+      "date_basis": {
+        "policy": "Before15:30KST on a trading day: same regular session; at/after15:30 or non-trading date: next actual traded regular session. Exceptional sessions require separate review.",
+        "after_standard_regular_close": true,
+        "assigned_regular_session_date": "2025-03-05"
+      },
+      "regular_close_krw": "6490.0",
+      "previous_trading_date": "2025-03-04",
+      "previous_regular_close_krw": "6360.0",
+      "regular_session_volume": 39492,
+      "calculated_pct": 2.04,
+      "price_urls": [
+        "https://finance.daum.net/api/quote/A012790/days?symbolCode=A012790&pagination=true&page=1&perPage=2500&adjusted=false",
+        "https://query1.finance.yahoo.com/v8/finance/chart/012790.KQ?period1=1672531200&period2=1791676800&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+      ],
+      "price_source_sha256": [
+        "21a47f3c415067cbf3f7a4efb5f3bf88e3abc057943ede02f4551d765dc96f31",
+        "2e28b605e315309646ae60746ff28aa3882ce7eb4cd3f143752c63fd5592d9b2"
+      ],
+      "regular_session_reference_evidence": {
+        "next_session_date": "2025-03-06",
+        "next_close": "6490.0",
+        "reference_mode": "explicit_next_prevClosingPrice",
+        "next_reference_price": "6490.0",
+        "next_signed_change": "0.0",
+        "next_change_direction": "EVEN",
+        "next_change_rate": "0.0",
+        "independent_price_provider": "Yahoo raw quote OHLC (not adjclose)",
+        "independent_matching_dates": [
+          "2025-03-05",
+          "2025-03-04",
+          "2025-03-06"
+        ]
+      }
+    },
+    {
+      "code": "012790",
+      "name": "신일제약",
+      "issue": {
+        "date": "2024.03.05",
+        "text": "2023년 결산배당으로 보통주 1주당 170원 현금배당 결정, 총액 19.65억원",
+        "src": "manual",
+        "pct": 0.14
+      },
+      "source_urls": [
+        "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20240305000216",
+        "https://kind.krx.co.kr/external/2024/03/05/000216/20240304002378/71500.htm"
+      ],
+      "source_sha256": "c147cc5a85f48dbe60a777d8e52e706e2e67733ed4bb0e29e8c67259471e801e",
+      "source_retrieved_at_utc": "2026-10-10T13:08:46.434135+00:00",
+      "publication_time_kst": "2024-03-05T11:46:00+09:00",
+      "publication_precision": "minute; zero seconds are formatting only",
+      "publication_clock_source_url": "https://kind.krx.co.kr/disclosure/details.do",
+      "publication_clock_method": "POST",
+      "publication_clock_request": "method=searchDetailsSub&forward=details_sub&currentPageSize=300&pageIndex=1&fromDate=2023-01-01&toDate=2024-12-31&searchCodeType=number&repIsuSrtCd=A012790&searchCorpName=012790&orderMode=0&orderStat=D&lastReport=",
+      "date_basis": {
+        "policy": "Before15:30KST on a trading day: same regular session; at/after15:30 or non-trading date: next actual traded regular session. Exceptional sessions require separate review.",
+        "after_standard_regular_close": false,
+        "assigned_regular_session_date": "2024-03-05"
+      },
+      "regular_close_krw": "7000.0",
+      "previous_trading_date": "2024-03-04",
+      "previous_regular_close_krw": "6990.0",
+      "regular_session_volume": 12803,
+      "calculated_pct": 0.14,
+      "price_urls": [
+        "https://finance.daum.net/api/quote/A012790/days?symbolCode=A012790&pagination=true&page=1&perPage=2500&adjusted=false",
+        "https://query1.finance.yahoo.com/v8/finance/chart/012790.KQ?period1=1672531200&period2=1791676800&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+      ],
+      "price_source_sha256": [
+        "21a47f3c415067cbf3f7a4efb5f3bf88e3abc057943ede02f4551d765dc96f31",
+        "2e28b605e315309646ae60746ff28aa3882ce7eb4cd3f143752c63fd5592d9b2"
+      ],
+      "regular_session_reference_evidence": {
+        "next_session_date": "2024-03-06",
+        "next_close": "6960.0",
+        "reference_mode": "derived_next_signed_change_and_rate_plus_independent_next_close",
+        "next_reference_price": "7000.0",
+        "next_signed_change": "-40.0",
+        "next_change_direction": "FALL",
+        "next_change_rate": "-0.0057142857",
+        "independent_price_provider": "Yahoo raw quote OHLC (not adjclose)",
+        "independent_matching_dates": [
+          "2024-03-05",
+          "2024-03-04",
+          "2024-03-06"
+        ]
+      }
+    },
+    {
+      "code": "012790",
+      "name": "신일제약",
+      "issue": {
+        "date": "2023.03.02",
+        "text": "2022년 개별 잠정 영업이익 136.56억원으로 71.1% 증가, 감기·상비약 및 CMO 매출 확대",
+        "src": "manual",
+        "pct": 2.21
+      },
+      "source_urls": [
+        "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20230302000223",
+        "https://kind.krx.co.kr/external/2023/03/02/000223/20230228001268/70443.htm"
+      ],
+      "source_sha256": "d4cae23d51a39f46e718f564b8e2101e2ec77e238c96bf1741380f190164bd5d",
+      "source_retrieved_at_utc": "2026-10-10T13:08:45.962931+00:00",
+      "publication_time_kst": "2023-03-02T11:44:00+09:00",
+      "publication_precision": "minute; zero seconds are formatting only",
+      "publication_clock_source_url": "https://kind.krx.co.kr/disclosure/details.do",
+      "publication_clock_method": "POST",
+      "publication_clock_request": "method=searchDetailsSub&forward=details_sub&currentPageSize=300&pageIndex=1&fromDate=2023-01-01&toDate=2024-12-31&searchCodeType=number&repIsuSrtCd=A012790&searchCorpName=012790&orderMode=0&orderStat=D&lastReport=",
+      "date_basis": {
+        "policy": "Before15:30KST on a trading day: same regular session; at/after15:30 or non-trading date: next actual traded regular session. Exceptional sessions require separate review.",
+        "after_standard_regular_close": false,
+        "assigned_regular_session_date": "2023-03-02"
+      },
+      "regular_close_krw": "8320.0",
+      "previous_trading_date": "2023-02-28",
+      "previous_regular_close_krw": "8140.0",
+      "regular_session_volume": 92218,
+      "calculated_pct": 2.21,
+      "price_urls": [
+        "https://finance.daum.net/api/quote/A012790/days?symbolCode=A012790&pagination=true&page=1&perPage=2500&adjusted=false",
+        "https://query1.finance.yahoo.com/v8/finance/chart/012790.KQ?period1=1672531200&period2=1791676800&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+      ],
+      "price_source_sha256": [
+        "21a47f3c415067cbf3f7a4efb5f3bf88e3abc057943ede02f4551d765dc96f31",
+        "2e28b605e315309646ae60746ff28aa3882ce7eb4cd3f143752c63fd5592d9b2"
+      ],
+      "regular_session_reference_evidence": {
+        "next_session_date": "2023-03-03",
+        "next_close": "8400.0",
+        "reference_mode": "derived_next_signed_change_and_rate_plus_independent_next_close",
+        "next_reference_price": "8320.0",
+        "next_signed_change": "80.0",
+        "next_change_direction": "RISE",
+        "next_change_rate": "0.0096153846",
+        "independent_price_provider": "Yahoo raw quote OHLC (not adjclose)",
+        "independent_matching_dates": [
+          "2023-03-02",
+          "2023-02-28",
+          "2023-03-03"
+        ]
+      }
+    },
+    {
+      "code": "052220",
+      "name": "iMBC",
+      "issue": {
+        "date": "2026.02.13",
+        "text": "2025년 연결 잠정 영업손실 76.32억원으로 적자전환, 매출 감소·인력구조 개선 일회성 비용 반영",
+        "src": "manual",
+        "pct": -1.62
+      },
+      "source_urls": [
+        "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260212000981",
+        "https://kind.krx.co.kr/external/2026/02/12/000981/20260212002565/70443.htm"
+      ],
+      "source_sha256": "73e1d2e036f850314b45865a590fbe3bff3ab4a78d18c5d8e15458c95f151b2a",
+      "source_retrieved_at_utc": "2026-10-10T12:55:47.739746+00:00",
+      "publication_time_kst": "2026-02-12T16:28:00+09:00",
+      "publication_precision": "minute; zero seconds are formatting only",
+      "publication_clock_source_url": "https://kind.krx.co.kr/disclosure/details.do?method=searchDetailsSub&forward=details_sub&currentPageSize=100&pageIndex=1&repIsuSrtCd=A052220&searchCorpName=052220&searchCodeType=number&fromDate=2026-02-12&toDate=2026-02-12&orderMode=1&orderStat=D",
+      "publication_clock_method": "POST",
+      "publication_clock_request": "method=searchDetailsSub&forward=details_sub&currentPageSize=100&pageIndex=1&repIsuSrtCd=A052220&searchCorpName=052220&searchCodeType=number&fromDate=2026-02-12&toDate=2026-02-12&orderMode=1&orderStat=D",
+      "date_basis": "first trading session after explicitly verified after-close disclosure",
+      "regular_close_krw": 3330,
+      "previous_trading_date": "2026-02-12",
+      "previous_regular_close_krw": 3385,
+      "regular_session_volume": 125149,
+      "calculated_pct": -1.62,
+      "price_urls": [
+        "https://finance.daum.net/api/quote/A052220/days?symbolCode=A052220&pagination=true&page=1&perPage=2500&adjusted=false",
+        "https://query1.finance.yahoo.com/v8/finance/chart/052220.KQ?period1=1577836800&period2=1791331200&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+      ],
+      "price_source_sha256": [
+        "231af45da342a5a214adab90ad41686d7d4feea38e6becb7d5b1310ec251b0d1",
+        "8b4d617e7cd1cab7cd1eac85d03d7b22acb2dba181818fad99d1be992afae21c"
+      ],
+      "regular_session_reference_evidence": {
+        "next_session_date": "2026-02-19",
+        "next_close": "3375.0",
+        "reference_mode": "explicit_next_prevClosingPrice",
+        "next_reference_price": "3330.0",
+        "next_signed_change": "45.0",
+        "next_change_direction": "RISE",
+        "next_change_rate": "0.0135135135",
+        "independent_price_provider": "Yahoo raw quote OHLC (not adjclose)",
+        "independent_matching_dates": [
+          "2026-02-13",
+          "2026-02-12",
+          "2026-02-19"
+        ]
+      }
+    },
+    {
+      "code": "052220",
+      "name": "iMBC",
+      "issue": {
+        "date": "2025.02.13",
+        "text": "2024년 연결 잠정 영업이익 7.45억원으로 35.6% 감소, 광고 매출 감소·자회사 물류비 증가",
+        "src": "manual",
+        "pct": 3.89
+      },
+      "source_urls": [
+        "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250212001114",
+        "https://kind.krx.co.kr/external/2025/02/12/001114/20250212000008/70443.htm"
+      ],
+      "source_sha256": "aa0283b409cca57d02edfb7694dc827de61e621dbb50bc0b3d9aa9f4eb398933",
+      "source_retrieved_at_utc": "2026-10-10T12:55:47.699252+00:00",
+      "publication_time_kst": "2025-02-12T17:36:00+09:00",
+      "publication_precision": "minute; zero seconds are formatting only",
+      "publication_clock_source_url": "https://kind.krx.co.kr/disclosure/details.do?method=searchDetailsSub&forward=details_sub&currentPageSize=100&pageIndex=1&repIsuSrtCd=A052220&searchCorpName=052220&searchCodeType=number&fromDate=2025-02-12&toDate=2025-02-12&orderMode=1&orderStat=D",
+      "publication_clock_method": "POST",
+      "publication_clock_request": "method=searchDetailsSub&forward=details_sub&currentPageSize=100&pageIndex=1&repIsuSrtCd=A052220&searchCorpName=052220&searchCodeType=number&fromDate=2025-02-12&toDate=2025-02-12&orderMode=1&orderStat=D",
+      "date_basis": "first trading session after explicitly verified after-close disclosure",
+      "regular_close_krw": 3470,
+      "previous_trading_date": "2025-02-12",
+      "previous_regular_close_krw": 3340,
+      "regular_session_volume": 834874,
+      "calculated_pct": 3.89,
+      "price_urls": [
+        "https://finance.daum.net/api/quote/A052220/days?symbolCode=A052220&pagination=true&page=1&perPage=2500&adjusted=false",
+        "https://query1.finance.yahoo.com/v8/finance/chart/052220.KQ?period1=1577836800&period2=1791331200&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+      ],
+      "price_source_sha256": [
+        "231af45da342a5a214adab90ad41686d7d4feea38e6becb7d5b1310ec251b0d1",
+        "8b4d617e7cd1cab7cd1eac85d03d7b22acb2dba181818fad99d1be992afae21c"
+      ],
+      "regular_session_reference_evidence": {
+        "next_session_date": "2025-02-14",
+        "next_close": "3435.0",
+        "reference_mode": "explicit_next_prevClosingPrice",
+        "next_reference_price": "3470.0",
+        "next_signed_change": "-35.0",
+        "next_change_direction": "FALL",
+        "next_change_rate": "-0.0100864553",
+        "independent_price_provider": "Yahoo raw quote OHLC (not adjclose)",
+        "independent_matching_dates": [
+          "2025-02-13",
+          "2025-02-12",
+          "2025-02-14"
+        ]
+      }
+    },
+    {
+      "code": "052220",
+      "name": "iMBC",
+      "issue": {
+        "date": "2024.02.15",
+        "text": "2023년 연결 잠정 영업이익 11.53억원으로 54.9% 감소, 콘텐츠 유통 감소·자회사 물류비 증가",
+        "src": "manual",
+        "pct": -0.15
+      },
+      "source_urls": [
+        "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20240214000865",
+        "https://kind.krx.co.kr/external/2024/02/14/000865/20240213000901/70443.htm"
+      ],
+      "source_sha256": "538c0bf6e7ce68021e035084245e80d47272566601f0ee0815b225abe142bc03",
+      "source_retrieved_at_utc": "2026-10-10T12:55:47.589459+00:00",
+      "publication_time_kst": "2024-02-14T15:46:00+09:00",
+      "publication_precision": "minute; zero seconds are formatting only",
+      "publication_clock_source_url": "https://kind.krx.co.kr/disclosure/details.do?method=searchDetailsSub&forward=details_sub&currentPageSize=100&pageIndex=1&repIsuSrtCd=A052220&searchCorpName=052220&searchCodeType=number&fromDate=2024-02-14&toDate=2024-02-14&orderMode=1&orderStat=D",
+      "publication_clock_method": "POST",
+      "publication_clock_request": "method=searchDetailsSub&forward=details_sub&currentPageSize=100&pageIndex=1&repIsuSrtCd=A052220&searchCorpName=052220&searchCodeType=number&fromDate=2024-02-14&toDate=2024-02-14&orderMode=1&orderStat=D",
+      "date_basis": "first trading session after explicitly verified after-close disclosure",
+      "regular_close_krw": 3245,
+      "previous_trading_date": "2024-02-14",
+      "previous_regular_close_krw": 3250,
+      "regular_session_volume": 93824,
+      "calculated_pct": -0.15,
+      "price_urls": [
+        "https://finance.daum.net/api/quote/A052220/days?symbolCode=A052220&pagination=true&page=1&perPage=2500&adjusted=false",
+        "https://m.stock.naver.com/api/stock/052220/price?pageSize=60&page=11"
+      ],
+      "price_source_sha256": [
+        "231af45da342a5a214adab90ad41686d7d4feea38e6becb7d5b1310ec251b0d1",
+        "db3b49116746d3a84cbd28f6861d9d0740da800d01721bcb3fc5e5e1af3eb120"
+      ],
+      "regular_session_reference_evidence": {
+        "next_session_date": "2024-02-16",
+        "next_close": "3290.0",
+        "reference_mode": "derived_next_signed_change_and_rate_plus_independent_next_close",
+        "next_reference_price": "3245.0",
+        "next_signed_change": "45.0",
+        "next_change_direction": "RISE",
+        "next_change_rate": "0.0138674884",
+        "independent_price_provider": "Naver historical daily",
+        "independent_matching_dates": [
+          "2024-02-15",
+          "2024-02-14",
+          "2024-02-16"
+        ]
+      },
+      "rejected_corroborator": {
+        "provider": "Yahoo Finance",
+        "current_close": 3225.0,
+        "previous_close": 3250.0,
+        "reason": "Does not match unadjusted dated close evidence; not used. The cause of the discrepancy is not asserted."
+      }
+    },
+    {
+      "code": "052220",
+      "name": "iMBC",
+      "issue": {
+        "date": "2023.02.16",
+        "text": "2022년 연결 잠정 순이익 17.86억원으로 32.9% 증가, 법인세비용 감소 영향",
+        "src": "manual",
+        "pct": -2.32
+      },
+      "source_urls": [
+        "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20230215000501",
+        "https://kind.krx.co.kr/external/2023/02/15/000501/20230214001383/70443.htm"
+      ],
+      "source_sha256": "5875d12edf7c64ac4f3d089dffb91bf202ba4ddf1e8b94f921ee162fdbf7550a",
+      "source_retrieved_at_utc": "2026-10-10T12:55:47.800577+00:00",
+      "publication_time_kst": "2023-02-15T15:42:00+09:00",
+      "publication_precision": "minute; zero seconds are formatting only",
+      "publication_clock_source_url": "https://kind.krx.co.kr/disclosure/details.do?method=searchDetailsSub&forward=details_sub&currentPageSize=100&pageIndex=1&repIsuSrtCd=A052220&searchCorpName=052220&searchCodeType=number&fromDate=2023-02-15&toDate=2023-02-15&orderMode=1&orderStat=D",
+      "publication_clock_method": "POST",
+      "publication_clock_request": "method=searchDetailsSub&forward=details_sub&currentPageSize=100&pageIndex=1&repIsuSrtCd=A052220&searchCorpName=052220&searchCodeType=number&fromDate=2023-02-15&toDate=2023-02-15&orderMode=1&orderStat=D",
+      "date_basis": "first trading session after explicitly verified after-close disclosure",
+      "regular_close_krw": 3995,
+      "previous_trading_date": "2023-02-15",
+      "previous_regular_close_krw": 4090,
+      "regular_session_volume": 880039,
+      "calculated_pct": -2.32,
+      "price_urls": [
+        "https://finance.daum.net/api/quote/A052220/days?symbolCode=A052220&pagination=true&page=1&perPage=2500&adjusted=false",
+        "https://query1.finance.yahoo.com/v8/finance/chart/052220.KQ?period1=1577836800&period2=1791331200&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+      ],
+      "price_source_sha256": [
+        "231af45da342a5a214adab90ad41686d7d4feea38e6becb7d5b1310ec251b0d1",
+        "8b4d617e7cd1cab7cd1eac85d03d7b22acb2dba181818fad99d1be992afae21c"
+      ],
+      "regular_session_reference_evidence": {
+        "next_session_date": "2023-02-17",
+        "next_close": "3885.0",
+        "reference_mode": "derived_next_signed_change_and_rate_plus_independent_next_close",
+        "next_reference_price": "3995.0",
+        "next_signed_change": "-110.0",
+        "next_change_direction": "FALL",
+        "next_change_rate": "-0.027534418",
+        "independent_price_provider": "Yahoo raw quote OHLC (not adjclose)",
+        "independent_matching_dates": [
+          "2023-02-16",
+          "2023-02-15",
+          "2023-02-17"
+        ]
+      }
+    },
+    {
+      "code": "052220",
+      "name": "iMBC",
+      "issue": {
+        "date": "2022.02.16",
+        "text": "2021년 연결 잠정 영업이익 24.20억원으로 116.4% 증가, 온라인 광고·디지털뉴스 매출 확대",
+        "src": "manual",
+        "pct": 6.29
+      },
+      "source_urls": [
+        "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20220215000461",
+        "https://kind.krx.co.kr/external/2022/02/15/000461/20220215000279/70443.htm"
+      ],
+      "source_sha256": "9b75bdebc604e6e592e93f904c718cefdff50d86d8326a9f198b4819eab92757",
+      "source_retrieved_at_utc": "2026-10-10T12:55:47.603004+00:00",
+      "publication_time_kst": "2022-02-15T15:46:00+09:00",
+      "publication_precision": "minute; zero seconds are formatting only",
+      "publication_clock_source_url": "https://kind.krx.co.kr/disclosure/details.do?method=searchDetailsSub&forward=details_sub&currentPageSize=100&pageIndex=1&repIsuSrtCd=A052220&searchCorpName=052220&searchCodeType=number&fromDate=2022-02-15&toDate=2022-02-15&orderMode=1&orderStat=D",
+      "publication_clock_method": "POST",
+      "publication_clock_request": "method=searchDetailsSub&forward=details_sub&currentPageSize=100&pageIndex=1&repIsuSrtCd=A052220&searchCorpName=052220&searchCodeType=number&fromDate=2022-02-15&toDate=2022-02-15&orderMode=1&orderStat=D",
+      "date_basis": "first trading session after explicitly verified after-close disclosure",
+      "regular_close_krw": 4225,
+      "previous_trading_date": "2022-02-15",
+      "previous_regular_close_krw": 3975,
+      "regular_session_volume": 111086,
+      "calculated_pct": 6.29,
+      "price_urls": [
+        "https://finance.daum.net/api/quote/A052220/days?symbolCode=A052220&pagination=true&page=1&perPage=2500&adjusted=false",
+        "https://query1.finance.yahoo.com/v8/finance/chart/052220.KQ?period1=1577836800&period2=1791331200&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+      ],
+      "price_source_sha256": [
+        "231af45da342a5a214adab90ad41686d7d4feea38e6becb7d5b1310ec251b0d1",
+        "8b4d617e7cd1cab7cd1eac85d03d7b22acb2dba181818fad99d1be992afae21c"
+      ],
+      "regular_session_reference_evidence": {
+        "next_session_date": "2022-02-17",
+        "next_close": "4315.0",
+        "reference_mode": "derived_next_signed_change_and_rate_plus_independent_next_close",
+        "next_reference_price": "4225.0",
+        "next_signed_change": "90.0",
+        "next_change_direction": "RISE",
+        "next_change_rate": "0.0213017751",
+        "independent_price_provider": "Yahoo raw quote OHLC (not adjclose)",
+        "independent_matching_dates": [
+          "2022-02-16",
+          "2022-02-15",
+          "2022-02-17"
+        ]
+      }
+    },
+    {
+      "code": "109070",
+      "name": "주성코퍼레이션",
+      "issue": {
+        "date": "2026.05.15",
+        "text": "2026년 1분기 연결 영업손실 2.65억원으로 적자전환 (장중 +1.04%까지 상승 후 상승폭 반납·종가 -8.19%)",
+        "src": "manual",
+        "pct": -8.19
+      },
+      "source_urls": [
+        "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260514001111",
+        "https://kind.krx.co.kr/external/2026/05/14/001111/20260514002426/11013.htm"
+      ],
+      "source_sha256": "29126277c4a0d81c6c03b764bb293a38ff81b098f8019ccae91cfce43bb7dff5",
+      "source_retrieved_at_utc": "2026-10-10T12:56:23.181076+00:00",
+      "publication_time_kst": "2026-05-14T16:13:00+09:00",
+      "publication_precision": "minute; zero seconds are formatting only",
+      "publication_clock_source_url": "https://kind.krx.co.kr/disclosure/details.do?method=searchDetailsSub&forward=details_sub&currentPageSize=100&pageIndex=1&repIsuSrtCd=A109070&searchCorpName=109070&searchCodeType=number&fromDate=2026-05-14&toDate=2026-05-14&orderMode=1&orderStat=D",
+      "publication_clock_method": "POST",
+      "publication_clock_request": "method=searchDetailsSub&forward=details_sub&currentPageSize=100&pageIndex=1&repIsuSrtCd=A109070&searchCorpName=109070&searchCodeType=number&fromDate=2026-05-14&toDate=2026-05-14&orderMode=1&orderStat=D",
+      "date_basis": "first trading session after explicitly verified after-close disclosure",
+      "regular_close_krw": 1591,
+      "previous_trading_date": "2026-05-14",
+      "previous_regular_close_krw": 1733,
+      "regular_session_volume": 729202,
+      "calculated_pct": -8.19,
+      "price_urls": [
+        "https://finance.daum.net/api/quote/A109070/days?symbolCode=A109070&pagination=true&page=1&perPage=2500&adjusted=false",
+        "https://m.stock.naver.com/api/stock/109070/price?pageSize=60&page=2"
+      ],
+      "price_source_sha256": [
+        "53279cc475a0311ba784e29cfe6520266e604305578751aaa84d60b30553debf",
+        "f29040570925560e55181227f076c0841338aff3c4a9395954cb2b3c4116c1fd"
+      ],
+      "regular_session_reference_evidence": {
+        "next_session_date": "2026-05-18",
+        "next_close": "1512.0",
+        "reference_mode": "explicit_next_prevClosingPrice",
+        "next_reference_price": "1591.0",
+        "next_signed_change": "-79.0",
+        "next_change_direction": "FALL",
+        "next_change_rate": "-0.0496543055",
+        "independent_price_provider": "Naver historical daily",
+        "independent_matching_dates": [
+          "2026-05-15",
+          "2026-05-14",
+          "2026-05-18"
+        ]
+      },
+      "corporate_action_reference": "https://kind.krx.co.kr/external/2026/09/02/000476/20260902001370/91129.htm"
+    },
+    {
+      "code": "109070",
+      "name": "주성코퍼레이션",
+      "issue": {
+        "date": "2026.02.04",
+        "text": "2025년 연결 잠정 영업이익 32.11억원·매출 855.77억원 공시",
+        "src": "manual",
+        "pct": 2.89
+      },
+      "source_urls": [
+        "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260203000644",
+        "https://kind.krx.co.kr/external/2026/02/03/000644/20260203001851/91443.htm"
+      ],
+      "source_sha256": "1b2264ae35df81c8b37d4bbbee809fe364cf34b9641d2d70aecb238e885ac447",
+      "source_retrieved_at_utc": "2026-10-10T12:56:16.001969+00:00",
+      "publication_time_kst": "2026-02-03T15:31:00+09:00",
+      "publication_precision": "minute; zero seconds are formatting only",
+      "publication_clock_source_url": "https://kind.krx.co.kr/disclosure/details.do?method=searchDetailsSub&forward=details_sub&currentPageSize=100&pageIndex=1&repIsuSrtCd=A109070&searchCorpName=109070&searchCodeType=number&fromDate=2026-02-03&toDate=2026-02-03&orderMode=1&orderStat=D",
+      "publication_clock_method": "POST",
+      "publication_clock_request": "method=searchDetailsSub&forward=details_sub&currentPageSize=100&pageIndex=1&repIsuSrtCd=A109070&searchCorpName=109070&searchCodeType=number&fromDate=2026-02-03&toDate=2026-02-03&orderMode=1&orderStat=D",
+      "date_basis": "first trading session after explicitly verified after-close disclosure",
+      "regular_close_krw": 855,
+      "previous_trading_date": "2026-02-03",
+      "previous_regular_close_krw": 831,
+      "regular_session_volume": 269047,
+      "calculated_pct": 2.89,
+      "price_urls": [
+        "https://finance.daum.net/api/quote/A109070/days?symbolCode=A109070&pagination=true&page=1&perPage=2500&adjusted=false",
+        "https://m.stock.naver.com/api/stock/109070/price?pageSize=60&page=3"
+      ],
+      "price_source_sha256": [
+        "53279cc475a0311ba784e29cfe6520266e604305578751aaa84d60b30553debf",
+        "2439b52512256d335b65b35fa4a09590d7b1daf4515f6908ca66b83686bfe92c"
+      ],
+      "regular_session_reference_evidence": {
+        "next_session_date": "2026-02-05",
+        "next_close": "822.0",
+        "reference_mode": "explicit_next_prevClosingPrice",
+        "next_reference_price": "855.0",
+        "next_signed_change": "-33.0",
+        "next_change_direction": "FALL",
+        "next_change_rate": "-0.0385964912",
+        "independent_price_provider": "Naver historical daily",
+        "independent_matching_dates": [
+          "2026-02-04",
+          "2026-02-03",
+          "2026-02-05"
+        ]
+      },
+      "corporate_action_reference": "https://kind.krx.co.kr/external/2026/09/02/000476/20260902001370/91129.htm"
+    },
+    {
+      "code": "109070",
+      "name": "주성코퍼레이션",
+      "issue": {
+        "date": "2025.11.14",
+        "text": "2025년 3분기 누적 연결 영업이익 18.78억원, 전년 동기 대비 40.0% 감소",
+        "src": "manual",
+        "pct": -2.12
+      },
+      "source_urls": [
+        "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251114000990",
+        "https://kind.krx.co.kr/external/2025/11/14/000990/20251114002191/11013.htm"
+      ],
+      "source_sha256": "d7537c6161afe46d9fecd74a7777f06ad415a66bd0edaa7cb519361c8d57418c",
+      "source_retrieved_at_utc": "2026-10-10T12:56:23.719025+00:00",
+      "publication_time_kst": "2025-11-14T14:17:00+09:00",
+      "publication_precision": "minute; zero seconds are formatting only",
+      "publication_clock_source_url": "https://kind.krx.co.kr/disclosure/details.do?method=searchDetailsSub&forward=details_sub&currentPageSize=100&pageIndex=1&repIsuSrtCd=A109070&searchCorpName=109070&searchCodeType=number&fromDate=2025-11-14&toDate=2025-11-14&orderMode=1&orderStat=D",
+      "publication_clock_method": "POST",
+      "publication_clock_request": "method=searchDetailsSub&forward=details_sub&currentPageSize=100&pageIndex=1&repIsuSrtCd=A109070&searchCorpName=109070&searchCodeType=number&fromDate=2025-11-14&toDate=2025-11-14&orderMode=1&orderStat=D",
+      "date_basis": "same trading session as original disclosure",
+      "regular_close_krw": 878,
+      "previous_trading_date": "2025-11-13",
+      "previous_regular_close_krw": 897,
+      "regular_session_volume": 75926,
+      "calculated_pct": -2.12,
+      "price_urls": [
+        "https://finance.daum.net/api/quote/A109070/days?symbolCode=A109070&pagination=true&page=1&perPage=2500&adjusted=false",
+        "https://m.stock.naver.com/api/stock/109070/price?pageSize=60&page=4"
+      ],
+      "price_source_sha256": [
+        "53279cc475a0311ba784e29cfe6520266e604305578751aaa84d60b30553debf",
+        "c5ecd23445d47ea8acc0f9e8744300f97f712d4b9149d078c212939201bc7e1e"
+      ],
+      "regular_session_reference_evidence": {
+        "next_session_date": "2025-11-17",
+        "next_close": "847.0",
+        "reference_mode": "explicit_next_prevClosingPrice",
+        "next_reference_price": "878.0",
+        "next_signed_change": "-31.0",
+        "next_change_direction": "FALL",
+        "next_change_rate": "-0.0353075171",
+        "independent_price_provider": "Naver historical daily",
+        "independent_matching_dates": [
+          "2025-11-14",
+          "2025-11-13",
+          "2025-11-17"
+        ]
+      },
+      "corporate_action_reference": "https://kind.krx.co.kr/external/2026/09/02/000476/20260902001370/91129.htm"
+    },
+    {
+      "code": "109070",
+      "name": "주성코퍼레이션",
+      "issue": {
+        "date": "2025.08.14",
+        "text": "2025년 상반기 연결 영업이익 17.48억원, 전년 동기 대비 2.8% 증가",
+        "src": "manual",
+        "pct": 3.38
+      },
+      "source_urls": [
+        "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250814000248",
+        "https://kind.krx.co.kr/external/2025/08/14/000248/20250814000635/11012.htm"
+      ],
+      "source_sha256": "6bfb06732549363969c329b55b8dc1ca612a1af298d04ef91091abeda4d5e303",
+      "source_retrieved_at_utc": "2026-10-10T12:56:23.172539+00:00",
+      "publication_time_kst": "2025-08-14T10:28:00+09:00",
+      "publication_precision": "minute; zero seconds are formatting only",
+      "publication_clock_source_url": "https://kind.krx.co.kr/disclosure/details.do?method=searchDetailsSub&forward=details_sub&currentPageSize=100&pageIndex=1&repIsuSrtCd=A109070&searchCorpName=109070&searchCodeType=number&fromDate=2025-08-14&toDate=2025-08-14&orderMode=1&orderStat=D",
+      "publication_clock_method": "POST",
+      "publication_clock_request": "method=searchDetailsSub&forward=details_sub&currentPageSize=100&pageIndex=1&repIsuSrtCd=A109070&searchCorpName=109070&searchCodeType=number&fromDate=2025-08-14&toDate=2025-08-14&orderMode=1&orderStat=D",
+      "date_basis": "same trading session as original disclosure",
+      "regular_close_krw": 918,
+      "previous_trading_date": "2025-08-13",
+      "previous_regular_close_krw": 888,
+      "regular_session_volume": 687976,
+      "calculated_pct": 3.38,
+      "price_urls": [
+        "https://finance.daum.net/api/quote/A109070/days?symbolCode=A109070&pagination=true&page=1&perPage=2500&adjusted=false",
+        "https://m.stock.naver.com/api/stock/109070/price?pageSize=60&page=5"
+      ],
+      "price_source_sha256": [
+        "53279cc475a0311ba784e29cfe6520266e604305578751aaa84d60b30553debf",
+        "ca7c48ea876317fd1d604b3c8ef703711af88b7e8fe7b2613faf61d50c9e7205"
+      ],
+      "regular_session_reference_evidence": {
+        "next_session_date": "2025-08-18",
+        "next_close": "932.0",
+        "reference_mode": "explicit_next_prevClosingPrice",
+        "next_reference_price": "918.0",
+        "next_signed_change": "14.0",
+        "next_change_direction": "RISE",
+        "next_change_rate": "0.0152505447",
+        "independent_price_provider": "Naver historical daily",
+        "independent_matching_dates": [
+          "2025-08-14",
+          "2025-08-13",
+          "2025-08-18"
+        ]
+      },
+      "corporate_action_reference": "https://kind.krx.co.kr/external/2026/09/02/000476/20260902001370/91129.htm"
+    },
+    {
+      "code": "109070",
+      "name": "주성코퍼레이션",
+      "issue": {
+        "date": "2025.05.15",
+        "text": "2025년 1분기 연결 영업이익 9.78억원, 전년 동기 대비 76.5% 증가",
+        "src": "manual",
+        "pct": -1.53
+      },
+      "source_urls": [
+        "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250515000088",
+        "https://kind.krx.co.kr/external/2025/05/15/000088/20250515000182/11013.htm"
+      ],
+      "source_sha256": "d9f9192c82b8e87c25e1ee9da75635c795503a6b5282c059529f1b085f18f81a",
+      "source_retrieved_at_utc": "2026-10-10T12:56:22.944374+00:00",
+      "publication_time_kst": "2025-05-15T09:26:00+09:00",
+      "publication_precision": "minute; zero seconds are formatting only",
+      "publication_clock_source_url": "https://kind.krx.co.kr/disclosure/details.do?method=searchDetailsSub&forward=details_sub&currentPageSize=100&pageIndex=1&repIsuSrtCd=A109070&searchCorpName=109070&searchCodeType=number&fromDate=2025-05-15&toDate=2025-05-15&orderMode=1&orderStat=D",
+      "publication_clock_method": "POST",
+      "publication_clock_request": "method=searchDetailsSub&forward=details_sub&currentPageSize=100&pageIndex=1&repIsuSrtCd=A109070&searchCorpName=109070&searchCodeType=number&fromDate=2025-05-15&toDate=2025-05-15&orderMode=1&orderStat=D",
+      "date_basis": "same trading session as original disclosure",
+      "regular_close_krw": 966,
+      "previous_trading_date": "2025-05-14",
+      "previous_regular_close_krw": 981,
+      "regular_session_volume": 307606,
+      "calculated_pct": -1.53,
+      "price_urls": [
+        "https://finance.daum.net/api/quote/A109070/days?symbolCode=A109070&pagination=true&page=1&perPage=2500&adjusted=false",
+        "https://m.stock.naver.com/api/stock/109070/price?pageSize=60&page=6"
+      ],
+      "price_source_sha256": [
+        "53279cc475a0311ba784e29cfe6520266e604305578751aaa84d60b30553debf",
+        "ec0638c5449dae42814330fa58a26d3de2786b29db84db401eb7271d5ddb4476"
+      ],
+      "regular_session_reference_evidence": {
+        "next_session_date": "2025-05-16",
+        "next_close": "929.0",
+        "reference_mode": "explicit_next_prevClosingPrice",
+        "next_reference_price": "966.0",
+        "next_signed_change": "-37.0",
+        "next_change_direction": "FALL",
+        "next_change_rate": "-0.0383022774",
+        "independent_price_provider": "Naver historical daily",
+        "independent_matching_dates": [
+          "2025-05-15",
+          "2025-05-14",
+          "2025-05-16"
+        ]
+      },
+      "corporate_action_reference": "https://kind.krx.co.kr/external/2026/09/02/000476/20260902001370/91129.htm"
+    },
+    {
+      "code": "208370",
+      "name": "셀바스헬스케어",
+      "issue": {
+        "date": "2026.02.20",
+        "text": "2025년 연결 잠정 영업손실 1.62억원으로 적자전환",
+        "src": "manual",
+        "pct": -1.6
+      },
+      "source_urls": [
+        "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260219000735",
+        "https://kind.krx.co.kr/external/2026/02/19/000735/20260219002165/70443.htm"
+      ],
+      "source_sha256": "3314acc4776b02d02ee51e1a3abe0701aeaef32e3f091bb813fc34608be10fe1",
+      "source_retrieved_at_utc": "2026-10-10T12:56:40.951870+00:00",
+      "publication_time_kst": "2026-02-19T17:14:00+09:00",
+      "publication_precision": "minute; zero seconds are formatting only",
+      "publication_clock_source_url": "https://kind.krx.co.kr/disclosure/details.do?method=searchDetailsSub&forward=details_sub&currentPageSize=100&pageIndex=1&repIsuSrtCd=A208370&searchCorpName=208370&searchCodeType=number&fromDate=2026-02-19&toDate=2026-02-19&orderMode=1&orderStat=D",
+      "publication_clock_method": "POST",
+      "publication_clock_request": "method=searchDetailsSub&forward=details_sub&currentPageSize=100&pageIndex=1&repIsuSrtCd=A208370&searchCorpName=208370&searchCodeType=number&fromDate=2026-02-19&toDate=2026-02-19&orderMode=1&orderStat=D",
+      "date_basis": "first trading session after explicitly verified after-close disclosure",
+      "regular_close_krw": 4930,
+      "previous_trading_date": "2026-02-19",
+      "previous_regular_close_krw": 5010,
+      "regular_session_volume": 279468,
+      "calculated_pct": -1.6,
+      "price_urls": [
+        "https://finance.daum.net/api/quote/A208370/days?symbolCode=A208370&pagination=true&page=1&perPage=2500&adjusted=false",
+        "https://query1.finance.yahoo.com/v8/finance/chart/208370.KQ?period1=1577836800&period2=1791331200&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+      ],
+      "price_source_sha256": [
+        "cd42a998e6efa1bea709ed8da24513687a9dfe840012c0e06a927208582c8917",
+        "73c33a711e6d49f8cb8dc36d5ba4abb086f8d0e8dad1372d37ae81ee02e6f0e5"
+      ],
+      "regular_session_reference_evidence": {
+        "next_session_date": "2026-02-23",
+        "next_close": "5100.0",
+        "reference_mode": "explicit_next_prevClosingPrice",
+        "next_reference_price": "4930.0",
+        "next_signed_change": "170.0",
+        "next_change_direction": "RISE",
+        "next_change_rate": "0.0344827586",
+        "independent_price_provider": "Yahoo raw quote OHLC (not adjclose)",
+        "independent_matching_dates": [
+          "2026-02-20",
+          "2026-02-19",
+          "2026-02-23"
+        ]
+      }
+    },
+    {
+      "code": "208370",
+      "name": "셀바스헬스케어",
+      "issue": {
+        "date": "2025.02.18",
+        "text": "2024년 연결 잠정 순이익 30.13억원, 전년 대비 41.7% 감소",
+        "src": "manual",
+        "pct": 0.0
+      },
+      "source_urls": [
+        "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250217000846",
+        "https://kind.krx.co.kr/external/2025/02/17/000846/20250214000718/70443.htm"
+      ],
+      "source_sha256": "da5709a8b937c05a0ee393b3dc67982496e7c2233d9dd3bea0c8bbde38d80f82",
+      "source_retrieved_at_utc": "2026-10-10T12:56:40.992584+00:00",
+      "publication_time_kst": "2025-02-17T16:09:00+09:00",
+      "publication_precision": "minute; zero seconds are formatting only",
+      "publication_clock_source_url": "https://kind.krx.co.kr/disclosure/details.do?method=searchDetailsSub&forward=details_sub&currentPageSize=100&pageIndex=1&repIsuSrtCd=A208370&searchCorpName=208370&searchCodeType=number&fromDate=2025-02-17&toDate=2025-02-17&orderMode=1&orderStat=D",
+      "publication_clock_method": "POST",
+      "publication_clock_request": "method=searchDetailsSub&forward=details_sub&currentPageSize=100&pageIndex=1&repIsuSrtCd=A208370&searchCorpName=208370&searchCodeType=number&fromDate=2025-02-17&toDate=2025-02-17&orderMode=1&orderStat=D",
+      "date_basis": "first trading session after explicitly verified after-close disclosure",
+      "regular_close_krw": 5040,
+      "previous_trading_date": "2025-02-17",
+      "previous_regular_close_krw": 5040,
+      "regular_session_volume": 524831,
+      "calculated_pct": 0.0,
+      "price_urls": [
+        "https://finance.daum.net/api/quote/A208370/days?symbolCode=A208370&pagination=true&page=1&perPage=2500&adjusted=false",
+        "https://query1.finance.yahoo.com/v8/finance/chart/208370.KQ?period1=1577836800&period2=1791331200&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+      ],
+      "price_source_sha256": [
+        "cd42a998e6efa1bea709ed8da24513687a9dfe840012c0e06a927208582c8917",
+        "73c33a711e6d49f8cb8dc36d5ba4abb086f8d0e8dad1372d37ae81ee02e6f0e5"
+      ],
+      "regular_session_reference_evidence": {
+        "next_session_date": "2025-02-19",
+        "next_close": "4900.0",
+        "reference_mode": "explicit_next_prevClosingPrice",
+        "next_reference_price": "5040.0",
+        "next_signed_change": "-140.0",
+        "next_change_direction": "FALL",
+        "next_change_rate": "-0.0277777778",
+        "independent_price_provider": "Yahoo raw quote OHLC (not adjclose)",
+        "independent_matching_dates": [
+          "2025-02-18",
+          "2025-02-17",
+          "2025-02-19"
+        ]
+      }
+    },
+    {
+      "code": "208370",
+      "name": "셀바스헬스케어",
+      "issue": {
+        "date": "2024.02.19",
+        "text": "2023년 연결 잠정 영업이익 39.66억원, 전년 대비 71.0% 증가",
+        "src": "manual",
+        "pct": 1.96
+      },
+      "source_urls": [
+        "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20240219000565",
+        "https://kind.krx.co.kr/external/2024/02/19/000565/20240219000405/70443.htm"
+      ],
+      "source_sha256": "171c297cdfb4b5cf68eb231dc7409f005967ffd15b9d0754e1967ef5299965ab",
+      "source_retrieved_at_utc": "2026-10-10T12:56:41.030188+00:00",
+      "publication_time_kst": "2024-02-19T14:22:00+09:00",
+      "publication_precision": "minute; zero seconds are formatting only",
+      "publication_clock_source_url": "https://kind.krx.co.kr/disclosure/details.do?method=searchDetailsSub&forward=details_sub&currentPageSize=100&pageIndex=1&repIsuSrtCd=A208370&searchCorpName=208370&searchCodeType=number&fromDate=2024-02-19&toDate=2024-02-19&orderMode=1&orderStat=D",
+      "publication_clock_method": "POST",
+      "publication_clock_request": "method=searchDetailsSub&forward=details_sub&currentPageSize=100&pageIndex=1&repIsuSrtCd=A208370&searchCorpName=208370&searchCodeType=number&fromDate=2024-02-19&toDate=2024-02-19&orderMode=1&orderStat=D",
+      "date_basis": "same trading session as original disclosure",
+      "regular_close_krw": 6770,
+      "previous_trading_date": "2024-02-16",
+      "previous_regular_close_krw": 6640,
+      "regular_session_volume": 949458,
+      "calculated_pct": 1.96,
+      "price_urls": [
+        "https://finance.daum.net/api/quote/A208370/days?symbolCode=A208370&pagination=true&page=1&perPage=2500&adjusted=false",
+        "https://query1.finance.yahoo.com/v8/finance/chart/208370.KQ?period1=1577836800&period2=1791331200&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+      ],
+      "price_source_sha256": [
+        "cd42a998e6efa1bea709ed8da24513687a9dfe840012c0e06a927208582c8917",
+        "73c33a711e6d49f8cb8dc36d5ba4abb086f8d0e8dad1372d37ae81ee02e6f0e5"
+      ],
+      "regular_session_reference_evidence": {
+        "next_session_date": "2024-02-20",
+        "next_close": "6710.0",
+        "reference_mode": "derived_next_signed_change_and_rate_plus_independent_next_close",
+        "next_reference_price": "6770.0",
+        "next_signed_change": "-60.0",
+        "next_change_direction": "FALL",
+        "next_change_rate": "-0.0088626292",
+        "independent_price_provider": "Yahoo raw quote OHLC (not adjclose)",
+        "independent_matching_dates": [
+          "2024-02-19",
+          "2024-02-16",
+          "2024-02-20"
+        ]
+      }
+    },
+    {
+      "code": "208370",
+      "name": "셀바스헬스케어",
+      "issue": {
+        "date": "2023.02.06",
+        "text": "2022년 연결 잠정 영업이익 23.29억원, 전년 대비 31.7% 감소",
+        "src": "manual",
+        "pct": -4.18
+      },
+      "source_urls": [
+        "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20230206000362",
+        "https://kind.krx.co.kr/external/2023/02/06/000362/20230206001130/70443.htm"
+      ],
+      "source_sha256": "6a0662135139fff42f212bd5ab42fe6db860894ebcc5e62a7cbb2d8e12f0e523",
+      "source_retrieved_at_utc": "2026-10-10T12:56:40.943156+00:00",
+      "publication_time_kst": "2023-02-06T11:22:00+09:00",
+      "publication_precision": "minute; zero seconds are formatting only",
+      "publication_clock_source_url": "https://kind.krx.co.kr/disclosure/details.do?method=searchDetailsSub&forward=details_sub&currentPageSize=100&pageIndex=1&repIsuSrtCd=A208370&searchCorpName=208370&searchCodeType=number&fromDate=2023-02-06&toDate=2023-02-06&orderMode=1&orderStat=D",
+      "publication_clock_method": "POST",
+      "publication_clock_request": "method=searchDetailsSub&forward=details_sub&currentPageSize=100&pageIndex=1&repIsuSrtCd=A208370&searchCorpName=208370&searchCodeType=number&fromDate=2023-02-06&toDate=2023-02-06&orderMode=1&orderStat=D",
+      "date_basis": "same trading session as original disclosure",
+      "regular_close_krw": 2295,
+      "previous_trading_date": "2023-02-03",
+      "previous_regular_close_krw": 2395,
+      "regular_session_volume": 255959,
+      "calculated_pct": -4.18,
+      "price_urls": [
+        "https://finance.daum.net/api/quote/A208370/days?symbolCode=A208370&pagination=true&page=1&perPage=2500&adjusted=false",
+        "https://m.stock.naver.com/api/stock/208370/price?pageSize=60&page=15"
+      ],
+      "price_source_sha256": [
+        "cd42a998e6efa1bea709ed8da24513687a9dfe840012c0e06a927208582c8917",
+        "8f31f758dc9a66649447b2440f97e3de763d3c3ab6e359cbeb12226cb969b280"
+      ],
+      "regular_session_reference_evidence": {
+        "next_session_date": "2023-02-07",
+        "next_close": "2375.0",
+        "reference_mode": "derived_next_signed_change_and_rate_plus_independent_next_close",
+        "next_reference_price": "2295.0",
+        "next_signed_change": "80.0",
+        "next_change_direction": "RISE",
+        "next_change_rate": "0.0348583878",
+        "independent_price_provider": "Naver historical daily",
+        "independent_matching_dates": [
+          "2023-02-06",
+          "2023-02-03",
+          "2023-02-07"
+        ]
+      },
+      "rejected_corroborator": {
+        "provider": "Yahoo Finance",
+        "current_close": 2233.7568359375,
+        "previous_close": 2306.281494140625,
+        "reason": "Does not match unadjusted dated close evidence; not used. The cause of the discrepancy is not asserted."
+      }
+    },
+    {
+      "code": "208370",
+      "name": "셀바스헬스케어",
+      "issue": {
+        "date": "2022.02.07",
+        "text": "2021년 연결 잠정 영업이익 34.12억원, 전년 대비 125.2% 증가 (장중 +9.43%까지 상승 후 상승폭 반납·종가 +3.95%)",
+        "src": "manual",
+        "pct": 3.95
+      },
+      "source_urls": [
+        "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20220207000348",
+        "https://kind.krx.co.kr/external/2022/02/07/000348/20220203000579/70443.htm"
+      ],
+      "source_sha256": "39b0779ccdaeac3dfd477d858acccb27bc35f357373696331868e2812ba4d09d",
+      "source_retrieved_at_utc": "2026-10-10T12:56:41.057658+00:00",
+      "publication_time_kst": "2022-02-07T11:30:00+09:00",
+      "publication_precision": "minute; zero seconds are formatting only",
+      "publication_clock_source_url": "https://kind.krx.co.kr/disclosure/details.do?method=searchDetailsSub&forward=details_sub&currentPageSize=100&pageIndex=1&repIsuSrtCd=A208370&searchCorpName=208370&searchCodeType=number&fromDate=2022-02-07&toDate=2022-02-07&orderMode=1&orderStat=D",
+      "publication_clock_method": "POST",
+      "publication_clock_request": "method=searchDetailsSub&forward=details_sub&currentPageSize=100&pageIndex=1&repIsuSrtCd=A208370&searchCorpName=208370&searchCodeType=number&fromDate=2022-02-07&toDate=2022-02-07&orderMode=1&orderStat=D",
+      "date_basis": "same trading session as original disclosure",
+      "regular_close_krw": 3030,
+      "previous_trading_date": "2022-02-04",
+      "previous_regular_close_krw": 2915,
+      "regular_session_volume": 563031,
+      "calculated_pct": 3.95,
+      "price_urls": [
+        "https://finance.daum.net/api/quote/A208370/days?symbolCode=A208370&pagination=true&page=1&perPage=2500&adjusted=false",
+        "https://m.stock.naver.com/api/stock/208370/price?pageSize=60&page=20"
+      ],
+      "price_source_sha256": [
+        "cd42a998e6efa1bea709ed8da24513687a9dfe840012c0e06a927208582c8917",
+        "1dd97f7eb6774a14ab8756f9f3ce196c5082c822a325bd6a1a65990cf0623903"
+      ],
+      "regular_session_reference_evidence": {
+        "next_session_date": "2022-02-08",
+        "next_close": "3020.0",
+        "reference_mode": "derived_next_signed_change_and_rate_plus_independent_next_close",
+        "next_reference_price": "3030.0",
+        "next_signed_change": "-10.0",
+        "next_change_direction": "FALL",
+        "next_change_rate": "-0.00330033",
+        "independent_price_provider": "Naver historical daily",
+        "independent_matching_dates": [
+          "2022-02-07",
+          "2022-02-04",
+          "2022-02-08"
+        ]
+      },
+      "rejected_corroborator": {
+        "provider": "Yahoo Finance",
+        "current_close": 2929.99267578125,
+        "previous_close": 2818.788330078125,
+        "reason": "Does not match unadjusted dated close evidence; not used. The cause of the discrepancy is not asserted."
+      }
+    }
+  ],
+  "source_content_policy": "Short factual paraphrases, numeric observations, hashes and public URLs only; no original source bodies",
+  "corporate_action_context": [
+    {
+      "code": "109070",
+      "action": "5 old ordinary shares consolidated into 1 new ordinary share",
+      "original_decision_date": "2026-07-09",
+      "correction_date": "2026-09-02",
+      "effective_date": "2026-09-10",
+      "new_share_listing_date": "2026-09-28",
+      "face_value_krw_before": 500,
+      "face_value_krw_after": 2500,
+      "ordinary_shares_before": 52810230,
+      "ordinary_shares_after": 10562046,
+      "source_url": "https://kind.krx.co.kr/external/2026/09/02/000476/20260902001370/91129.htm",
+      "retrieved_at_utc": "2026-10-10T13:04:24.467079+00:00",
+      "source_sha256": "b5890f5db0259e56c846675a6b8703875f3acba812f50faf545a355993d8ff71",
+      "impact_on_review": "Accepted Daum and Naver raw dated close/prior pairs agree exactly without conversion. Official consolidation is retained as identity and historical-price context; no inferred adjustment multiplier or conflicting-provider explanation is used."
+    },
+    {
+      "code": "208370",
+      "action": "Rights ex due to paid capital increase",
+      "effective_date": "2023-05-11",
+      "rights_ex_reference_krw": 6440,
+      "source_url": "https://kind.krx.co.kr/external/2023/05/10/000622/20230510001353/70766.htm",
+      "retrieved_at_utc": "2026-10-10T13:03:38.154192+00:00",
+      "source_sha256": "b3114d08e236fdd4b6af3102b6d1649ff42bc63ef47ede293845ccab46fe37a7",
+      "impact_on_review": "Reviewed as basis context only. Historical raw Daum/Naver pairs are used; no inferred adjustment multiplier or Yahoo conflict explanation is used."
+    }
+  ],
+  "independent_review_corrections": [
+    {
+      "code": "110790",
+      "date": "2026.08.13",
+      "old_candidate_text": "종속회사 크리스밸리 대여금 한도를 1100억원에서 677억원으로 줄이고 만기를 2029년 8월로 연장 결정",
+      "text": "종속회사 크리스밸리 대여금 총액을 1100억원에서 677억원으로 줄이고 만기를 2029년 8월로 연장 결정",
+      "reason": "Original disclosure specifies total loan amount and balance, not merely an undrawn facility limit."
+    }
+  ]
+}

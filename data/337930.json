@@ -1,0 +1,40 @@
+{
+  "name": "젝시믹스",
+  "issues": [
+    {
+      "date": "2026.08.27",
+      "text": "기취득 자기주식 62만7546주 소각 결정, 장부가액 약 20억원·자본금 감소 없음",
+      "src": "manual",
+      "pct": -0.35,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260827000102"
+    },
+    {
+      "date": "2026.07.15",
+      "text": "보통주 1주당 80원 분기 현금배당 결정, 총액 23.33억원·배당기준일 8월 20일",
+      "src": "manual",
+      "pct": 3.21,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260715000220"
+    },
+    {
+      "date": "2026.03.04",
+      "text": "2025년 연결 잠정 영업이익 173.49억원으로 30.3% 감소, 사업확장·마케팅에 따른 판관비 증가",
+      "src": "manual",
+      "pct": -12.35,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260303001228"
+    },
+    {
+      "date": "2026.02.20",
+      "text": "2025년 결산배당으로 보통주 1주당 50원 현금배당 결정, 총액 14.84억원",
+      "src": "manual",
+      "pct": -1.77,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260219000854"
+    },
+    {
+      "date": "2025.08.11",
+      "text": "2025년 2분기 연결 잠정 영업이익 75.52억원으로 전년 동기 대비 39.0% 감소",
+      "src": "manual",
+      "pct": -7.65,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250808000546"
+    }
+  ]
+}

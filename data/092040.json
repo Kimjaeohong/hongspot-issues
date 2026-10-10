@@ -1,0 +1,40 @@
+{
+  "name": "아미코젠",
+  "issues": [
+    {
+      "date": "2026.08.05",
+      "text": "배정 대상자의 주금 미납으로 6월 결정한 제3자배정 유상증자 철회 공시",
+      "src": "manual",
+      "pct": -9.11,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260804000938"
+    },
+    {
+      "date": "2026.06.23",
+      "text": "운영자금 약 100억원을 위한 제3자배정 유상증자 결정, 납입 시 최대주주 변경 예정이라고 공시",
+      "src": "manual",
+      "pct": 17.37,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260622000814"
+    },
+    {
+      "date": "2026.03.03",
+      "text": "2025년 연결 잠정 매출 419.68억원·영업손실 169.13억원 공시, 중국법인 연결 제외 영향",
+      "src": "manual",
+      "pct": -5.79,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260227002137"
+    },
+    {
+      "date": "2026.02.25",
+      "text": "사채권자와 협의해 제5회 전환사채 10.50억원을 보유자금으로 만기 전 취득했다고 공시",
+      "src": "manual",
+      "pct": -0.64,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260224001396"
+    },
+    {
+      "date": "2026.02.04",
+      "text": "일반공모 유상증자 보통주 1492만5374주의 최종 발행가액을 주당 1164원으로 확정 공시",
+      "src": "manual",
+      "pct": -9.84,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260204000366"
+    }
+  ]
+}

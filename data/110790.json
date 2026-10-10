@@ -1,0 +1,40 @@
+{
+  "name": "크리스에프앤씨",
+  "issues": [
+    {
+      "date": "2026.08.13",
+      "text": "종속회사 크리스밸리 대여금 총액을 1100억원에서 677억원으로 줄이고 만기를 2029년 8월로 연장 결정",
+      "src": "manual",
+      "pct": 0.17,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260812000557"
+    },
+    {
+      "date": "2026.05.07",
+      "text": "종속회사 크리스밸리 재무구조 개선을 위해 대여금 300억원 출자전환 결정",
+      "src": "manual",
+      "pct": 0.13,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260506000563"
+    },
+    {
+      "date": "2026.03.05",
+      "text": "핵심사업 집중을 위해 온타이드 보통주·상환전환우선주 전량 386.51억원 처분 결정",
+      "src": "manual",
+      "pct": 4.25,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260304001545"
+    },
+    {
+      "date": "2026.02.27",
+      "text": "2025년 연결 잠정 영업손실 66.11억원으로 적자전환, 원가율 상승·종속기업 영업이익 감소 반영",
+      "src": "manual",
+      "pct": 1.08,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260226000615"
+    },
+    {
+      "date": "2025.07.02",
+      "text": "브랜드사업 강화·글로벌시장 확대를 위한 지배구조 개편으로 온타이드 1688만555주를 300억원에 처분 결정",
+      "src": "manual",
+      "pct": -1.17,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250701000645"
+    }
+  ]
+}

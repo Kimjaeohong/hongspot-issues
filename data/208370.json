@@ -1,0 +1,40 @@
+{
+  "name": "셀바스헬스케어",
+  "issues": [
+    {
+      "date": "2026.02.20",
+      "text": "2025년 연결 잠정 영업손실 1.62억원으로 적자전환",
+      "src": "manual",
+      "pct": -1.6,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260219000735"
+    },
+    {
+      "date": "2025.02.18",
+      "text": "2024년 연결 잠정 순이익 30.13억원, 전년 대비 41.7% 감소",
+      "src": "manual",
+      "pct": 0.0,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250217000846"
+    },
+    {
+      "date": "2024.02.19",
+      "text": "2023년 연결 잠정 영업이익 39.66억원, 전년 대비 71.0% 증가",
+      "src": "manual",
+      "pct": 1.96,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20240219000565"
+    },
+    {
+      "date": "2023.02.06",
+      "text": "2022년 연결 잠정 영업이익 23.29억원, 전년 대비 31.7% 감소",
+      "src": "manual",
+      "pct": -4.18,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20230206000362"
+    },
+    {
+      "date": "2022.02.07",
+      "text": "2021년 연결 잠정 영업이익 34.12억원, 전년 대비 125.2% 증가 (장중 +9.43%까지 상승 후 상승폭 반납·종가 +3.95%)",
+      "src": "manual",
+      "pct": 3.95,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20220207000348"
+    }
+  ]
+}

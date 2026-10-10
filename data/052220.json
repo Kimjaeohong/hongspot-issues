@@ -1,0 +1,40 @@
+{
+  "name": "iMBC",
+  "issues": [
+    {
+      "date": "2026.02.13",
+      "text": "2025년 연결 잠정 영업손실 76.32억원으로 적자전환, 매출 감소·인력구조 개선 일회성 비용 반영",
+      "src": "manual",
+      "pct": -1.62,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260212000981"
+    },
+    {
+      "date": "2025.02.13",
+      "text": "2024년 연결 잠정 영업이익 7.45억원으로 35.6% 감소, 광고 매출 감소·자회사 물류비 증가",
+      "src": "manual",
+      "pct": 3.89,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250212001114"
+    },
+    {
+      "date": "2024.02.15",
+      "text": "2023년 연결 잠정 영업이익 11.53억원으로 54.9% 감소, 콘텐츠 유통 감소·자회사 물류비 증가",
+      "src": "manual",
+      "pct": -0.15,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20240214000865"
+    },
+    {
+      "date": "2023.02.16",
+      "text": "2022년 연결 잠정 순이익 17.86억원으로 32.9% 증가, 법인세비용 감소 영향",
+      "src": "manual",
+      "pct": -2.32,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20230215000501"
+    },
+    {
+      "date": "2022.02.16",
+      "text": "2021년 연결 잠정 영업이익 24.20억원으로 116.4% 증가, 온라인 광고·디지털뉴스 매출 확대",
+      "src": "manual",
+      "pct": 6.29,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20220215000461"
+    }
+  ]
+}

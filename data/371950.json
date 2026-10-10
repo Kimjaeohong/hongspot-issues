@@ -1,0 +1,40 @@
+{
+  "name": "풍원정밀",
+  "issues": [
+    {
+      "date": "2026.08.18",
+      "text": "운영자금·채무상환을 위해 보통주 78만5340주 일반공모 유상증자 결정, 약 30억원 조달 예정",
+      "src": "manual",
+      "pct": -29.93,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260814003624"
+    },
+    {
+      "date": "2026.07.31",
+      "text": "운영자금 목적의 사모사채 발행으로 단기차입금 20억원 증가 결정",
+      "src": "manual",
+      "pct": 18.1,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260730000645"
+    },
+    {
+      "date": "2026.06.10",
+      "text": "토지 자산재평가 결과 55.13억원 차액 발생 공시, 자산총액 대비 6.9%",
+      "src": "manual",
+      "pct": 0.58,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260610000195"
+    },
+    {
+      "date": "2026.02.19",
+      "text": "2025년 연결 잠정 매출 330.65억원으로 32.9% 감소, 영업손실 193.35억원 지속",
+      "src": "manual",
+      "pct": -0.43,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260213002015"
+    },
+    {
+      "date": "2025.05.08",
+      "text": "시설자금 30억원·운영자금 10억원을 위한 제3회 사모 전환사채 40억원 발행 결정",
+      "src": "manual",
+      "pct": 9.93,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250507000765"
+    }
+  ]
+}

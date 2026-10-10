@@ -1,0 +1,40 @@
+{
+  "name": "제이티",
+  "issues": [
+    {
+      "date": "2026.07.02",
+      "text": "삼성전자와 핸들러 장비 165.20억원 공급계약 공시, 최근 매출액의 43.04%",
+      "src": "manual",
+      "pct": -9.44,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260702000130"
+    },
+    {
+      "date": "2026.05.20",
+      "text": "삼성전자와 핸들러 장비 78.38억원 공급계약 공시, 최근 매출액의 20.42%",
+      "src": "manual",
+      "pct": 1.75,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260519000588"
+    },
+    {
+      "date": "2026.02.13",
+      "text": "2025년 연결 잠정 영업손실 19.02억원으로 적자전환, 핸들러 장비 매출 감소",
+      "src": "manual",
+      "pct": -7.05,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260212001572"
+    },
+    {
+      "date": "2025.12.01",
+      "text": "삼성전자와 핸들러 장비 179.88억원 공급계약 공시, 최근 매출액의 36.33%",
+      "src": "manual",
+      "pct": -2.57,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251201000557"
+    },
+    {
+      "date": "2025.05.19",
+      "text": "삼성전자와 핸들러 장비 71.15억원 공급계약 공시, 최근 매출액의 14.37%",
+      "src": "manual",
+      "pct": 1.05,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250519000135"
+    }
+  ]
+}

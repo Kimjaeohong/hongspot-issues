@@ -1,0 +1,40 @@
+{
+  "name": "신일제약",
+  "issues": [
+    {
+      "date": "2026.03.05",
+      "text": "2025년 개별 잠정 영업이익 73.86억원으로 51.4% 감소, 매출 감소 영향",
+      "src": "manual",
+      "pct": 5.91,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260304001645"
+    },
+    {
+      "date": "2025.11.14",
+      "text": "2025년 3분기보고서에서 누적 개별 매출 594.28억원·영업이익 78.10억원 공시",
+      "src": "manual",
+      "pct": -0.17,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251113001121"
+    },
+    {
+      "date": "2025.03.05",
+      "text": "2024년 결산배당으로 보통주 1주당 190원 현금배당 결정, 총액 21.96억원",
+      "src": "manual",
+      "pct": 2.04,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250304000590"
+    },
+    {
+      "date": "2024.03.05",
+      "text": "2023년 결산배당으로 보통주 1주당 170원 현금배당 결정, 총액 19.65억원",
+      "src": "manual",
+      "pct": 0.14,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20240305000216"
+    },
+    {
+      "date": "2023.03.02",
+      "text": "2022년 개별 잠정 영업이익 136.56억원으로 71.1% 증가, 감기·상비약 및 CMO 매출 확대",
+      "src": "manual",
+      "pct": 2.21,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20230302000223"
+    }
+  ]
+}
