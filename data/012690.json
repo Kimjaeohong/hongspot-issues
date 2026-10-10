@@ -1,0 +1,40 @@
+{
+  "name": "모나리자",
+  "issues": [
+    {
+      "date": "2026.04.22",
+      "text": "원가 경쟁력 강화와 고부가가치 상품 확대를 담은 2026년 기업가치 제고계획을 발표",
+      "src": "manual",
+      "pct": 1.53,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260422000082"
+    },
+    {
+      "date": "2026.02.26",
+      "text": "보통주 1주당 50원, 총 1,828,038,750원의 결산 현금배당을 결정",
+      "src": "manual",
+      "pct": -2.02,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260225000933"
+    },
+    {
+      "date": "2026.01.16",
+      "text": "2025년 개별 잠정 영업이익 3억1650만원으로 전년 대비 67.8% 감소했다고 공시",
+      "src": "manual",
+      "pct": 0.0,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260116000498"
+    },
+    {
+      "date": "2025.06.24",
+      "text": "정창석 대표이사의 사임에 따라 이석주를 새 대표이사로 선임",
+      "src": "manual",
+      "pct": 0.73,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250624000257"
+    },
+    {
+      "date": "2025.02.03",
+      "text": "2024년 개별 잠정 영업이익 9억8320만원으로 전년 대비 84.8% 감소했다고 공시",
+      "src": "manual",
+      "pct": -1.17,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250131000728"
+    }
+  ]
+}

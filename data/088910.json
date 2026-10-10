@@ -1,0 +1,40 @@
+{
+  "name": "동우팜투테이블",
+  "issues": [
+    {
+      "date": "2026.07.01",
+      "text": "기취득 자기주식 110,000주 소각을 결정하고 소각예정금액 55,000,000원을 공시",
+      "src": "manual",
+      "pct": 5.2,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260701000399"
+    },
+    {
+      "date": "2026.03.27",
+      "text": "정기주총에서 소프트웨어 개발·전산시스템 구축·온라인 정보제공 사업목적 추가를 승인",
+      "src": "manual",
+      "pct": 0.0,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260327001237"
+    },
+    {
+      "date": "2026.03.10",
+      "text": "2025년 말 기준 보통주 1주당 50원, 총 1,286,088,200원의 결산 현금배당을 결정",
+      "src": "manual",
+      "pct": 3.32,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260310000575"
+    },
+    {
+      "date": "2026.02.27",
+      "text": "2025년 연결 잠정 매출 325,457,698,211원, 영업이익 13,151,439,758원을 공시",
+      "src": "manual",
+      "pct": 3.39,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260226000783"
+    },
+    {
+      "date": "2025.02.27",
+      "text": "연간 연결 잠정 매출 303,120,132,139원, 영업손실 4,096,928,535원을 공시",
+      "src": "manual",
+      "pct": -0.25,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250227000590"
+    }
+  ]
+}

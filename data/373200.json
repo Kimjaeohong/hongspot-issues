@@ -1,0 +1,40 @@
+{
+  "name": "엑스플러스",
+  "issues": [
+    {
+      "date": "2026.05.27",
+      "text": "제5회 전환사채 전환가액을 3,016원에서 3,390원으로 올려 전환가능 주식수를 4,129,793주로 조정",
+      "src": "manual",
+      "pct": -2.27,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260526000437"
+    },
+    {
+      "date": "2026.03.26",
+      "text": "정기주총에서 주식병합과 액면가 100원에서 500원으로의 변경, AI·로봇 관련 사업목적 추가를 승인",
+      "src": "manual",
+      "pct": -2.07,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260326001015"
+    },
+    {
+      "date": "2026.03.19",
+      "text": "연간 연결 감사의견 적정과 감사 후 순손실 2,289,404,338원을 공시",
+      "src": "manual",
+      "pct": 12.74,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260318002518"
+    },
+    {
+      "date": "2026.02.26",
+      "text": "제4회 전환사채 15억원의 전환청구로 보통주 2,475,247주가 발행된다고 공시",
+      "src": "manual",
+      "pct": -2.57,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260225000990"
+    },
+    {
+      "date": "2026.02.06",
+      "text": "2025년 연결 잠정 매출 10,076,623,856원, 영업손실 5,097,544,286원을 공시",
+      "src": "manual",
+      "pct": -0.18,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260206001154"
+    }
+  ]
+}

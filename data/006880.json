@@ -1,0 +1,40 @@
+{
+  "name": "신송홀딩스",
+  "issues": [
+    {
+      "date": "2026.09.17",
+      "text": "자기주식 40,000주를 예정금액 176,000,000원에 취득하기로 결정",
+      "src": "manual",
+      "pct": -0.23,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260917000306"
+    },
+    {
+      "date": "2026.07.31",
+      "text": "자기주식 40,000주를 예정금액 165,200,000원에 취득하기로 결정",
+      "src": "manual",
+      "pct": 1.09,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260731000660"
+    },
+    {
+      "date": "2026.07.09",
+      "text": "자회사 신송식품이 싱가포르 계열사의 신용한도 확보를 위한 1,200만달러 채무보증을 연장 결정",
+      "src": "manual",
+      "pct": -0.66,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260709000300"
+    },
+    {
+      "date": "2026.07.07",
+      "text": "신송산업의 수입신용장 한도 연장·감액에 따라 480만달러 채무보증을 결정",
+      "src": "manual",
+      "pct": -0.97,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260706000526"
+    },
+    {
+      "date": "2026.07.06",
+      "text": "자기주식 40,000주를 예정금액 183,000,000원에 취득하기로 결정",
+      "src": "manual",
+      "pct": 1.75,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260706000473"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "코리아나",
+  "issues": [
+    {
+      "date": "2026.02.11",
+      "text": "2025년 연결 잠정 영업손실 4,394,234,092원으로 적자 전환했다고 공시",
+      "src": "manual",
+      "pct": -2.65,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260210001114"
+    },
+    {
+      "date": "2025.07.25",
+      "text": "대출금 상환과 운영자금 확보를 위해 자기주식 200만주를 55억6800만원에 처분하기로 결정",
+      "src": "manual",
+      "pct": -3.07,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250724000631"
+    },
+    {
+      "date": "2025.03.17",
+      "text": "2024년 연결 적정 감사의견과 감사 후 순이익 783,926,037원을 공시",
+      "src": "manual",
+      "pct": -0.82,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250314002388"
+    },
+    {
+      "date": "2025.02.12",
+      "text": "2024년 연결 잠정 영업이익 440,823,327원으로 전년 대비 52.9% 감소했다고 공시",
+      "src": "manual",
+      "pct": -0.44,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250212000316"
+    },
+    {
+      "date": "2025.02.03",
+      "text": "자기주식 40만주를 총 971,127,270원에 취득 완료했다고 보고",
+      "src": "manual",
+      "pct": -4.02,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250131000535"
+    }
+  ]
+}

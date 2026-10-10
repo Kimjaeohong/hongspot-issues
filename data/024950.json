@@ -1,0 +1,40 @@
+{
+  "name": "삼천리자전거",
+  "issues": [
+    {
+      "date": "2026.08.18",
+      "text": "자기주식 2,408,000주를 예정금액 12,040,000,000원에 취득하기로 결정",
+      "src": "manual",
+      "pct": 8.28,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260814002837"
+    },
+    {
+      "date": "2025.12.26",
+      "text": "최대주주 지엘앤코의 우리은행 차입에 대한 60억원 채무보증을 2026년 12월까지 연장 결정",
+      "src": "manual",
+      "pct": -0.83,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251226000301"
+    },
+    {
+      "date": "2025.11.27",
+      "text": "자기주식 102,668주를 예정금액 427,098,880원에 취득하기로 결정",
+      "src": "manual",
+      "pct": 0.0,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251127000583"
+    },
+    {
+      "date": "2025.03.24",
+      "text": "신동호 대표이사의 중도 사임에 따라 조현문을 새 대표이사로 선임",
+      "src": "manual",
+      "pct": -0.85,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250321001100"
+    },
+    {
+      "date": "2025.02.07",
+      "text": "연간 연결 잠정 매출 161,386,794,629원, 영업이익 3,159,672,743원을 공시",
+      "src": "manual",
+      "pct": 0.72,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250207000326"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "에어레인",
+  "issues": [
+    {
+      "date": "2026.02.23",
+      "text": "보통주 1주당 1주를 배정하는 무상증자로 신주 6,801,539주 발행을 결정",
+      "src": "manual",
+      "pct": 0.84,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260223000470"
+    },
+    {
+      "date": "2026.02.09",
+      "text": "2025년 개별 잠정 영업이익 3,404,132,155원으로 전년 대비 81.9% 증가했다고 공시",
+      "src": "manual",
+      "pct": 4.62,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260209000605"
+    },
+    {
+      "date": "2025.12.08",
+      "text": "기취득 자기주식 1,373,250주를 소각해 발행주식수를 6,801,539주로 줄이기로 결정",
+      "src": "manual",
+      "pct": 4.89,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251208000087"
+    },
+    {
+      "date": "2025.11.28",
+      "text": "증설자금 확보를 위해 청주공장 토지·건물을 SK에어코어에 128억원에 양도하기로 결정",
+      "src": "manual",
+      "pct": 1.59,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251127001012"
+    },
+    {
+      "date": "2025.07.01",
+      "text": "설비증설용 공장을 확보하기 위해 SK아이이테크놀로지의 청주 토지·건물을 160억원에 취득 결정",
+      "src": "manual",
+      "pct": -0.96,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250701000289"
+    }
+  ]
+}

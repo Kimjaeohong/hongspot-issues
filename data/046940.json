@@ -1,0 +1,40 @@
+{
+  "name": "우원개발",
+  "issues": [
+    {
+      "date": "2026.08.25",
+      "text": "코오롱글로벌 등과 서울7호선 청라 연장 추가정거장 건설공사를 396억3600만원에 계약",
+      "src": "manual",
+      "pct": 1.55,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260825000128"
+    },
+    {
+      "date": "2026.05.12",
+      "text": "삼환기업 등과 농소–강동 도로개설 3공구 공사를 597억6400만원에 계약",
+      "src": "manual",
+      "pct": -0.9,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260512000292"
+    },
+    {
+      "date": "2026.05.06",
+      "text": "현대건설 등과 대장–홍대 광역철도 1공구 공사를 683억9500만원에 계약",
+      "src": "manual",
+      "pct": -3.28,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260506000336"
+    },
+    {
+      "date": "2026.03.11",
+      "text": "현대건설 등과 남양주왕숙 국도47호선 이설공사를 634억6100만원에 계약",
+      "src": "manual",
+      "pct": 4.27,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260311000793"
+    },
+    {
+      "date": "2026.02.26",
+      "text": "현대건설 등과 GTX-B 1공구 노반공사를 562억7000만원에 계약",
+      "src": "manual",
+      "pct": -3.89,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260226000104"
+    }
+  ]
+}

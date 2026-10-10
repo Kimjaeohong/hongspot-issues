@@ -1,0 +1,40 @@
+{
+  "name": "케이비아이동국실업",
+  "issues": [
+    {
+      "date": "2026.03.26",
+      "text": "정기주총에서 액면병합을 위한 1주 금액 변경과 배당기준일 분리를 승인",
+      "src": "manual",
+      "pct": -1.24,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260325000777"
+    },
+    {
+      "date": "2026.02.24",
+      "text": "2025년 연결 잠정 매출 808,008,048,000원, 영업이익 18,558,484,000원을 공시",
+      "src": "manual",
+      "pct": 12.79,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260224000349"
+    },
+    {
+      "date": "2025.09.19",
+      "text": "계열사 KDK Automotive의 수출입은행 차입에 대한 1,080만유로 채무보증을 연장 결정",
+      "src": "manual",
+      "pct": -0.41,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250919000281"
+    },
+    {
+      "date": "2025.05.16",
+      "text": "계열사 KDK Automotive의 신한유럽은행 차입에 대한 800만유로 채무보증을 연장 결정",
+      "src": "manual",
+      "pct": -1.72,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250516000193"
+    },
+    {
+      "date": "2025.02.26",
+      "text": "연간 연결 잠정 매출 668,399,686,000원, 영업손실 6,326,628,000원을 공시",
+      "src": "manual",
+      "pct": 1.65,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250226000235"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "모티브링크",
+  "issues": [
+    {
+      "date": "2026.07.20",
+      "text": "주식양수도계약 이행으로 최대주주가 동양이엔피로 변경되고 특수관계인 포함 지분율 53.5%를 공시",
+      "src": "manual",
+      "pct": -10.4,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260716000607"
+    },
+    {
+      "date": "2026.04.01",
+      "text": "정기주총에서 김기연 사내이사 신규 선임과 김태하 이사·홍준 사외이사·나종윤 감사 재선임을 승인",
+      "src": "manual",
+      "pct": -6.38,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260331003210"
+    },
+    {
+      "date": "2026.03.04",
+      "text": "2025년 연결 잠정 매출 67,411,311,418원, 영업손실 1,723,075,249원을 공시",
+      "src": "manual",
+      "pct": -19.39,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260303001163"
+    },
+    {
+      "date": "2025.10.02",
+      "text": "베트남 자회사 LONG BINH ELECTRONICS의 자동화 공장 증설을 위해 300만달러 출자를 결정",
+      "src": "manual",
+      "pct": 1.19,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251001000692"
+    },
+    {
+      "date": "2025.03.06",
+      "text": "연간 연결 잠정 매출 61,738,933,021원, 영업이익 1,721,683,537원을 공시",
+      "src": "manual",
+      "pct": -15.51,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250305000679"
+    }
+  ]
+}

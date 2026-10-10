@@ -1,0 +1,40 @@
+{
+  "name": "코콤",
+  "issues": [
+    {
+      "date": "2026.03.27",
+      "text": "프리미엄 시장 확대와 무차입경영 유지를 담은 기업가치 제고계획을 발표",
+      "src": "manual",
+      "pct": -0.39,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260326001566"
+    },
+    {
+      "date": "2026.02.26",
+      "text": "보통주 1주당 150원, 총 2,579,690,550원의 결산 현금배당을 결정",
+      "src": "manual",
+      "pct": -3.33,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260225001502"
+    },
+    {
+      "date": "2026.02.10",
+      "text": "2025년 잠정 영업이익 3,309,467,620원, 순이익 5,474,039,749원을 공시",
+      "src": "manual",
+      "pct": 0.73,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260209001521"
+    },
+    {
+      "date": "2025.12.10",
+      "text": "자기주식 60만주를 관계회사 코콤월드에 21억7500만원에 처분하는 결정을 정정 공시",
+      "src": "manual",
+      "pct": 0.41,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251209000595"
+    },
+    {
+      "date": "2025.02.13",
+      "text": "2024년 잠정 영업이익 3,727,784,568원으로 전년 대비 95.1% 증가했다고 공시",
+      "src": "manual",
+      "pct": 4.04,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250212001170"
+    }
+  ]
+}

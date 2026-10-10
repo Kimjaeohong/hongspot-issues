@@ -1,0 +1,40 @@
+{
+  "name": "영우디에스피",
+  "issues": [
+    {
+      "date": "2026.06.25",
+      "text": "삼성디스플레이와 45억원 규모의 디스플레이장비 공급계약을 체결",
+      "src": "manual",
+      "pct": -5.14,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260625000356"
+    },
+    {
+      "date": "2026.06.24",
+      "text": "제이에스와 54억5000만원 규모의 스마트 로봇 이송 시스템 공급계약을 체결",
+      "src": "manual",
+      "pct": 8.53,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260624000525"
+    },
+    {
+      "date": "2026.02.23",
+      "text": "2025년 연결 잠정 매출 80,504,197,379원, 영업이익 5,906,520,151원을 공시",
+      "src": "manual",
+      "pct": 4.13,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260223000266"
+    },
+    {
+      "date": "2026.02.12",
+      "text": "삼성디스플레이와 45억5000만원 규모의 디스플레이장비 공급계약을 체결",
+      "src": "manual",
+      "pct": -4.16,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260212000253"
+    },
+    {
+      "date": "2026.01.22",
+      "text": "삼성디스플레이 베트남과 7,045,795,282원 규모의 디스플레이장비 공급계약을 체결",
+      "src": "manual",
+      "pct": 5.1,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260122000263"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "노랑풍선",
+  "issues": [
+    {
+      "date": "2026.09.01",
+      "text": "제3회 전환사채의 전환가액을 5,363원에서 4,669원으로 낮춰 전환가능 주식수가 2,141,786주로 증가",
+      "src": "manual",
+      "pct": -0.31,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260831000507"
+    },
+    {
+      "date": "2026.03.19",
+      "text": "2025년 연결 적정 감사의견과 감사 후 순손실 2,862,746,460원을 공시",
+      "src": "manual",
+      "pct": -2.29,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260318001238"
+    },
+    {
+      "date": "2026.02.12",
+      "text": "2025년 연결 잠정 영업이익 2,238,783,517원으로 흑자 전환했다고 공시",
+      "src": "manual",
+      "pct": 0.56,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260211001517"
+    },
+    {
+      "date": "2025.09.01",
+      "text": "제3회 전환사채 10억원의 전환청구로 보통주 193,685주가 발행된다고 공시",
+      "src": "manual",
+      "pct": 2.4,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250829000806"
+    },
+    {
+      "date": "2025.02.12",
+      "text": "2024년 연결 잠정 매출 131,755,784,952원, 영업손실 6,278,263,715원을 공시",
+      "src": "manual",
+      "pct": 1.18,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250211000953"
+    }
+  ]
+}

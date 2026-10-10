@@ -1,0 +1,40 @@
+{
+  "name": "부산산업",
+  "issues": [
+    {
+      "date": "2026.03.27",
+      "text": "정기주총에서 전자주주총회 제도 도입과 이찬중 사외이사·홍영재 감사 신규 선임을 승인",
+      "src": "manual",
+      "pct": -0.14,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260327000716"
+    },
+    {
+      "date": "2026.03.19",
+      "text": "2025년 연결 적정 감사의견과 감사 후 순손실 6,302,021,966원을 공시",
+      "src": "manual",
+      "pct": -1.57,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260319000303"
+    },
+    {
+      "date": "2026.02.26",
+      "text": "2025년 말 기준 보통주 1주당 250원, 총 264,000,000원의 결산 현금배당을 결정",
+      "src": "manual",
+      "pct": -4.54,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260226000186"
+    },
+    {
+      "date": "2025.03.28",
+      "text": "정기주총에서 2024년 연결 매출 1,241억500만원의 재무제표와 윤중현 사외이사 재선임을 승인",
+      "src": "manual",
+      "pct": -2.57,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250328000955"
+    },
+    {
+      "date": "2025.02.27",
+      "text": "2024년 말 기준 보통주 1주당 250원, 총 264,000,000원의 결산 현금배당을 결정",
+      "src": "manual",
+      "pct": -1.28,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250227000265"
+    }
+  ]
+}
