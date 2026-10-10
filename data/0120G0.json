@@ -1,0 +1,40 @@
+{
+  "name": "삼양바이오팜",
+  "issues": [
+    {
+      "date": "2026.08.18",
+      "text": "2026년 반기보고서에서 별도 상반기 매출 670.33억원·영업이익 21.33억원 공시",
+      "src": "manual",
+      "pct": -5.21,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260814001750"
+    },
+    {
+      "date": "2026.05.18",
+      "text": "2026년 1분기보고서에서 별도 매출 311.74억원·영업이익 13.86억원 공시",
+      "src": "manual",
+      "pct": -5.05,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260515001900"
+    },
+    {
+      "date": "2026.03.24",
+      "text": "정기주총에서 감사위원이 되는 사외이사 2명 재선임과 정관 변경 승인",
+      "src": "manual",
+      "pct": 7.13,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260323001119"
+    },
+    {
+      "date": "2026.03.16",
+      "text": "분할 신설 후 2025년 11~12월 감사의견 적정, 별도 매출 285.94억원·영업이익 26.91억원 공시",
+      "src": "manual",
+      "pct": -2.17,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260313001107"
+    },
+    {
+      "date": "2025.12.02",
+      "text": "한국거래소가 2025년 12월 2일부터 투자경고종목으로 지정한다고 공시",
+      "src": "manual",
+      "pct": 0.0,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251201000799"
+    }
+  ]
+}

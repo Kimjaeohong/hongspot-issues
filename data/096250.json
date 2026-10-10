@@ -1,0 +1,40 @@
+{
+  "name": "와이즈넛",
+  "issues": [
+    {
+      "date": "2026.07.27",
+      "text": "기업가치 제고 계획 정정: 2026회계연도 순이익의 40% 배당·60% 자사주 매입소각 추진 계획 제시",
+      "src": "manual",
+      "pct": 3.97,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260724000863"
+    },
+    {
+      "date": "2026.07.07",
+      "text": "기취득 자기주식 1,291,728주 소각 결정, 예정일은 2026년 7월 15일",
+      "src": "manual",
+      "pct": -4.2,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260707000295"
+    },
+    {
+      "date": "2026.06.18",
+      "text": "주가안정·주주가치 제고를 위해 약 100억원 규모 자기주식 직접취득 결정",
+      "src": "manual",
+      "pct": 29.91,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260617000606"
+    },
+    {
+      "date": "2026.03.11",
+      "text": "보통주 1주당 85원 결산 현금배당 결정, 총액 약 11.13억원",
+      "src": "manual",
+      "pct": 1.15,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260310001785"
+    },
+    {
+      "date": "2026.02.04",
+      "text": "2025년 연결 잠정 영업이익 1.14억원으로 93.33% 감소, 상장·AI Agent 사업 전환 관련 비용 반영 설명",
+      "src": "manual",
+      "pct": -7.41,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260203000990"
+    }
+  ]
+}

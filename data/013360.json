@@ -1,0 +1,40 @@
+{
+  "name": "일성건설",
+  "issues": [
+    {
+      "date": "2026.09.11",
+      "text": "남양주진접2 A-1BL 공사 변경계약으로 당사 계약액 1,677.75억원·종료일 2028년 4월 23일로 정정",
+      "src": "manual",
+      "pct": -0.55,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260911000248"
+    },
+    {
+      "date": "2026.09.01",
+      "text": "캄보디아 공공사업교통부와 시엠립 우회도로 개발사업 857.12억원 계약 체결",
+      "src": "manual",
+      "pct": -0.4,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260901000059"
+    },
+    {
+      "date": "2026.08.10",
+      "text": "을지대학교 대전캠퍼스 본관 신축 등 326.5억원 공사 수주",
+      "src": "manual",
+      "pct": 5.05,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260810000210"
+    },
+    {
+      "date": "2026.07.23",
+      "text": "평택 학교 신축 시설공사 변경계약으로 계약금액 729.98억원·종료일 2027년 3월 28일로 정정",
+      "src": "manual",
+      "pct": 4.25,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260722000520"
+    },
+    {
+      "date": "2026.07.15",
+      "text": "청주 오창 생활형숙박시설 중도금대출 연장에 대해 120.99억원 채무보증 결정",
+      "src": "manual",
+      "pct": -0.28,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260714000581"
+    }
+  ]
+}

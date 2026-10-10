@@ -1,0 +1,40 @@
+{
+  "name": "에스엠씨지",
+  "issues": [
+    {
+      "date": "2026.03.30",
+      "text": "정기주총에서 사내이사 2명 신규선임·1명 재선임과 정관 변경 승인",
+      "src": "manual",
+      "pct": 16.41,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260327002888"
+    },
+    {
+      "date": "2026.03.19",
+      "text": "2025년 개별 감사의견 적정, 영업이익 49.43억원·순이익 13.33억원 공시",
+      "src": "manual",
+      "pct": 0.15,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260318000924"
+    },
+    {
+      "date": "2026.02.12",
+      "text": "2025년 개별 잠정 영업이익 49.23억원·순이익 7.17억원, 순이익 흑자전환 공시",
+      "src": "manual",
+      "pct": -2.47,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260211001130"
+    },
+    {
+      "date": "2025.09.23",
+      "text": "교환사채 발행을 위해 자기주식 451,983주를 교환대상으로 처분하기로 결정",
+      "src": "manual",
+      "pct": -1.11,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250922000513"
+    },
+    {
+      "date": "2025.04.14",
+      "text": "임직원 장기근속·책임경영 강화를 위해 우리사주조합에 자기주식 141,000주 무상출연 결정",
+      "src": "manual",
+      "pct": 0.32,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250411000616"
+    }
+  ]
+}

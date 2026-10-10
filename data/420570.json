@@ -1,0 +1,40 @@
+{
+  "name": "제이투케이바이오",
+  "issues": [
+    {
+      "date": "2026.03.30",
+      "text": "2028년 PBR 2배·ROE 10% 이상 및 배당성향 25% 이상 목표의 기업가치 제고 계획 공시",
+      "src": "manual",
+      "pct": 0.39,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260327002099"
+    },
+    {
+      "date": "2026.03.27",
+      "text": "정기주총에서 사내이사 3명·사외이사 1명·감사 1명 선임 승인",
+      "src": "manual",
+      "pct": -0.65,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260327000888"
+    },
+    {
+      "date": "2026.02.13",
+      "text": "보통주 1주당 250원 결산 현금배당 결정, 총액 약 14.62억원",
+      "src": "manual",
+      "pct": -1.17,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260212000849"
+    },
+    {
+      "date": "2026.02.12",
+      "text": "2025년 연결 잠정 순이익 26.32억원으로 흑자전환, 전년 합병 관련 영업외비용 정상화 설명",
+      "src": "manual",
+      "pct": 1.42,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260212000618"
+    },
+    {
+      "date": "2025.02.13",
+      "text": "보통주 1주당 200원 결산 현금배당 결정, 총액 약 11.47억원",
+      "src": "manual",
+      "pct": -1.35,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250212001254"
+    }
+  ]
+}

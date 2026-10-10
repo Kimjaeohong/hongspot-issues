@@ -1,0 +1,40 @@
+{
+  "name": "엔비알모션",
+  "issues": [
+    {
+      "date": "2026.09.04",
+      "text": "시설자금 135억원·채무상환 35억원 조달을 위한 제5회차 전환사채 170억원 발행 결정",
+      "src": "manual",
+      "pct": 10.2,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260904000270"
+    },
+    {
+      "date": "2026.06.08",
+      "text": "제1회차 전환사채 전환청구로 보통주 605,916주 발행 예정 공시",
+      "src": "manual",
+      "pct": -13.91,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260608000632"
+    },
+    {
+      "date": "2026.04.01",
+      "text": "정기주총에서 사외이사·기타비상무이사 각 1명 신규선임과 정관 변경 승인",
+      "src": "manual",
+      "pct": 8.42,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260331002464"
+    },
+    {
+      "date": "2026.03.23",
+      "text": "2025년 연결·별도 감사의견 적정, 연결 순손실 122.49억원 공시",
+      "src": "manual",
+      "pct": -10.6,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260320002013"
+    },
+    {
+      "date": "2026.02.27",
+      "text": "2025년 연결 잠정 영업손실 39.28억원·순손실 127.41억원, 합병·상장 일회성 비용 반영 설명",
+      "src": "manual",
+      "pct": 14.21,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260227000578"
+    }
+  ]
+}

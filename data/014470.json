@@ -1,0 +1,40 @@
+{
+  "name": "부방",
+  "issues": [
+    {
+      "date": "2026.09.02",
+      "text": "기취득 자기주식 3,383,159주 소각 결정, 예정일은 2026년 9월 9일",
+      "src": "manual",
+      "pct": 4.5,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260902000094"
+    },
+    {
+      "date": "2026.08.04",
+      "text": "기취득 자기주식 3,002,620주 소각 결정, 예정일은 2026년 8월 11일",
+      "src": "manual",
+      "pct": 14.29,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260804000146"
+    },
+    {
+      "date": "2026.03.30",
+      "text": "박규원 대표 사임에 따라 박재순 신임 대표이사 선임",
+      "src": "manual",
+      "pct": -0.9,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260330000482"
+    },
+    {
+      "date": "2026.02.19",
+      "text": "2025년 연결 잠정 영업이익 17.60억원으로 63.9% 감소, 서비스 매출·지분법이익 감소 설명",
+      "src": "manual",
+      "pct": 2.67,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260213002104"
+    },
+    {
+      "date": "2025.02.14",
+      "text": "2024년 연결 잠정 영업이익 48.73억원으로 흑자전환, 가전사업 매출 증가 설명",
+      "src": "manual",
+      "pct": 2.42,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250213001055"
+    }
+  ]
+}

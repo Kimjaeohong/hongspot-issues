@@ -1,0 +1,40 @@
+{
+  "name": "아우토크립트",
+  "issues": [
+    {
+      "date": "2026.05.19",
+      "text": "국내 완성차 제조업체와 29억원 규모 차량 사이버보안 용역 계약 체결",
+      "src": "manual",
+      "pct": 0.25,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260518000783"
+    },
+    {
+      "date": "2026.04.01",
+      "text": "정기주총에서 정관 일부 변경과 이사 보수한도 15억원 승인",
+      "src": "manual",
+      "pct": 6.03,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260331003601"
+    },
+    {
+      "date": "2026.03.17",
+      "text": "2025년 연결 잠정 영업손실 135.20억원으로 축소, 차량 사이버보안 매출 증가·영업비용 감소 설명",
+      "src": "manual",
+      "pct": -5.48,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260316002715"
+    },
+    {
+      "date": "2025.10.23",
+      "text": "이석우 단독대표에서 이석우·김덕수 각자대표 체제로 변경",
+      "src": "manual",
+      "pct": -3.05,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251022000271"
+    },
+    {
+      "date": "2025.09.18",
+      "text": "중소벤처기업진흥공단의 신주인수권 행사로 보통주 4,567주·약 1억원 출자전환 공시",
+      "src": "manual",
+      "pct": -1.54,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250917000434"
+    }
+  ]
+}

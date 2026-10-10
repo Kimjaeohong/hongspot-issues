@@ -1,0 +1,40 @@
+{
+  "name": "뉴엔AI",
+  "issues": [
+    {
+      "date": "2026.08.14",
+      "text": "2026년 반기보고서에서 개별 상반기 매출 96.52억원·영업손실 5.18억원 공시",
+      "src": "manual",
+      "pct": -8.07,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260814000530"
+    },
+    {
+      "date": "2026.08.13",
+      "text": "한국거래소가 2026년 8월 13일부터 투자경고종목으로 지정한다고 공시",
+      "src": "manual",
+      "pct": -9.31,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260812000921"
+    },
+    {
+      "date": "2026.07.06",
+      "text": "주식매수선택권 행사에 따라 신주 108,000주 발행 예정 공시",
+      "src": "manual",
+      "pct": -3.3,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260706000353"
+    },
+    {
+      "date": "2026.05.15",
+      "text": "2026년 1분기보고서에서 개별 매출 43.42억원·영업손실 7.45억원 공시",
+      "src": "manual",
+      "pct": -8.78,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260515000251"
+    },
+    {
+      "date": "2026.01.26",
+      "text": "2025년 개별 잠정 영업손실 11.10억원으로 적자전환, 기타 매출 감소·프로젝트 검수 지연 설명",
+      "src": "manual",
+      "pct": 0.5,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260123000648"
+    }
+  ]
+}

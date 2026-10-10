@@ -1,0 +1,40 @@
+{
+  "name": "아로마티카",
+  "issues": [
+    {
+      "date": "2026.08.05",
+      "text": "2026년 2분기 연결 잠정 매출 177.43억원·영업이익 22.46억원 공시",
+      "src": "manual",
+      "pct": 25.05,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260805000251"
+    },
+    {
+      "date": "2026.06.12",
+      "text": "기취득 자기주식 138,128주 소각 결정, 예정일은 2026년 6월 17일",
+      "src": "manual",
+      "pct": 4.53,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260612000499"
+    },
+    {
+      "date": "2026.05.08",
+      "text": "2026년 1분기 연결 잠정 매출 140억원·영업이익 13.35억원 공시",
+      "src": "manual",
+      "pct": -2.28,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260508000305"
+    },
+    {
+      "date": "2026.03.31",
+      "text": "정기주총에서 교육서비스·도서출판 사업목적 추가와 사내이사 재선임·사외이사 신규선임 승인",
+      "src": "manual",
+      "pct": 1.68,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260330002077"
+    },
+    {
+      "date": "2026.03.13",
+      "text": "2025년 별도 잠정 매출 511.87억원·영업이익 51.40억원, 영업이익 전년 대비 9.1% 감소",
+      "src": "manual",
+      "pct": -1.24,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260313000863"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "이지스",
+  "issues": [
+    {
+      "date": "2026.09.01",
+      "text": "주가안정·주주가치 제고를 위한 30억원 자사주취득 신탁계약 결정, 종료 후 전량 소각 계획",
+      "src": "manual",
+      "pct": 7.82,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260831000268"
+    },
+    {
+      "date": "2026.03.27",
+      "text": "정기주총에서 정관 변경과 주식매수선택권 부여 승인",
+      "src": "manual",
+      "pct": 0.34,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260327000917"
+    },
+    {
+      "date": "2026.03.20",
+      "text": "2025년 개별 감사의견 적정, 매출 212.50억원·영업손실 67.99억원 공시",
+      "src": "manual",
+      "pct": -2.32,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260319002076"
+    },
+    {
+      "date": "2026.02.24",
+      "text": "2025년 개별 잠정 매출 212.50억원·영업손실 67.99억원, 발주 지연에 따른 매출 감소 설명",
+      "src": "manual",
+      "pct": -0.5,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260224000265"
+    },
+    {
+      "date": "2026.02.09",
+      "text": "김성호 대표 사임 후 박광목 신임 대표이사 선임",
+      "src": "manual",
+      "pct": -2.2,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260206001947"
+    }
+  ]
+}

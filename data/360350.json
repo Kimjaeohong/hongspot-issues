@@ -1,0 +1,40 @@
+{
+  "name": "코셈",
+  "issues": [
+    {
+      "date": "2026.06.16",
+      "text": "주주가치 제고를 위해 기취득 자기주식 30만주 소각 결정",
+      "src": "manual",
+      "pct": -0.34,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260616000263"
+    },
+    {
+      "date": "2026.02.27",
+      "text": "주가안정·주주가치 제고 및 임직원 보상을 위한 20억원 자기주식취득 신탁계약 결정",
+      "src": "manual",
+      "pct": 5.2,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260227000583"
+    },
+    {
+      "date": "2026.02.04",
+      "text": "2025년 연결 잠정 영업손실 15.10억원, 해외 매출 감소·고정비 비중 상승 설명",
+      "src": "manual",
+      "pct": 0.75,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260203000957"
+    },
+    {
+      "date": "2025.04.14",
+      "text": "주가안정·주주가치 제고 및 임직원 보상을 위한 키움증권과 40억원 자사주취득 신탁계약 결정",
+      "src": "manual",
+      "pct": 8.47,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250414000422"
+    },
+    {
+      "date": "2025.02.12",
+      "text": "2024년 연결 잠정 매출 147.30억원·영업손실 2.36억원 공시",
+      "src": "manual",
+      "pct": -3.29,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250211001487"
+    }
+  ]
+}
