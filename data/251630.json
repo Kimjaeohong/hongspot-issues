@@ -1,0 +1,40 @@
+{
+  "name": "브이원텍",
+  "issues": [
+    {
+      "date": "2026.03.17",
+      "text": "2025년 연결 잠정 매출 489.85억원·영업손실 110.74억원 공시, 설비투자 지연·AI 및 물류로봇 연구개발비 반영",
+      "src": "manual",
+      "pct": 1.37,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260316002487"
+    },
+    {
+      "date": "2025.12.16",
+      "text": "2025년 결산배당으로 보통주 1주당 100원 현금배당 결정, 총액 15.78억원",
+      "src": "manual",
+      "pct": -1.4,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251215001230"
+    },
+    {
+      "date": "2025.09.01",
+      "text": "종속회사 시스콘로보틱스의 계약이행·선급금 보증증권 등에 대한 110억원 채무보증 기간 연장 결정",
+      "src": "manual",
+      "pct": -0.18,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250829000557"
+    },
+    {
+      "date": "2025.03.10",
+      "text": "2024년 연결 잠정 매출 727.32억원·영업손실 43.60억원 공시, 자회사 적자·연구개발 투자로 영업이익 적자전환",
+      "src": "manual",
+      "pct": -1.71,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250310000474"
+    },
+    {
+      "date": "2024.12.13",
+      "text": "2024년 결산배당으로 보통주 1주당 100원 현금배당 결정, 총액 15.26억원",
+      "src": "manual",
+      "pct": 4.73,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20241212000549"
+    }
+  ]
+}

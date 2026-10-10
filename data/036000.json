@@ -1,0 +1,40 @@
+{
+  "name": "예림당",
+  "issues": [
+    {
+      "date": "2026.08.25",
+      "text": "반도체 사업 진출을 위해 퓨쳐하이테크 지분 90%를 339.51억원에 양수 결정",
+      "src": "manual",
+      "pct": -7.47,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260824000663"
+    },
+    {
+      "date": "2026.07.01",
+      "text": "보통주 1주당 662원 분기 현금배당 결정, 자본준비금 감액을 재원으로 총 152.49억원 배당 예정",
+      "src": "manual",
+      "pct": -5.08,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260701000236"
+    },
+    {
+      "date": "2026.02.13",
+      "text": "2025년 개별 잠정 영업손실 14.21억원·순이익 1262.57억원 공시, 티웨이홀딩스 지분매각으로 연결대상 제외",
+      "src": "manual",
+      "pct": -1.6,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260213000532"
+    },
+    {
+      "date": "2025.09.19",
+      "text": "투자수익을 목적으로 푸른 첨단소재 신기술투자조합 제2호에 203억원 신규 출자 결정",
+      "src": "manual",
+      "pct": 3.01,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250919000235"
+    },
+    {
+      "date": "2025.02.24",
+      "text": "2024년 연결 잠정 매출 170.06억원·영업손실 48.99억원 공시, PHC 파일사업 원가 부담 등 반영",
+      "src": "manual",
+      "pct": 3.92,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250224000256"
+    }
+  ]
+}

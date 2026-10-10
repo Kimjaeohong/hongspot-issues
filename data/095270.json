@@ -1,0 +1,40 @@
+{
+  "name": "웨이브일렉트로",
+  "issues": [
+    {
+      "date": "2026.03.11",
+      "text": "2025년 연결 잠정 매출 805.33억원·영업손실 16.42억원 공시, 영업이익 적자전환",
+      "src": "manual",
+      "pct": 0.38,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260311000832"
+    },
+    {
+      "date": "2025.09.10",
+      "text": "주주가치 제고를 위해 기취득 자기주식 59만8850주 소각 결정, 자본금 감소 없음",
+      "src": "manual",
+      "pct": 10.2,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250910000083"
+    },
+    {
+      "date": "2025.06.25",
+      "text": "LIG넥스원과 84.63억원 규모 이라크 천궁 부품 공급계약 체결, 2030년 3월까지 공급 예정",
+      "src": "manual",
+      "pct": -0.6,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250625000108"
+    },
+    {
+      "date": "2025.03.12",
+      "text": "2024년 연결 잠정 영업이익 18.53억원·순손실 66.33억원 공시, 관계기업 투자주식 손상 반영",
+      "src": "manual",
+      "pct": -5.48,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250311001325"
+    },
+    {
+      "date": "2025.01.10",
+      "text": "LIG넥스원과 184.03억원 규모 P11E 양산사업 전자신호처리부 등 공급계약 체결",
+      "src": "manual",
+      "pct": 0.9,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250110000087"
+    }
+  ]
+}

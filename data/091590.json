@@ -1,0 +1,40 @@
+{
+  "name": "남화토건",
+  "issues": [
+    {
+      "date": "2026.02.26",
+      "text": "2025년 연결 잠정 매출 726.92억원·영업이익 25.27억원 공시, 선별 수주·원가관리로 영업이익 흑자전환",
+      "src": "manual",
+      "pct": -0.53,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260225002122"
+    },
+    {
+      "date": "2026.01.02",
+      "text": "국군중앙계약관과 60.42억원 규모 군부대 유류저장시설 공사계약 체결 공시",
+      "src": "manual",
+      "pct": -0.12,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251231000322"
+    },
+    {
+      "date": "2025.12.30",
+      "text": "인천도시공사와 60.78억원 규모 영스퀘어 건설사업 계약 체결 공시",
+      "src": "manual",
+      "pct": 3.32,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251230000170"
+    },
+    {
+      "date": "2025.10.15",
+      "text": "대광새마을금고와 76.82억원 규모 광주 골프연습장 신축공사 계약 체결",
+      "src": "manual",
+      "pct": 0.13,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251014000599"
+    },
+    {
+      "date": "2025.06.11",
+      "text": "케어홈프리미오권선1·2호와 188.70억원 규모 수원 권선동 노유자시설 신축공사 계약 체결",
+      "src": "manual",
+      "pct": -0.23,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250610000466"
+    }
+  ]
+}

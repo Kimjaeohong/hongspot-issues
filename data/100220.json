@@ -1,0 +1,40 @@
+{
+  "name": "비상교육",
+  "issues": [
+    {
+      "date": "2026.02.12",
+      "text": "2025년 결산배당으로 보통주 1주당 220원 현금배당 결정, 총액 26.95억원",
+      "src": "manual",
+      "pct": -1.28,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260211001019"
+    },
+    {
+      "date": "2025.11.20",
+      "text": "조달청과 198.62억원 규모 초등통합 국정도서 발행 1차 계약 체결, 2026~2028학년도 발행자 선정",
+      "src": "manual",
+      "pct": 0.18,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251119000332"
+    },
+    {
+      "date": "2025.02.11",
+      "text": "2024년 연결 잠정 매출 2464.60억원·영업이익 108.72억원 공시, 적자 사업부 개선 등으로 영업이익 흑자전환",
+      "src": "manual",
+      "pct": 7.09,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250210000901"
+    },
+    {
+      "date": "2024.07.23",
+      "text": "신사옥 완공 후 도급 정산계약을 반영해 신축 투자금액을 893.80억원에서 943.80억원으로 정정",
+      "src": "manual",
+      "pct": -0.75,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20240722000507"
+    },
+    {
+      "date": "2024.02.06",
+      "text": "2023년 연결 잠정 매출 2526.42억원·영업손실 47.98억원 공시, 교육과정 연구개발·디지털전환 투자 증가 반영",
+      "src": "manual",
+      "pct": -6.3,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20240205000954"
+    }
+  ]
+}

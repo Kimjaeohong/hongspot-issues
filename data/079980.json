@@ -1,0 +1,40 @@
+{
+  "name": "휴비스",
+  "issues": [
+    {
+      "date": "2026.02.10",
+      "text": "외부감사 중 수정사항을 반영해 2025년 연결 잠정 영업이익을 197.62억원으로 정정, 전년 대비 흑자전환",
+      "src": "manual",
+      "pct": 1.75,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260209001005"
+    },
+    {
+      "date": "2025.10.29",
+      "text": "휴비스글로벌 유상증자에 133억원 출자 결정, 취득 후 지분율 100% 유지",
+      "src": "manual",
+      "pct": -1.63,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251029000303"
+    },
+    {
+      "date": "2025.05.20",
+      "text": "운영자금·기존 채무 상환을 위한 금융기관 차입 355억원의 만기연장 공시",
+      "src": "manual",
+      "pct": -2.34,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250519000443"
+    },
+    {
+      "date": "2025.02.18",
+      "text": "외부감사 중 수정사항을 반영해 2024년 연결 잠정 영업손실 382.55억원·순손실 1325.94억원으로 정정",
+      "src": "manual",
+      "pct": -0.19,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250217001037"
+    },
+    {
+      "date": "2024.09.30",
+      "text": "휴비스글로벌 유상증자에 182억원 출자 결정, 미국 합작사 증자 참여와 휴비스 채무 변제에 사용 예정",
+      "src": "manual",
+      "pct": -1.79,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20240927000879"
+    }
+  ]
+}

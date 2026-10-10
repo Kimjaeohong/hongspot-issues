@@ -1,0 +1,40 @@
+{
+  "name": "스마트레이더시스템",
+  "issues": [
+    {
+      "date": "2026.06.25",
+      "text": "미국 자회사 SRS.Mobility가 Smart Systems USA와 76.92억원 규모 모듈형 데이터센터 공급계약 체결",
+      "src": "manual",
+      "pct": 1.33,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260625000231"
+    },
+    {
+      "date": "2026.03.24",
+      "text": "NoTraffic과 11.54억원 규모 지능형교통시스템용 레이다 모듈 공급계약 체결",
+      "src": "manual",
+      "pct": 5.7,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260324000417"
+    },
+    {
+      "date": "2026.02.26",
+      "text": "2025년 연결 잠정 매출 93.97억원·영업손실 52.70억원 공시, 개발제품 양산·고객사 시장 확대로 매출 98.4% 증가",
+      "src": "manual",
+      "pct": -1.36,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260226000486"
+    },
+    {
+      "date": "2025.07.18",
+      "text": "국내 전자부품 기업과 5.37억원 규모 레이더 센서 개발계약 체결, 계약 상대방은 영업비밀 요청으로 비공개",
+      "src": "manual",
+      "pct": 0.37,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250718000159"
+    },
+    {
+      "date": "2025.05.16",
+      "text": "엠씨넥스와 7.20억원 규모 차량용 동작감지 레이더 개발계약 체결, 향후 제품당 로열티 별도 수취 예정",
+      "src": "manual",
+      "pct": -2.37,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250516000110"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "남화산업",
+  "issues": [
+    {
+      "date": "2026.03.10",
+      "text": "금융자산 평가 변동을 반영해 2025년 개별 잠정 영업이익 40.94억원·순이익 66.72억원으로 정정",
+      "src": "manual",
+      "pct": 2.37,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260310000901"
+    },
+    {
+      "date": "2026.02.23",
+      "text": "2025년 결산배당으로 보통주 1주당 200원 현금배당 결정, 총액 41.18억원",
+      "src": "manual",
+      "pct": -0.24,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260220001024"
+    },
+    {
+      "date": "2025.03.10",
+      "text": "관계회사 지분법이익 감소를 반영해 2024년 개별 잠정 순이익을 약 109.33억원으로 정정",
+      "src": "manual",
+      "pct": -0.59,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250310000369"
+    },
+    {
+      "date": "2025.02.24",
+      "text": "2024년 결산배당으로 보통주 1주당 200원 현금배당 결정, 총액 41.18억원",
+      "src": "manual",
+      "pct": 1.4,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250221000539"
+    },
+    {
+      "date": "2024.02.28",
+      "text": "2023년 결산배당으로 보통주 1주당 200원 현금배당 결정, 총액 41.18억원",
+      "src": "manual",
+      "pct": 0.51,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20240228000296"
+    }
+  ]
+}

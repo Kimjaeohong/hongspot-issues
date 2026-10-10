@@ -1,0 +1,40 @@
+{
+  "name": "위메이드플레이",
+  "issues": [
+    {
+      "date": "2026.08.13",
+      "text": "2026년 2분기 연결 잠정 매출 321.92억원·영업이익 25.95억원 공시, 영업이익 전년 동기 대비 5.7% 증가",
+      "src": "manual",
+      "pct": -2.81,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260812000504"
+    },
+    {
+      "date": "2026.05.14",
+      "text": "주주가치 제고를 위해 기취득 자기주식 15만1293주 소각 결정, 장부가액 27.92억원",
+      "src": "manual",
+      "pct": 1.92,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260513000926"
+    },
+    {
+      "date": "2026.05.12",
+      "text": "2026년 1분기 연결 잠정 매출 323.80억원·영업이익 33.89억원 공시, 영업이익 전년 동기 대비 92.7% 증가",
+      "src": "manual",
+      "pct": 1.24,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260512000543"
+    },
+    {
+      "date": "2026.02.10",
+      "text": "2025년 4분기 연결 잠정 매출 321.59억원·영업이익 31.47억원 공시, 영업이익 전년 동기 대비 65.4% 증가",
+      "src": "manual",
+      "pct": -0.61,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260209001044"
+    },
+    {
+      "date": "2025.11.12",
+      "text": "2025년 3분기 연결 잠정 매출 310.83억원·영업이익 33.84억원 공시, 영업이익 전년 동기 대비 흑자전환",
+      "src": "manual",
+      "pct": 6.13,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251111000396"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "컴투스엔",
+  "issues": [
+    {
+      "date": "2026.04.09",
+      "text": "당시 엔피, 위지윅스튜디오 흡수합병 결정 공시, 최초 합병비율 1대 0.5774514",
+      "src": "manual",
+      "pct": 8.05,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260408001319"
+    },
+    {
+      "date": "2026.01.30",
+      "text": "당시 엔피, 2025년 연결 잠정 매출 272.31억원·영업손실 30.39억원 공시, 영업비용 감소로 손실 축소",
+      "src": "manual",
+      "pct": -0.46,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260129000743"
+    },
+    {
+      "date": "2025.02.03",
+      "text": "당시 엔피, 2024년 연결 잠정 매출 295.60억원·영업손실 41.97억원 공시",
+      "src": "manual",
+      "pct": -2.37,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250131000670"
+    },
+    {
+      "date": "2024.02.16",
+      "text": "당시 엔피, 운영자금·XR 및 콘텐츠 투자재원 마련을 위해 논현동 토지·건물을 138억원에 양도 결정",
+      "src": "manual",
+      "pct": -0.71,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20240216000159"
+    },
+    {
+      "date": "2024.02.05",
+      "text": "당시 엔피, 2023년 연결 잠정 매출 345.77억원·영업손실 33.46억원 공시, 광고 불황·XR 투자비용 등 반영",
+      "src": "manual",
+      "pct": -1.67,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20240202000811"
+    }
+  ]
+}

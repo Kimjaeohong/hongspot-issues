@@ -1,0 +1,40 @@
+{
+  "name": "알에프텍",
+  "issues": [
+    {
+      "date": "2026.04.14",
+      "text": "에코볼트 흡수합병 결정 공시, 최초 합병비율 알에프텍 1대 에코볼트 0.4053487",
+      "src": "manual",
+      "pct": -2.49,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260413000993"
+    },
+    {
+      "date": "2026.02.26",
+      "text": "2025년 연결 잠정 매출 2660.08억원·영업손실 240.92억원 공시, 업황 부진·원가율 상승 등으로 영업이익 적자전환",
+      "src": "manual",
+      "pct": -2.25,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260225001554"
+    },
+    {
+      "date": "2026.01.19",
+      "text": "투자금 회수와 기존 사업 확장재원 확보를 위해 알에프바이오 주식 91만747주를 200억원에 처분 결정",
+      "src": "manual",
+      "pct": 0.4,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260119000562"
+    },
+    {
+      "date": "2025.02.25",
+      "text": "2024년 연결 잠정 영업이익 18.12억원으로 64.1% 감소, 원가 상승·일시적 비용 증가 반영",
+      "src": "manual",
+      "pct": -2.07,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250224000883"
+    },
+    {
+      "date": "2024.11.29",
+      "text": "주가안정·주주가치 제고를 위해 신한투자증권과 20억원 규모 자기주식 취득 신탁계약 체결 결정",
+      "src": "manual",
+      "pct": 2.24,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20241129000255"
+    }
+  ]
+}

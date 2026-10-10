@@ -1,0 +1,40 @@
+{
+  "name": "팜젠사이언스",
+  "issues": [
+    {
+      "date": "2026.05.13",
+      "text": "제33회 전환사채 26억원의 전환청구권 행사 공시, 전환가액 3715원·발행주식 69만9863주",
+      "src": "manual",
+      "pct": -2.28,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260512000658"
+    },
+    {
+      "date": "2026.02.10",
+      "text": "2025년 개별 잠정 영업이익 59.87억원·순손실 1166.41억원 공시, 주요 관계회사 지분법 평가·손상차손 반영",
+      "src": "manual",
+      "pct": 0.12,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260209001656"
+    },
+    {
+      "date": "2025.12.15",
+      "text": "전환사채 전환청구권 행사로 최대주주가 에이치디투자조합에서 한의상으로 변경됐다고 공시",
+      "src": "manual",
+      "pct": -0.12,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251212001241"
+    },
+    {
+      "date": "2025.02.19",
+      "text": "2024년 연결 잠정 매출 1713.62억원·영업이익 107.98억원 공시, 매출 증가·원가절감으로 영업이익 18.3% 증가",
+      "src": "manual",
+      "pct": 0.58,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250218000619"
+    },
+    {
+      "date": "2024.02.15",
+      "text": "2023년 연결 잠정 매출 1667.79억원·영업이익 91.11억원 공시, 영업이익 전년 대비 21.9% 증가",
+      "src": "manual",
+      "pct": 0.0,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20240214001404"
+    }
+  ]
+}

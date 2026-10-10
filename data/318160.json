@@ -1,0 +1,40 @@
+{
+  "name": "셀바이오휴먼텍",
+  "issues": [
+    {
+      "date": "2026.06.10",
+      "text": "주주가치 제고를 위해 대신증권과 10억원 규모 자기주식 취득 신탁계약 체결 결정",
+      "src": "manual",
+      "pct": 2.01,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260610000300"
+    },
+    {
+      "date": "2026.06.09",
+      "text": "자기주식 7만4956주 취득 완료에 따라 5억원 규모 신탁계약 중도해지 결정",
+      "src": "manual",
+      "pct": 8.96,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260609000224"
+    },
+    {
+      "date": "2026.04.14",
+      "text": "임직원 보상을 위해 대신증권과 5억원 규모 자기주식 취득 신탁계약 체결 결정",
+      "src": "manual",
+      "pct": 0.97,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260414000327"
+    },
+    {
+      "date": "2026.02.11",
+      "text": "2025년 연결 잠정 매출 510.66억원·영업이익 93.91억원 공시, 기존 소재·화장품 사업 성장으로 영업이익 132.63% 증가",
+      "src": "manual",
+      "pct": -11.61,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260210000758"
+    },
+    {
+      "date": "2025.08.28",
+      "text": "자기주식 41만1776주 취득 완료로 20억원 규모 신탁계약 해지 결정, 취득 주식은 직접 보유 예정",
+      "src": "manual",
+      "pct": 3.91,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250828000143"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "영화테크",
+  "issues": [
+    {
+      "date": "2026.04.29",
+      "text": "운영자금 약 20억원 조달을 위한 제3자배정 상환전환우선주 17만7320주 발행 결정",
+      "src": "manual",
+      "pct": 6.62,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260428000632"
+    },
+    {
+      "date": "2026.02.11",
+      "text": "2025년 연결 잠정 매출 1086.08억원·영업이익 179.62억원 공시, 수주물량 양산으로 영업이익 16.7% 증가",
+      "src": "manual",
+      "pct": 1.43,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260210001364"
+    },
+    {
+      "date": "2026.02.04",
+      "text": "현대자동차와 1985.64억원 규모 전기수소차 상용 전력변환·제어시스템 공급계약 체결, 2033년 말까지 공급 예정",
+      "src": "manual",
+      "pct": 4.01,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260203000963"
+    },
+    {
+      "date": "2025.11.04",
+      "text": "포스코인터내셔널과 맺은 878.47억원 규모 수소전기차 E-BOX 공급계약 해지, 원청 발주사 파산에 따른 사업중단",
+      "src": "manual",
+      "pct": -4.05,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251103000433"
+    },
+    {
+      "date": "2025.02.11",
+      "text": "2024년 연결 잠정 매출 938.23억원·영업이익 144.37억원 공시, 수주물량 양산으로 영업이익 188.0% 증가",
+      "src": "manual",
+      "pct": 8.51,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250211000597"
+    }
+  ]
+}
