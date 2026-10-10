@@ -1,0 +1,40 @@
+{
+  "name": "삼호개발",
+  "issues": [
+    {
+      "date": "2026.06.26",
+      "text": "두산에너빌리티의 함양~창녕 고속도로 7공구 계약을 276.93억원으로 증액해 공시기준 충족",
+      "src": "manual",
+      "pct": 8.69,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260625000691"
+    },
+    {
+      "date": "2026.04.28",
+      "text": "시티건설 등과 농소~강동 도로개설공사 1공구 계약 공시, 두 건 합계 348억원",
+      "src": "manual",
+      "pct": 1.63,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260428000140"
+    },
+    {
+      "date": "2026.04.03",
+      "text": "아이파크현대산업개발과 충주 드림파크 산업단지 275.98억원 공사계약 체결",
+      "src": "manual",
+      "pct": 0.81,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260403000491"
+    },
+    {
+      "date": "2026.02.26",
+      "text": "에스케이에코엔지니어링과 용인 집단에너지 사업 94.47억원 공사계약 공시",
+      "src": "manual",
+      "pct": -2.24,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260225001589"
+    },
+    {
+      "date": "2026.02.06",
+      "text": "2025년 연결 잠정 영업이익 144.86억원으로 1135.6% 증가, 손실 현장 종료·우수 손익 현장 진행",
+      "src": "manual",
+      "pct": 0.39,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260206000996"
+    }
+  ]
+}

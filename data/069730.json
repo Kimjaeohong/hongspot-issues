@@ -1,0 +1,40 @@
+{
+  "name": "DSR제강",
+  "issues": [
+    {
+      "date": "2026.02.09",
+      "text": "2025년 연결 잠정 순이익 248.84억원으로 흑자 전환, 영업이익 281.84억원으로 44.5% 증가",
+      "src": "manual",
+      "pct": 1.77,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260206002561"
+    },
+    {
+      "date": "2025.01.23",
+      "text": "2024년 개별 잠정 순손실 270.54억원으로 적자 전환, 영업이익은 195.36억원으로 16.9% 감소",
+      "src": "manual",
+      "pct": -0.8,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250122000701"
+    },
+    {
+      "date": "2024.02.14",
+      "text": "2023년 개별 잠정 순이익 130.35억원으로 54.9% 감소, 영업이익은 230.71억원으로 12.5% 감소",
+      "src": "manual",
+      "pct": 0.24,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20240214000717"
+    },
+    {
+      "date": "2023.02.13",
+      "text": "2022년 개별 잠정 영업이익 263.67억원으로 전년 대비 514.4% 증가",
+      "src": "manual",
+      "pct": 3.77,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20230210000882"
+    },
+    {
+      "date": "2022.02.11",
+      "text": "2021년 개별 잠정 순이익 76.22억원으로 44.4% 증가, 영업이익 42.92억원으로 21.4% 증가 (장중 +6.33%까지 상승 후 상승폭 반납·종가 -0.76%)",
+      "src": "manual",
+      "pct": -0.76,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20220211000399"
+    }
+  ]
+}

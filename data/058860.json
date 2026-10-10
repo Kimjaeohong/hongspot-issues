@@ -1,0 +1,40 @@
+{
+  "name": "KTis",
+  "issues": [
+    {
+      "date": "2026.08.13",
+      "text": "2026년 2분기 매출 1,553.6억원·영업이익 71.3억원 잠정 공시",
+      "src": "manual",
+      "pct": -0.39,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812800755"
+    },
+    {
+      "date": "2026.05.13",
+      "text": "2026년 1분기 매출 1,549.0억원·영업이익 52.2억원 잠정 공시",
+      "src": "manual",
+      "pct": -0.71,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260512800744"
+    },
+    {
+      "date": "2026.02.09",
+      "text": "2025년 개별 매출 5,887.6억원·순이익 363.7억원, 광고사업 매각이익 증가 잠정 공시",
+      "src": "manual",
+      "pct": 0.53,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260206802245"
+    },
+    {
+      "date": "2025.11.10",
+      "text": "2025년 3분기 매출 1,513.9억원·영업이익 65.2억원 잠정 공시",
+      "src": "manual",
+      "pct": 3.04,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251107800680"
+    },
+    {
+      "date": "2025.08.13",
+      "text": "2025년 2분기 매출 1,407.2억원·영업이익 65.9억원 잠정 공시",
+      "src": "manual",
+      "pct": 0.88,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250812800705"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "에이텍",
+  "issues": [
+    {
+      "date": "2026.03.12",
+      "text": "2025년 연결 잠정 영업이익 86.99억원으로 494.8% 증가했으나 순이익은 3.92억원으로 97.5% 감소",
+      "src": "manual",
+      "pct": -3.11,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260311002714"
+    },
+    {
+      "date": "2025.03.12",
+      "text": "2024년 연결 잠정 영업이익 25.12억원으로 173.3% 증가, ATM 영업양수·사업분할 영향 반영",
+      "src": "manual",
+      "pct": 4.46,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250311002039"
+    },
+    {
+      "date": "2023.02.06",
+      "text": "2022년 개별 잠정 영업이익 8.94억원으로 전년 대비 70.68% 감소",
+      "src": "manual",
+      "pct": 0.11,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20230206000542"
+    },
+    {
+      "date": "2022.02.03",
+      "text": "2021년 개별 잠정 영업이익 30.49억원으로 전년 대비 51.79% 감소",
+      "src": "manual",
+      "pct": 5.74,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20220203000394"
+    },
+    {
+      "date": "2021.02.04",
+      "text": "2020년 개별 잠정 영업이익 63.28억원으로 전년 대비 45.47% 증가",
+      "src": "manual",
+      "pct": 1.24,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20210204000253"
+    }
+  ]
+}

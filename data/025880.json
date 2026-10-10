@@ -1,0 +1,40 @@
+{
+  "name": "케이씨피드",
+  "issues": [
+    {
+      "date": "2026.05.28",
+      "text": "액란 수요 증가에 대응해 거창 공장 증축·설비 증설에 134.146억원 투자 결정",
+      "src": "manual",
+      "pct": 0.0,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260527000775"
+    },
+    {
+      "date": "2026.02.26",
+      "text": "2025년 연결 잠정 영업이익 121.82억원으로 50.5% 증가, 판매물량·자회사 수익성 개선",
+      "src": "manual",
+      "pct": 1.08,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260225001852"
+    },
+    {
+      "date": "2025.02.26",
+      "text": "2024년 연결 잠정 영업이익 80.97억원으로 33.9% 증가, 원재료비 감소·식품 매출 확대",
+      "src": "manual",
+      "pct": -0.35,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250226000516"
+    },
+    {
+      "date": "2024.02.21",
+      "text": "2023년 연결 잠정 영업이익 60.49억원으로 24.3% 증가, 식품 신규 거래처·신규 농장 매출 확대",
+      "src": "manual",
+      "pct": 2.24,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20240220000359"
+    },
+    {
+      "date": "2022.02.25",
+      "text": "2021년 연결 잠정 영업이익 44.75억원으로 전년 대비 216.3% 증가",
+      "src": "manual",
+      "pct": -5.65,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20220224001032"
+    }
+  ]
+}

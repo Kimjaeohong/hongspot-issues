@@ -1,0 +1,40 @@
+{
+  "name": "DSR",
+  "issues": [
+    {
+      "date": "2026.03.09",
+      "text": "보통주 1주당 250원, 총 40억원 결산 현금배당 결정 공시",
+      "src": "manual",
+      "pct": -0.75,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260306801457"
+    },
+    {
+      "date": "2025.02.07",
+      "text": "보통주 1주당 70원 결산 현금배당 결정 공시",
+      "src": "manual",
+      "pct": -2.58,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250206801044"
+    },
+    {
+      "date": "2025.01.24",
+      "text": "2024년 연결 영업이익 154.1억원, 비용 증가로 전년 대비 36.5% 감소 잠정 공시",
+      "src": "manual",
+      "pct": 1.8,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250123800446"
+    },
+    {
+      "date": "2024.02.29",
+      "text": "보통주 1주당 60원 결산 현금배당 결정 공시",
+      "src": "manual",
+      "pct": -0.23,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240229800499"
+    },
+    {
+      "date": "2024.02.16",
+      "text": "2023년 연결 매출 2,911.0억원·영업이익 242.6억원, 매출 감소에 따른 이익 감소 잠정 공시",
+      "src": "manual",
+      "pct": 0.35,
+      "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20240215800677"
+    }
+  ]
+}

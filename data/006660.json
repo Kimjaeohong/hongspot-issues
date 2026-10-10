@@ -1,0 +1,40 @@
+{
+  "name": "삼성공조",
+  "issues": [
+    {
+      "date": "2026.03.09",
+      "text": "2025년 결산배당으로 보통주 1주당 80원 현금배당 결정, 총액 6.50억원",
+      "src": "manual",
+      "pct": -6.1,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260306001167"
+    },
+    {
+      "date": "2026.02.25",
+      "text": "2025년 연결 잠정 영업이익 32.45억원으로 49.9% 감소, 재료비·노무비 증가 등 반영",
+      "src": "manual",
+      "pct": -0.29,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260224000954"
+    },
+    {
+      "date": "2025.12.09",
+      "text": "무학과 상생협력 강화를 위한 자기주식 교환 결정, 보통주 26만5548주를 약 40.62억원에 장외 처분 예정",
+      "src": "manual",
+      "pct": -2.61,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251208000394"
+    },
+    {
+      "date": "2025.03.04",
+      "text": "2024년 결산배당으로 보통주 1주당 80원 현금배당 결정, 총액 6.29억원",
+      "src": "manual",
+      "pct": -7.58,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250228001136"
+    },
+    {
+      "date": "2025.02.25",
+      "text": "2024년 연결 잠정 매출 1157.73억원, 영업이익 64.81억원으로 전년 대비 19.2% 증가",
+      "src": "manual",
+      "pct": 3.59,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250224001127"
+    }
+  ]
+}
