@@ -1,0 +1,40 @@
+{
+  "name": "한국특강",
+  "issues": [
+    {
+      "date": "2026.03.17",
+      "text": "보통주 1주당 100원 결산 현금배당 결정 공시",
+      "src": "manual",
+      "pct": 0.36,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260316001737"
+    },
+    {
+      "date": "2026.01.27",
+      "text": "2025년 개별 영업이익 117.4억원·순이익 29.9억원, 판매량 증가와 금융비용 감소 잠정 공시",
+      "src": "manual",
+      "pct": -0.14,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260126000972"
+    },
+    {
+      "date": "2025.08.18",
+      "text": "보통주 1주당 100원 중간 현금배당 결정 공시",
+      "src": "manual",
+      "pct": 18.6,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250814002722"
+    },
+    {
+      "date": "2025.01.21",
+      "text": "2024년 개별 영업이익 106.1억원으로 77.6% 감소, 전방 수요 부진 잠정 공시",
+      "src": "manual",
+      "pct": -0.18,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250120000858"
+    },
+    {
+      "date": "2024.05.10",
+      "text": "조달청과 1,316.1억원 규모 철근콘크리트용 이형봉강 공급계약 체결",
+      "src": "manual",
+      "pct": 0.85,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20240509000516"
+    }
+  ]
+}

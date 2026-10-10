@@ -1,0 +1,40 @@
+{
+  "name": "대륙제관",
+  "issues": [
+    {
+      "date": "2026.05.28",
+      "text": "주가 안정·주주가치 제고를 위한 30억원 자기주식취득 신탁계약 결정",
+      "src": "manual",
+      "pct": 3.95,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260527000602"
+    },
+    {
+      "date": "2026.03.16",
+      "text": "원가 경쟁력·생산 효율 개선과 제품군 다각화를 담은 기업가치 제고 계획 공시",
+      "src": "manual",
+      "pct": 0.13,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260313001257"
+    },
+    {
+      "date": "2026.03.13",
+      "text": "보통주 1주당 150원 결산 현금배당 결정 공시",
+      "src": "manual",
+      "pct": -1.81,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260312000888"
+    },
+    {
+      "date": "2025.03.07",
+      "text": "보통주 1주당 120원 결산 현금배당 결정 공시",
+      "src": "manual",
+      "pct": -1.17,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250306000870"
+    },
+    {
+      "date": "2024.03.08",
+      "text": "2023년 개별 영업이익 156.2억원으로 61.4% 증가, 원가절감 효과 잠정 공시",
+      "src": "manual",
+      "pct": 1.13,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20240307000899"
+    }
+  ]
+}

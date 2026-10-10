@@ -1,0 +1,40 @@
+{
+  "name": "나래나노텍",
+  "issues": [
+    {
+      "date": "2026.06.16",
+      "text": "취득 후 소각 목적으로 20억원 규모 자기주식 취득 결정",
+      "src": "manual",
+      "pct": 14.32,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260616000368"
+    },
+    {
+      "date": "2026.03.30",
+      "text": "주주환원 목적으로 20억원 규모 자기주식 취득 결정",
+      "src": "manual",
+      "pct": 10.41,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260330000158"
+    },
+    {
+      "date": "2026.02.09",
+      "text": "2025년 연결 영업손실 88.4억원으로 축소, 토지 처분으로 순이익 흑자전환 잠정 공시",
+      "src": "manual",
+      "pct": 5.18,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260206001767"
+    },
+    {
+      "date": "2026.01.28",
+      "text": "42.995억원 규모 반도체 제조장비 공급계약 체결 공시",
+      "src": "manual",
+      "pct": 2.01,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260128000438"
+    },
+    {
+      "date": "2026.01.09",
+      "text": "중국 Chuzhou HKC와 42.6억원 규모 디스플레이 제조장비 공급계약 공시",
+      "src": "manual",
+      "pct": 2.84,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260108000732"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "한국내화",
+  "issues": [
+    {
+      "date": "2026.02.13",
+      "text": "2025년 연결 영업이익 27.8억원으로 67.7% 감소, 원가 상승과 잡손실 잠정 공시",
+      "src": "manual",
+      "pct": -0.47,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260212000966"
+    },
+    {
+      "date": "2025.12.02",
+      "text": "자사주를 후성 보유 한텍 주식과 교환해 한텍 지분 3.11%·117.4억원 취득 결정",
+      "src": "manual",
+      "pct": 0.72,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251201000845"
+    },
+    {
+      "date": "2025.02.26",
+      "text": "보통주 1주당 100원 결산 현금배당 결정 공시",
+      "src": "manual",
+      "pct": 2.11,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250225001095"
+    },
+    {
+      "date": "2025.02.12",
+      "text": "2024년 연결 영업이익 85.9억원 흑자전환, 연결회사 손익 개선 잠정 공시",
+      "src": "manual",
+      "pct": 0.96,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250211001155"
+    },
+    {
+      "date": "2024.07.30",
+      "text": "현대제철과 219.8억원 규모 순천 연소시스템 변경·저녹스 버너 설치 계약 체결",
+      "src": "manual",
+      "pct": -1.37,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20240729000421"
+    }
+  ]
+}

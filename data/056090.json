@@ -1,0 +1,40 @@
+{
+  "name": "시지메드텍",
+  "issues": [
+    {
+      "date": "2026.03.12",
+      "text": "2025년 연결 영업이익 38.0억원 흑자전환, 의료기기·전기에너지 매출 확대 잠정 공시",
+      "src": "manual",
+      "pct": -7.61,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260312000356"
+    },
+    {
+      "date": "2026.01.13",
+      "text": "기존 최대주주의 물적분할로 신설 시지바이오가 지분 40.41%를 보유하는 최대주주로 변경",
+      "src": "manual",
+      "pct": 1.45,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260112000615"
+    },
+    {
+      "date": "2025.03.12",
+      "text": "2024년 연결 영업손실 11.2억원, 자회사 수익성 개선에 손실 축소 잠정 공시",
+      "src": "manual",
+      "pct": -1.01,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250311001165"
+    },
+    {
+      "date": "2025.03.11",
+      "text": "치과재료 자회사 지디에스를 신주 발행 없이 흡수합병하기로 결정",
+      "src": "manual",
+      "pct": -0.45,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250311000804"
+    },
+    {
+      "date": "2025.01.13",
+      "text": "의정부 공장 신설에 54.2억원 투자 결정 공시",
+      "src": "manual",
+      "pct": -0.27,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250110000471"
+    }
+  ]
+}

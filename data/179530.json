@@ -1,0 +1,40 @@
+{
+  "name": "애드바이오텍",
+  "issues": [
+    {
+      "date": "2026.06.29",
+      "text": "타법인 증권 취득자금 마련을 위한 100억원 규모 제11회 전환사채 발행 결정",
+      "src": "manual",
+      "pct": -6.53,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260626001025"
+    },
+    {
+      "date": "2026.05.29",
+      "text": "타법인 증권 취득자금 마련을 위한 30억원 규모 제10회 전환사채 발행 결정",
+      "src": "manual",
+      "pct": -3.2,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260528000848"
+    },
+    {
+      "date": "2026.02.10",
+      "text": "2025년 연결 매출 129.0억원·영업손실 34.6억원, 수출과 조달청 매출 증가 잠정 공시",
+      "src": "manual",
+      "pct": 3.57,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260209001333"
+    },
+    {
+      "date": "2025.11.20",
+      "text": "제3자배정 유상증자 납입으로 비케이파트너스투자조합1호가 지분 20.83% 최대주주로 변경",
+      "src": "manual",
+      "pct": 2.35,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251119000500"
+    },
+    {
+      "date": "2025.06.25",
+      "text": "종속회사 마켓트리 운영자금 지원을 위한 신주 20억원 취득 결정",
+      "src": "manual",
+      "pct": 4.59,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250624000379"
+    }
+  ]
+}

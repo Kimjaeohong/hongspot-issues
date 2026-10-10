@@ -1,0 +1,40 @@
+{
+  "name": "레이",
+  "issues": [
+    {
+      "date": "2026.08.11",
+      "text": "그래피에 지분 26.14%를 넘기는 491.5억원 규모 최대주주 변경 계약 공시",
+      "src": "manual",
+      "pct": -3.15,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260810000896"
+    },
+    {
+      "date": "2026.02.13",
+      "text": "2025년 연결 매출 1,112.3억원·영업손실 98.6억원, 매출 증가와 손실 축소 잠정 공시",
+      "src": "manual",
+      "pct": -7.38,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260212001024"
+    },
+    {
+      "date": "2025.12.24",
+      "text": "화장품 자회사 레이셀 설립을 위해 신주 50억원 취득 결정 공시",
+      "src": "manual",
+      "pct": 2.34,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251223000634"
+    },
+    {
+      "date": "2025.02.11",
+      "text": "2024년 연결 매출 859.5억원·영업손실 435.1억원, 판매부진과 대손충당금 영향 잠정 공시",
+      "src": "manual",
+      "pct": -1.02,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250210000915"
+    },
+    {
+      "date": "2024.03.26",
+      "text": "운영자금 200억원·채무상환자금 50억원 조달을 위한 250억원 전환사채 발행 결정",
+      "src": "manual",
+      "pct": -12.67,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20240325001091"
+    }
+  ]
+}

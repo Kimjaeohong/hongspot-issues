@@ -1,0 +1,40 @@
+{
+  "name": "화천기계",
+  "issues": [
+    {
+      "date": "2026.08.12",
+      "text": "2026년 2분기 개별 매출 568.9억원·영업이익 9.1억원 잠정 공시",
+      "src": "manual",
+      "pct": 0.34,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260811000683"
+    },
+    {
+      "date": "2026.05.11",
+      "text": "2026년 1분기 개별 매출 462.5억원·영업손실 6.0억원 잠정 공시",
+      "src": "manual",
+      "pct": 3.21,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260508001030"
+    },
+    {
+      "date": "2026.02.11",
+      "text": "2025년 개별 영업이익 2.3억원으로 88.8% 감소, 매출 감소와 원가율 상승 잠정 공시",
+      "src": "manual",
+      "pct": 11.5,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260211000698"
+    },
+    {
+      "date": "2025.11.10",
+      "text": "2025년 3분기 개별 매출 539.2억원·영업이익 2.4억원 잠정 공시",
+      "src": "manual",
+      "pct": 1.66,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251107000423"
+    },
+    {
+      "date": "2025.08.08",
+      "text": "2025년 2분기 개별 매출 670.2억원·영업이익 20.8억원 잠정 공시",
+      "src": "manual",
+      "pct": -4.35,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250808000294"
+    }
+  ]
+}

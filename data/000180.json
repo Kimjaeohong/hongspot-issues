@@ -1,0 +1,40 @@
+{
+  "name": "성창기업지주",
+  "issues": [
+    {
+      "date": "2026.06.23",
+      "text": "종속회사 성창기업의 포르말린 사업 영업 중단 결정 공시",
+      "src": "manual",
+      "pct": -5.14,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260622000439"
+    },
+    {
+      "date": "2026.05.21",
+      "text": "목재유통 완전자회사 지씨글로벌을 무증자 흡수합병하기로 결정",
+      "src": "manual",
+      "pct": 0.51,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260520000518"
+    },
+    {
+      "date": "2026.02.09",
+      "text": "2025년 연결 영업손실 73.4억원·순손실 207.4억원, 경기침체와 자산손상 잠정 공시",
+      "src": "manual",
+      "pct": -0.93,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260206002543"
+    },
+    {
+      "date": "2025.02.10",
+      "text": "2024년 연결 영업손실 72.9억원으로 축소, 공정 개선·유형자산 매각 잠정 공시",
+      "src": "manual",
+      "pct": -0.45,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250207000720"
+    },
+    {
+      "date": "2024.02.08",
+      "text": "2023년 연결 영업손실 167.7억원, 제조원가 상승과 유휴설비 손상차손 잠정 공시",
+      "src": "manual",
+      "pct": -1.47,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20240207001096"
+    }
+  ]
+}

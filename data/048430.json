@@ -1,0 +1,40 @@
+{
+  "name": "유라테크",
+  "issues": [
+    {
+      "date": "2026.08.18",
+      "text": "2026년 상반기 연결 매출 1,030.1억원·영업손실 6.9억원 반기보고서 공시",
+      "src": "manual",
+      "pct": -1.45,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260814002251"
+    },
+    {
+      "date": "2026.05.18",
+      "text": "2026년 1분기 연결 매출 487.6억원·영업손실 18.0억원 분기보고서 공시",
+      "src": "manual",
+      "pct": -2.33,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260515001677"
+    },
+    {
+      "date": "2026.03.11",
+      "text": "2025년 연결 영업이익 18.1억원으로 82.7% 감소, 매출 감소와 원가 상승 잠정 공시",
+      "src": "manual",
+      "pct": -0.13,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260310001204"
+    },
+    {
+      "date": "2025.08.18",
+      "text": "2025년 상반기 연결 매출 990.6억원·영업이익 25.2억원 반기보고서 공시",
+      "src": "manual",
+      "pct": -2.89,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250814002517"
+    },
+    {
+      "date": "2025.03.12",
+      "text": "2024년 연결 영업이익 105.1억원으로 74.2% 증가, 원가·판관비 절감 잠정 공시",
+      "src": "manual",
+      "pct": -0.88,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250311001425"
+    }
+  ]
+}

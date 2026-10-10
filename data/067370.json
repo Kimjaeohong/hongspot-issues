@@ -1,0 +1,40 @@
+{
+  "name": "선바이오",
+  "issues": [
+    {
+      "date": "2026.02.09",
+      "text": "2025년 개별 영업이익 50.4억원 흑자전환, 매출 증가와 연구개발비 감소 잠정 공시",
+      "src": "manual",
+      "pct": 6.69,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260209000414"
+    },
+    {
+      "date": "2025.11.05",
+      "text": "주주가치 제고를 위한 기보유 자기주식 12만주 소각 결정",
+      "src": "manual",
+      "pct": -2.1,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251105000237"
+    },
+    {
+      "date": "2025.03.25",
+      "text": "주가 안정·주주가치 제고를 위한 10억원 자기주식취득 신탁계약 결정",
+      "src": "manual",
+      "pct": 3.21,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250324000559"
+    },
+    {
+      "date": "2025.02.12",
+      "text": "2024년 개별 영업손실 5.3억원 적자전환, 매출·로열티 감소와 연구개발비 증가 잠정 공시",
+      "src": "manual",
+      "pct": -0.9,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250212000312"
+    },
+    {
+      "date": "2024.09.04",
+      "text": "운영자금 50억원 조달을 위한 제4회 전환사채 발행 결정",
+      "src": "manual",
+      "pct": -2.58,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20240903000297"
+    }
+  ]
+}

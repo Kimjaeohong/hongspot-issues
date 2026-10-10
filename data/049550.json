@@ -1,0 +1,40 @@
+{
+  "name": "잉크테크",
+  "issues": [
+    {
+      "date": "2026.07.07",
+      "text": "김평수 단독 대표에서 김평수·김정돈 각자 대표 체제로 변경 공시",
+      "src": "manual",
+      "pct": -0.65,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260707000396"
+    },
+    {
+      "date": "2026.05.15",
+      "text": "2026년 1분기 연결 매출 219.3억원·영업이익 19.9억원 분기보고서 공시",
+      "src": "manual",
+      "pct": -0.28,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260515000167"
+    },
+    {
+      "date": "2026.03.26",
+      "text": "정광춘 대표 사임에 따라 김평수 단독 대표 체제로 변경 공시",
+      "src": "manual",
+      "pct": -0.16,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260325001248"
+    },
+    {
+      "date": "2026.01.27",
+      "text": "2025년 연결 영업이익 6.7억원으로 75.5% 감소, 은 원재료·시설투자 비용 상승 잠정 공시",
+      "src": "manual",
+      "pct": 0.52,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260127000399"
+    },
+    {
+      "date": "2025.11.13",
+      "text": "2025년 3분기 누적 연결 매출 555.7억원·영업손실 14.0억원 분기보고서 공시",
+      "src": "manual",
+      "pct": 0.0,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251113000798"
+    }
+  ]
+}

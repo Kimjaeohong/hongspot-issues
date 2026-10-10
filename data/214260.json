@@ -1,0 +1,40 @@
+{
+  "name": "라파스",
+  "issues": [
+    {
+      "date": "2026.05.22",
+      "text": "알레르기비염 면역치료제 DF19001의 임상 2b/3상 시험계획 승인 신청 공시",
+      "src": "manual",
+      "pct": 4.87,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260522000335"
+    },
+    {
+      "date": "2025.12.17",
+      "text": "알레르기비염 면역치료제 DF19001의 임상 1상 결과보고서 수령 공시",
+      "src": "manual",
+      "pct": 9.68,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251217000355"
+    },
+    {
+      "date": "2025.02.25",
+      "text": "2024년 연결 영업손실 33.4억원으로 축소, 비용 절감 효과 잠정 공시",
+      "src": "manual",
+      "pct": -0.52,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250224000588"
+    },
+    {
+      "date": "2025.02.06",
+      "text": "운영자금 90억원·채무상환 100억원 조달을 위한 190억원 전환사채 발행 결정",
+      "src": "manual",
+      "pct": 7.39,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250205001109"
+    },
+    {
+      "date": "2024.02.15",
+      "text": "주가 안정·주주가치 제고를 위한 30억원 자기주식취득 신탁계약 결정",
+      "src": "manual",
+      "pct": 1.93,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20240215000359"
+    }
+  ]
+}

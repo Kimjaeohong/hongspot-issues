@@ -1,0 +1,40 @@
+{
+  "name": "우신시스템",
+  "issues": [
+    {
+      "date": "2026.02.25",
+      "text": "2025년 연결 매출 3,886.1억원·영업이익 208.6억원, 수주 감소로 실적 축소 잠정 공시",
+      "src": "manual",
+      "pct": 0.44,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260224000760"
+    },
+    {
+      "date": "2025.02.24",
+      "text": "2024년 연결 영업이익 360.7억원으로 190.6% 증가, 신규 수주와 원가 개선 잠정 공시",
+      "src": "manual",
+      "pct": 3.11,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250224000287"
+    },
+    {
+      "date": "2025.02.20",
+      "text": "134.2억원 규모 2차전지 조립라인 공급계약 체결 공시",
+      "src": "manual",
+      "pct": 0.35,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250219000814"
+    },
+    {
+      "date": "2025.02.05",
+      "text": "주가 안정·주주가치 제고를 위한 10억원 자기주식취득 신탁계약 결정",
+      "src": "manual",
+      "pct": 4.97,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250205000309"
+    },
+    {
+      "date": "2024.12.17",
+      "text": "주가 안정·주주가치 제고를 위한 5억원 자기주식취득 신탁계약 결정",
+      "src": "manual",
+      "pct": -1.99,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20241216001237"
+    }
+  ]
+}
