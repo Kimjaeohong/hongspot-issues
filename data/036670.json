@@ -1,0 +1,40 @@
+{
+  "name": "삼양케이씨아이",
+  "issues": [
+    {
+      "date": "2026.03.24",
+      "text": "이진용 대표이사 사임에 따라 안태환 신임 대표이사 선임 공시",
+      "src": "manual",
+      "pct": 0.67,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260323001051"
+    },
+    {
+      "date": "2026.03.19",
+      "text": "기취득 자기주식 50만9,800주 소각 결정. 장부가액 기준 약 41.82억원 규모",
+      "src": "manual",
+      "pct": 1.87,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260319000676"
+    },
+    {
+      "date": "2026.02.03",
+      "text": "2025년 결산배당으로 보통주 1주당 250원의 현금배당 결정. 배당총액 약 26.90억원",
+      "src": "manual",
+      "pct": 0.96,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260202001578"
+    },
+    {
+      "date": "2026.01.23",
+      "text": "2025년 개별 잠정 매출 1,168.40억원, 영업이익 108.94억원 공시. 영업이익은 전년 대비 27.5% 감소",
+      "src": "manual",
+      "pct": 1.28,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260122000370"
+    },
+    {
+      "date": "2025.02.11",
+      "text": "2024년 결산배당으로 보통주 1주당 250원의 현금배당 결정. 배당총액 약 26.90억원",
+      "src": "manual",
+      "pct": -0.47,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250210001369"
+    }
+  ]
+}

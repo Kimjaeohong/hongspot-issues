@@ -1,0 +1,40 @@
+{
+  "name": "평화산업",
+  "issues": [
+    {
+      "date": "2026.07.30",
+      "text": "2026년 2분기 연결 잠정 매출 1,721.87억원, 영업이익 82.57억원 공시. 영업이익은 전년 동기 대비 180.66% 증가",
+      "src": "manual",
+      "pct": 4.12,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260730000367"
+    },
+    {
+      "date": "2026.05.04",
+      "text": "계열회사 평화이엔지의 기업은행 대출에 대한 48억원 채무보증을 2027년 4월 30일까지 연장 결정",
+      "src": "manual",
+      "pct": 1.68,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260430001087"
+    },
+    {
+      "date": "2026.04.13",
+      "text": "계열회사 평화씨엠비의 기업은행 대출에 대한 41.28억원 채무보증을 2026년 10월 10일까지 연장 결정",
+      "src": "manual",
+      "pct": 5.04,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260410000753"
+    },
+    {
+      "date": "2026.02.24",
+      "text": "2025년 연결 잠정 매출 6,260.62억원, 영업이익 133.43억원 공시. 순이익은 157.06억원으로 전년 대비 309.7% 증가",
+      "src": "manual",
+      "pct": 0.62,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260223000914"
+    },
+    {
+      "date": "2025.03.11",
+      "text": "2024년 연결 잠정 매출 5,883.77억원, 영업이익 140.61억원 공시. 영업이익은 전년 대비 41.5% 증가",
+      "src": "manual",
+      "pct": 1.46,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250310001423"
+    }
+  ]
+}

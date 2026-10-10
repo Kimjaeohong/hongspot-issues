@@ -1,0 +1,40 @@
+{
+  "name": "포스뱅크",
+  "issues": [
+    {
+      "date": "2026.08.10",
+      "text": "2026년 2분기 연결 잠정 매출 366.11억원, 영업이익 63.20억원 공시. 영업이익은 전년 동기 대비 285.84% 증가",
+      "src": "manual",
+      "pct": 16.35,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260810000096"
+    },
+    {
+      "date": "2026.05.18",
+      "text": "2026년 1분기 보고서 제출. 연결 매출 265.18억원, 영업이익 20.00억원 공시",
+      "src": "manual",
+      "pct": 7.69,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260515002537"
+    },
+    {
+      "date": "2026.02.26",
+      "text": "2025년 연결 잠정 매출 914.26억원, 영업이익 32.48억원 공시. 매출은 전년 대비 18.61% 증가",
+      "src": "manual",
+      "pct": -1.81,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260226000441"
+    },
+    {
+      "date": "2025.08.01",
+      "text": "사업 포트폴리오 다각화와 도소매시장 접근성 강화를 위해 슈어인 흡수합병 결정. 소규모합병 방식",
+      "src": "manual",
+      "pct": -4.85,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250731000573"
+    },
+    {
+      "date": "2025.02.25",
+      "text": "2024년 연결 잠정 매출 770.93억원, 영업이익 29.25억원 공시. 영업이익은 전년 대비 65.30% 감소",
+      "src": "manual",
+      "pct": 2.39,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250224000634"
+    }
+  ]
+}

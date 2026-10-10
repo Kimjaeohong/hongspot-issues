@@ -1,0 +1,40 @@
+{
+  "name": "SK디앤디",
+  "issues": [
+    {
+      "date": "2026.07.29",
+      "text": "채무상환을 위해 보통주 4,468만1천주 주주배정 유상증자 결정. 당시 예정 발행가 3,060원, 조달 예정액 1,367.24억원",
+      "src": "manual",
+      "pct": -29.96,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260728000868"
+    },
+    {
+      "date": "2026.07.01",
+      "text": "신동아건설에 남양주 진접읍 연평리 보유 부동산을 640억원에 매각하는 계약 체결 공시",
+      "src": "manual",
+      "pct": -0.77,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260630001056"
+    },
+    {
+      "date": "2026.06.29",
+      "text": "자회사 문래에이치피오피에프브이에 350억원 채무보증 결정. 자금보충확약 및 미이행 시 채무인수 조건",
+      "src": "manual",
+      "pct": 1.5,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260626000819"
+    },
+    {
+      "date": "2026.05.20",
+      "text": "생각공장 구로 지식산업센터 준공 후 미분양대출과 관련해 태영디앤아이에 792억원 연대보증 결정",
+      "src": "manual",
+      "pct": -1.3,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260520000359"
+    },
+    {
+      "date": "2025.11.03",
+      "text": "한앤코개발홀딩스가 잔여 보통주 416만6,402주를 주당 12,750원에 공개매수하는 신고서 제출. 상장폐지 추진 목적 명시",
+      "src": "manual",
+      "pct": -0.08,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251103000012"
+    }
+  ]
+}

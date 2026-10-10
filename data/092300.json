@@ -1,0 +1,40 @@
+{
+  "name": "현우산업",
+  "issues": [
+    {
+      "date": "2026.08.14",
+      "text": "종속회사 Hyunwoo Vina의 기존 시설자금 대여 700만달러에 대해 만기를 2031년 8월 17일까지 연장 결정",
+      "src": "manual",
+      "pct": 10.76,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260814000463"
+    },
+    {
+      "date": "2026.06.29",
+      "text": "제5회 전환사채 전환가액을 시가하락에 따라 3,587원에서 3,002원으로 조정. 전환가능주식수 333만1,112주로 증가",
+      "src": "manual",
+      "pct": 4.15,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260629000469"
+    },
+    {
+      "date": "2026.02.27",
+      "text": "2025년 결산배당으로 보통주 1주당 70원의 현금배당 결정. 배당총액 약 13.03억원",
+      "src": "manual",
+      "pct": -6.3,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260227000245"
+    },
+    {
+      "date": "2025.11.20",
+      "text": "시설자금 조달을 위한 제5회 사모 전환사채 100억원 발행 결정. 최초 전환가액 3,587원, 만기이자율 연 2%",
+      "src": "manual",
+      "pct": 0.71,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251120000338"
+    },
+    {
+      "date": "2025.02.19",
+      "text": "2024년 결산배당으로 보통주 1주당 50원의 현금배당 결정. 배당총액 약 9.15억원",
+      "src": "manual",
+      "pct": 2.29,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250219000220"
+    }
+  ]
+}

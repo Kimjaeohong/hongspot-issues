@@ -1,0 +1,40 @@
+{
+  "name": "파이오링크",
+  "issues": [
+    {
+      "date": "2026.04.10",
+      "text": "임직원 60명에게 자기주식 4만9천주를 지급하기 위한 처분 결정. 이사회 전일 종가 기준 예정금액 약 4.74억원",
+      "src": "manual",
+      "pct": 4.45,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260410000428"
+    },
+    {
+      "date": "2026.03.31",
+      "text": "2026년 기업가치 제고 계획 공시. 해외매출 확대와 고부가 보안제품·서비스 및 연구개발 투자 강화 계획",
+      "src": "manual",
+      "pct": -4.67,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260331001095"
+    },
+    {
+      "date": "2026.02.25",
+      "text": "2025년 결산배당으로 보통주 1주당 360원의 현금배당 결정. 배당총액 약 22.45억원",
+      "src": "manual",
+      "pct": 4.68,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260225000218"
+    },
+    {
+      "date": "2025.11.17",
+      "text": "주주가치 제고를 위해 기취득 자기주식 32만1,554주 소각 결정. 발행주식총수의 약 4.8% 규모",
+      "src": "manual",
+      "pct": -0.44,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251117000300"
+    },
+    {
+      "date": "2025.08.25",
+      "text": "주가안정 및 주주가치 제고를 위해 IBK투자증권과 30억원 자기주식취득 신탁계약 체결 결정",
+      "src": "manual",
+      "pct": 3.84,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250825000079"
+    }
+  ]
+}

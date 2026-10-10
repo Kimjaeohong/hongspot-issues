@@ -1,0 +1,40 @@
+{
+  "name": "인성정보",
+  "issues": [
+    {
+      "date": "2026.07.02",
+      "text": "종속회사 아이넷뱅크의 산업은행 운영자금대출에 대한 36억원 지급보증을 2027년 7월 1일까지 연장 결정",
+      "src": "manual",
+      "pct": -4.49,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260701000773"
+    },
+    {
+      "date": "2026.05.29",
+      "text": "종속회사 아이넷뱅크의 농협은행 운영자금대출에 대한 18억원 지급보증을 2027년 5월 28일까지 연장 결정",
+      "src": "manual",
+      "pct": -1.96,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260528000683"
+    },
+    {
+      "date": "2026.02.11",
+      "text": "2025년 연결 잠정 매출 3,427.38억원, 영업손실 42.82억원 공시. 매출은 전년 대비 4.7% 감소",
+      "src": "manual",
+      "pct": -0.99,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260210001396"
+    },
+    {
+      "date": "2026.01.02",
+      "text": "원종윤 대표이사 사임에 따라 조승필 단독대표 체제로 변경 공시",
+      "src": "manual",
+      "pct": 3.12,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251231000372"
+    },
+    {
+      "date": "2025.02.14",
+      "text": "2024년 연결 잠정 매출 3,586.91억원, 영업손실 48.94억원 공시. 전년 영업흑자에서 적자 전환",
+      "src": "manual",
+      "pct": -0.21,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250213001037"
+    }
+  ]
+}

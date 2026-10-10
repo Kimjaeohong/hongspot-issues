@@ -1,0 +1,40 @@
+{
+  "name": "진양산업",
+  "issues": [
+    {
+      "date": "2026.07.06",
+      "text": "보통주 1주당 50원의 분기 현금배당 결정. 배당총액 6억5천만원, 기준일 2026년 7월 21일",
+      "src": "manual",
+      "pct": 2.17,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260706000290"
+    },
+    {
+      "date": "2026.03.26",
+      "text": "2026년 기업가치 제고 계획 공시. 지속 가능한 배당정책 운영과 배당액 결정 이후 배당기준일 설정 추진",
+      "src": "manual",
+      "pct": -1.07,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260326000958"
+    },
+    {
+      "date": "2026.01.26",
+      "text": "2025년 연결 잠정 매출 917.59억원, 영업이익 84.44억원 공시. 전년 대비 각각 4.0%, 3.0% 증가",
+      "src": "manual",
+      "pct": -2.57,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260126000212"
+    },
+    {
+      "date": "2026.01.22",
+      "text": "2025년 결산배당으로 보통주 1주당 308원의 현금배당 결정. 배당총액 40.04억원",
+      "src": "manual",
+      "pct": 4.16,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260122000243"
+    },
+    {
+      "date": "2026.01.13",
+      "text": "자회사 진례산업의 생산공장 확보를 위해 김해시 토지·건물을 진양물산으로부터 171.8억원에 양수 결정",
+      "src": "manual",
+      "pct": -2.3,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260112000317"
+    }
+  ]
+}

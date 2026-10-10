@@ -1,0 +1,40 @@
+{
+  "name": "엔젯",
+  "issues": [
+    {
+      "date": "2026.07.24",
+      "text": "대만 AUO와 마이크로 LED 디스플레이 리페어 장비 공급계약 체결. 계약금액 약 16.29억원",
+      "src": "manual",
+      "pct": 1.4,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260724000184"
+    },
+    {
+      "date": "2026.05.21",
+      "text": "운영자금 조달을 위해 제2회 사모 신주인수권부사채 50억원 발행 결정. 최초 행사가액 5,424원",
+      "src": "manual",
+      "pct": 3.63,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260520000490"
+    },
+    {
+      "date": "2026.04.15",
+      "text": "에이치비솔루션과 5.256억원 Dispenser EHD Module Unit 공급계약 체결 공시",
+      "src": "manual",
+      "pct": 1.13,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260414000766"
+    },
+    {
+      "date": "2026.03.11",
+      "text": "2025년 연결 잠정 매출 54.15억원, 영업손실 62.80억원 공시. 고객사 검수 지연에 따른 매출 이월 설명",
+      "src": "manual",
+      "pct": 0.37,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260311000889"
+    },
+    {
+      "date": "2026.03.04",
+      "text": "대만 AUO와 디스플레이 리페어 장비 공급계약 체결 공시. 계약금액 213만달러, 공시 환산액 약 31.19억원",
+      "src": "manual",
+      "pct": -13.36,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260304000716"
+    }
+  ]
+}

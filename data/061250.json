@@ -1,0 +1,40 @@
+{
+  "name": "화일약품",
+  "issues": [
+    {
+      "date": "2026.03.31",
+      "text": "조경숙 각자대표 사임에 따라 김유정 각자대표 신규 선임. 김유정·서생규 각자대표 체제로 변경",
+      "src": "manual",
+      "pct": -4.39,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260330001205"
+    },
+    {
+      "date": "2026.02.12",
+      "text": "기취득 자기주식 234만주 소각 결정. 장부가액 기준 약 49.80억원이며 자본금 감소 없이 소각 예정",
+      "src": "manual",
+      "pct": 0.66,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260211000875"
+    },
+    {
+      "date": "2026.01.29",
+      "text": "2025년 개별 잠정 매출 1,008.17억원, 영업손실 22.80억원 공시. 전년 영업흑자에서 적자 전환",
+      "src": "manual",
+      "pct": -0.45,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260128000555"
+    },
+    {
+      "date": "2025.07.02",
+      "text": "주식양수도 거래 종결로 최대주주가 금호에이치티 외 3인에서 오성첨단소재 외 2인으로 변경 공시",
+      "src": "manual",
+      "pct": -0.81,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250701000493"
+    },
+    {
+      "date": "2025.02.03",
+      "text": "2024년 개별 잠정 매출 1,197.64억원, 영업이익 7.55억원 공시. 영업이익은 전년 대비 63.1% 감소",
+      "src": "manual",
+      "pct": -1.96,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250203000710"
+    }
+  ]
+}

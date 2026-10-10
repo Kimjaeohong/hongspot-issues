@@ -1,0 +1,40 @@
+{
+  "name": "삼진식품",
+  "issues": [
+    {
+      "date": "2026.08.27",
+      "text": "2026년 반기보고서 제출. 상반기 연결 매출 548.14억원, 영업이익 33.66억원 공시",
+      "src": "manual",
+      "pct": -2.65,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260826000453"
+    },
+    {
+      "date": "2026.05.13",
+      "text": "2026년 1분기 보고서 제출. 연결 매출 333.19억원, 영업이익 38.90억원 공시",
+      "src": "manual",
+      "pct": 4.4,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260513000482"
+    },
+    {
+      "date": "2026.03.31",
+      "text": "정기주주총회에서 정관 변경, 이사보수규정 제정 및 황종현·염정욱 감사위원인 사외이사 신규 선임 등 승인",
+      "src": "manual",
+      "pct": -1.44,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260331000855"
+    },
+    {
+      "date": "2026.03.24",
+      "text": "2025년 감사보고서 제출 및 연결·별도 적정 의견 공시. 감사 후 연결 영업이익 59.56억원 공시(주주총회 승인 전)",
+      "src": "manual",
+      "pct": -0.52,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260323002087"
+    },
+    {
+      "date": "2026.02.13",
+      "text": "2025년 연결 잠정 매출 1,094.98억원, 영업이익 60.57억원 공시. 영업이익은 전년 대비 25.03% 증가",
+      "src": "manual",
+      "pct": 1.17,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260213000615"
+    }
+  ]
+}

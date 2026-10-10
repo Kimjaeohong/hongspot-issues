@@ -1,0 +1,40 @@
+{
+  "name": "쿼드메디슨",
+  "issues": [
+    {
+      "date": "2026.08.14",
+      "text": "2026년 반기보고서 제출. 상반기 연결 영업수익 17.99억원, 영업손실 67.85억원 공시",
+      "src": "manual",
+      "pct": -1.35,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260813001279"
+    },
+    {
+      "date": "2026.05.18",
+      "text": "2026년 1분기 보고서 제출. 연결 영업수익 2.74억원, 영업손실 44.15억원 공시",
+      "src": "manual",
+      "pct": -3.4,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260515003196"
+    },
+    {
+      "date": "2026.05.15",
+      "text": "한림제약과 60억원의 에피네프린 마이크로어레이패치 생산장비 공급계약 체결. 조건부 계약이며 종료 예정일은 2027년 3월 31일",
+      "src": "manual",
+      "pct": -4.64,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260515001130"
+    },
+    {
+      "date": "2026.02.12",
+      "text": "2025년 연결 잠정 매출 108.73억원, 영업손실 76.53억원 공시. 상장수수료 및 연구개발 인력 비용 증가를 손익 변동 원인으로 설명",
+      "src": "manual",
+      "pct": -1.5,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260211001784"
+    },
+    {
+      "date": "2025.12.30",
+      "text": "GSK와 공동연구·물질이전 변경계약 체결. 장티푸스 백신 마이크로니들패치 비임상 시험 추가로 용역대금 70만달러 증액",
+      "src": "manual",
+      "pct": 3.04,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251229000957"
+    }
+  ]
+}

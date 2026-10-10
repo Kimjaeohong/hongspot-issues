@@ -1,0 +1,40 @@
+{
+  "name": "기신정기",
+  "issues": [
+    {
+      "date": "2026.08.14",
+      "text": "2026년 4~6월 분기보고서 제출. 연결 매출 267.19억원, 영업손실 8.69억원 공시",
+      "src": "manual",
+      "pct": 2.71,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260813001025"
+    },
+    {
+      "date": "2026.06.22",
+      "text": "정기주주총회에서 윤현도·마츠다 카즈시 사내이사 등 이사·감사 선임 안건 승인",
+      "src": "manual",
+      "pct": -0.1,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260619000752"
+    },
+    {
+      "date": "2026.05.22",
+      "text": "2026년 3월 결산배당으로 보통주 1주당 60원의 현금배당 결정. 배당총액 17.52억원",
+      "src": "manual",
+      "pct": 2.22,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260521000559"
+    },
+    {
+      "date": "2026.05.13",
+      "text": "2026년 3월 종료 사업연도 연결 잠정 매출 1,192.66억원, 영업손실 37.06억원 공시. 전년 영업흑자에서 적자 전환",
+      "src": "manual",
+      "pct": -3.78,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260512000739"
+    },
+    {
+      "date": "2025.05.23",
+      "text": "2025년 3월 결산배당으로 보통주 1주당 100원의 현금배당 결정. 배당총액 29.2억원",
+      "src": "manual",
+      "pct": 0.21,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250522000279"
+    }
+  ]
+}

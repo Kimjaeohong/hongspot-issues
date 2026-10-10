@@ -1,0 +1,40 @@
+{
+  "name": "포니링크",
+  "issues": [
+    {
+      "date": "2026.08.07",
+      "text": "김재언 외 1명이 주주명부 열람·등사 가처분을 신청했다고 공시. 서울남부지방법원에 제기된 경영권 분쟁 소송",
+      "src": "manual",
+      "pct": -3.25,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260806000725"
+    },
+    {
+      "date": "2026.03.11",
+      "text": "2025년 연결 잠정 매출 448.91억원, 영업손실 211.21억원 공시. 투자주식 가치 상승으로 순이익은 158.48억원 흑자 전환",
+      "src": "manual",
+      "pct": -1.55,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260310001155"
+    },
+    {
+      "date": "2025.11.20",
+      "text": "모빌리티사업 전문화를 위해 종속회사 퓨처링크 유상증자에 217억원 출자 결정. 취득 후 지분율 100% 유지",
+      "src": "manual",
+      "pct": 0.0,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251119000287"
+    },
+    {
+      "date": "2025.11.13",
+      "text": "남경필 각자대표이사 사임에 따라 황정일 단독대표 체제로 변경 공시",
+      "src": "manual",
+      "pct": 4.01,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251112000464"
+    },
+    {
+      "date": "2025.03.10",
+      "text": "2024년 연결 잠정 매출 612.98억원, 영업손실 261.59억원 공시. 경기침체와 신규사업 투자비용 증가 설명",
+      "src": "manual",
+      "pct": -2.61,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250307000717"
+    }
+  ]
+}

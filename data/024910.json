@@ -1,0 +1,40 @@
+{
+  "name": "경창산업",
+  "issues": [
+    {
+      "date": "2026.08.18",
+      "text": "2026년 반기보고서 제출. 상반기 연결 매출 3,581.76억원, 영업이익 128.56억원 공시",
+      "src": "manual",
+      "pct": 3.66,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260814002134"
+    },
+    {
+      "date": "2026.05.14",
+      "text": "2026년 1분기 보고서 제출. 연결 매출 1,716.50억원, 영업이익 44.51억원 공시",
+      "src": "manual",
+      "pct": 9.54,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260514000609"
+    },
+    {
+      "date": "2026.02.26",
+      "text": "2025년 연결 잠정 매출 7,042.72억원, 영업이익 60.87억원 공시. 원가·판매관리비 증가로 영업이익 전년 대비 36.86% 감소",
+      "src": "manual",
+      "pct": -4.62,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260225001953"
+    },
+    {
+      "date": "2025.03.27",
+      "text": "차석주 대표이사 신규 선임으로 손일호·차석주 각자대표 체제 구축 공시",
+      "src": "manual",
+      "pct": -0.99,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250327000273"
+    },
+    {
+      "date": "2025.02.26",
+      "text": "2024년 결산배당으로 보통주 1주당 20원의 현금배당 결정. 배당총액 약 7.12억원",
+      "src": "manual",
+      "pct": -0.63,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250225000539"
+    }
+  ]
+}

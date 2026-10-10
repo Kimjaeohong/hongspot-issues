@@ -1,0 +1,40 @@
+{
+  "name": "SG&G",
+  "issues": [
+    {
+      "date": "2026.08.14",
+      "text": "2026년 반기보고서 제출. 상반기 연결 매출 252.92억원, 영업이익 33.72억원 공시",
+      "src": "manual",
+      "pct": -0.31,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260814001158"
+    },
+    {
+      "date": "2026.03.30",
+      "text": "정기주주총회에서 태양광발전 사업 목적 추가와 주식병합에 따른 액면가액 변경 등 정관 개정안 가결",
+      "src": "manual",
+      "pct": -2.15,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260327002125"
+    },
+    {
+      "date": "2026.03.09",
+      "text": "2025년 연결 잠정 매출 476.97억원, 영업이익 38.18억원 공시. 영업이익은 전년 대비 40.5% 감소",
+      "src": "manual",
+      "pct": -5.52,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20260306001193"
+    },
+    {
+      "date": "2025.11.13",
+      "text": "2025년 3분기 보고서 제출. 1~9월 연결 매출 345.74억원, 영업이익 26.64억원 공시",
+      "src": "manual",
+      "pct": -0.22,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20251112000605"
+    },
+    {
+      "date": "2025.03.10",
+      "text": "2024년 연결 잠정 매출 507.62억원, 영업이익 64.12억원 공시. 영업이익은 전년 대비 117.14% 증가",
+      "src": "manual",
+      "pct": 0.58,
+      "source_url": "https://kind.krx.co.kr/common/disclsviewer.do?method=search&acptno=20250307001259"
+    }
+  ]
+}
