@@ -1,0 +1,1406 @@
+{
+  "schema": "hongspot-lg-energy-solution-history-v1",
+  "code": "373220",
+  "name": "LG에너지솔루션",
+  "integration_base_commit": "e99472d2015cc75e142970d5d0e9030f3e9b398b",
+  "prepared_at_utc": "2026-10-10T16:26:36.656302+00:00",
+  "requested_candidates": 22,
+  "new_verified_issues": 14,
+  "preserved_legacy_issues": 6,
+  "held_candidates": 5,
+  "calculation": "100 * (regular close / immediately previous regular close - 1), Decimal ROUND_HALF_UP to 2 decimals",
+  "source_provenance": {
+    "official_wrapper_url": "https://www.lgensol.com/mobile/kr/investors/stock-graph-recent-daily",
+    "iframe_url": "https://ir.gsifn.io/lgensol/ir_daily.html?koreng=1",
+    "downloaded_english_daily_url": "https://ir.gsifn.io/lgensol/ir_daily.html?koreng=2",
+    "period_form_url": "https://ir.gsifn.io/lgensol/ir_daily.html?koreng=2&period=750",
+    "chart_request": {
+      "method": "POST",
+      "url": "https://ir.gsifn.io/devcon/send/json/on_param.php",
+      "form_param": "code:373220@num:750",
+      "purpose": "Read-only public chart request exactly as official HTML JavaScript",
+      "returned_param": "?_code=373220&_num=750&"
+    },
+    "ohlc_url": "https://ir.gsifn.io/devcon/send/json/chart_ohlc.php?_code=373220&_num=750&",
+    "raw_file": "audits/sources/2026-10-10-lgensol-ir-chart.json",
+    "sha256": "9bba9217b4982a5aec8ac9ba7287aabd06677e743dc26476bb0e2483c19805e1",
+    "rows": 750,
+    "series_mapping": [
+      "timestamp_ms",
+      "open",
+      "high",
+      "low",
+      "close"
+    ],
+    "time_zone": "Asia/Seoul",
+    "previous_close_method": "Immediately preceding dated OHLC row in the original chronological series; never reverse-engineered from rounded percentages"
+  },
+  "session_assessment": {
+    "official_source_label": "Daily Quotes table labels Close, chart candlestick series, KRX KOSPI listing note; latest snapshot2026-10-08 15:32",
+    "limitation": "The official IR page does not contain a blanket explicit KRX-only/no-NXT data specification or a finalization flag. Do not invent one. Therefore each accepted row also has date-specific regular-market closing news or a dated15:30 quote. Official-IR exact price pairs plus session-specific corroboration are manual research evidence, not a new guaranteed automatic-feed contract. Volume varies across sources; not relied on.",
+    "regular_session": "KRX KOSPI regular-session close, corroborated per row",
+    "price_adjustment": "Raw OHLC closing element; no adjusted-close field used. Recent StockAnalysis rows separately show close=adjusted close."
+  },
+  "limitations": [
+    "No direct official KRX export or blanket no-NXT guarantee was obtained; each admitted date is corroborated against dated regular-market closing coverage",
+    "Official issuer facts and secondary publication-time evidence are separately labeled; a secondary timestamp is not claimed to be a fetched original filing timestamp",
+    "An event and a daily return do not establish full-day or sole-cause price attribution",
+    "Existing six rows are preserved without reinterpreting their narrative; only three overlapping supplied candidates have new closing-price corroboration",
+    "This manually reviewed snapshot is not configured as a live trusted-price adapter"
+  ],
+  "rows": [
+    {
+      "event_date": "2026-10-01",
+      "record_date": "2026-10-01",
+      "issue": {
+        "date": "2026.10.01",
+        "text": "인디고테크와 46시리즈 배터리 협력 MOU, 2027~2030년 공급 방안 협의",
+        "src": "manual",
+        "pct": 0.98
+      },
+      "event_evidence": {
+        "date": "2026-10-01",
+        "status": "verified_primary",
+        "time_kst": null,
+        "time_status": "Exact time unverified; official release gives date only",
+        "headline_ko": "인디고테크와 46시리즈 협력 MOU",
+        "issue_ko": "미국 전기 상용차 기업 인디고테크와 전략적 MOU 체결. 2027~2030년 차세대 전기 상용차에 46시리즈 배터리를 공급하는 방안과 기술 협력을 협의.",
+        "sources": [
+          {
+            "title": "LG Energy Solution 공식 배터리인사이드: 인디고테크와 전략적 MOU 체결",
+            "url": "https://inside.lgensol.com/2026/10/lg%EC%97%90%EB%84%88%EC%A7%80%EC%86%94%EB%A3%A8%EC%85%98-%E7%BE%8E-%EC%A0%84%EA%B8%B0-%EC%83%81%EC%9A%A9%EC%B0%A8-%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85-%EC%9D%B8%EB%94%94%EA%B3%A0%ED%85%8C/",
+            "publication_date": "2026-10-01",
+            "evidence_location": "Paragraph 27 gives 2027–2030; 35–38 specifies MOU and supply/technical cooperation negotiations"
+          }
+        ],
+        "cautions": [
+          "정식 공급계약 체결·확정 수주로 표현하면 부정확.",
+          "물량·금액은 공개되지 않은 해당 자료에 추가하지 말 것."
+        ]
+      },
+      "timing_evidence": {
+        "date": "2026-10-01",
+        "by_time_kst": "08:47",
+        "publisher": "뉴스핌",
+        "url": "https://search.newspim.com/news/view/20261001000097",
+        "session": "before_open",
+        "reaction_date_candidate": "2026-10-01"
+      },
+      "price_evidence": {
+        "date": "2026-10-01",
+        "timestamp": 1790780400000,
+        "open": 355000,
+        "high": 362000,
+        "low": 352000,
+        "close": 360500,
+        "previous_date": "2026-09-30",
+        "previous_close": 357000,
+        "pct": 0.98,
+        "raw_row_index_zero_based": 745,
+        "raw_row": [
+          1790780400000,
+          355000,
+          362000,
+          352000,
+          360500
+        ],
+        "previous_raw_row_index_zero_based": 744,
+        "previous_raw_row": [
+          1790694000000,
+          354000,
+          357500,
+          351500,
+          357000
+        ],
+        "status": "corroborated_regular_close",
+        "session_corroboration": {
+          "url": "https://web3.newspim.com/news/view/20261001001167",
+          "published_or_quote_at": "2026-10-01T16:01:00+09:00",
+          "basis": "Post-close KOSPI recap LGES+0.98%; independent dated MKTV15:30 quote360500 previous357000 also matched"
+        }
+      }
+    },
+    {
+      "event_date": "2026-08-19",
+      "record_date": "2026-08-19",
+      "issue": {
+        "date": "2026.08.19",
+        "text": "미시간 랜싱 공장 가동 발표, ESS용 LFP·EV용 NCM 복합 생산 및 연 35GWh 이상 생산능력 계획",
+        "src": "manual",
+        "pct": 1.85
+      },
+      "event_evidence": {
+        "date": "2026-08-19",
+        "status": "verified_primary",
+        "time_kst": null,
+        "time_status": "Korean posting date 2026-08-19; opening event 2026-08-18 U.S. local time; exact hh:mm unverified",
+        "headline_ko": "미시간 랜싱 공장 본격 가동 발표",
+        "issue_ko": "미시간 랜싱 공장 가동을 발표. ESS용 LFP와 전기차용 NCM을 함께 생산하는 복합 거점으로 운영하며, 연간 35GWh 이상의 셀 생산능력 확보를 계획.",
+        "sources": [
+          {
+            "title": "LG Energy Solution 공식 배터리인사이드: 美 미시간 랜싱 공장 본격 가동",
+            "url": "https://inside.lgensol.com/2026/08/lg%EC%97%90%EB%84%88%EC%A7%80%EC%86%94%EB%A3%A8%EC%85%98-%E7%BE%8E-%EB%AF%B8%EC%8B%9C%EA%B0%84-%EB%9E%9C%EC%8B%B1-%EA%B3%B5%EC%9E%A5-%EB%B3%B8%EA%B2%A9-%EA%B0%80%EB%8F%99/",
+            "publication_date": "2026-08-19"
+          }
+        ],
+        "cautions": [
+          "35GWh 이상은 공식 본문의 확보할 예정이라는 능력 목표; 당일 전량 가동률/생산량으로 바꾸지 말 것.",
+          "개장 행사 미국 현지 8/18과 한국 게시일8/19 구분."
+        ]
+      },
+      "timing_evidence": {
+        "date": "2026-08-19",
+        "by_time_kst": "08:32:43",
+        "publisher": "뉴시스",
+        "url": "https://nwww.newsis.com/view/NISX20260819_0003753541",
+        "session": "before_open",
+        "reaction_date_candidate": "2026-08-19"
+      },
+      "price_evidence": {
+        "date": "2026-08-19",
+        "timestamp": 1787065200000,
+        "open": 344500,
+        "high": 360000,
+        "low": 342000,
+        "close": 357500,
+        "previous_date": "2026-08-18",
+        "previous_close": 351000,
+        "pct": 1.85,
+        "raw_row_index_zero_based": 716,
+        "raw_row": [
+          1787065200000,
+          344500,
+          360000,
+          342000,
+          357500
+        ],
+        "previous_raw_row_index_zero_based": 715,
+        "previous_raw_row": [
+          1786978800000,
+          366500,
+          367000,
+          350500,
+          351000
+        ],
+        "status": "corroborated_regular_close",
+        "session_corroboration": {
+          "url": "https://www.newspim.com/news/view/20260819001007",
+          "published_or_quote_at": "2026-08-19T16:07:00+09:00",
+          "basis": "Post-close KRX KOSPI recap LGES+1.85%; independent dated MKTV15:30 quote357500 previous351000 also matched"
+        }
+      }
+    },
+    {
+      "event_date": "2026-07-30",
+      "record_date": "2026-07-30",
+      "issue": {
+        "date": "2026.07.30",
+        "text": "2분기 실적설명회서 상반기 ESS 매출 전년 동기 대비 4.6배·신규 수주 3조원 이상 공개",
+        "src": "manual",
+        "pct": 6.49
+      },
+      "event_evidence": {
+        "date": "2026-07-30",
+        "status": "verified_primary",
+        "time_kst": null,
+        "time_status": "Official release explicitly says morning earnings presentation; exact hh:mm unverified",
+        "headline_ko": "상반기 ESS 매출 전년 동기 대비 4.6배·신규 수주 3조 원 이상",
+        "issue_ko": "2분기 실적설명회에서 상반기 ESS 매출이 전년 동기의 4.6배로 성장하고, AI 데이터센터 프로젝트를 포함한 3조 원 이상의 신규 수주 계약을 확보했다고 발표.",
+        "sources": [
+          {
+            "title": "LG 공식 보도자료: 2026년 2분기 실적발표",
+            "url": "https://www.lg.co.kr/media/release/30407",
+            "publication_date": "2026-07-30",
+            "evidence_location": "Paragraph 74 says morning; paragraph 85 gives H1 ESS growth and orders"
+          }
+        ],
+        "cautions": [
+          "4.6배는 전년동기 대비 매출 수준; +460%라고 바꾸지 말 것.",
+          "3조 원 이상은 상반기 신규 수주 계약; 확정 매출로 표현하지 말 것."
+        ]
+      },
+      "timing_evidence": {
+        "date": "2026-07-30",
+        "by_time_kst": "13:36",
+        "publisher": "비즈워치",
+        "url": "https://news.bizwatch.co.kr/article/industry/2026/07/30/0017",
+        "session": "before_close",
+        "reaction_date_candidate": "2026-07-30",
+        "additional_source": {
+          "by_time_kst": "11:01",
+          "publisher": "글로벌이코노믹",
+          "url": "https://www.g-enews.com/ko-kr/breaking/sokview.php?ud=2026073010482551083084322ec9_1",
+          "content_verified": "상반기ESS4.6배와 신규수주3조이상 모두 기사본문에 있음"
+        }
+      },
+      "price_evidence": {
+        "date": "2026-07-30",
+        "timestamp": 1785337200000,
+        "open": 300500,
+        "high": 328000,
+        "low": 298000,
+        "close": 320000,
+        "previous_date": "2026-07-29",
+        "previous_close": 300500,
+        "pct": 6.49,
+        "raw_row_index_zero_based": 703,
+        "raw_row": [
+          1785337200000,
+          300500,
+          328000,
+          298000,
+          320000
+        ],
+        "previous_raw_row_index_zero_based": 702,
+        "previous_raw_row": [
+          1785250800000,
+          316000,
+          319000,
+          290500,
+          300500
+        ],
+        "status": "corroborated_regular_close",
+        "session_corroboration": {
+          "url": "https://www.investchosun.com/site/data/html_dir/2026/07/30/2026073080162.html",
+          "published_or_quote_at": "2026-07-30T16:14:00+09:00",
+          "basis": "Explicit KOSPI close320000,+6.49%; article previous-day290500 is intraday low, not prior close300500"
+        }
+      }
+    },
+    {
+      "event_date": "2026-07-07",
+      "record_date": "2026-07-07",
+      "issue": {
+        "date": "2026.07.07",
+        "text": "2분기 잠정 영업이익 1133억원 발표(북미 생산보조금 제외 1277억원 손실)",
+        "src": "manual",
+        "pct": -6.35
+      },
+      "event_evidence": {
+        "date": "2026-07-07",
+        "status": "verified_primary",
+        "time_kst": null,
+        "time_status": "Exact time unverified; official release gives date only",
+        "headline_ko": "2분기 잠정 영업이익 1133억 원",
+        "issue_ko": "2026년 2분기 잠정 매출 7조5602억 원, 영업이익 1133억 원 발표. 북미 생산보조금 2410억 원을 제외하면 영업손실 1277억 원.",
+        "sources": [
+          {
+            "title": "LG 공식 보도자료: 2026년 2분기 잠정실적 발표",
+            "url": "https://www.lg.co.kr/media/release/30317",
+            "publication_date": "2026-07-07",
+            "evidence_location": "Date line; paragraphs 61,63"
+          }
+        ],
+        "cautions": [
+          "잠정실적과 7월30일 확정 실적설명회 구분."
+        ]
+      },
+      "timing_evidence": {
+        "date": "2026-07-07",
+        "by_time_kst": "09:03",
+        "publisher": "뉴스핌",
+        "url": "https://www.newspim.com/news/view/20260707000205",
+        "session": "before_close",
+        "reaction_date_candidate": "2026-07-07"
+      },
+      "price_evidence": {
+        "date": "2026-07-07",
+        "timestamp": 1783350000000,
+        "open": 350000,
+        "high": 352000,
+        "low": 323000,
+        "close": 332000,
+        "previous_date": "2026-07-06",
+        "previous_close": 354500,
+        "pct": -6.35,
+        "raw_row_index_zero_based": 687,
+        "raw_row": [
+          1783350000000,
+          350000,
+          352000,
+          323000,
+          332000
+        ],
+        "previous_raw_row_index_zero_based": 686,
+        "previous_raw_row": [
+          1783263600000,
+          362000,
+          362500,
+          347500,
+          354500
+        ],
+        "status": "corroborated_regular_close",
+        "session_corroboration": {
+          "url": "https://stock.mk.co.kr/news/view/1117069",
+          "published_or_quote_at": "2026-07-07T16:41:25+09:00",
+          "basis": "Yonhap explicit KOSPI close332000, -6.35%; low323000"
+        }
+      }
+    },
+    {
+      "event_date": "2026-05-28",
+      "record_date": "2026-05-28",
+      "issue": {
+        "date": "2026.05.28",
+        "text": "버테크, DTE에너지와 16억달러·6GWh ESS 공급 계약(8개 프로젝트)",
+        "src": "manual",
+        "pct": 15.25
+      },
+      "event_evidence": {
+        "date": "2026-05-28",
+        "status": "verified_primary",
+        "time_kst": null,
+        "time_status": "Korean posting date 2026-05-28; announcement stated 2026-05-27 U.S. local time; exact hh:mm unverified",
+        "headline_ko": "DTE에너지와 16억 달러·6GWh ESS 공급 계약",
+        "issue_ko": "버테크가 미국 DTE에너지와 16억 달러(회사 환산 약 2조4000억 원), 6GWh 규모 ESS 배터리 공급 계약을 발표. AI 데이터센터·전력망 등 8개 프로젝트에 약 2년간 공급 예정.",
+        "sources": [
+          {
+            "title": "LG Energy Solution 공식 배터리인사이드: 美 DTE에너지와 16억 달러 규모 ESS 공급 계약",
+            "url": "https://inside.lgensol.com/2026/05/lg%EC%97%90%EB%84%88%EC%A7%80%EC%86%94%EB%A3%A8%EC%85%98-%E7%BE%8E-dte%EC%97%90%EB%84%88%EC%A7%80%EC%99%80-16%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EA%B7%9C%EB%AA%A8-ess-%EA%B3%B5%EA%B8%89-%EA%B3%84%EC%95%BD/",
+            "publication_date": "2026-05-28",
+            "evidence_location": "Date line; paragraphs 25,33,38,63"
+          }
+        ],
+        "cautions": [
+          "16억 달러는 원화 고정 계약금액과 구분; 약 2조4000억 원은 회사 보도자료 환산값.",
+          "발표일은 한국 게시일 5/28, 현지 발표일 5/27."
+        ]
+      },
+      "timing_evidence": {
+        "date": "2026-05-28",
+        "by_time_kst": "09:41:11",
+        "publisher": "뉴시스",
+        "url": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20260528_0003646932",
+        "session": "before_close",
+        "reaction_date_candidate": "2026-05-28"
+      },
+      "price_evidence": {
+        "date": "2026-05-28",
+        "timestamp": 1779894000000,
+        "open": 429500,
+        "high": 447000,
+        "low": 413000,
+        "close": 442000,
+        "previous_date": "2026-05-27",
+        "previous_close": 383500,
+        "pct": 15.25,
+        "raw_row_index_zero_based": 660,
+        "raw_row": [
+          1779894000000,
+          429500,
+          447000,
+          413000,
+          442000
+        ],
+        "previous_raw_row_index_zero_based": 659,
+        "previous_raw_row": [
+          1779807600000,
+          400500,
+          404000,
+          383000,
+          383500
+        ],
+        "status": "corroborated_regular_close",
+        "session_corroboration": {
+          "url": "https://www.fnnews.com/news/202605281603336008",
+          "published_or_quote_at": "2026-05-28T16:04:00+09:00",
+          "basis": "Yonhap explicit KOSPI close442000, +15.25%; high447000"
+        }
+      }
+    },
+    {
+      "event_date": "2026-04-07",
+      "record_date": "2026-04-08",
+      "issue": {
+        "date": "2026.04.08",
+        "text": "전일 장 마감 후 1분기 잠정 영업손실 2078억원 발표(북미 생산보조금 제외 3975억원 손실)",
+        "src": "manual",
+        "pct": -0.61
+      },
+      "event_evidence": {
+        "date": "2026-04-07",
+        "status": "verified_primary",
+        "time_kst": null,
+        "time_status": "Exact time unverified; official release gives date only",
+        "headline_ko": "1분기 잠정 영업손실 2078억 원",
+        "issue_ko": "2026년 1분기 잠정 매출 6조5550억 원, 영업손실 2078억 원 발표. 북미 생산보조금 1898억 원을 제외한 영업손실은 3975억 원.",
+        "sources": [
+          {
+            "title": "LG 공식 보도자료: 2026년 1분기 잠정실적 발표",
+            "url": "https://www.lg.co.kr/media/release/30014",
+            "publication_date": "2026-04-07",
+            "evidence_location": "Date line; figures in paragraphs 61, 63 and table 84–85"
+          }
+        ],
+        "cautions": [
+          "잠정실적이며 확정치와 달라질 수 있음.",
+          "보조금 제외 수치는 공식 발표값 그대로 사용; 반올림 때문에 표시값 단순 차감과 1억 차이 발생 가능.",
+          "공식 본문에 전분기 매출 1.2% 감소라고 쓰였으나 표는 +1.2%; issue text does not repeat the inconsistent prose."
+        ]
+      },
+      "timing_evidence": {
+        "date": "2026-04-07",
+        "by_time_kst": "16:43",
+        "publisher": "뉴스핌",
+        "url": "https://web3.newspim.com/news/view/20260407001042",
+        "session": "after_close_corroborated_secondary",
+        "reaction_date_candidate": "2026-04-08",
+        "qualification": "After-close story alone is not proof of initial release time. Butler filing item shows16:21 and AWAKE16:21:36. Primary exact time not verified; DART fetch502.",
+        "additional_sources": [
+          {
+            "publisher": "Butler",
+            "url": "https://www.butler.works/ko/companies/01515323?corpLeftPanel=summary&corpMiddlePanel=biz-capacity&rightPanel=account",
+            "time_kst": "16:21"
+          },
+          {
+            "publisher": "AWAKE",
+            "url": "https://t.me/s/darthacking?before=137158",
+            "time_kst": "16:21:36"
+          }
+        ],
+        "dart_document_discovered": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260407800703"
+      },
+      "price_evidence": {
+        "date": "2026-04-08",
+        "timestamp": 1775574000000,
+        "open": 419500,
+        "high": 422000,
+        "low": 400500,
+        "close": 406000,
+        "previous_date": "2026-04-07",
+        "previous_close": 408500,
+        "pct": -0.61,
+        "raw_row_index_zero_based": 627,
+        "raw_row": [
+          1775574000000,
+          419500,
+          422000,
+          400500,
+          406000
+        ],
+        "previous_raw_row_index_zero_based": 626,
+        "previous_raw_row": [
+          1775487600000,
+          408000,
+          423000,
+          406000,
+          408500
+        ],
+        "status": "corroborated_regular_close",
+        "session_corroboration": {
+          "url": "https://www.g-enews.com/article/Securities/2026/04/202604081533555238df2f5bc1bc_1",
+          "published_or_quote_at": "2026-04-08T15:47:00+09:00",
+          "basis": "Post-close KRX market recap -0.61%"
+        }
+      }
+    },
+    {
+      "event_date": "2026-02-04",
+      "record_date": "2026-02-04",
+      "issue": {
+        "date": "2026.02.04",
+        "text": "버테크, 한화큐셀 미국법인에 ESS용 LFP 배터리 5GWh 공급 계약(2028~2030년)",
+        "src": "manual",
+        "pct": 2.94
+      },
+      "event_evidence": {
+        "date": "2026-02-04",
+        "status": "verified_primary",
+        "time_kst": null,
+        "time_status": "Exact time unverified; official release gives date only",
+        "headline_ko": "한화큐셀 미국법인에 ESS 배터리 5GWh 공급 계약",
+        "issue_ko": "100% 자회사 버테크가 한화큐셀 미국법인과 ESS용 LFP 배터리 5GWh 공급 계약을 체결했다고 발표. 미시간 홀랜드 생산 제품을 2028~2030년 순차 공급 예정.",
+        "sources": [
+          {
+            "title": "LG 공식 보도자료: 한화큐셀과 대규모 ESS 공급계약 체결",
+            "url": "https://www.lg.co.kr/media/release/29834",
+            "publication_date": "2026-02-04",
+            "evidence_location": "Date line and paragraphs 60, 73–74, 94 in web rendering"
+          }
+        ],
+        "cautions": [
+          "계약 주체는 LGES 100% 자회사 버테크(Vertech).",
+          "2024년 4.8GWh 계약과 별개의 추가 계약."
+        ]
+      },
+      "timing_evidence": {
+        "date": "2026-02-04",
+        "by_time_kst": "08:35",
+        "publisher": "뉴스핌",
+        "url": "https://ir.newspim.com/news/view/20260204000080",
+        "session": "before_open",
+        "reaction_date_candidate": "2026-02-04"
+      },
+      "price_evidence": {
+        "date": "2026-02-04",
+        "timestamp": 1770130800000,
+        "open": 398000,
+        "high": 405000,
+        "low": 394000,
+        "close": 402500,
+        "previous_date": "2026-02-03",
+        "previous_close": 391000,
+        "pct": 2.94,
+        "raw_row_index_zero_based": 586,
+        "raw_row": [
+          1770130800000,
+          398000,
+          405000,
+          394000,
+          402500
+        ],
+        "previous_raw_row_index_zero_based": 585,
+        "previous_raw_row": [
+          1770044400000,
+          391000,
+          391500,
+          381500,
+          391000
+        ],
+        "status": "corroborated_regular_close",
+        "session_corroboration": {
+          "url": "https://www.mk.co.kr/news/stock/11952852",
+          "published_or_quote_at": "2026-02-04T15:35:00+09:00",
+          "basis": "KOSPI close recap +2.94%"
+        }
+      }
+    },
+    {
+      "event_date": "2026-01-09",
+      "record_date": "2026-01-09",
+      "issue": {
+        "date": "2026.01.09",
+        "text": "2025년 잠정 연간 실적 발표: 매출 23조6718억원·영업이익 1조3461억원",
+        "src": "manual",
+        "pct": -0.82
+      },
+      "event_evidence": {
+        "candidate": "Undated 2025 annual earnings",
+        "event_date": "2026-01-09",
+        "recommended_reaction_date": "2026-01-09",
+        "timing": "Contemporary Newsway13:31 KST",
+        "issue_ko": "2025년 잠정실적 발표: 매출 23조6718억원·영업이익 1조3461억원. 전년 대비 매출 7.6% 감소·영업이익 133.9% 증가",
+        "primary_facts_verified": true,
+        "primary_url": "https://www.lg.co.kr/media/release/29769",
+        "time_source_url": "https://www.newsway.co.kr/news/view?ud=2026010913133209494",
+        "later_briefing_date": "2026-01-29",
+        "later_briefing_url": "https://www.lg.co.kr/media/release/29812",
+        "caveat": "Use first public preliminary date Jan9 rather than Jan29 full briefing for undated annual candidate."
+      },
+      "price_evidence": {
+        "date": "2026-01-09",
+        "timestamp": 1767884400000,
+        "open": 370000,
+        "high": 371000,
+        "low": 361000,
+        "close": 363000,
+        "previous_date": "2026-01-08",
+        "previous_close": 366000,
+        "pct": -0.82,
+        "raw_row_index_zero_based": 568,
+        "raw_row": [
+          1767884400000,
+          370000,
+          371000,
+          361000,
+          363000
+        ],
+        "previous_raw_row_index_zero_based": 567,
+        "previous_raw_row": [
+          1767798000000,
+          369000,
+          371000,
+          363500,
+          366000
+        ],
+        "status": "corroborated_regular_close",
+        "session_corroboration": {
+          "url": "https://www.fnnews.com/news/202601091606479232",
+          "published_or_quote_at": "2026-01-09T16:07:00+09:00",
+          "basis": "News1 post-close recap quotes KRX and LGES -0.82%"
+        }
+      }
+    },
+    {
+      "event_date": "2025-01-09",
+      "record_date": "2025-01-09",
+      "issue": {
+        "date": "2025.01.09",
+        "text": "2024년 잠정 연간 실적 발표: 매출 25조6196억원·영업이익 5754억원",
+        "src": "manual",
+        "pct": -4.02
+      },
+      "event_evidence": {
+        "candidate": "Undated 2024 annual earnings",
+        "event_date": "2025-01-09",
+        "recommended_reaction_date": "2025-01-09",
+        "timing": "Contemporary ZDNet 09:57 KST; AWAKE mirrored filing09:41:57 KST",
+        "issue_ko": "2024년 잠정실적 발표: 매출 25조6196억원·영업이익 5754억원. 전년 대비 각각 24.1%·73.4% 감소",
+        "primary_facts_verified": true,
+        "primary_url": "https://www.lg.co.kr/media/release/28550",
+        "time_source_url": "https://zdnet.co.kr/view/?no=20250109095646",
+        "secondary_mirror_url": "https://t.me/s/cjdbj?before=8985",
+        "later_briefing_date": "2025-01-24",
+        "later_briefing_url": "https://www.lg.co.kr/media/release/28612",
+        "caveat": "Use first public preliminary date Jan9 rather than Jan24 full briefing for undated annual candidate."
+      },
+      "price_evidence": {
+        "date": "2025-01-09",
+        "timestamp": 1736348400000,
+        "open": 371500,
+        "high": 373000,
+        "low": 348500,
+        "close": 358500,
+        "previous_date": "2025-01-08",
+        "previous_close": 373500,
+        "pct": -4.02,
+        "raw_row_index_zero_based": 326,
+        "raw_row": [
+          1736348400000,
+          371500,
+          373000,
+          348500,
+          358500
+        ],
+        "previous_raw_row_index_zero_based": 325,
+        "previous_raw_row": [
+          1736262000000,
+          364500,
+          376000,
+          364000,
+          373500
+        ],
+        "status": "corroborated_regular_close",
+        "session_corroboration": {
+          "url": "https://www.newsis.com/view/NISX20250109_0003026928",
+          "published_or_quote_at": "2025-01-09T16:24:49+09:00",
+          "basis": "Post-close KOSPI recap -4.02%"
+        }
+      }
+    },
+    {
+      "event_date": "2024-11-08",
+      "record_date": "2024-11-08",
+      "issue": {
+        "date": "2024.11.08",
+        "text": "리비안 R2에 차세대 원통형 4695 배터리 67GWh를 5년간 공급하는 계약 발표",
+        "src": "manual",
+        "pct": 3.24
+      },
+      "event_evidence": {
+        "candidate": "2024-11-08 Rivian 67GWh",
+        "event_date": "2024-11-08",
+        "recommended_reaction_date": "2024-11-08",
+        "timing": "Contemporary report 09:18:41 KST (also US Rivian Nov7 release)",
+        "issue_ko": "리비안에 차세대 원통형 4695 배터리 총 67GWh를 5년간 공급하는 계약 발표. 전기 SUV R2에 탑재",
+        "primary_facts_verified": true,
+        "primary_url": "https://www.lg.co.kr/media/release/28318",
+        "time_source_url": "https://www.bloter.net/news/articleView.html?idxno=626036",
+        "additional_primary_url": "https://www.sec.gov/Archives/edgar/data/1874178/000187417824000061/ex-991pressrelease3q24earn.htm",
+        "caveat": "Korean official release says 5년간; English official says over five years. Do not add unofficial won valuation."
+      },
+      "price_evidence": {
+        "date": "2024-11-08",
+        "timestamp": 1730991600000,
+        "open": 394500,
+        "high": 408500,
+        "low": 394000,
+        "close": 398500,
+        "previous_date": "2024-11-07",
+        "previous_close": 386000,
+        "pct": 3.24,
+        "raw_row_index_zero_based": 285,
+        "raw_row": [
+          1730991600000,
+          394500,
+          408500,
+          394000,
+          398500
+        ],
+        "previous_raw_row_index_zero_based": 284,
+        "previous_raw_row": [
+          1730905200000,
+          389000,
+          391000,
+          375000,
+          386000
+        ],
+        "status": "corroborated_regular_close",
+        "session_corroboration": {
+          "url": "https://www.news1.kr/finance/general-stock/5594592",
+          "published_or_quote_at": "2024-11-08T16:08:00+09:00",
+          "basis": "Post-close battery report +3.24%"
+        }
+      }
+    },
+    {
+      "event_date": "2024-10-15",
+      "record_date": "2024-10-15",
+      "issue": {
+        "date": "2024.10.15",
+        "text": "포드에 유럽 전기 상용차용 배터리 109GWh 공급 계약(2027~2032년 75GWh·2026~2030년 34GWh)",
+        "src": "manual",
+        "pct": -0.62
+      },
+      "event_evidence": {
+        "candidate": "2024-10-15 Ford 109GWh",
+        "event_date": "2024-10-15",
+        "recommended_reaction_date": "2024-10-15",
+        "timing": "AWAKE disclosure mirror 15:27:17 and 15:27:43 KST, inside closing call before 15:30; earliest identified news 15:30",
+        "issue_ko": "포드에 유럽 전기 상용차용 배터리 총 109GWh 공급 계약: 2027~2032년 75GWh와 2026~2030년 34GWh. 폴란드 공장 생산 예정",
+        "primary_facts_verified": true,
+        "primary_url": "https://www.lg.co.kr/media/release/28231",
+        "time_source_url": "https://t.me/s/darthacking?after=88303",
+        "news_time_source_url": "https://www.mt.co.kr/industry/2024/10/15/2024101514560814791",
+        "dart_references": [
+          "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241015800258",
+          "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241015800261"
+        ],
+        "caveat": "Timing established from secondary disclosure mirror, not opened official filing. Very late-day release means nextday may carry more reaction; do not classify as afterclose merely because full articles were later."
+      },
+      "price_evidence": {
+        "date": "2024-10-15",
+        "timestamp": 1728918000000,
+        "open": 407500,
+        "high": 409000,
+        "low": 389500,
+        "close": 403500,
+        "previous_date": "2024-10-14",
+        "previous_close": 406000,
+        "pct": -0.62,
+        "raw_row_index_zero_based": 267,
+        "raw_row": [
+          1728918000000,
+          407500,
+          409000,
+          389500,
+          403500
+        ],
+        "previous_raw_row_index_zero_based": 266,
+        "previous_raw_row": [
+          1728831600000,
+          407500,
+          413500,
+          402500,
+          406000
+        ],
+        "status": "corroborated_regular_close",
+        "session_corroboration": {
+          "url": "https://news2day.co.kr/article/20241015500234",
+          "published_or_quote_at": "2024-10-15T17:14:00+09:00",
+          "basis": "KRX post-close recap explicitly LGES down 0.62%"
+        }
+      }
+    },
+    {
+      "event_date": "2024-10-07",
+      "record_date": "2024-10-07",
+      "issue": {
+        "date": "2024.10.07",
+        "text": "중장기 전략 발표: 2028년 매출을 2023년 대비 2배 이상 확대 목표, ESS·LFP·46시리즈 사업 다변화 추진",
+        "src": "manual",
+        "pct": 4.09
+      },
+      "event_evidence": {
+        "candidate": "2024-10-07 strategy",
+        "event_date": "2024-10-07",
+        "recommended_reaction_date": "2024-10-07",
+        "timing": "Contemporary article 11:22 KST",
+        "issue_ko": "중장기 전략 발표: 2028년 매출을 2023년 대비 2배 이상 확대 목표. ESS 등 비전기차 사업과 LFP·46시리즈 제품 다변화 추진",
+        "primary_facts_verified": true,
+        "primary_url": "https://www.lg.co.kr/media/release/28201",
+        "time_source_url": "https://www.hankyung.com/article/202410078758g",
+        "caveat": "Forward-looking targets, not actual revenue achieved."
+      },
+      "price_evidence": {
+        "date": "2024-10-07",
+        "timestamp": 1728226800000,
+        "open": 413500,
+        "high": 426000,
+        "low": 409000,
+        "close": 420000,
+        "previous_date": "2024-10-04",
+        "previous_close": 403500,
+        "pct": 4.09,
+        "raw_row_index_zero_based": 262,
+        "raw_row": [
+          1728226800000,
+          413500,
+          426000,
+          409000,
+          420000
+        ],
+        "previous_raw_row_index_zero_based": 261,
+        "previous_raw_row": [
+          1727967600000,
+          403500,
+          406000,
+          396000,
+          403500
+        ],
+        "status": "corroborated_regular_close",
+        "session_corroboration": {
+          "url": "https://www.news1.kr/amp/finance/general-stock/5561264",
+          "published_or_quote_at": "2024-10-07T16:36:00+09:00",
+          "basis": "Post-close article quotes KRX, LGES +4.09%"
+        }
+      }
+    },
+    {
+      "event_date": "2024-07-02",
+      "record_date": "2024-07-02",
+      "issue": {
+        "date": "2024.07.02",
+        "text": "르노 암페어에 파우치형 LFP 배터리 약 39GWh 공급 계약(2025년 말~2030년)",
+        "src": "manual",
+        "pct": -1.01
+      },
+      "event_evidence": {
+        "candidate": "2024-07-02 Ampere LFP",
+        "event_date": "2024-07-02",
+        "recommended_reaction_date": "2024-07-02",
+        "timing": "Contemporary article 08:56:57 KST proves pre-open public",
+        "issue_ko": "르노 암페어에 전기차용 파우치 LFP 배터리 약 39GWh 공급 계약. 2025년 말~2030년 공급 예정",
+        "primary_facts_verified": true,
+        "primary_url": "https://www.lg.co.kr/media/release/27857",
+        "time_source_url": "https://m.sedaily.com/NewsView/2DBL1K7CJF",
+        "caveat": "Signing occurred July1 local Paris time; Korean release July2. Official annual-report index specifies 2025-11-01 to 2030-12-31 but release itself says late2025–2030."
+      },
+      "price_evidence": {
+        "date": "2024-07-02",
+        "timestamp": 1719846000000,
+        "open": 353000,
+        "high": 362000,
+        "low": 341500,
+        "close": 343500,
+        "previous_date": "2024-07-01",
+        "previous_close": 347000,
+        "pct": -1.01,
+        "raw_row_index_zero_based": 199,
+        "raw_row": [
+          1719846000000,
+          353000,
+          362000,
+          341500,
+          343500
+        ],
+        "previous_raw_row_index_zero_based": 198,
+        "previous_raw_row": [
+          1719759600000,
+          328000,
+          348500,
+          325500,
+          347000
+        ],
+        "status": "corroborated_regular_close",
+        "session_corroboration": {
+          "url": "https://www.hankyung.com/article/202407025940i",
+          "published_or_quote_at": "2024-07-02T16:31:00+09:00",
+          "basis": "Explicit close 343500, -1.01%; article erroneously says morning but is post-close and says trading finished"
+        }
+      }
+    },
+    {
+      "event_date": "2023-10-25",
+      "record_date": "2023-10-25",
+      "issue": {
+        "date": "2023.10.25",
+        "text": "3분기 실적설명회: 매출 8조2235억원·영업이익 7312억원(미국 IRA 세액공제 2155억원 포함)",
+        "src": "manual",
+        "pct": -8.7
+      },
+      "event_evidence": {
+        "candidate": "2023-10-25 Q3 earnings briefing",
+        "event_date": "2023-10-25",
+        "recommended_reaction_date": "2023-10-25",
+        "timing": "Official release says 오전; contemporary news 10:09 KST",
+        "issue_ko": "3분기 실적설명회: 매출 8조2235억원·영업이익 7312억원(IRA 세액공제 2155억원 포함). 제품 경쟁력 강화와 애리조나 46시리즈 생산 계획 발표",
+        "primary_facts_verified": true,
+        "primary_url": "https://www.lg.co.kr/media/release/26915",
+        "time_source_url": "https://newspim.com/news/view/20231025000344",
+        "caveat": "Same earnings figures were first disclosed on 2023-10-11. Preserve Oct25 only when describing earnings briefing/strategy, not initial preliminary results.",
+        "earlier_preliminary_url": "https://www.lg.co.kr/media/release/26861"
+      },
+      "price_evidence": {
+        "date": "2023-10-25",
+        "timestamp": 1698159600000,
+        "open": 449000,
+        "high": 449500,
+        "low": 409000,
+        "close": 409500,
+        "previous_date": "2023-10-24",
+        "previous_close": 448500,
+        "pct": -8.7,
+        "raw_row_index_zero_based": 31,
+        "raw_row": [
+          1698159600000,
+          449000,
+          449500,
+          409000,
+          409500
+        ],
+        "previous_raw_row_index_zero_based": 30,
+        "previous_raw_row": [
+          1698073200000,
+          439500,
+          449000,
+          423000,
+          448500
+        ],
+        "status": "corroborated_regular_close",
+        "session_corroboration": {
+          "url": "https://www.hankyung.com/article/2023102553646",
+          "published_or_quote_at": "2023-10-25T15:38:00+09:00",
+          "basis": "Post-close KOSPI market report: LGES -8.70%"
+        }
+      }
+    }
+  ],
+  "preserved_rows": [
+    {
+      "date": "2026.10.08",
+      "text": "3분기 사상 최대 분기 매출과 북미 ESS 생산·출하 확대에 상승",
+      "src": "auto",
+      "pct": 2.56
+    },
+    {
+      "date": "2026.09.22",
+      "text": "엔비디아 AI 팩토리 'DSX 레디' 기업 합류 소식",
+      "src": "auto",
+      "pct": -0.43
+    },
+    {
+      "date": "2026.09.15",
+      "text": "美 대중국 배터리 견제 반사이익과 ESS 성장 기대",
+      "src": "auto",
+      "pct": 3.98
+    },
+    {
+      "date": "2026.09.03",
+      "text": "ESS 매출 급성장과 2분기 흑자전환 기대감에 반등",
+      "src": "auto",
+      "pct": 5.18
+    },
+    {
+      "date": "2025.12.18",
+      "text": "포드의 전기차 전략 변경에 약9조6000억원 규모 배터리 장기 공급계약 해지",
+      "src": "manual",
+      "pct": -8.9
+    },
+    {
+      "date": "2025.07.30",
+      "text": "약5조9442억원 규모 LFP 배터리 장기 공급계약 공시",
+      "src": "manual",
+      "pct": 0.26
+    }
+  ],
+  "duplicate_candidates": [
+    {
+      "date": "2025-07-30",
+      "existing_issue": {
+        "date": "2025.07.30",
+        "text": "약5조9442억원 규모 LFP 배터리 장기 공급계약 공시",
+        "src": "manual",
+        "pct": 0.26
+      },
+      "price_evidence": {
+        "date": "2025-07-30",
+        "timestamp": 1753801200000,
+        "open": 390500,
+        "high": 397000,
+        "low": 382500,
+        "close": 393000,
+        "previous_date": "2025-07-29",
+        "previous_close": 392000,
+        "pct": 0.26,
+        "raw_row_index_zero_based": 460,
+        "raw_row": [
+          1753801200000,
+          390500,
+          397000,
+          382500,
+          393000
+        ],
+        "previous_raw_row_index_zero_based": 459,
+        "previous_raw_row": [
+          1753714800000,
+          373000,
+          394500,
+          370000,
+          392000
+        ],
+        "status": "corroborated_regular_close",
+        "session_corroboration": {
+          "url": "https://www.newspim.com/news/view/20250730000837",
+          "published_or_quote_at": "2025-07-30T16:13:00+09:00",
+          "basis": "Explicit post-close price 393000 and +0.26%"
+        }
+      },
+      "action": "Existing row preserved; no duplicate inserted"
+    },
+    {
+      "date": "2025-12-18",
+      "existing_issue": {
+        "date": "2025.12.18",
+        "text": "포드의 전기차 전략 변경에 약9조6000억원 규모 배터리 장기 공급계약 해지",
+        "src": "manual",
+        "pct": -8.9
+      },
+      "price_evidence": {
+        "date": "2025-12-18",
+        "timestamp": 1765983600000,
+        "open": 392000,
+        "high": 393500,
+        "low": 377000,
+        "close": 378500,
+        "previous_date": "2025-12-17",
+        "previous_close": 415500,
+        "pct": -8.9,
+        "raw_row_index_zero_based": 555,
+        "raw_row": [
+          1765983600000,
+          392000,
+          393500,
+          377000,
+          378500
+        ],
+        "previous_raw_row_index_zero_based": 554,
+        "previous_raw_row": [
+          1765897200000,
+          422500,
+          425500,
+          413000,
+          415500
+        ],
+        "status": "corroborated_regular_close",
+        "session_corroboration": {
+          "url": "https://www.opinionnews.co.kr/news/articleView.html?idxno=129810",
+          "published_or_quote_at": "2025-12-18T17:01:00+09:00",
+          "basis": "Explicit close 378500 and -8.9%; separately MK at15:36 -8.9 and Samsung Securities closing brief agree"
+        }
+      },
+      "action": "Existing row preserved; no duplicate inserted"
+    },
+    {
+      "date": "2026-10-08",
+      "existing_issue": {
+        "date": "2026.10.08",
+        "text": "3분기 사상 최대 분기 매출과 북미 ESS 생산·출하 확대에 상승",
+        "src": "auto",
+        "pct": 2.56
+      },
+      "price_evidence": {
+        "date": "2026-10-08",
+        "timestamp": 1791385200000,
+        "open": 401000,
+        "high": 418000,
+        "low": 397000,
+        "close": 401000,
+        "previous_date": "2026-10-07",
+        "previous_close": 391000,
+        "pct": 2.56,
+        "raw_row_index_zero_based": 749,
+        "raw_row": [
+          1791385200000,
+          401000,
+          418000,
+          397000,
+          401000
+        ],
+        "previous_raw_row_index_zero_based": 748,
+        "previous_raw_row": [
+          1791298800000,
+          385500,
+          395000,
+          378000,
+          391000
+        ],
+        "status": "corroborated_regular_close",
+        "session_corroboration": {
+          "url": "https://www.yna.co.kr/view/AKR20261008046251008",
+          "published_or_quote_at": "2026-10-08T15:37:00+09:00",
+          "basis": "ExistingPR33 audit explicit regular close401000 +2.56%, high418000; fresh IR daily and StockAnalysis agree"
+        }
+      },
+      "action": "Existing row preserved; no duplicate inserted"
+    }
+  ],
+  "holds": [
+    {
+      "event_date": "2024-10-08",
+      "reason": "Primary contract facts incomplete; no new issue admitted",
+      "event_evidence": {
+        "candidate": "2024-10-08 Mercedes 50.5GWh",
+        "event_date": "2024-10-08",
+        "recommended_reaction_date": "2024-10-08",
+        "timing": "Contemporary Newsis 12:04:13 KST; AWAKE mirror 11:29:51 KST",
+        "issue_ko": "메르세데스-벤츠 계열사에 전기차 배터리 50.5GWh 공급 계약 공시. 계약금액 미확정",
+        "primary_facts_verified": false,
+        "primary_status": "Official LG 2024/2025 annual-report index verifies Oct8 report date, counterparty and 2028-01-01–2038-12-31 period, but 50.5GWh only verified in contemporary reports because original DART body unavailable.",
+        "primary_reference_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20241008800163",
+        "official_index_url": "https://www.lgensol.com/upload/file/download/2024_LGES_Annual_Report%5B0%5D.pdf",
+        "time_source_url": "https://www.newsis.com/view/NISX20241008_0002912697",
+        "secondary_mirror_url": "https://t.me/s/FastStockNews?after=84091",
+        "caveat": "Do not call period ten years: official annual report says Jan2028–Dec2038 (11 calendar years). Form factor or trillion-won value was press inference at the time. Strict primary-complete criterion => hold.",
+        "targeted_followup": {
+          "checked_at_utc": "2026-10-10T16:25:15Z",
+          "result": "Additional primary support found, but exact 50.5GWh-to-Mercedes linkage not directly confirmed in accessible official text. Strict capacity verification remains incomplete.",
+          "official_presentation_url": "https://www.lgensol.com/upload/file/irEvent/24_3Q_Earnings_Conference_call_ENG.pdf",
+          "official_presentation_page": 9,
+          "official_presentation_summary": "Q3 2024 deck reports a50GWh new cylindrical order with an unnamed global top OEM.",
+          "official_release_url": "https://inside.lgensol.com/en/2024/10/lg-energy-solution-releases-2024-third-quarter-results/",
+          "official_release_summary": "Oct28 release confirms50GWh of cylindrical batteries for a major automaker serving North America; customer unnamed and figure rounded.",
+          "other_primary_url": "https://www.lg.co.kr/media/release/28418",
+          "other_primary_summary": "Dec3 2024 release retrospectively mentions a Mercedes EV battery order, without quantity. Its month says September, conflicting with Oct8 disclosed date; not suitable as exact date proof.",
+          "capacity_omitting_text_option": "메르세데스-벤츠 계열사와2028~2038년 전기차 배터리 장기 공급계약 공시",
+          "scope_exhausted": true
+        }
+      },
+      "price_evidence": {
+        "date": "2024-10-08",
+        "timestamp": 1728313200000,
+        "open": 416500,
+        "high": 444000,
+        "low": 412000,
+        "close": 436500,
+        "previous_date": "2024-10-07",
+        "previous_close": 420000,
+        "pct": 3.93,
+        "raw_row_index_zero_based": 263,
+        "raw_row": [
+          1728313200000,
+          416500,
+          444000,
+          412000,
+          436500
+        ],
+        "previous_raw_row_index_zero_based": 262,
+        "previous_raw_row": [
+          1728226800000,
+          413500,
+          426000,
+          409000,
+          420000
+        ],
+        "status": "corroborated_regular_close",
+        "session_corroboration": {
+          "url": "https://www.fnnews.com/news/202410081608060873",
+          "published_or_quote_at": "2024-10-08T16:08:00+09:00",
+          "basis": "Yonhap post-close KOSPI report +3.93%"
+        }
+      }
+    },
+    {
+      "event_date": "2025-09-03",
+      "reason": "Primary contract facts incomplete; no new issue admitted",
+      "event_evidence": {
+        "candidate": "2025-09-03 Mercedes 107GWh",
+        "event_date": "2025-09-03",
+        "recommended_reaction_date": "2025-09-03",
+        "timing": "Hankyung09:20 KST; AWAKE mirrored filings09:08:15/09:13:29 KST",
+        "issue_ko": "메르세데스-벤츠 측과 전기차 배터리 총 107GWh 공급 계약 2건 공시: 미국 75GWh, 유럽 32GWh",
+        "primary_facts_verified": false,
+        "primary_status": "Official annual-report index verifies both named counterparties, Sep3 filing date, and contract periods; Oct30 official earnings release verifies107GWh new46series contracts in Q3 without naming buyer. Pairing volumes75/32 specifically with Mercedes relies on contemporary news until original DART is accessible.",
+        "primary_reference_urls": [
+          "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250903800021",
+          "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250903800022"
+        ],
+        "official_index_url": "https://www.lgensol.com/upload/file/download/2025_LGES_Annual_Report.pdf",
+        "additional_primary_url": "https://inside.lgensol.com/en/2025/10/lg-energy-solution-releases-2025-third-quarter-financial-results/",
+        "time_source_url": "https://www.hankyung.com/article/2025090391987",
+        "secondary_mirror_url": "https://t.me/s/darthacking?before=114724",
+        "caveat": "USA contract2029-07-30–2037-12-31; EU2028-08-01–2035-12-31. Contract value not fixed; do not state15trn as official. Strict primary-complete criterion => hold.",
+        "targeted_followup": {
+          "checked_at_utc": "2026-10-10T16:25:15Z",
+          "result": "Primary documents independently verify107GWh new46-Series orders and Mercedes Sep3 counterparties/periods, but none accessible directly pairs75/32GWh or107GWh with Mercedes. Strict exact linkage remains incomplete.",
+          "additional_official_release_url": "https://lgcorp.com/media/release/29523",
+          "additional_official_release_summary": "Oct30 2025 Q3 earnings release confirms107GWh new46-Series contracts with unnamed customer(s).",
+          "general_partnership_primary_url": "https://www.lg.co.kr/media/release/29585",
+          "general_partnership_summary": "Nov13 2025 official OneLG/Mercedes release confirms ongoing EV battery partnership but no contract sizes or periods.",
+          "mercedes_newsroom_search_result": "No indexed officialMercedes release found that confirms the exact historical capacity terms.",
+          "capacity_omitting_text_option": "메르세데스-벤츠 측과 미국·유럽 전기차 배터리 장기 공급계약2건 공시",
+          "scope_exhausted": true
+        }
+      },
+      "price_evidence": {
+        "date": "2025-09-03",
+        "timestamp": 1756825200000,
+        "open": 353500,
+        "high": 359500,
+        "low": 347000,
+        "close": 348500,
+        "previous_date": "2025-09-02",
+        "previous_close": 350000,
+        "pct": -0.43,
+        "raw_row_index_zero_based": 484,
+        "raw_row": [
+          1756825200000,
+          353500,
+          359500,
+          347000,
+          348500
+        ],
+        "previous_raw_row_index_zero_based": 483,
+        "previous_raw_row": [
+          1756738800000,
+          349500,
+          351500,
+          345000,
+          350000
+        ],
+        "status": "corroborated_regular_close",
+        "session_corroboration": {
+          "url": "https://www.hankyung.com/article/2025090304166",
+          "published_or_quote_at": "2025-09-03T15:52:00+09:00",
+          "basis": "Post-close KOSPI recap -0.43%"
+        }
+      }
+    },
+    {
+      "event_date": "2025-12-26",
+      "reason": "Primary contract facts incomplete; no new issue admitted",
+      "event_evidence": {
+        "candidate": "2025-12-26 FBPS cancellation",
+        "event_date": "2025-12-26",
+        "recommended_reaction_date": "2025-12-29",
+        "timing": "AWAKE mirrored disclosure16:44:40 KST; Yonhap repost16:49:55",
+        "issue_ko": "26일 장 마감 후 FBPS의 배터리 사업 철수에 따라 잔여 배터리 공급계약 약 3조9217억원을 상호 합의로 해지",
+        "primary_facts_verified": false,
+        "primary_status": "Original DART body inaccessible, no independent officialLG release found. Official2024 annual report verifies original FBPS contract only. Strict primary-complete criterion => hold new row.",
+        "primary_reference_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251226800706",
+        "time_source_url": "https://t.me/s/darthacking?before=124300",
+        "secondary_facts_url": "https://stock.mk.co.kr/news/view/945998",
+        "caveat": "Remaining cancelled amount excludes already performed USD110m from originalUSD2,795m. Some news erroneously repeatsUSD2,795m as remaining value; avoid reproducing. Dec29 reaction date follows Friday afterclose, assuming verified trading calendar."
+      },
+      "price_evidence": {
+        "date": "2025-12-29",
+        "timestamp": 1766934000000,
+        "open": 370000,
+        "high": 381500,
+        "low": 367000,
+        "close": 380000,
+        "previous_date": "2025-12-26",
+        "previous_close": 383500,
+        "pct": -0.91,
+        "raw_row_index_zero_based": 561,
+        "raw_row": [
+          1766934000000,
+          370000,
+          381500,
+          367000,
+          380000
+        ],
+        "previous_raw_row_index_zero_based": 560,
+        "previous_raw_row": [
+          1766674800000,
+          391500,
+          391500,
+          381000,
+          383500
+        ],
+        "status": "corroborated_regular_close",
+        "session_corroboration": {
+          "url": "https://www.yna.co.kr/view/AKR20251229034151008",
+          "published_or_quote_at": "2025-12-29T15:40:00+09:00",
+          "basis": "Explicit KOSPI close 380000 and -0.91%"
+        }
+      }
+    },
+    {
+      "event_date": "2026-09-09",
+      "reason": "No specific company event/catalyst independently verified; price facts retained only in audit",
+      "event_evidence": {
+        "date": "2026-09-09",
+        "status": "price_only_no_event_verified",
+        "time_kst": null,
+        "headline_ko": "주가 변동",
+        "issue_ko": "당일 주가 변동 기록. 확인된 단일 기업 공시·발표를 주가 변동 원인으로 단정하지 않음.",
+        "sources": [],
+        "cautions": [
+          "Market-data verification belongs to parent; no corporate-event claim verified for this date."
+        ]
+      },
+      "price_evidence": {
+        "date": "2026-09-09",
+        "timestamp": 1788879600000,
+        "open": 350000,
+        "high": 372000,
+        "low": 347000,
+        "close": 371000,
+        "previous_date": "2026-09-08",
+        "previous_close": 348500,
+        "pct": 6.46,
+        "raw_row_index_zero_based": 731,
+        "raw_row": [
+          1788879600000,
+          350000,
+          372000,
+          347000,
+          371000
+        ],
+        "previous_raw_row_index_zero_based": 730,
+        "previous_raw_row": [
+          1788793200000,
+          368000,
+          370000,
+          348000,
+          348500
+        ],
+        "status": "corroborated_regular_close",
+        "session_corroboration": {
+          "url": "https://mobile2.newspim.com/news/view/20260909001103",
+          "published_or_quote_at": "2026-09-09T15:56:00+09:00",
+          "basis": "Post-close KRX KOSPI recap +6.46%"
+        }
+      }
+    },
+    {
+      "event_date": "2026-10-06",
+      "reason": "No specific company event/catalyst independently verified; price facts retained only in audit",
+      "event_evidence": {
+        "date": "2026-10-06",
+        "status": "price_only_no_event_verified",
+        "time_kst": null,
+        "headline_ko": "3분기 잠정실적 발표 전 주가 변동",
+        "issue_ko": "3분기 잠정실적 발표일(10월8일) 이전의 주가 변동 기록. 특정 기대감이나 단일 재료를 확인된 원인으로 단정하지 않음.",
+        "sources": [],
+        "cautions": [
+          "No corporate event claim verified for this date; Oct8 result must not be described as Oct6 released news."
+        ]
+      },
+      "price_evidence": {
+        "date": "2026-10-06",
+        "timestamp": 1791212400000,
+        "open": 372000,
+        "high": 391000,
+        "low": 367500,
+        "close": 390000,
+        "previous_date": "2026-10-02",
+        "previous_close": 371000,
+        "pct": 5.12,
+        "raw_row_index_zero_based": 747,
+        "raw_row": [
+          1791212400000,
+          372000,
+          391000,
+          367500,
+          390000
+        ],
+        "previous_raw_row_index_zero_based": 746,
+        "previous_raw_row": [
+          1790866800000,
+          360500,
+          372000,
+          357500,
+          371000
+        ],
+        "status": "corroborated_regular_close",
+        "session_corroboration": {
+          "url": "https://www.mk.co.kr/news/stock/12169322",
+          "published_or_quote_at": "2026-10-06T15:38:00+09:00",
+          "basis": "KOSPI post-close recap +5.12%; Asiae2026100615513385000 same-day15:30 quote390000 previous371000"
+        }
+      }
+    }
+  ]
+}
